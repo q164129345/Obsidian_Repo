@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
-                "mode": "source",
+                "file": "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
+                "mode": "preview",
+                "backlinks": false,
                 "source": false
               }
             }
@@ -69,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 372.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
+                "file": "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
+                "file": "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md"
+                "file": "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md"
               }
             }
           },
@@ -141,12 +142,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 346.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -160,11 +161,22 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "57b286174304e95c",
+  "active": "fdba4385bd363d0f",
   "lastOpenFiles": [
+    "Pasted image 20240816115330.png",
+    "Pasted image 20240816115250.png",
+    "Pasted image 20240816115229.png",
+    "Pasted image 20240816115104.png",
+    "Pasted image 20240816115047.png",
+    "Pasted image 20240816114948.png",
+    "Pasted image 20240816114838.png",
+    "Pasted image 20240816114750.png",
+    "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
+    "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
+    "收集/测试双链.md",
+    "202408161110.md",
     "README.md",
     "知识库/软件开发/MCU/未命名.canvas",
-    "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
     "知识库/软件开发/QT",
     "知识库/软件开发/MCU",
     "知识库/机器人设计",
