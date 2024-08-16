@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
+                "file": "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5
+    "width": 450.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
+                "file": "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
+                "file": "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md"
+                "file": "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md"
               }
             }
           },
@@ -163,6 +163,11 @@
   },
   "active": "fdba4385bd363d0f",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32内存管理 - .map文件的结构.md",
+    "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
+    "知识库/软件开发/MCU/STM32内存管理 -  程序保存在flash，为什么STM32的程序可以小块提取，再小块运行？.md",
+    "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
+    "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
     "Pasted image 20240816115330.png",
     "Pasted image 20240816115250.png",
     "Pasted image 20240816115229.png",
@@ -171,8 +176,6 @@
     "Pasted image 20240816114948.png",
     "Pasted image 20240816114838.png",
     "Pasted image 20240816114750.png",
-    "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
-    "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
     "收集/测试双链.md",
     "202408161110.md",
     "README.md",
