@@ -11,8 +11,12 @@
             "id": "fdba4385bd363d0f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md"
+              }
             }
           },
           {
@@ -152,8 +160,15 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "57b286174304e95c",
+  "active": "fdba4385bd363d0f",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/未命名.canvas",
+    "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
+    "知识库/软件开发/QT",
+    "知识库/软件开发/MCU",
+    "知识库/机器人设计",
+    "知识库/软件开发",
+    "知识库",
     "收集",
     "202408151950.md",
     "未命名.canvas"
