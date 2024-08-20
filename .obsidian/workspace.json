@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32时间戳 -  计算64位的上电运行总时间（RTX5）.md",
+                "file": "知识库/软件开发/MCU/汇总.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 450.5
+    "width": 311.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32时间戳 -  计算64位的上电运行总时间（RTX5）.md",
+                "file": "知识库/软件开发/MCU/汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32时间戳 -  计算64位的上电运行总时间（RTX5）.md",
+                "file": "知识库/软件开发/MCU/汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32时间戳 -  计算64位的上电运行总时间（RTX5）.md"
+                "file": "知识库/软件开发/MCU/汇总.md"
               }
             }
           },
@@ -163,25 +163,31 @@
   },
   "active": "fdba4385bd363d0f",
   "lastOpenFiles": [
-    "Pasted image 20240816141731.png",
-    "Pasted image 20240816141722.png",
-    "Pasted image 20240816141537.png",
-    "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
+    "电子书/Dopamine_Nation_by_Anna_Lembke_pdf.pdf",
+    "电子书",
     "知识库/软件开发/MCU/STM32时间戳 -  计算64位的上电运行总时间（RTX5）.md",
+    "附件存放/Pasted image 20240817202529.png",
+    "附件存放/Pasted image 20240817202437.png",
+    "附件存放/Pasted image 20240817112622.png",
+    "附件存放/Pasted image 20240817112606.png",
+    "附件存放/Pasted image 20240817112522.png",
+    "附件存放/Pasted image 20240816225342.png",
+    "附件存放/Pasted image 20240816225327.png",
+    "附件存放/Pasted image 20240816225313.png",
+    "附件存放/Pasted image 20240816225255.png",
+    "附件存放/Pasted image 20240816225228.png",
+    "附件存放",
+    "知识库/软件开发/MCU/汇总.md",
+    "知识库/软件开发/MCU/STM32外设 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
+    "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
+    "知识库/软件开发/MCU/STM32外设 - CAN,bsp_can.c与bsp_can.h备忘录.md",
+    "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
     "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
     "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
     "知识库/软件开发/MCU/STM32内存管理 - .map文件的结构.md",
     "知识库/软件开发/MCU/STM32内存管理 -  程序保存在flash，为什么STM32的程序可以小块提取，再小块运行？.md",
     "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
     "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
-    "Pasted image 20240816115330.png",
-    "Pasted image 20240816115250.png",
-    "Pasted image 20240816115229.png",
-    "Pasted image 20240816115104.png",
-    "Pasted image 20240816115047.png",
-    "Pasted image 20240816114948.png",
-    "Pasted image 20240816114838.png",
-    "Pasted image 20240816114750.png",
     "收集/测试双链.md",
     "202408161110.md",
     "README.md",
