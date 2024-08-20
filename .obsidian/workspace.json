@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/Maps/MCU汇总.md",
+                "file": "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 249.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/Maps/MCU汇总.md",
+                "file": "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/Maps/MCU汇总.md",
+                "file": "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/Maps/MCU汇总.md"
+                "file": "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md"
               }
             }
           },
@@ -162,10 +162,21 @@
   },
   "active": "86f0306da7fe2b31",
   "lastOpenFiles": [
+    "知识库/开发工具/Maps/开发工具汇总.md",
+    "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
+    "附件存放/Pasted image 20240820212911.png",
+    "附件存放/Pasted image 20240820212710.png",
+    "附件存放/Pasted image 20240820212625.png",
+    "知识库/软件开发/Maps/MCU汇总.md",
+    "知识库/开发工具/vscode",
+    "知识库/开发工具/Maps",
+    "知识库/开发工具",
+    "知识库/未命名.md",
+    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
+    "收集/测试双链.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT_ALIAS()注册控制台字符串指令，并传递参数.md",
     "附件存放/Pasted image 20240820211043.png",
     "附件存放/Pasted image 20240820211027.png",
-    "知识库/软件开发/Maps/MCU汇总.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
     "附件存放/Pasted image 20240820203716.png",
     "附件存放/Pasted image 20240820203658.png",
@@ -173,13 +184,9 @@
     "附件存放/Pasted image 20240820203311.png",
     "附件存放/Pasted image 20240820203226.png",
     "附件存放/Pasted image 20240820203201.png",
-    "附件存放/Pasted image 20240820203121.png",
-    "附件存放/Pasted image 20240820203058.png",
-    "附件存放/Pasted image 20240820203006.png",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
     "知识库/软件开发/MCU/STM32外设 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
     "知识库/软件开发/Maps",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK或DAP-LINK调试MCU程序.md",
     "电子书/Dopamine_Nation_by_Anna_Lembke_pdf.pdf",
     "电子书",
@@ -194,16 +201,12 @@
     "知识库/软件开发/MCU/STM32内存管理 -  程序保存在flash，为什么STM32的程序可以小块提取，再小块运行？.md",
     "知识库/软件开发/MCU/STM32内存管理 - ROM与 RAM由哪些部分组成.md",
     "知识库/软件开发/MCU/STM32内存管理 - 堆栈（栈）与堆的区别.md",
-    "收集/测试双链.md",
     "202408161110.md",
     "README.md",
     "知识库/软件开发/MCU/未命名.canvas",
     "知识库/软件开发/QT",
     "知识库/软件开发/MCU",
     "知识库/机器人设计",
-    "知识库/软件开发",
-    "知识库",
-    "收集",
     "202408151950.md",
     "未命名.canvas"
   ]
