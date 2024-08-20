@@ -1,3 +1,7 @@
 {
-  "promptDelete": false
+  "promptDelete": false,
+  "foldHeading": false,
+  "strictLineBreaks": false,
+  "readableLineLength": false,
+  "attachmentFolderPath": "附件存放"
 }
