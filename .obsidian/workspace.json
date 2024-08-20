@@ -33,7 +33,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
+                "file": "知识库/软件开发/MCU/MCU汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 332.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
+                "file": "知识库/软件开发/MCU/MCU汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
+                "file": "知识库/软件开发/MCU/MCU汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md"
+                "file": "知识库/软件开发/MCU/MCU汇总.md"
               }
             }
           },
@@ -178,19 +178,18 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "workspaces:管理工作区布局": false,
       "zk-prefixer:创建时间戳笔记": false
     }
   },
   "active": "86f0306da7fe2b31",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK或DAP-LINK调试MCU程序.md",
     "附件存放/Pasted image 20240820143238.png",
     "附件存放/Pasted image 20240820140611.png",
     "附件存放/Pasted image 20240820140652.png",
     "附件存放/Pasted image 20240820140734.png",
     "附件存放/Pasted image 20240820140745.png",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "知识库/软件开发/MCU/MCU汇总.md",
     "附件存放/Pasted image 20240820143220.png",
     "附件存放/Pasted image 20240820143154.png",

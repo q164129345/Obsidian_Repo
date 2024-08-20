@@ -15,7 +15,19 @@
 [[STM32外设 - USART02,使用C语言面向对象的方式改写上一篇代码]]
 [[STM32外设 - CAN,bsp_can.c与bsp_can.h备忘录]]
 
-### 开发工具
+### 三、开发工具
 ---
 [[STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序]]
 [[STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK或DAP-LINK调试MCU程序]]
+
+### 四、开源库
+---
+1. [Ringbuffer](https://github.com/xiaoxinpro/QueueForMcu)
+2. [letter_shell](https://github.com/NevermindZZT/letter-shell)
+3. [CmBacktrack](https://github.com/armink/CmBacktrace)
+
+
+
+
+
+
