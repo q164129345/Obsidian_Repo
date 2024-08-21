@@ -1,5 +1,8 @@
 {
-  "cssTheme": "Minimal",
+  "cssTheme": "",
   "baseFontSize": 16,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "enabledCssSnippets": [
+    "coffebean-图片对齐语法增强"
+  ]
 }
