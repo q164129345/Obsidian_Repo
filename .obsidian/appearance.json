@@ -1,8 +1,9 @@
 {
-  "cssTheme": "",
+  "cssTheme": "Blue Topaz",
   "baseFontSize": 16,
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
     "coffebean-图片对齐语法增强"
-  ]
+  ],
+  "theme": "moonstone"
 }

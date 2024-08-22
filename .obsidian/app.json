@@ -3,5 +3,6 @@
   "foldHeading": false,
   "strictLineBreaks": false,
   "readableLineLength": false,
-  "attachmentFolderPath": "附件存放"
+  "attachmentFolderPath": "附件存放",
+  "defaultViewMode": "preview"
 }
