@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "光耦隔离电路",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -162,12 +162,19 @@
   },
   "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20240823145847.png",
+    "附件存放/Pasted image 20240823155459.png",
+    "附件存放/Pasted image 20240823155055.png",
+    "附件存放/Pasted image 20240823154423.png",
+    "知识库/硬件开发/VCU&ECU/VCU与ECU的区别.md",
+    "QT Quick - TabBar.md",
     "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
     "Past.md",
+    "附件存放/Pasted image 20240823151921.png",
+    "附件存放/Pasted image 20240823151401.png",
+    "附件存放/Pasted image 20240823151221.png",
+    "附件存放/Pasted image 20240823145847.png",
     "附件存放/Pasted image 20240823150044.png",
     "知识库/硬件开发/Maps/汇总.md",
-    "知识库/硬件开发/VCU&ECU/VCU与ECU的区别.md",
     "知识库/软件开发/QT/QT Quick - TabBar与TabButton.md",
     "知识库/硬件开发/Motor_Controller",
     "知识库/硬件开发/Maps",
@@ -177,13 +184,8 @@
     "附件存放/Pasted image 20240822212008.png",
     "附件存放/Pasted image 20240822211956.png",
     "附件存放/Pasted image 20240822211907.png",
-    "附件存放/Pasted image 20240822211850.png",
-    "附件存放/Pasted image 20240822211812.png",
-    "附件存放/Pasted image 20240822211752.png",
     "附件存放/录屏 07-01-2024 03_34_20 PM.webm",
     "知识库/软件开发/QT/QT Quick - Rectangle控件.md",
-    "附件存放/Pasted image 20240822211108.png",
-    "附件存放/Pasted image 20240822211045.png",
     "知识库/软件开发/QT/QT Quick - Windows控件.md",
     "知识库/软件开发/Maps/MCU汇总.md",
     "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
@@ -206,7 +208,6 @@
     "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
     "知识库/软件开发/MCU/STM32外设 - CAN,bsp_can.c与bsp_can.h备忘录.md",
     "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
-    "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
