@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/硬件开发汇总.md",
-                "mode": "source",
+                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/Maps/硬件开发汇总.md",
+                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/Maps/硬件开发汇总.md",
+                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/硬件开发汇总.md"
+                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md"
               }
             }
           },
@@ -160,13 +160,14 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "57b286174304e95c",
+  "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
+    "知识库/Maps/MCU汇总.md",
     "知识库/Maps/QT汇总.md",
+    "知识库/Maps/硬件开发汇总.md",
     "知识库/Maps",
     "知识库/软件开发/通讯相关/未命名",
     "知识库/软件开发/计算机通讯",
-    "知识库/Maps/MCU汇总.md",
     "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
     "附件存放/Pasted image 20240823155459.png",
     "附件存放/Pasted image 20240823155055.png",
@@ -179,7 +180,6 @@
     "附件存放/Pasted image 20240823151221.png",
     "附件存放/Pasted image 20240823145847.png",
     "附件存放/Pasted image 20240823150044.png",
-    "知识库/Maps/硬件开发汇总.md",
     "知识库/软件开发/QT/QT Quick - TabBar与TabButton.md",
     "知识库/硬件开发/Motor_Controller",
     "知识库/硬件开发/Maps",
