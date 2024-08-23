@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0f213d277c1f069e",
+        "id": "46f8ba8a4d32ee7c",
         "type": "tabs",
         "children": [
           {
-            "id": "86f0306da7fe2b31",
+            "id": "72667f82fcf09ad2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -160,10 +160,13 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "86f0306da7fe2b31",
+  "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
-    "知识库/硬件开发/Maps/汇总.md",
+    "附件存放/Pasted image 20240823145847.png",
     "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
+    "Past.md",
+    "附件存放/Pasted image 20240823150044.png",
+    "知识库/硬件开发/Maps/汇总.md",
     "知识库/硬件开发/VCU&ECU/VCU与ECU的区别.md",
     "知识库/软件开发/QT/QT Quick - TabBar与TabButton.md",
     "知识库/硬件开发/Motor_Controller",
@@ -181,8 +184,6 @@
     "知识库/软件开发/QT/QT Quick - Rectangle控件.md",
     "附件存放/Pasted image 20240822211108.png",
     "附件存放/Pasted image 20240822211045.png",
-    "附件存放/Pasted image 20240822211014.png",
-    "附件存放/Pasted image 20240822210953.png",
     "知识库/软件开发/QT/QT Quick - Windows控件.md",
     "知识库/软件开发/Maps/MCU汇总.md",
     "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
@@ -206,8 +207,6 @@
     "知识库/软件开发/MCU/STM32外设 - CAN,bsp_can.c与bsp_can.h备忘录.md",
     "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
     "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
-    "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
-    "知识库/软件开发/MCU/STM32内存管理 - .map文件的结构.md",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
