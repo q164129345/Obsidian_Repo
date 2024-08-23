@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
-                "mode": "preview",
+                "file": "知识库/Maps/硬件开发汇总.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "光耦隔离电路",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 260.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
+                "file": "知识库/Maps/硬件开发汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
+                "file": "知识库/Maps/硬件开发汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md"
+                "file": "知识库/Maps/硬件开发汇总.md"
               }
             }
           },
@@ -160,39 +160,40 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "72667f82fcf09ad2",
+  "active": "57b286174304e95c",
   "lastOpenFiles": [
+    "知识库/Maps/QT汇总.md",
+    "知识库/Maps",
+    "知识库/软件开发/通讯相关/未命名",
+    "知识库/软件开发/计算机通讯",
+    "知识库/Maps/MCU汇总.md",
+    "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
     "附件存放/Pasted image 20240823155459.png",
     "附件存放/Pasted image 20240823155055.png",
     "附件存放/Pasted image 20240823154423.png",
     "知识库/硬件开发/VCU&ECU/VCU与ECU的区别.md",
     "QT Quick - TabBar.md",
-    "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
     "Past.md",
     "附件存放/Pasted image 20240823151921.png",
     "附件存放/Pasted image 20240823151401.png",
     "附件存放/Pasted image 20240823151221.png",
     "附件存放/Pasted image 20240823145847.png",
     "附件存放/Pasted image 20240823150044.png",
-    "知识库/硬件开发/Maps/汇总.md",
+    "知识库/Maps/硬件开发汇总.md",
     "知识库/软件开发/QT/QT Quick - TabBar与TabButton.md",
     "知识库/硬件开发/Motor_Controller",
     "知识库/硬件开发/Maps",
     "知识库/硬件开发/VCU&ECU",
     "知识库/硬件开发",
-    "知识库/软件开发/Maps/QT汇总.md",
     "附件存放/Pasted image 20240822212008.png",
     "附件存放/Pasted image 20240822211956.png",
-    "附件存放/Pasted image 20240822211907.png",
     "附件存放/录屏 07-01-2024 03_34_20 PM.webm",
     "知识库/软件开发/QT/QT Quick - Rectangle控件.md",
     "知识库/软件开发/QT/QT Quick - Windows控件.md",
-    "知识库/软件开发/Maps/MCU汇总.md",
     "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
-    "知识库/开发工具/Maps/开发工具汇总.md",
+    "知识库/Maps/开发工具汇总.md",
     "知识库/开发工具/vscode",
     "知识库/开发工具/Maps",
-    "知识库/开发工具",
     "知识库/未命名.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "收集/测试双链.md",
@@ -201,9 +202,7 @@
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
     "知识库/软件开发/MCU/STM32外设 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
-    "知识库/软件开发/Maps",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK或DAP-LINK调试MCU程序.md",
-    "电子书/Dopamine_Nation_by_Anna_Lembke_pdf.pdf",
     "知识库/软件开发/MCU/STM32时间戳 -  计算64位的上电运行总时间（RTX5）.md",
     "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
     "知识库/软件开发/MCU/STM32外设 - CAN,bsp_can.c与bsp_can.h备忘录.md",
