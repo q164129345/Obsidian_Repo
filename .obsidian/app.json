@@ -4,5 +4,6 @@
   "strictLineBreaks": false,
   "readableLineLength": false,
   "attachmentFolderPath": "附件存放",
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "alwaysUpdateLinks": true
 }

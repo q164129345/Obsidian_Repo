@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/QT汇总.md"
+                "file": "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -160,8 +160,10 @@
       "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "72667f82fcf09ad2",
+  "active": "d09c485a25a93002",
   "lastOpenFiles": [
+    "知识库/Maps/MCU汇总.md",
+    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick - Charts03 - 梳理ChartView的属性与方法.md",
     "附件存放/Pasted image 20240826193219.png",
     "附件存放/录屏2024-08-06 07.14.06_480p.mov",
@@ -185,7 +187,6 @@
     "附件存放/录屏 07-26-2024 02_49_52 PM.webm",
     "知识库/软件开发/QT/QT Quick - 定时器Timer - 实现500ms控制LED灯闪烁.md",
     "附件存放/录屏 07-25-2024 02_07_27 PM.webm",
-    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick - 布局与定位06 - StackLayout堆栈布局.md",
     "附件存放/录屏 07-01-2024 02_04_47 PM.webm",
     "知识库/软件开发/QT/QT Quick - 布局与定位05 - 定位和大小调整.md",
@@ -201,7 +202,6 @@
     "QT Quick - TabBar.md",
     "知识库/软件开发/QT/QT Quick - Rectangle控件.md",
     "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
-    "知识库/Maps/MCU汇总.md",
     "知识库/Maps/硬件开发汇总.md",
     "知识库/硬件开发/VCU&ECU/VCU与ECU的区别.md",
     "Past.md",
