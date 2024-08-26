@@ -80,9 +80,11 @@ ApplicationWindow {
 ## 2.1、尝试将TabButton改为Button
 ![[Pasted image 20240822211850.png]]
 如下图所示，程序虽然能跑起来，但是，按钮却不见了。官方的描述：
-<aside> 💡 TabBar is populated with TabButton controls!!!!!!!!!
+<aside> 💡 TabBar is populated with TabButton controls
 
 </aside>
+
+
 ![[Pasted image 20240822211907.png]]
 ## 2.2、TabBar + TabButton + StackLayout还不如Button + StackLayout美观
 ### Button + StackLayout
