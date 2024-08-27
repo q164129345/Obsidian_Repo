@@ -51,8 +51,27 @@ MOS电路：
 - **OD_CH5 高电平（3.3V）：RelayG2_5 = 12V**
 
 
+## 三、看门狗电路
+---
+控制入口有两个地方：
+1. /EXT_RST，提供给外部使用，拉低即可复位VCU。
+2. WDT，程序翻转电平防止VCU复位。
+> PS：去掉R44电阻，就可以除掉这个功能
+![[Pasted image 20240827101834.png]]
 
+在main()的while(1)之前需要喂一次，后续其他模块的初始化只能在HWATCH_Feed_WatchDog()后面。
+![[Pasted image 20240827101859.png]]
+```c
+/** * @brief 喂狗周期0.9 ~ 2.5s * */ 
+void HWATCH_Feed_WatchDog(void) { 
+	HAL_GPIO_TogglePin(WDG_GPIO_Port,WDG_Pin); 
+}
+```
 
+## 四、CAN总线
+---
+![[Pasted image 20240827102006.png]]
+![[Pasted image 20240827102031.png]]
 
 
 
