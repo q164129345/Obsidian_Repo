@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
-                "mode": "preview",
+                "file": "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 332.5
+    "width": 341.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
+                "file": "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
+                "file": "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md"
+                "file": "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md"
               }
             }
           },
@@ -147,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,6 +162,14 @@
   },
   "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20240829192646.png",
+    "附件存放/Pasted image 20240829192514.png",
+    "附件存放/Pasted image 20240829192425.png",
+    "附件存放/1623908199-1-192.mp4",
+    "附件存放/Pasted image 20240829191122.png",
+    "知识库/Maps/MCU汇总.md",
+    "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
+    "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
     "附件存放/Pasted image 20240820140550.png",
     "附件存放/Pasted image 20240820140517.png",
     "附件存放/Pasted image 20240820140435.png",
@@ -169,14 +177,8 @@
     "附件存放/Pasted image 20240817202437.png",
     "附件存放/Pasted image 20240817112622.png",
     "附件存放/Pasted image 20240817112606.png",
-    "附件存放/Pasted image 20240817112522.png",
-    "附件存放/Pasted image 20240816225327.png",
-    "附件存放/Pasted image 20240816225255.png",
-    "附件存放/Pasted image 20240816225044.png",
     "附件存放/录屏 07-26-2024 02_49_52 PM.webm",
-    "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
-    "知识库/Maps/MCU汇总.md",
     "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick - Charts03 - 梳理ChartView的属性与方法.md",
     "附件存放/录屏2024-08-06 07.14.06_480p.mov",
@@ -191,7 +193,6 @@
     "知识库/软件开发/QT/QT Quick - 定时器Timer - 实现500ms控制LED灯闪烁.md",
     "附件存放/录屏 07-25-2024 02_07_27 PM.webm",
     "知识库/软件开发/QT/QT Quick - 布局与定位06 - StackLayout堆栈布局.md",
-    "附件存放/录屏 07-01-2024 02_04_47 PM.webm",
     "知识库/软件开发/QT/QT Quick - 布局与定位05 - 定位和大小调整.md",
     "知识库/软件开发/QT/QT Quick - 布局与定位04 - RowLayout 行布局器.md",
     "知识库/软件开发/QT/QT Quick - 布局与定位03 - Grid布局.md",
@@ -207,7 +208,6 @@
     "知识库/Maps/硬件开发汇总.md",
     "知识库/硬件开发/VCU&ECU/VCU与ECU的区别.md",
     "Past.md",
-    "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
