@@ -17,6 +17,7 @@
 [[QT Quick - Charts01 - 使用ChartView绘制一个正弦波]]
 [[QT Quick - Charts02 - 在ChartView同时显示sin波与cos波]]
 [[QT Quick - Charts03 - 梳理ChartView的属性与方法]]
+[[QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图]]
 
 
 ## 二、Core
