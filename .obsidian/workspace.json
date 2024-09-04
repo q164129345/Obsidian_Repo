@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/QT汇总.md"
+                "file": "知识库/Maps/ESP32开发汇总.md"
               }
             }
           },
@@ -162,35 +162,43 @@
   },
   "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
-    "知识库/软件开发/QT/QT Quick - Charts02 - 在ChartView同时显示sin波与cos波.md",
-    "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md",
-    "知识库/软件开发/QT/QT Quick - Charts03 - 梳理ChartView的属性与方法.md",
-    "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
-    "附件存放/Pasted image 20240903074438.png",
-    "附件存放/Pasted image 20240903074410.png",
-    "未命名",
-    "附件存放/偷偷分享一个Qt QML的实时动态曲线功能.mp4",
-    "知识库/Maps/QT汇总.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位01 - 锚点布局.md",
-    "知识库/开发工具/vscode/vscode - 解决IntelliSense没有正常工作.md",
+    "知识库/软件开发/MCU/ESP-IDF - I2C01 - 与XL9555通讯，实现GPIO口拓展.md",
+    "附件存放/Pasted image 20240904210353.png",
+    "附件存放/Pasted image 20240904210336.png",
+    "附件存放/Pasted image 20240904210317.png",
+    "附件存放/Pasted image 20240904210242.png",
+    "附件存放/Pasted image 20240904210230.png",
+    "附件存放/Pasted image 20240904210214.png",
+    "附件存放/Pasted image 20240904210158.png",
+    "附件存放/Pasted image 20240904210136.png",
+    "附件存放/Pasted image 20240904210120.png",
+    "附件存放/Pasted image 20240904210106.png",
+    "知识库/Maps/ESP32开发汇总.md",
+    "知识库/软件开发/MCU/ESP-IDF - CAN控制器01 - 将接收到的CAN报文，发送出去.md",
+    "知识库/软件开发/MCU/ESP-IDF - 定时器04 - 使用通用定时器创建一个频率1MHz的挂钟.md",
+    "知识库/软件开发/MCU/ESP-IDF - 定时器03 - 使用通用定时器创建一个1ms周期的轮询任务.md",
+    "知识库/软件开发/MCU/ESP-IDF - 定时器02 - 使用esp_timer创建一个500ms的周期轮询任务.md",
+    "知识库/软件开发/MCU/ESP-IDF - 定时器01 - 系统定时器 (SYSTIMER)与定时器组 (TIMG）的区别.md",
+    "知识库/软件开发/MCU/ESP-IDF - 串口02 - UART1串行发送、接收消息.md",
+    "知识库/软件开发/MCU/ESP-IDF - 串口01 - 梳理ESP32S3的UART.md",
+    "知识库/软件开发/MCU/ESP-IDF - 日志打印01 - 打印函数名与代码行数.md",
+    "知识库/软件开发/MCU/ESP-IDF - GPIO03 - 使用外部中断的上升沿+下降沿触发方式.md",
+    "知识库/软件开发/MCU/ESP-IDF - GPIO02 - 毛刺过滤器.md",
+    "知识库/软件开发/MCU/ESP-IDF - GPIO01 - 普通输入与输出实现LED电平翻转.md",
+    "知识库/软件开发/MCU/ESP-IDF - 创建工程03 - 配置分区表，管理外部flash.md",
+    "知识库/软件开发/MCU/ESP-IDF - 创建工程04 - CMakeLists.txt.md",
+    "知识库/软件开发/MCU/EPS-IDF - ubuntu，vscode安装PlatformIO IDE失败.md",
+    "知识库/软件开发/MCU/ESP-IDF - 创建工程02 - esp32s3基础工程配置，匹配模组内部资源，充分发挥模组的性能.md",
+    "知识库/软件开发/MCU/ESP-IDF - 创建工程01 -使用simple模板编写简单的Hello,World工程.md",
+    "知识库/软件开发/MCU/ESP32S3 - ESP32-S3-DevKitC-1 v1.1.md",
+    "知识库/软件开发/MCU/ESP-IDF - VSCode 上运行ESP-IDF Terminal.md",
+    "知识库/软件开发/MCU/ESP-IDF - 将export.sh的脚本加入系统环境变量 - ubuntu篇.md",
+    "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
     "知识库/Maps/硬件开发汇总.md",
-    "知识库/Maps/开发工具汇总.md",
-    "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
-    "知识库/硬件开发/VCU&ECU/VCU控制板YYB-YB-003785.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
-    "知识库/软件开发/MCU/STM32外设 - CAN,bsp_can.c与bsp_can.h备忘录.md",
-    "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
-    "附件存放/Pasted image 20240829192646.png",
-    "附件存放/Pasted image 20240829192514.png",
-    "附件存放/Pasted image 20240829192425.png",
+    "知识库/Maps/QT汇总.md",
+    "知识库/Maps/STM32汇总.md",
+    "附件存放/偷偷分享一个Qt QML的实时动态曲线功能.mp4",
     "附件存放/1623908199-1-192.mp4",
-    "附件存放/Pasted image 20240829191122.png",
-    "知识库/Maps/MCU汇总.md",
-    "附件存放/Pasted image 20240820140550.png",
-    "附件存放/Pasted image 20240820140517.png",
-    "附件存放/Pasted image 20240820140435.png",
-    "附件存放/Pasted image 20240820140203.png",
     "附件存放/录屏 07-26-2024 02_49_52 PM.webm",
     "附件存放/录屏2024-08-06 07.14.06_480p.mov",
     "附件存放/录屏2024-08-06 07.01.07_480p.mov",
@@ -198,15 +206,7 @@
     "附件存放/录屏2024-08-06 06.45.14_480p.mov",
     "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
     "附件存放/录屏 07-29-2024 10_04_44 AM.webm",
-    "知识库/软件开发/QT/QT Quick - 定时器Timer - 实现500ms控制LED灯闪烁.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位06 - StackLayout堆栈布局.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位05 - 定位和大小调整.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位04 - RowLayout 行布局器.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位03 - Grid布局.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位02 - Row 与 Column布局.md",
-    "知识库/软件开发/QT/QT Quick - Button与StackLayout组合使用.md",
-    "知识库/软件开发/QT/QT Quick - 带输入框的Dialog控件.md",
-    "知识库/软件开发/QT/QT Quick - 基本的Dialog控件.md",
+    "附件存放/录屏2024-08-03 21.01.52_720p.mov",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
