@@ -18,7 +18,7 @@
 [[QT Quick - Charts02 - 在ChartView同时显示sin波与cos波]]
 [[QT Quick - Charts03 - 梳理ChartView的属性与方法]]
 [[QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图]]
-
+[[QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标]]
 
 ## 二、Core
 ---
