@@ -112,7 +112,8 @@ ApplicationWindow {
 
                     tooltip.x = crosshairCanvas.crosshairX + 10
                     tooltip.y = crosshairCanvas.crosshairY - 30
-                    tooltip.text = "x: " + closestPoint.x + "\n" + "y: " + closestPoint.y.toFixed(2)
+                    // toFiexed()限制坐标的浮点数位置，toFixed(2)的意思是只显示小数点后两位
+                    tooltip.text = "x: " + closestPoint.x.toFixed(2) + "\n" + "y: " + closestPoint.y.toFixed(2) // 显示最近点的坐标
                     tooltip.visible = true
                 } else {
                     // 如果没有找到匹配点，隐藏十字光标和提示框
