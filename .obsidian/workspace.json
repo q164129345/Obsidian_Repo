@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a51b963410e4908f",
+        "id": "62b4a84fd3c92976",
         "type": "tabs",
         "children": [
           {
-            "id": "08639e2310025032",
+            "id": "b8e70346ebc191a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
+                "file": "知识库/Maps/QT汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
+                "file": "知识库/Maps/QT汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
+                "file": "知识库/Maps/QT汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md"
+                "file": "知识库/Maps/QT汇总.md"
               }
             }
           },
@@ -160,10 +160,14 @@
       "zk-prefixer:Create new unique note": false
     }
   },
-  "active": "08639e2310025032",
+  "active": "b8e70346ebc191a8",
   "lastOpenFiles": [
-    "知识库/Maps/QT汇总.md",
+    "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
+    "附件存放/录屏 09-09-2024 09:31:46 PM.webm",
+    "附件存放/录屏2024-08-06 07.14.06_480p.mov",
     "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
+    "知识库/Maps/QT汇总.md",
+    "知识库/Maps/STM32汇总.md",
     "附件存放/录屏 09-05-2024 05:17:58 PM.webm",
     "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
     "附件存放/录屏 09-05-2024 05-07-21 PM.mp4",
@@ -199,15 +203,10 @@
     "知识库/软件开发/MCU/ESP-IDF - 创建工程02 - esp32s3基础工程配置，匹配模组内部资源，充分发挥模组的性能.md",
     "知识库/软件开发/MCU/ESP-IDF - 创建工程01 -使用simple模板编写简单的Hello,World工程.md",
     "知识库/软件开发/MCU/ESP32S3 - ESP32-S3-DevKitC-1 v1.1.md",
-    "知识库/软件开发/MCU/ESP-IDF - VSCode 上运行ESP-IDF Terminal.md",
-    "知识库/软件开发/MCU/ESP-IDF - 将export.sh的脚本加入系统环境变量 - ubuntu篇.md",
-    "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
     "附件存放/偷偷分享一个Qt QML的实时动态曲线功能.mp4",
     "附件存放/1623908199-1-192.mp4",
     "附件存放/录屏 07-26-2024 02_49_52 PM.webm",
-    "附件存放/录屏2024-08-06 07.14.06_480p.mov",
     "附件存放/录屏2024-08-06 07.01.07_480p.mov",
-    "附件存放/录屏2024-08-06 06.55.22_480p.mov",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
