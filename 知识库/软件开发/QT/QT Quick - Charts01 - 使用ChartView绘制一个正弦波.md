@@ -111,3 +111,29 @@ ApplicationWindow {
 ![[Pasted image 20240826192126.png]]
 奇怪的是，在官方文档找不到ValuesAxis的信息。我怀疑是Qt的bug。
 ![[Pasted image 20240826192137.png]]
+
+## 3.2 macos使用useOpenGL: true后，无法显示曲线
+```java
+        LineSeries {
+            id: lineSeries
+            //useOpenGL: true  // 启用 OpenGL 以提高性能
+            axisX: ValuesAxis {  // 定义 X 轴
+                id: axisX
+                min: 0  // X 轴最小值
+                max: 100  // X 轴最大值
+                tickCount: 11  // X 轴刻度数
+            }
+            axisY: ValuesAxis {  // 定义 Y 轴
+                id: axisY
+                min: -1  // Y 轴最小值
+                max: 1  // Y 轴最大值
+                tickCount: 5  // Y 轴刻度数
+            }
+        }
+```
+使用macos时，需要备注掉useOpenGL，或者useOpenGL:false关闭这个功能，原因如下：
+`macOS 在逐步过渡到 Apple 自己的图形框架 Metal，OpenGL 已经不再是 macOS 上的首选图形 API，OpenGL 的支持变得不太可靠。尽管 Qt 依然支持 OpenGL，但是在 macOS 上，某些版本的 OpenGL 可能无法正常工作或表现得不够稳定。`
+
+
+
+

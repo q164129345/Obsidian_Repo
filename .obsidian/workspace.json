@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "62b4a84fd3c92976",
+        "id": "46f8ba8a4d32ee7c",
         "type": "tabs",
         "children": [
           {
-            "id": "b8e70346ebc191a8",
+            "id": "72667f82fcf09ad2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
-                "mode": "source",
+                "file": "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 328.5
+    "width": 341.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/QT汇总.md"
+                "file": "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md"
               }
             }
           },
@@ -147,33 +147,29 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 374.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "zk-prefixer:创建时间戳笔记": false
     }
   },
-  "active": "b8e70346ebc191a8",
+  "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
-    "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
-    "附件存放/录屏 09-09-2024 09:31:46 PM.webm",
-    "附件存放/录屏2024-08-06 07.14.06_480p.mov",
-    "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
-    "知识库/Maps/QT汇总.md",
-    "知识库/Maps/STM32汇总.md",
-    "附件存放/录屏 09-05-2024 05:17:58 PM.webm",
-    "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
-    "附件存放/录屏 09-05-2024 05-07-21 PM.mp4",
-    "附件存放/录屏 06-28-2024 02_21_08 PM.webm",
     "知识库/软件开发/QT/QT Quick - Charts03 - 梳理ChartView的属性与方法.md",
     "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
+    "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md",
+    "知识库/软件开发/QT/QT Quick - Charts02 - 在ChartView同时显示sin波与cos波.md",
+    "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
+    "附件存放/录屏 09-09-2024 09:31:46 PM.webm",
+    "附件存放/录屏 09-05-2024 05:17:58 PM.webm",
+    "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
     "知识库/Maps/ESP32开发汇总.md",
     "知识库/软件开发/MCU/ESP-IDF - I2C01 - 与XL9555通讯，实现GPIO口拓展.md",
     "附件存放/Pasted image 20240904210353.png",
@@ -206,7 +202,11 @@
     "附件存放/偷偷分享一个Qt QML的实时动态曲线功能.mp4",
     "附件存放/1623908199-1-192.mp4",
     "附件存放/录屏 07-26-2024 02_49_52 PM.webm",
+    "附件存放/录屏2024-08-06 07.14.06_480p.mov",
     "附件存放/录屏2024-08-06 07.01.07_480p.mov",
+    "附件存放/录屏2024-08-06 06.55.22_480p.mov",
+    "附件存放/录屏2024-08-06 06.45.14_480p.mov",
+    "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
