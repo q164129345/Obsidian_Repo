@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md",
+                "file": "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md",
+                "file": "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md",
+                "file": "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md"
+                "file": "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md"
               }
             }
           },
@@ -162,12 +162,14 @@
   },
   "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
-    "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
+    "附件存放/录屏2024-09-12 07.35.47_720p.mov",
     "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
+    "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
+    "知识库/软件开发/QT/QT Quick - Charts02 - 在ChartView同时显示sin波与cos波.md",
+    "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md",
+    "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
     "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
     "知识库/软件开发/QT/QT Quick - Charts03 - 梳理ChartView的属性与方法.md",
-    "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md",
-    "知识库/软件开发/QT/QT Quick - Charts02 - 在ChartView同时显示sin波与cos波.md",
     "附件存放/录屏 09-09-2024 09:31:46 PM.webm",
     "附件存放/录屏 09-05-2024 05:17:58 PM.webm",
     "知识库/Maps/ESP32开发汇总.md",
@@ -198,7 +200,6 @@
     "知识库/软件开发/MCU/EPS-IDF - ubuntu，vscode安装PlatformIO IDE失败.md",
     "知识库/软件开发/MCU/ESP-IDF - 创建工程02 - esp32s3基础工程配置，匹配模组内部资源，充分发挥模组的性能.md",
     "知识库/软件开发/MCU/ESP-IDF - 创建工程01 -使用simple模板编写简单的Hello,World工程.md",
-    "知识库/软件开发/MCU/ESP32S3 - ESP32-S3-DevKitC-1 v1.1.md",
     "附件存放/偷偷分享一个Qt QML的实时动态曲线功能.mp4",
     "附件存放/1623908199-1-192.mp4",
     "附件存放/录屏 07-26-2024 02_49_52 PM.webm",
