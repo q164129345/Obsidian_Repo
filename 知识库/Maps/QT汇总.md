@@ -27,6 +27,10 @@
 ### C++
 
 ### python
+[[QT Quick - Charts08 - pyside6,使用ChartView绘制一个正弦波]]
+
+
+
 
 ## 三、网络功能
 ---
