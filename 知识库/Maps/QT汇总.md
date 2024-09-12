@@ -20,7 +20,7 @@
 [[QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图]]
 [[QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标]]
 [[QT Quick - Charts06 - 让X轴随着时间移动，递增]]
-
+[[QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标]]
 
 ## 二、Core
 ---

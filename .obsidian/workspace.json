@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
+                "file": "知识库/Maps/QT汇总.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
+                "file": "知识库/Maps/QT汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
+                "file": "知识库/Maps/QT汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md"
+                "file": "知识库/Maps/QT汇总.md"
               }
             }
           },
@@ -141,9 +141,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "6a979011d2c58f63",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -157,14 +165,16 @@
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "zk-prefixer:创建时间戳笔记": false
+      "zk-prefixer:创建时间戳笔记": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
+    "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
+    "知识库/Maps/QT汇总.md",
     "附件存放/录屏2024-09-12 07.35.47_720p.mov",
     "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
-    "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
     "知识库/软件开发/QT/QT Quick - Charts02 - 在ChartView同时显示sin波与cos波.md",
     "知识库/软件开发/QT/QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图.md",
     "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
@@ -207,7 +217,6 @@
     "附件存放/录屏2024-08-06 07.01.07_480p.mov",
     "附件存放/录屏2024-08-06 06.55.22_480p.mov",
     "附件存放/录屏2024-08-06 06.45.14_480p.mov",
-    "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
