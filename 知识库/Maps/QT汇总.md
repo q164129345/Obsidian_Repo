@@ -34,9 +34,13 @@
 
 ## 三、网络功能
 ---
+[[QT MQTT01 - Ubuntu系统安装与使用QMqtt库]]
+[[QT MQTT02 - 创建一个MQTT客户端，每2S发布一个消息，当收到消息时，打印到log控制台]]
+
+
 
 ## 四、细节补充
 ---
-
+[[QT - Ubuntu安装QT6后，无法运行Qt Creator]]
 
 
