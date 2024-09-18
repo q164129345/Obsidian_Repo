@@ -25,6 +25,10 @@
 ## 二、Core
 ---
 ### C++
+[[QT Quick,C++ - 信号与槽 01- UI界面点击button控件，触发C++类的某个方法]]
+[[QT Quick,C++ - 信号与槽02 - 定时器周期改变C++类的某个变量，触发UI界面的LED灯变化]]
+
+
 
 ### python
 [[QT Quick - Charts08 - pyside6,使用ChartView绘制一个正弦波]]
@@ -42,5 +46,5 @@
 ## 四、细节补充
 ---
 [[QT - Ubuntu安装QT6后，无法运行Qt Creator]]
-
+[[QT - M1 macbook 虚拟机ubuntu上安QT5与pyside2模块]]
 
