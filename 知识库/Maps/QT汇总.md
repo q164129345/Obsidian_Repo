@@ -25,8 +25,9 @@
 ## 二、Core
 ---
 ### C++
-[[QT Quick,C++ - 信号与槽 01- UI界面点击button控件，触发C++类的某个方法]]
+[[QT Quick,C++ - 信号与槽01 - UI界面点击button控件，触发C++类的某个方法]]
 [[QT Quick,C++ - 信号与槽02 - 定时器周期改变C++类的某个变量，触发UI界面的LED灯变化]]
+[[QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示]]
 
 
 
