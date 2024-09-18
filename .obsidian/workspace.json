@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/QT汇总.md"
+                "file": "知识库/Maps/ESP32开发汇总.md"
               }
             }
           },
@@ -163,25 +163,30 @@
   },
   "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/ESP-IDF - ESP-NOW02 - 广播通讯，接收端能获取发射端MAC地址，根据RSSI信号强度判断离发射端的距离.md",
+    "附件存放/Pasted image 20240918201211.png",
+    "附件存放/Pasted image 20240918201158.png",
+    "附件存放/Pasted image 20240918201132.png",
+    "附件存放/Pasted image 20240918201110.png",
+    "附件存放/Pasted image 20240918201047.png",
+    "附件存放/Pasted image 20240918201030.png",
+    "附件存放/Pasted image 20240918200959.png",
+    "附件存放/Pasted image 20240918200940.png",
+    "知识库/软件开发/MCU/ESP-IDF - ESP-NOW01 - 绑定接收端的MAC地址，持续发送ESP_NOW消息.md",
+    "附件存放/Pasted image 20240918200022.png",
+    "附件存放/Pasted image 20240918195940.png",
+    "知识库/Maps/ESP32开发汇总.md",
+    "知识库/软件开发/机器人开发/差速轮运动学解算.md",
+    "知识库/Maps/QT汇总.md",
+    "知识库/软件开发/机器人开发",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽02 - 定时器周期改变C++类的某个变量，触发UI界面的LED灯变化.md",
     "附件存放/录屏 07-23-2024 11_37_25 AM.webm",
-    "附件存放/Pasted image 20240918194518.png",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽 01- UI界面点击button控件，触发C++类的某个方法.md",
-    "附件存放/Pasted image 20240918194357.png",
-    "附件存放/Pasted image 20240918194016.png",
-    "附件存放/Pasted image 20240918193952.png",
-    "附件存放/Pasted image 20240918193927.png",
-    "附件存放/Pasted image 20240918193849.png",
     "附件存放/录屏-07-19-2024-06_01_10-PM.mp4",
-    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT - M1 macbook 虚拟机ubuntu上安QT5与pyside2模块.md",
     "知识库/软件开发/QT/QT MQTT01 - Ubuntu系统安装与使用QMqtt库.md",
     "知识库/软件开发/QT/QT Quick - 布局与定位02 - Row 与 Column布局.md",
     "知识库/软件开发/QT/QT Quick - 布局与定位04 - RowLayout 行布局器.md",
-    "附件存放/Pasted image 20240918193522.png",
-    "附件存放/Pasted image 20240918193502.png",
-    "附件存放/Pasted image 20240918193429.png",
-    "附件存放/Pasted image 20240918193357.png",
     "知识库/软件开发/QT/QT - Ubuntu安装QT6后，无法运行Qt Creator.md",
     "知识库/软件开发/QT/QT MQTT02 - 创建一个MQTT客户端，每2S发布一个消息，当收到消息时，打印到log控制台.md",
     "附件存放/录屏 07-04-2024 11_30_07 AM (1).webm",
@@ -201,13 +206,8 @@
     "知识库/软件开发/QT/QT Quick - Charts03 - 梳理ChartView的属性与方法.md",
     "附件存放/录屏 09-09-2024 09:31:46 PM.webm",
     "附件存放/录屏 09-05-2024 05:17:58 PM.webm",
-    "知识库/Maps/ESP32开发汇总.md",
     "知识库/软件开发/MCU/ESP-IDF - I2C01 - 与XL9555通讯，实现GPIO口拓展.md",
     "知识库/软件开发/MCU/ESP-IDF - CAN控制器01 - 将接收到的CAN报文，发送出去.md",
-    "知识库/软件开发/MCU/ESP-IDF - 定时器04 - 使用通用定时器创建一个频率1MHz的挂钟.md",
-    "知识库/软件开发/MCU/ESP-IDF - 定时器03 - 使用通用定时器创建一个1ms周期的轮询任务.md",
-    "知识库/软件开发/MCU/ESP-IDF - 定时器02 - 使用esp_timer创建一个500ms的周期轮询任务.md",
-    "附件存放/偷偷分享一个Qt QML的实时动态曲线功能.mp4",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]

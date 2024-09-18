@@ -31,6 +31,8 @@
 [[ESP-IDF - 定时器04 - 使用通用定时器创建一个频率1MHz的挂钟]]
 [[ESP-IDF - CAN控制器01 - 将接收到的CAN报文，发送出去]]
 [[ESP-IDF - I2C01 - 与XL9555通讯，实现GPIO口拓展]]
+[[ESP-IDF - ESP-NOW01 - 绑定接收端的MAC地址，持续发送ESP_NOW消息]]
+[[ESP-IDF - ESP-NOW02 - 广播通讯，接收端能获取发射端MAC地址，根据RSSI信号强度判断离发射端的距离]]
 
 
 
