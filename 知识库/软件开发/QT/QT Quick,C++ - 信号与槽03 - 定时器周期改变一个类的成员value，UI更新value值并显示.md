@@ -84,9 +84,57 @@ Window {
 
 ```
 
-# 三、细节补充
+# 三、CMakeLists.txt
 ---
-## 3.1、为什么main.cpp的最底部增加#include “main.moc”
+```cmake
+cmake_minimum_required(VERSION 3.16)
+
+project(hello_value VERSION 0.1 LANGUAGES CXX)
+
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+find_package(Qt6 6.5 REQUIRED COMPONENTS Quick)
+
+qt_standard_project_setup(REQUIRES 6.5)
+
+qt_add_executable(apphello_value
+    main.cpp
+)
+
+qt_add_qml_module(apphello_value
+    URI hello_value
+    VERSION 1.0
+    QML_FILES
+        Main.qml
+)
+
+# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
+# If you are developing for iOS or macOS you should consider setting an
+# explicit, fixed bundle identifier manually though.
+set_target_properties(apphello_value PROPERTIES
+#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.apphello_value
+    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
+    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
+    MACOSX_BUNDLE TRUE
+    WIN32_EXECUTABLE TRUE
+)
+
+target_link_libraries(apphello_value
+    PRIVATE Qt6::Quick
+)
+
+include(GNUInstallDirs)
+install(TARGETS apphello_value
+    BUNDLE DESTINATION .
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
+    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+)
+
+```
+
+# 四、细节补充
+---
+## 4.1、为什么main.cpp的最底部增加#include “main.moc”
 在main.cpp文件末尾使用 #include "main.moc" 是因为这个文件中包含了一个使用Q_OBJECT宏的类（HelloValue类）。这是Qt框架中的一个特殊处理，主要原因如下：
 - Q_OBJECT宏：当一个类使用Q_OBJECT宏时，它需要一些额外的元数据和代码来支持Qt的信号槽机制、属性系统等特性。
 - moc（Meta-Object Compiler）：Qt使用moc工具来处理包含Q_OBJECT宏的头文件，生成额外的C++代码。这些生成的代码通常保存在一个名为moc_.cpp的文件中。

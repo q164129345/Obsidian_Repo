@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "知识库/Maps/QT汇总.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -163,7 +163,11 @@
   },
   "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
+    "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+    "附件存放/录屏2024-09-19 07.51.21.mov",
+    "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
+    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽01 - UI界面点击button控件，触发C++类的某个方法.md",
     "附件存放/录屏2024-09-19 07.33.21.mov",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽02 - 定时器周期改变C++类的某个变量，触发UI界面的LED灯变化.md",
@@ -186,7 +190,6 @@
     "知识库/软件开发/MCU/ESP-IDF - ESP-NOW02 - 广播通讯，接收端能获取发射端MAC地址，根据RSSI信号强度判断离发射端的距离.md",
     "知识库/软件开发/MCU/ESP-IDF - ESP-NOW01 - 绑定接收端的MAC地址，持续发送ESP_NOW消息.md",
     "知识库/软件开发/机器人开发/差速轮运动学解算.md",
-    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/机器人开发",
     "附件存放/录屏 07-23-2024 11_37_25 AM.webm",
     "附件存放/录屏-07-19-2024-06_01_10-PM.mp4",
@@ -204,10 +207,7 @@
     "知识库/软件开发/QT/QT Quick - 布局与定位01 - 锚点布局.md",
     "附件存放/录屏 07-02-2024 08_15_55 PM.webm",
     "知识库/软件开发/QT/QT Quick - 布局与定位03 - Grid布局.md",
-    "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
-    "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
     "附件存放/录屏2024-09-12 07.35.47_720p.mov",
-    "附件存放/录屏 09-09-2024 09:31:46 PM.webm",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]

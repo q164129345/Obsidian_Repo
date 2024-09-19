@@ -33,6 +33,7 @@
 
 ### python
 [[QT Quick - Charts08 - pyside6,使用ChartView绘制一个正弦波]]
+[[QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示]]
 
 
 
