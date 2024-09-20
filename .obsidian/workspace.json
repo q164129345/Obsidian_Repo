@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
-                "mode": "preview",
+                "file": "知识库/Maps/ESP32开发汇总.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/QT汇总.md"
+                "file": "知识库/Maps/ESP32开发汇总.md"
               }
             }
           },
@@ -163,26 +163,31 @@
   },
   "active": "72667f82fcf09ad2",
   "lastOpenFiles": [
-    "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+    "知识库/Maps/STM32汇总.md",
+    "知识库/Maps/QT汇总.md",
+    "知识库/软件开发/MCU/ESP-IDF - wifi09 - 例程ftm.md",
+    "附件存放/Pasted image 20240920154621.png",
+    "附件存放/Pasted image 20240920154610.png",
+    "附件存放/Pasted image 20240920154552.png",
+    "附件存放/Pasted image 20240920154539.png",
+    "附件存放/Pasted image 20240920154529.png",
+    "附件存放/Pasted image 20240920154506.png",
+    "附件存放/Pasted image 20240920154415.png",
+    "附件存放/Pasted image 20240920154401.png",
+    "附件存放/Pasted image 20240920154348.png",
+    "附件存放/Pasted image 20240920154327.png",
+    "知识库/软件开发/MCU/ESP-IDF - wifi08 - 官方例程scan.md",
+    "知识库/软件开发/MCU/ESP-IDF - wifi07 - 官方例程mqtt、tcp.md",
+    "知识库/软件开发/MCU/ESP-IDF - wifi06 - 官方例程udp_server.md",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+    "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
     "附件存放/录屏2024-09-19 07.51.21.mov",
     "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
-    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽01 - UI界面点击button控件，触发C++类的某个方法.md",
     "附件存放/录屏2024-09-19 07.33.21.mov",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽02 - 定时器周期改变C++类的某个变量，触发UI界面的LED灯变化.md",
     "知识库/Maps/ESP32开发汇总.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi05 - 官方例程udp client.md",
-    "附件存放/Pasted image 20240918210258.png",
-    "附件存放/Pasted image 20240918210239.png",
-    "附件存放/Pasted image 20240918210222.png",
-    "附件存放/Pasted image 20240918210206.png",
-    "附件存放/Pasted image 20240918210148.png",
-    "附件存放/Pasted image 20240918210136.png",
-    "附件存放/Pasted image 20240918210123.png",
-    "附件存放/Pasted image 20240918210108.png",
-    "附件存放/Pasted image 20240918210053.png",
-    "附件存放/Pasted image 20240918210040.png",
     "知识库/软件开发/MCU/ESP-IDF - wifi04 - 官方例程tcp_server.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi03 - 官方例程tcp_client.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi02 - 官方例程station.md",
@@ -202,11 +207,7 @@
     "附件存放/录屏 07-04-2024 11_30_07 AM (1).webm",
     "附件存放/录屏 07-02-2024 08_15_55 PM 1.webm",
     "附件存放/录屏 06-28-2024 05_18_35 PM.webm",
-    "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
-    "知识库/软件开发/QT/QT Quick - Charts08 - pyside6,使用ChartView绘制一个正弦波.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位01 - 锚点布局.md",
     "附件存放/录屏 07-02-2024 08_15_55 PM.webm",
-    "知识库/软件开发/QT/QT Quick - 布局与定位03 - Grid布局.md",
     "附件存放/录屏2024-09-12 07.35.47_720p.mov",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
