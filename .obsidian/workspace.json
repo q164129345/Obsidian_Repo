@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/开发工具/oh_my_zsh使用汇总.md",
+                "file": "知识库/Maps/数据结构与算法汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/开发工具/oh_my_zsh使用汇总.md",
+                "file": "知识库/Maps/数据结构与算法汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/开发工具/oh_my_zsh使用汇总.md",
+                "file": "知识库/Maps/数据结构与算法汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/开发工具/oh_my_zsh使用汇总.md"
+                "file": "知识库/Maps/数据结构与算法汇总.md"
               }
             }
           },
@@ -163,10 +163,14 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
+    "知识库/软件开发/数据结构与算法/状态机 - 有限状态机FSM解析通讯数据包.md",
+    "知识库/Maps/数据结构与算法汇总.md",
+    "附件存放/Pasted image 20240921225053.png",
+    "知识库/开发工具/oh_my_zsh使用汇总.md",
+    "知识库/软件开发/数据结构与算法",
     "附件存放/Pasted image 20240921224022.png",
     "知识库/开发工具/vscode - 解决IntelliSense没有正常工作.md",
     "知识库/Maps/开发工具汇总.md",
-    "知识库/开发工具/oh_my_zsh使用汇总.md",
     "附件存放/截屏2024-09-21 22.36.37.png",
     "附件存放/截屏2024-09-21 22.35.23.png",
     "附件存放/录屏 09-09-2024 09_31_46_PM.webm",
@@ -184,8 +188,6 @@
     "附件存放/Pasted image 20240920154539.png",
     "附件存放/Pasted image 20240920154529.png",
     "附件存放/Pasted image 20240920154506.png",
-    "附件存放/Pasted image 20240920154415.png",
-    "附件存放/Pasted image 20240920154401.png",
     "知识库/软件开发/MCU/ESP-IDF - wifi08 - 官方例程scan.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi07 - 官方例程mqtt、tcp.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi06 - 官方例程udp_server.md",
@@ -207,8 +209,6 @@
     "附件存放/录屏 07-23-2024 11_37_25 AM.webm",
     "附件存放/录屏-07-19-2024-06_01_10-PM.mp4",
     "知识库/软件开发/QT/QT - M1 macbook 虚拟机ubuntu上安QT5与pyside2模块.md",
-    "知识库/软件开发/QT/QT MQTT01 - Ubuntu系统安装与使用QMqtt库.md",
-    "附件存放/录屏 07-04-2024 11_30_07 AM (1).webm",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
