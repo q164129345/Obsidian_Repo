@@ -25,11 +25,11 @@ public:
         }
     }
 
-signals:
-    void valueChanged();
+	signals:
+	    void valueChanged();
 
-private:
-    int m_value;
+	private:
+	    int m_value;
 };
 
 int main(int argc, char *argv[])

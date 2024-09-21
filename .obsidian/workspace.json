@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/数据结构与算法汇总.md",
-                "mode": "source",
+                "file": "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/Maps/数据结构与算法汇总.md",
+                "file": "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/Maps/数据结构与算法汇总.md",
+                "file": "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/数据结构与算法汇总.md"
+                "file": "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md"
               }
             }
           },
@@ -163,8 +163,9 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
-    "知识库/软件开发/数据结构与算法/状态机 - 有限状态机FSM解析通讯数据包.md",
+    "知识库/Maps/QT汇总.md",
     "知识库/Maps/数据结构与算法汇总.md",
+    "知识库/软件开发/数据结构与算法/状态机 - 有限状态机FSM解析通讯数据包.md",
     "附件存放/Pasted image 20240921225053.png",
     "知识库/开发工具/oh_my_zsh使用汇总.md",
     "知识库/软件开发/数据结构与算法",
@@ -180,7 +181,6 @@
     "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
     "知识库/Maps/ESP32开发汇总.md",
     "知识库/Maps/STM32汇总.md",
-    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi09 - 例程ftm.md",
     "附件存放/Pasted image 20240920154621.png",
     "附件存放/Pasted image 20240920154610.png",
