@@ -11,9 +11,12 @@
             "id": "2b22901646d79740",
             "type": "leaf",
             "state": {
-              "type": "video",
+              "type": "markdown",
               "state": {
-                "file": "附件存放/录屏 09-09-2024 09_31_46_PM.webm"
+                "file": "知识库/开发工具/oh_my_zsh使用汇总.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "附件存放/录屏 09-09-2024 09_31_46_PM.webm",
+                "file": "知识库/开发工具/oh_my_zsh使用汇总.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "附件存放/录屏 09-09-2024 09_31_46_PM.webm",
+                "file": "知识库/开发工具/oh_my_zsh使用汇总.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "附件存放/录屏 09-09-2024 09_31_46_PM.webm"
+                "file": "知识库/开发工具/oh_my_zsh使用汇总.md"
               }
             }
           },
@@ -158,12 +161,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57b286174304e95c",
+  "active": "2b22901646d79740",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20240921224022.png",
+    "知识库/开发工具/vscode - 解决IntelliSense没有正常工作.md",
+    "知识库/Maps/开发工具汇总.md",
+    "知识库/开发工具/oh_my_zsh使用汇总.md",
+    "附件存放/截屏2024-09-21 22.36.37.png",
+    "附件存放/截屏2024-09-21 22.35.23.png",
+    "附件存放/录屏 09-09-2024 09_31_46_PM.webm",
+    "知识库/开发工具/oh_my_zsh",
     "知识库/软件开发/QT/QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
     "附件存放/录屏 09-05-2024 05_17_58_PM.webm",
     "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
-    "附件存放/录屏 09-09-2024 09_31_46_PM.webm",
     "知识库/Maps/ESP32开发汇总.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/Maps/QT汇总.md",
@@ -176,8 +186,6 @@
     "附件存放/Pasted image 20240920154506.png",
     "附件存放/Pasted image 20240920154415.png",
     "附件存放/Pasted image 20240920154401.png",
-    "附件存放/Pasted image 20240920154348.png",
-    "附件存放/Pasted image 20240920154327.png",
     "知识库/软件开发/MCU/ESP-IDF - wifi08 - 官方例程scan.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi07 - 官方例程mqtt、tcp.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi06 - 官方例程udp_server.md",
@@ -200,11 +208,7 @@
     "附件存放/录屏-07-19-2024-06_01_10-PM.mp4",
     "知识库/软件开发/QT/QT - M1 macbook 虚拟机ubuntu上安QT5与pyside2模块.md",
     "知识库/软件开发/QT/QT MQTT01 - Ubuntu系统安装与使用QMqtt库.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位02 - Row 与 Column布局.md",
-    "知识库/软件开发/QT/QT Quick - 布局与定位04 - RowLayout 行布局器.md",
-    "知识库/软件开发/QT/QT - Ubuntu安装QT6后，无法运行Qt Creator.md",
     "附件存放/录屏 07-04-2024 11_30_07 AM (1).webm",
-    "附件存放/录屏 07-02-2024 08_15_55 PM 1.webm",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
