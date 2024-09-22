@@ -41,8 +41,8 @@ private slots:
 
 private:
     QTimer timer;
-    qreal phase;
-    qreal timeElapsed;
+    qreal phase;  // 用于计算当前的相位
+    qreal timeElapsed; // 用于计算当前的时间
 };
 
 int main(int argc, char *argv[]) {
@@ -282,5 +282,5 @@ install(TARGETS appsin_Line
 
 # 四、细节补充
 ---
-
+## 4.1、
 
