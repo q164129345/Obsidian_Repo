@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
-                "mode": "preview",
+                "file": "知识库/软件开发/QT/QT Quick - Charts09 - sin波形在C++生成，传递给QML显示出来.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+                "file": "知识库/软件开发/QT/QT Quick - Charts09 - sin波形在C++生成，传递给QML显示出来.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+                "file": "知识库/软件开发/QT/QT Quick - Charts09 - sin波形在C++生成，传递给QML显示出来.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md"
+                "file": "知识库/软件开发/QT/QT Quick - Charts09 - sin波形在C++生成，传递给QML显示出来.md"
               }
             }
           },
@@ -163,7 +163,13 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
+    "附件存放/录屏2024-09-22 10.35.45.mov",
+    "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
+    "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
+    "知识库/软件开发/QT/QT Quick - Charts09 - sin波形在C++生成，传递给QML显示出来.md",
     "知识库/Maps/QT汇总.md",
+    "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
+    "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
     "知识库/Maps/数据结构与算法汇总.md",
     "知识库/软件开发/数据结构与算法/状态机 - 有限状态机FSM解析通讯数据包.md",
     "附件存放/Pasted image 20240921225053.png",
@@ -191,7 +197,6 @@
     "知识库/软件开发/MCU/ESP-IDF - wifi08 - 官方例程scan.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi07 - 官方例程mqtt、tcp.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi06 - 官方例程udp_server.md",
-    "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
     "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
     "附件存放/录屏2024-09-19 07.51.21.mov",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽01 - UI界面点击button控件，触发C++类的某个方法.md",
@@ -201,14 +206,9 @@
     "知识库/软件开发/MCU/ESP-IDF - wifi04 - 官方例程tcp_server.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi03 - 官方例程tcp_client.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi02 - 官方例程station.md",
-    "知识库/软件开发/MCU/ESP-IDF - wifi01 - 官方例程softAP.md",
-    "知识库/软件开发/MCU/ESP-IDF - ESP-NOW02 - 广播通讯，接收端能获取发射端MAC地址，根据RSSI信号强度判断离发射端的距离.md",
-    "知识库/软件开发/MCU/ESP-IDF - ESP-NOW01 - 绑定接收端的MAC地址，持续发送ESP_NOW消息.md",
-    "知识库/软件开发/机器人开发/差速轮运动学解算.md",
     "知识库/软件开发/机器人开发",
     "附件存放/录屏 07-23-2024 11_37_25 AM.webm",
     "附件存放/录屏-07-19-2024-06_01_10-PM.mp4",
-    "知识库/软件开发/QT/QT - M1 macbook 虚拟机ubuntu上安QT5与pyside2模块.md",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
