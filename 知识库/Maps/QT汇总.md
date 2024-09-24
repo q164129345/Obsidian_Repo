@@ -1,4 +1,5 @@
 
+官方Qt6 qml教程：https://www.qt.io/product/qt6/qml-book
 
 ## 一、QML
 ---
