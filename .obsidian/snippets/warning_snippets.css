@@ -1,0 +1,9 @@
+/* 自定义警告框样式 */
+.warning {
+    background-color: #fff8e1;
+    border-left: 5px solid #fbc02d;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 4px;
+    font-weight: bold;
+}
