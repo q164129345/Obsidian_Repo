@@ -1,0 +1,10 @@
+/* 自定义提示框样式，包含绿色背景和字体 */
+.tip {
+    background-color: #e8f5e9; /* 绿色背景 */
+    border-left: 5px solid #4caf50; /* 左侧边框颜色 */
+    padding: 10px; /* 内边距 */
+    margin: 10px 0; /* 上下边距 */
+    border-radius: 4px; /* 圆角边框 */
+    font-weight: bold; /* 加粗文字 */
+    color: #4caf50; /* 字体颜色为绿色 */
+}

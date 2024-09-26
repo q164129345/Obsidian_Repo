@@ -1,9 +1,11 @@
-/* 自定义警告框样式 */
+/* 自定义警告框样式，包含黄色字体 */
 .warning {
-    background-color: #fff8e1;
-    border-left: 5px solid #fbc02d;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 4px;
-    font-weight: bold;
+    background-color: #fff8e1; /* 背景颜色 */
+    border-left: 5px solid #fbc02d; /* 左侧边框 */
+    padding: 10px; /* 内边距 */
+    margin: 10px 0; /* 上下边距 */
+    border-radius: 4px; /* 圆角 */
+    font-weight: bold; /* 加粗文字 */
+    color: #fbc02d; /* 字体颜色为黄色 */
 }
+

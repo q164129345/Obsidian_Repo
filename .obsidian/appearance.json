@@ -3,7 +3,9 @@
   "baseFontSize": 16,
   "baseFontSizeAction": false,
   "enabledCssSnippets": [
-    "coffebean-图片对齐语法增强"
+    "coffebean-图片对齐语法增强",
+    "warning_snippets",
+    "tip_snippets"
   ],
   "theme": "moonstone"
 }
