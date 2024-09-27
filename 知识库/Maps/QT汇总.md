@@ -3,25 +3,25 @@
 
 ## 一、QML
 ---
-[[QT Quick - Windows控件]]
-[[QT Quick - Rectangle控件]]
-[[QT Quick - TabBar与TabButton]]
-[[QT Quick - Button与StackLayout组合使用]]
-[[QT Quick - 基本的Dialog控件]]
-[[QT Quick - 带输入框的Dialog控件]]
-[[QT Quick - 布局与定位01 - 锚点布局]]
-[[QT Quick - 布局与定位02 - Row 与 Column布局]]
-[[QT Quick - 布局与定位03 - Grid布局]]
-[[QT Quick - 布局与定位04 - RowLayout 行布局器]]
-[[QT Quick - 布局与定位05 - 定位和大小调整]]
-[[QT Quick - 布局与定位06 - StackLayout堆栈布局]]
-[[QT Quick - Charts01 - 使用ChartView绘制一个正弦波]]
-[[QT Quick - Charts02 - 在ChartView同时显示sin波与cos波]]
-[[QT Quick - Charts03 - 梳理ChartView的属性与方法]]
-[[QT Quick - Charts04 - 开源例子,ChartView绘制实时动态曲线视图]]
-[[QT Quick - Charts05 - 增加十字光标，捕抓曲线并显示坐标]]
-[[QT Quick - Charts06 - 让X轴随着时间移动，递增]]
-[[QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标]]
+[[QML6 - Windows控件]]
+[[QML6 - Rectangle控件]]
+[[QML6 - TabBar与TabButton]]
+[[QML6 - Button与StackLayout组合使用]]
+[[QML6 - 基本的Dialog控件]]
+[[QML6 - 带输入框的Dialog控件]]
+[[QML6 - 布局与定位01 - 锚点布局]]
+[[QML6 - 布局与定位02 - Row 与 Column布局]]
+[[QML6 - 布局与定位03 - Grid布局]]
+[[QML6 - 布局与定位04 - RowLayout 行布局器]]
+[[QML6 - 布局与定位05 - 定位和大小调整]]
+[[QML6 - 布局与定位06 - StackLayout堆栈布局]]
+[[QML6 - Charts01 - 使用ChartView绘制一个正弦波]]
+[[QML6 - Charts02 - 在ChartView同时显示sin波与cos波]]
+[[QML6 - Charts03 - 梳理ChartView的属性与方法]]
+[[QML6 - Charts04 - 开源例子,ChartView绘制实时动态曲线视图]]
+[[QML6 - Charts05 - 增加十字光标，捕抓曲线并显示坐标]]
+[[QML6 - Charts06 - 让X轴随着时间移动，递增]]
+[[QML6 - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标]]
 
 ## 二、Core
 ---
@@ -33,7 +33,7 @@
 
 
 ### python
-[[QT Quick - Charts08 - pyside6,使用ChartView绘制一个正弦波]]
+[[QML6 - Charts08 - pyside6,使用ChartView绘制一个正弦波]]
 [[QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示]]
 
 

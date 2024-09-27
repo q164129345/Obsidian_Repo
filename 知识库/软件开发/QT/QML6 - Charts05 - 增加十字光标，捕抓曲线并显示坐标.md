@@ -1,78 +1,15 @@
 # 导言
 ---
-[[QT Quick - Charts06 - 让X轴随着时间移动，递增]]。之前，sin波形是在main.qml的定时器里生成。今天，尝试把这一块功能搬到C++里实现。
-![[录屏2024-09-22 10.35.45.mov]]
+在[[QML6 - Charts01 - 使用ChartView绘制一个正弦波]]，将数据可视化之后。接下来进一步优化代码，将曲线上的坐标用鼠标捕抓并显示出来，实时查看坐标的数值。
+![[录屏 09-05-2024 05_17_58_PM.webm]]
 
-# 一、main.cpp
+# 一、QML
 ---
-```c
-#include <QGuiApplication>
-#include <QQmlApplicationEngine>
-#include <QApplication>
-#include <QTimer>
-#include <QQmlContext>
-#include <cmath>
-#include <QDebug>
-
-class SineWaveGenerator : public QObject {
-    Q_OBJECT
-public:
-    SineWaveGenerator(QObject *parent = nullptr) : QObject(parent), phase(0), timeElapsed(0) {
-        connect(&timer, &QTimer::timeout, this, &SineWaveGenerator::generatePoint);
-        timer.start(50); // 每50毫秒触发一次
-    }
-
-signals:
-    void newPoint(qreal x, qreal y);
-
-private slots:
-    void generatePoint() {
-        qreal frequency = 0.5;
-        qreal y = std::sin(frequency * (timeElapsed + phase) * M_PI / 25);
-        emit newPoint(timeElapsed, y);
-        qDebug() << "Generated point:" << timeElapsed << y; // 调试信息
-
-        phase += 1;
-        if (phase >= 1000)
-            phase -= 1000;
-
-        timeElapsed += 0.05; // 每次触发增加0.05秒
-    }
-
-private:
-    QTimer timer;
-    qreal phase;  // 用于计算当前的相位
-    qreal timeElapsed; // 用于计算当前的时间
-};
-
-int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
-
-    QQmlApplicationEngine engine;
-    SineWaveGenerator generator;
-    engine.rootContext()->setContextProperty("sineWaveGenerator", &generator);
-
-    QObject::connect(
-        &engine,
-        &QQmlApplicationEngine::objectCreationFailed,
-        &app,
-        []() { QCoreApplication::exit(-1); },
-        Qt::QueuedConnection);
-    engine.loadFromModule("sin_Line", "Main");
-
-    return app.exec();
-}
-
-#include "main.moc"
-
-```
-
-# 二、main.qml
 ```java
-import QtQuick 2.15  // 引入 QtQuick 模块，提供基本的 QML 类型
-import QtQuick.Controls 2.15  // 引入 QtQuick.Controls 模块，提供控件类型
-import QtCharts 2.15  // 引入 QtCharts 模块，提供绘制图表的类型
-import QtQuick.Window 2.15  // 引入 QtQuick.Window 模块，提供窗口类型
+import QtQuick 2.15
+import QtQuick.Controls 2.15
+import QtCharts 2.15
+import QtQuick.Window 2.15
 
 ApplicationWindow {
     visible: true
@@ -80,36 +17,22 @@ ApplicationWindow {
     height: 480
     title: "Sine Wave Plot with Crosshair"
 
-    function handleNewPoint(x, y) {
-        console.log("Received point:", x, y) // 调试信息
-        lineSeries.append(x, y)
-        chartView.pointsData.push({x: x, y: y})
-
-        if (x < 10) {
-            axisX.min = 0
-            axisX.max = 10
-        } else {
-            axisX.min = x - 10
-            axisX.max = x
-        }
-    }
-
     ChartView {
         id: chartView
         anchors.fill: parent
         antialiasing: true
 
+        // 数组保存曲线的所有点
         property var pointsData: []
 
         LineSeries {
             id: lineSeries
-            useOpenGL: false
+            useOpenGL: true
             axisX: ValuesAxis {
                 id: axisX
                 min: 0
-                max: 10
+                max: 100
                 tickCount: 11
-                labelFormat: "%.0f"
             }
             axisY: ValuesAxis {
                 id: axisY
@@ -119,11 +42,24 @@ ApplicationWindow {
             }
         }
 
-        Connections {
-            target: sineWaveGenerator
-            onNewPoint: {
-                // console.log("Signal received in Connections element"); // 调试信息
-                handleNewPoint(x, y);
+        Timer {
+            interval: 50 // 增加此值，会将曲线的更新频率变慢
+            running: true
+            repeat: true
+            property real phase: 0
+            onTriggered: {
+                var sampleCount = 1000 // 增加采样的点数，更好捕抓
+                var frequency = 0.5
+                lineSeries.clear()
+                chartView.pointsData = []  // 清空保存的数据
+                for (var i = 0; i < sampleCount; ++i) {
+                    var y = Math.sin(frequency * (i + phase) * Math.PI / 25)
+                    lineSeries.append(i, y)
+                    chartView.pointsData.push({x: i, y: y})  // 保存每个点的数据
+                }
+                phase += 1 // 减小相位增量，减慢曲线移动速度（减少之后，曲线变得更加丝滑）
+                if (phase >= sampleCount)
+                    phase -= sampleCount
             }
         }
 
@@ -138,7 +74,7 @@ ApplicationWindow {
                 var yVal = Math.sin(xVal * Math.PI / 50)  // 计算正弦波 y 值
 
                 // 设定一个捕捉阈值，当鼠标接近曲线点时才显示坐标
-                var threshold = 50  // 像素为单位
+                var threshold = 50  // 像素为单位（增加捕抓阀值，便于捕抓到曲线上的点）
                 var closestPoint = null
                 var closestDistance = Number.MAX_VALUE
                 var pointPos = null;  // 提前声明 pointPos 变量
@@ -166,7 +102,7 @@ ApplicationWindow {
                     tooltip.x = crosshairCanvas.crosshairX + 10
                     tooltip.y = crosshairCanvas.crosshairY - 30
                     // toFiexed()限制坐标的浮点数位置，toFixed(2)的意思是只显示小数点后两位
-                    tooltip.text = "x: " + closestPoint.x.toFixed(2) + "\n" + "y: " + closestPoint.y.toFixed(2) // 显示最近点的坐标
+                    tooltip.text = "x: " + closestPoint.x.toFixed(2) + "\n" + "y: " + closestPoint.y.toFixed(2)
                     tooltip.visible = true
                 } else {
                     // 如果没有找到匹配点，隐藏十字光标和提示框
@@ -233,54 +169,95 @@ ApplicationWindow {
 
 ```
 
-# 三、CMakeLists.txt
-```cmake
-cmake_minimum_required(VERSION 3.16)
-
-project(sin_Line VERSION 0.1 LANGUAGES CXX)
-
-set(CMAKE_CXX_STANDARD_REQUIRED ON)
-
-find_package(Qt6 6.5 REQUIRED COMPONENTS Quick Charts)
-
-qt_standard_project_setup(REQUIRES 6.5)
-
-qt_add_executable(appsin_Line
-    main.cpp
-)
-
-qt_add_qml_module(appsin_Line
-    URI sin_Line
-    VERSION 1.0
-    QML_FILES
-        Main.qml
-)
-
-# Qt for iOS sets MACOSX_BUNDLE_GUI_IDENTIFIER automatically since Qt 6.1.
-# If you are developing for iOS or macOS you should consider setting an
-# explicit, fixed bundle identifier manually though.
-set_target_properties(appsin_Line PROPERTIES
-#    MACOSX_BUNDLE_GUI_IDENTIFIER com.example.appsin_Line
-    MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}
-    MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
-    MACOSX_BUNDLE TRUE
-    WIN32_EXECUTABLE TRUE
-)
-
-target_link_libraries(appsin_Line
-    PRIVATE Qt6::Quick Qt6::Charts
-)
-
-include(GNUInstallDirs)
-install(TARGETS appsin_Line
-    BUNDLE DESTINATION .
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
-)
-
-```
-
-# 四、细节补充
+# 二、调整参数，优化捕抓
 ---
-## 4.1、
+## 方法 1: 减少相位增量`phase`
+通过减小 `Timer` 中 `phase` 的增量，可以让曲线移动得更慢。比如，将 `phase` 的增量从 `5` 调整为更小的值，如 `1`。
+```java
+Timer {
+    interval: 50
+    running: true
+    repeat: true
+    property real phase: 0
+    onTriggered: {
+        var sampleCount = 100
+        var frequency = 0.5
+        lineSeries.clear()
+        chartView.pointsData = []  // 清空保存的数据
+        for (var i = 0; i < sampleCount; ++i) {
+            var y = Math.sin(frequency * (i + phase) * Math.PI / 25)
+            lineSeries.append(i, y)
+            chartView.pointsData.push({x: i, y: y})  // 保存每个点的数据
+        }
+        phase += 1  // 减小相位增量，减慢曲线移动速度
+        if (phase >= sampleCount)
+            phase -= sampleCount
+    }
+}
+```
+## 方法 2: 增大 `interval`
+增大 `Timer` 的 `interval` 值，可以减缓曲线更新的频率。比如，将 `interval` 从 `50` 毫秒增加到 `100` 或 `200` 毫秒。
+```java
+Timer {
+    interval: 50
+    running: true
+    repeat: true
+    property real phase: 0
+    onTriggered: {
+        var sampleCount = 100
+        var frequency = 0.5
+        lineSeries.clear()
+        chartView.pointsData = []  // 清空保存的数据
+        for (var i = 0; i < sampleCount; ++i) {
+            var y = Math.sin(frequency * (i + phase) * Math.PI / 25)
+            lineSeries.append(i, y)
+            chartView.pointsData.push({x: i, y: y})  // 保存每个点的数据
+        }
+        phase += 1  // 减小相位增量，减慢曲线移动速度
+        if (phase >= sampleCount)
+            phase -= sampleCount
+    }
+}
+```
+## 方法 3: 增加数据点数`sampleCount`
+通过增加采样点数，可以使曲线在同样的 `x` 范围内更加平滑，便于捕捉。将 `sampleCount` 从 `100` 增加到 `200` 或更高。
+```java
+Timer {
+    interval: 50
+    running: true
+    repeat: true
+    property real phase: 0
+    onTriggered: {
+        var sampleCount = 200  // 增加采样点数，减缓曲线的变化
+        var frequency = 0.5
+        lineSeries.clear()
+        chartView.pointsData = []
+        for (var i = 0; i < sampleCount; ++i) {
+            var y = Math.sin(frequency * (i + phase) * Math.PI / 25)
+            lineSeries.append(i, y)
+            chartView.pointsData.push({x: i, y: y})
+        }
+        phase += 1
+        if (phase >= sampleCount)
+            phase -= sampleCount
+    }
+}
+```
+## 方法 4: 鼠标捕捉点改进
+你还可以增加捕捉点的阈值，允许鼠标更容易捕捉到曲线上的点。例如，将 `threshold` 从 `10` 增加到 `15` 或 `20`，使鼠标捕捉更加灵敏。
+```java
+var threshold = 20  // 增大捕捉阈值，便于捕捉到曲线上的点
+```
+## 总结
+- 减小 `phase` 增量、增大 `Timer` 间隔，或者增加采样点数，都会使曲线移动得更加平滑和缓慢。
+- 增大捕捉点的阈值可以使鼠标更容易捕捉到曲线上的点，提升交互体验。
+
+
+
+
+
+
+
+
+
 
