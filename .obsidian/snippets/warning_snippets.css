@@ -5,7 +5,7 @@
     padding: 10px; /* 内边距 */
     margin: 10px 0; /* 上下边距 */
     border-radius: 4px; /* 圆角 */
-    font-weight: bold; /* 加粗文字 */
-    color: #fbc02d; /* 字体颜色为黄色 */
+    font-weight: normal; /* 加粗文字 */
+    color: #000; /* 字体颜色为黄色 */
 }
 

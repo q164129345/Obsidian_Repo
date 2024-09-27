@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
-                "mode": "preview",
+                "file": "知识库/软件开发/QT/QML6 - 组件.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/软件开发/QT/QML6 - 组件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/Maps/QT汇总.md",
+                "file": "知识库/软件开发/QT/QML6 - 组件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/QT汇总.md"
+                "file": "知识库/软件开发/QT/QML6 - 组件.md"
               }
             }
           },
@@ -163,6 +163,11 @@
   },
   "active": "4c2daf8dac235608",
   "lastOpenFiles": [
+    "README.md",
+    "知识库/软件开发/QT/QML6 - 组件.md",
+    "附件存放/Pasted image 20240927120102.png",
+    "附件存放/Pasted image 20240927115647.png",
+    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽01 - UI界面点击button控件，触发C++类的某个方法.md",
     "知识库/软件开发/QT/QML6 - Windows控件.md",
     "知识库/软件开发/QT/QML6 - TabBar与TabButton.md",
@@ -186,9 +191,6 @@
     "知识库/软件开发/QT/QML6 - 布局与定位06 - StackLayout堆栈布局.md",
     "知识库/软件开发/QT/QML6 - 布局与定位02 - Row 与 Column布局.md",
     "知识库/软件开发/QT/QML6 - 布局与定位01 - 锚点布局.md",
-    "知识库/Maps/QT汇总.md",
-    "知识库/Maps/STM32汇总.md",
-    "README.md",
     "未命名.canvas",
     "附件存放/录屏2024-09-22 10.35.45.mov",
     "附件存放/Pasted image 20240921225053.png",
@@ -204,8 +206,6 @@
     "附件存放/Pasted image 20240920154610.png",
     "附件存放/Pasted image 20240920154552.png",
     "附件存放/Pasted image 20240920154539.png",
-    "附件存放/Pasted image 20240920154529.png",
-    "附件存放/Pasted image 20240920154506.png",
     "附件存放/录屏2024-09-19 07.51.21.mov",
     "附件存放/录屏2024-09-19 07.33.21.mov",
     "知识库/软件开发/机器人开发",
