@@ -75,7 +75,7 @@ Item {
     width: 100
     height: 50
 
-    property string text: "Start"
+    property string text: "Start" 
     signal clicked // 定义一个信号
 
     Rectangle { // our inlined button ui
@@ -105,9 +105,35 @@ Item {
 }
 ```
 
+通过Item组件包裹一层后，留给外部的只有两个接口。一个是变量，一个是函数。
+使用 signal 可以更灵活地处理点击事件。我们可以定义一个 clicked 信号，并在 MouseArea 的 onClicked 处理程序中发出该信号。然后，我们可以在外部连接到这个信号来处理点击事件。
+```java
+    property string text: "Start" 
+    signal clicked // 定义一个信号
+```
 
+1. 定义信号：
+```java
+	signal clicked
+```
+这行代码定义了一个名为clicked的信号
+2. 在MouseArea中发出信息：
+```java
+	onClicked: root.clicked()
+```
+这样，点击按钮时会发出clicked信号。
 
+![[Pasted image 20240927142748.png]]
 
-
-
+1. 使用Connections组建：
+```java
+Connections {
+	target: myButton
+	onClicked: {
+		console.log("Button was clicked!");
+		myButton.status.text = "Button clicked via signal!";
+	}
+}
+```
+这段代码将MyButton的clicked信号连接到一个处理程序。当信号发出时，处理程序会执行相应的代码。
 

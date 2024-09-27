@@ -3,6 +3,7 @@
 
 ## 一、QML
 ---
+[[QML6 - 组件]]
 [[QML6 - Windows控件]]
 [[QML6 - Rectangle控件]]
 [[QML6 - TabBar与TabButton]]
