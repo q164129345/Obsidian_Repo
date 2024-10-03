@@ -58,10 +58,6 @@ int main(int argc, char **argv)
 }
 ```
 
-
-
-
-
 # 二、节点topic_subscribe_01
 ```cpp
 #include "rclcpp/rclcpp.hpp"
@@ -118,3 +114,13 @@ int main(int argc, char **argv)
 
 ![[Pasted image 20241003115507.png]]
 使用ros2的强大工具rqt，使用Node Graph插件可以查看节点之间的通讯关系。如上图所示，节点topic_publisher_01发布主题command。节点topic_subscribe_01订阅了主题command。
+
+# 四、细节补充
+---
+## 4.1、同一个话题，所有的发布者和接收者必须使用相同消息接口
+**发布者**
+![[Pasted image 20241003233235.png]]
+
+**订阅者**
+![[Pasted image 20241003233327.png]]
+
