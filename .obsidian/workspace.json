@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/大脑与学习/人为什么要读书？.md",
-                "mode": "source",
+                "file": "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 service、ros2 interface.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/大脑与学习/人为什么要读书？.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 service、ros2 interface.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/大脑与学习/人为什么要读书？.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 service、ros2 interface.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/大脑与学习/人为什么要读书？.md"
+                "file": "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 service、ros2 interface.md"
               }
             }
           },
@@ -163,22 +163,24 @@
   },
   "active": "378d7c46171a2cb4",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241005095854.png",
+    "附件存放/Pasted image 20241005095842.png",
+    "附件存放/Pasted image 20241005094708.png",
+    "附件存放/Pasted image 20241005093645.png",
+    "附件存放/Pasted image 20241005092508.png",
+    "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 topic.md",
+    "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 service、ros2 interface.md",
+    "知识库/大脑与学习/人为什么要读书？.md",
     "附件存放/1501589076-1-192.mp4",
     "知识库/软件开发/机器人开发/ROS2 - 用C++创建发布者节点与订阅者节点.md",
-    "知识库/大脑与学习/人为什么要读书？.md",
     "知识库/大脑与学习",
     "附件存放/Pasted image 20241003233327.png",
     "附件存放/Pasted image 20241003233235.png",
-    "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 topic.md",
     "附件存放/Pasted image 20241003232723.png",
     "知识库/软件开发/机器人开发/ROS2 - 用python创建发布者节点与订阅者节点.md",
     "附件存放/Pasted image 20241003232336.png",
     "附件存放/Pasted image 20241003231833.png",
     "附件存放/Pasted image 20241003231204.png",
-    "附件存放/Pasted image 20241003224133.png",
-    "附件存放/Pasted image 20241003223906.png",
-    "附件存放/Pasted image 20241003223816.png",
-    "附件存放/Pasted image 20241003221153.png",
     "知识库/软件开发/机器人开发/ROS2 - 使用colcon创建C++功能包与python功能包.md",
     "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick,C++ - 使用共享指针在堆上创建一个定时器.md",
@@ -200,7 +202,6 @@
     "知识库/软件开发/QT/QML6 - Charts03 - 梳理ChartView的属性与方法.md",
     "知识库/软件开发/QT/QML6 - Charts02 - 在ChartView同时显示sin波与cos波.md",
     "知识库/软件开发/QT/QML6 - Charts01 - 使用ChartView绘制一个正弦波.md",
-    "知识库/软件开发/QT/QML6 - Button与StackLayout组合使用.md",
     "未命名.canvas",
     "附件存放/录屏2024-09-22 10.35.45.mov",
     "知识库/软件开发/数据结构与算法",
@@ -209,7 +210,6 @@
     "附件存放/录屏 09-05-2024 05_17_58_PM.webm",
     "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
     "附件存放/录屏2024-09-19 07.51.21.mov",
-    "附件存放/录屏2024-09-19 07.33.21.mov",
     "知识库/软件开发/MCU/未命名.canvas"
   ]
 }
