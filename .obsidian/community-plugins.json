@@ -1,4 +1,6 @@
 [
   "mousewheel-image-zoom",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-annotator",
+  "dataview"
 ]
