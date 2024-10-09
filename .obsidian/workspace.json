@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "4f7c4600da8ca3a7",
+        "id": "f0ff1b6cfe3bd052",
         "type": "tabs",
         "children": [
           {
-            "id": "eef1dfed9d4601c4",
+            "id": "378d7c46171a2cb4",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "电子书/Dopamine_Nation_by_Anna_Lembke.md"
+                "file": "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 interface查看官方的标准消息包.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
             }
           }
@@ -67,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 301.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -83,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "电子书/Dopamine_Nation_by_Anna_Lembke.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 interface查看官方的标准消息包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "电子书/Dopamine_Nation_by_Anna_Lembke.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 interface查看官方的标准消息包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电子书/Dopamine_Nation_by_Anna_Lembke.md"
+                "file": "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 interface查看官方的标准消息包.md"
               }
             }
           },
@@ -158,54 +161,55 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57b286174304e95c",
+  "active": "378d7c46171a2cb4",
   "lastOpenFiles": [
-    "电子书/Dopamine_Nation_by_Anna_Lembke_pdf.pdf",
-    "电子书/Dopamine_Nation_by_Anna_Lembke.md",
-    "电子书/Dopamine.md",
-    "README.md",
-    "电子书/Dopamine_Nation_by_Anna_Lembke.md",
-    "知识库/Dopamine.md",
-    "知识库/Maps/开发工具汇总.md",
-    "附件存放/Pasted image 20241005095854.png",
-    "附件存放/Pasted image 20241005095842.png",
-    "附件存放/Pasted image 20241005094708.png",
-    "附件存放/Pasted image 20241005093645.png",
-    "附件存放/Pasted image 20241005092508.png",
-    "附件存放/Pasted image 20241003233327.png",
-    "附件存放/Pasted image 20241003233235.png",
-    "附件存放/Pasted image 20241003232723.png",
-    "附件存放/Pasted image 20241003232336.png",
-    "知识库/开发工具/cursor - 有用的提示词01.md",
-    "附件存放/Pasted image 20241003231833.png",
-    "附件存放/1501589076-1-192.mp4",
-    "知识库/软件开发/现代C++/C++ - 共享指针.md",
-    "知识库/软件开发/现代C++",
-    "知识库/软件开发/机器人开发/ROS2 - 用python创建发布者节点与订阅者节点.md",
-    "知识库/软件开发/机器人开发/ROS2 - 用C++创建发布者节点与订阅者节点.md",
-    "知识库/软件开发/机器人开发/ROS2 - 使用colcon创建C++功能包与python功能包.md",
-    "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 topic.md",
+    "附件存放/Pasted image 20241009083718.png",
+    "附件存放/Pasted image 20241009083347.png",
+    "附件存放/Pasted image 20241009083200.png",
+    "附件存放/Pasted image 20241009082056.png",
+    "附件存放/Pasted image 20241009081758.png",
+    "附件存放/Pasted image 20241009081143.png",
+    "附件存放/Pasted image 20241009080735.png",
+    "知识库/Maps/机器人开发汇总.md",
+    "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 interface查看官方的标准消息包.md",
+    "附件存放/Pasted image 20241009075429.png",
+    "附件存放/Pasted image 20241009075404.png",
+    "附件存放/Pasted image 20241009075312.png",
+    "附件存放/Pasted image 20241009075023.png",
     "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 service、ros2 interface.md",
-    "知识库/软件开发/开发工具/vscode - 解决IntelliSense没有正常工作.md",
-    "知识库/软件开发/开发工具/oh_my_zsh使用汇总.md",
-    "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
-    "知识库/软件开发/开发工具",
-    "知识库/软件开发/QT/QT Quick,C++ - 使用共享指针在堆上创建一个定时器.md",
+    "知识库/软件开发/机器人开发/ROS2 - 为什么要在终端执行source.md",
+    "电子书/Dopamine_Nation_by_Anna_Lembke.md",
+    "知识库/软件开发/机器人开发/ROS2 - CLI工具之ros2 topic.md",
     "知识库/大脑与学习/人为什么要读书？.md",
+    "附件存放/1501589076-1-192.mp4",
+    "知识库/软件开发/机器人开发/ROS2 - 用C++创建发布者节点与订阅者节点.md",
     "知识库/大脑与学习",
+    "知识库/软件开发/机器人开发/ROS2 - 用python创建发布者节点与订阅者节点.md",
+    "知识库/软件开发/机器人开发/ROS2 - 使用colcon创建C++功能包与python功能包.md",
     "知识库/Maps/QT汇总.md",
+    "知识库/软件开发/QT/QT Quick,C++ - 使用共享指针在堆上创建一个定时器.md",
+    "知识库/软件开发/现代C++/C++ - 共享指针.md",
+    "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+    "知识库/软件开发/现代C++",
     "知识库/软件开发/QT/QML6 - 组件.md",
+    "README.md",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽01 - UI界面点击button控件，触发C++类的某个方法.md",
     "知识库/软件开发/QT/QML6 - Windows控件.md",
     "知识库/软件开发/QT/QML6 - TabBar与TabButton.md",
     "知识库/软件开发/QT/QML6 - Rectangle控件.md",
     "知识库/软件开发/QT/QML6 - Charts09 - sin波形在C++生成，传递给QML显示出来.md",
+    "知识库/软件开发/QT/QML6 - Charts08 - pyside6,使用ChartView绘制一个正弦波.md",
+    "知识库/软件开发/QT/QML6 - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
+    "知识库/软件开发/QT/QML6 - Charts06 - 让X轴随着时间移动，递增.md",
+    "知识库/软件开发/QT/QML6 - Charts05 - 增加十字光标，捕抓曲线并显示坐标.md",
     "未命名.canvas",
     "附件存放/录屏2024-09-22 10.35.45.mov",
     "知识库/软件开发/数据结构与算法",
     "附件存放/录屏 09-09-2024 09_31_46_PM.webm",
     "知识库/开发工具/oh_my_zsh",
     "附件存放/录屏 09-05-2024 05_17_58_PM.webm",
+    "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
+    "附件存放/录屏2024-09-19 07.51.21.mov",
     "知识库/软件开发/MCU/未命名.canvas"
   ]
 }
