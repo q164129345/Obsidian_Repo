@@ -43,7 +43,7 @@ int main() {
 **优点：**
 - 使用 `std::make_shared` 能减少两次内存分配的开销（一次为对象，一次为引用计数），而直接使用 `new` 则可能需要两次分配。
 - 它还避免了创建智能指针时抛出异常的潜在风险。
-
+<br>
 ## 1.2、特别注意std::shared_ptr循环引用问题
 ```Cpp
 #include <iostream>
@@ -100,6 +100,64 @@ int main() {
 }
 
 ```
-
+<br>
 ## 1.3、使`std::shared_ptr`管理的对象或资源线程安全
 如果多个线程同时拷贝同一个 shared_ptr 对象，不会有问题，因为 shared_ptr 的引用计数是线程安全的。但是如果多个线程同时修改同一个 shared_ptr 对象，不是线程安全的。因此，如果多个线程同时访问同一个 shared_ptr 对象，并且有写操作，需要使用互斥量来保护。
+<br>
+## 1.4、如何访问 `std::weak_ptr` 引用的对象？
+```cpp
+#include <QCoreApplication>
+
+struct B;
+
+struct A {
+    std::shared_ptr<B> ptrB;
+    ~A(){ qDebug() << "A Destroyed";}
+    void sayHello() {qDebug() << " I am A";}
+};
+
+struct B {
+    std::weak_ptr<A> ptrA;
+    ~B() { qDebug() << "B Destroyed";}
+    void sayHello() {qDebug() << " I am B";}
+};
+
+
+int main(int argc, char *argv[])
+{
+    QCoreApplication a(argc, argv);
+
+    auto p1 = std::make_shared<int> (100); // 在堆里创建int变量，并赋值100
+    {
+        std::shared_ptr<int> p2 = p1; // 引用指针
+        qDebug() << "p1.use_count:" << p1.use_count() << "p1: " << *p1 << " p2: " << *p2;
+    }
+    qDebug() << "p1.use_count:" << p1.use_count();
+
+    // 因为share_ptr的循环引用，导致
+    {
+        auto a1 = std::make_shared<A>();
+        auto b1 = std::make_shared<B>();
+        a1->ptrB = b1;
+        b1->ptrA = a1;
+
+		// 访问std::weak_ptr变量
+        if (auto shareA = b1->ptrA.lock()) {
+            qDebug() << "Accessing A through weak_ptr";
+            shareA->sayHello();
+        } else {
+            qDebug() << "A has been destroyed";
+        }
+
+    }
+
+    return a.exec();
+}
+```
+运行的结果如下：
+![[Pasted image 20241010120142.png]]
+<br>
+## 1.5、为什么 `std::weak_ptr` 不能直接访问对象？
+`std::weak_ptr` 不能直接访问对象的原因在于，它是一种非拥有性引用，不增加引用计数，也不对对象的生命周期进行管理。因此，`std::weak_ptr` 本身无法保证被引用对象在访问时仍然存在。为了安全地访问对象，必须将 `std::weak_ptr` 转换为 `std::shared_ptr`，这样才能确保访问对象时引用计数增加，避免对象在访问过程中被销毁。
+
+
