@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f0ff1b6cfe3bd052",
+        "id": "109b34ae74f83b2e",
         "type": "tabs",
         "children": [
           {
-            "id": "378d7c46171a2cb4",
+            "id": "2b22901646d79740",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
+                "file": "知识库/人生与职场/面试 - 薪资谈判.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 446.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
+                "file": "知识库/人生与职场/面试 - 薪资谈判.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
+                "file": "知识库/人生与职场/面试 - 薪资谈判.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md"
+                "file": "知识库/人生与职场/面试 - 薪资谈判.md"
               }
             }
           },
@@ -147,7 +147,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5
+    "width": 271.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,12 +161,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "378d7c46171a2cb4",
+  "active": "2b22901646d79740",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20241010120142.png",
-    "知识库/软件开发/现代C++/C++智能指针 - std：：unique_ptr与std：：share_ptr的区别.md",
+    "附件存放/1618789624-1-16 (1).mp4",
+    "知识库/人生与职场/面试 - 关键技巧.md",
+    "知识库/人生与职场/面试 - 薪资谈判.md",
+    "附件存放/1548929709-1-16.mp4",
+    "知识库/Maps/机器人开发汇总.md",
+    "知识库/人生与职场",
+    "知识库/软件开发/机器人开发/ROS2 - 话题 - 用python创建发布者节点与订阅者节点.md",
+    "ROS2 - 用C++创建发布者节点与订阅者节点.md",
+    "知识库/Maps/ESP32开发汇总.md",
     "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
-    "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验话题的使用.md",
+    "知识库/软件开发/现代C++/C++智能指针 - std：：unique_ptr与std：：share_ptr的区别.md",
+    "知识库/软件开发/现代C++",
+    "知识库/软件开发/开发工具/vscode - 解决IntelliSense没有正常工作.md",
+    "知识库/软件开发/开发工具/oh_my_zsh使用汇总.md",
+    "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
+    "知识库/软件开发/开发工具",
+    "知识库/大脑与学习/人为什么要读书？.md",
+    "知识库/大脑与学习",
+    "附件存放/Pasted image 20241010120142.png",
     "附件存放/Pasted image 20241010082951.png",
     "附件存放/Pasted image 20241010082409.png",
     "附件存放/Pasted image 20241010082014.png",
@@ -175,41 +190,26 @@
     "附件存放/Pasted image 20241010081255.png",
     "附件存放/Pasted image 20241010080629.png",
     "附件存放/Pasted image 20241010075826.png",
-    "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 service、ros2 interface.md",
-    "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 topic.md",
-    "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 interface查看官方的标准消息包.md",
-    "知识库/软件开发/机器人开发/ROS2 - 为什么要在终端执行source.md",
-    "知识库/软件开发/机器人开发/ROS2 - 使用colcon创建C++功能包与python功能包.md",
-    "知识库/软件开发/机器人开发/ROS2 - 话题 - 用python创建发布者节点与订阅者节点.md",
-    "知识库/软件开发/机器人开发/ROS2 - 话题 - 用C++创建发布者节点与订阅者节点.md",
-    "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务的使用.md",
-    "知识库/软件开发/机器人开发/差速轮运动学解算.md",
-    "知识库/Maps/机器人开发汇总.md",
-    "README.md",
     "附件存放/Pasted image 20241009083718.png",
-    "附件存放/Pasted image 20241009083347.png",
-    "电子书/Dopamine_Nation_by_Anna_Lembke.md",
-    "知识库/大脑与学习/人为什么要读书？.md",
     "附件存放/1501589076-1-192.mp4",
-    "知识库/大脑与学习",
-    "知识库/Maps/QT汇总.md",
-    "知识库/软件开发/QT/QT Quick,C++ - 使用共享指针在堆上创建一个定时器.md",
-    "知识库/软件开发/现代C++/C++ - 共享指针.md",
-    "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
-    "知识库/软件开发/现代C++",
-    "知识库/软件开发/QT/QML6 - 组件.md",
-    "知识库/软件开发/QT/QT Quick,C++ - 信号与槽01 - UI界面点击button控件，触发C++类的某个方法.md",
-    "知识库/软件开发/QT/QML6 - Windows控件.md",
-    "知识库/软件开发/QT/QML6 - TabBar与TabButton.md",
-    "知识库/软件开发/QT/QML6 - Rectangle控件.md",
-    "未命名.canvas",
+    "知识库/开发工具/cursor - 有用的提示词01.md",
+    "知识库/Maps/开发工具汇总.md",
+    "知识库/开发工具/vscode - 解决IntelliSense没有正常工作.md",
+    "知识库/开发工具/oh_my_zsh使用汇总.md",
+    "vscode - 解决IntelliSense没有正常工作.md",
+    "知识库/软件开发/QT/QT Quick - Charts09 - sin波形在C++生成，传递给QML显示出来.md",
+    "知识库/软件开发/QT/QT Quick - Charts08 - pyside6,使用ChartView绘制一个正弦波.md",
     "附件存放/录屏2024-09-22 10.35.45.mov",
+    "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
+    "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
+    "知识库/Maps/QT汇总.md",
+    "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
+    "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+    "知识库/Maps/数据结构与算法汇总.md",
     "知识库/软件开发/数据结构与算法",
     "附件存放/录屏 09-09-2024 09_31_46_PM.webm",
     "知识库/开发工具/oh_my_zsh",
-    "附件存放/录屏 09-05-2024 05_17_58_PM.webm",
-    "附件存放/录屏 07-29-2024 10_06_01 AM.webm",
-    "附件存放/录屏2024-09-19 07.51.21.mov",
-    "知识库/软件开发/MCU/未命名.canvas"
+    "知识库/软件开发/MCU/未命名.canvas",
+    "未命名.canvas"
   ]
 }
