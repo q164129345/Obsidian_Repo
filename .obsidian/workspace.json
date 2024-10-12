@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md",
+                "file": "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md",
+                "file": "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md",
+                "file": "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md"
+                "file": "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md"
               }
             }
           },
@@ -163,14 +163,20 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20241012144429.png",
-    "附件存放/Pasted image 20241012144405.png",
-    "附件存放/Pasted image 20241012142817.png",
-    "附件存放/Pasted image 20241012142652.png",
-    "知识库/硬件开发/电机控制/电机理论 - 无刷电机概论.md",
-    "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md",
-    "附件存放/Pasted image 20241012142543.png",
-    "附件存放/Pasted image 20241012142516.png",
+    "附件存放/Pasted image 20241012165046.png",
+    "附件存放/Pasted image 20241012165027.png",
+    "附件存放/Pasted image 20241012165005.png",
+    "附件存放/Pasted image 20241012164936.png",
+    "附件存放/Pasted image 20241012164837.png",
+    "附件存放/Pasted image 20241012164748.png",
+    "附件存放/Pasted image 20241012164730.png",
+    "附件存放/Pasted image 20241012164716.png",
+    "附件存放/Pasted image 20241012164704.png",
+    "附件存放/Pasted image 20241012164625.png",
+    "附件存放/Pasted image 20241012164327.png",
+    "知识库/硬件开发/电机控制/电机控制理论 - 无刷电机硬件控制原理.md",
+    "知识库/硬件开发/电机控制/电机控制理论 - 无刷电机概论.md",
+    "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md",
     "知识库/人生与职场/面试 - 薪资谈判.md",
     "知识库/硬件开发/电机控制/未命名",
     "知识库/硬件开发/电机控制",
@@ -192,11 +198,6 @@
     "知识库/软件开发/开发工具",
     "知识库/大脑与学习/人为什么要读书？.md",
     "知识库/大脑与学习",
-    "附件存放/Pasted image 20241010120142.png",
-    "附件存放/Pasted image 20241010082951.png",
-    "附件存放/Pasted image 20241010082409.png",
-    "附件存放/Pasted image 20241010082014.png",
-    "附件存放/Pasted image 20241010081744.png",
     "附件存放/1501589076-1-192.mp4",
     "知识库/开发工具/cursor - 有用的提示词01.md",
     "知识库/Maps/开发工具汇总.md",
@@ -208,7 +209,6 @@
     "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
     "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
     "知识库/Maps/QT汇总.md",
-    "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
