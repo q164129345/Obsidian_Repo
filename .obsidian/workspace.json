@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/人生与职场/面试 - 薪资谈判.md",
+                "file": "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/人生与职场/面试 - 薪资谈判.md",
+                "file": "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/人生与职场/面试 - 薪资谈判.md",
+                "file": "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/人生与职场/面试 - 薪资谈判.md"
+                "file": "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md"
               }
             }
           },
@@ -163,9 +163,20 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241012144429.png",
+    "附件存放/Pasted image 20241012144405.png",
+    "附件存放/Pasted image 20241012142817.png",
+    "附件存放/Pasted image 20241012142652.png",
+    "知识库/硬件开发/电机控制/电机理论 - 无刷电机概论.md",
+    "知识库/硬件开发/电机控制/电机理论 - 无刷电机硬件控制原理.md",
+    "附件存放/Pasted image 20241012142543.png",
+    "附件存放/Pasted image 20241012142516.png",
+    "知识库/人生与职场/面试 - 薪资谈判.md",
+    "知识库/硬件开发/电机控制/未命名",
+    "知识库/硬件开发/电机控制",
+    "知识库/硬件开发/PCB设计",
     "附件存放/1618789624-1-16 (1).mp4",
     "知识库/人生与职场/面试 - 关键技巧.md",
-    "知识库/人生与职场/面试 - 薪资谈判.md",
     "附件存放/1548929709-1-16.mp4",
     "知识库/Maps/机器人开发汇总.md",
     "知识库/人生与职场",
@@ -186,11 +197,6 @@
     "附件存放/Pasted image 20241010082409.png",
     "附件存放/Pasted image 20241010082014.png",
     "附件存放/Pasted image 20241010081744.png",
-    "附件存放/Pasted image 20241010081349.png",
-    "附件存放/Pasted image 20241010081255.png",
-    "附件存放/Pasted image 20241010080629.png",
-    "附件存放/Pasted image 20241010075826.png",
-    "附件存放/Pasted image 20241009083718.png",
     "附件存放/1501589076-1-192.mp4",
     "知识库/开发工具/cursor - 有用的提示词01.md",
     "知识库/Maps/开发工具汇总.md",
@@ -199,16 +205,10 @@
     "vscode - 解决IntelliSense没有正常工作.md",
     "知识库/软件开发/QT/QT Quick - Charts09 - sin波形在C++生成，传递给QML显示出来.md",
     "知识库/软件开发/QT/QT Quick - Charts08 - pyside6,使用ChartView绘制一个正弦波.md",
-    "附件存放/录屏2024-09-22 10.35.45.mov",
     "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
     "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
     "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick - Charts07 - sin、cos曲线支持鼠标捕获、显示坐标.md",
-    "知识库/软件开发/QT/QT Quick,C++ - 信号与槽03 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
-    "知识库/Maps/数据结构与算法汇总.md",
-    "知识库/软件开发/数据结构与算法",
-    "附件存放/录屏 09-09-2024 09_31_46_PM.webm",
-    "知识库/开发工具/oh_my_zsh",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
