@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务的使用.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 446.5
+    "width": 288.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务的使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md"
+                "file": "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务的使用.md"
               }
             }
           },
@@ -163,20 +163,24 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20241012165046.png",
-    "附件存放/Pasted image 20241012165027.png",
-    "附件存放/Pasted image 20241012165005.png",
-    "附件存放/Pasted image 20241012164936.png",
-    "附件存放/Pasted image 20241012164837.png",
-    "附件存放/Pasted image 20241012164748.png",
-    "附件存放/Pasted image 20241012164730.png",
-    "附件存放/Pasted image 20241012164716.png",
-    "附件存放/Pasted image 20241012164704.png",
-    "附件存放/Pasted image 20241012164625.png",
-    "附件存放/Pasted image 20241012164327.png",
+    "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验话题的使用.md",
+    "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务的使用.md",
+    "附件存放/Pasted image 20241014163506.png",
+    "附件存放/Pasted image 20241014163237.png",
+    "附件存放/Pasted image 20241014163159.png",
+    "附件存放/Pasted image 20241014163039.png",
+    "附件存放/Pasted image 20241014162724.png",
+    "附件存放/Pasted image 20241014162404.png",
+    "附件存放/Pasted image 20241014162035.png",
+    "附件存放/Pasted image 20241014161720.png",
+    "附件存放/Pasted image 20241014161553.png",
+    "附件存放/Pasted image 20241014161342.png",
+    "知识库/Maps/机器人开发汇总.md",
+    "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 topic.md",
+    "知识库/软件开发/机器人开发/ROS2 - 为什么要在终端执行source.md",
     "知识库/硬件开发/电机控制/电机控制理论 - 无刷电机硬件控制原理.md",
-    "知识库/硬件开发/电机控制/电机控制理论 - 无刷电机概论.md",
     "知识库/硬件开发/电机控制/电机控制理论 - FOC控制原理.md",
+    "知识库/硬件开发/电机控制/电机控制理论 - 无刷电机概论.md",
     "知识库/人生与职场/面试 - 薪资谈判.md",
     "知识库/硬件开发/电机控制/未命名",
     "知识库/硬件开发/电机控制",
@@ -184,7 +188,6 @@
     "附件存放/1618789624-1-16 (1).mp4",
     "知识库/人生与职场/面试 - 关键技巧.md",
     "附件存放/1548929709-1-16.mp4",
-    "知识库/Maps/机器人开发汇总.md",
     "知识库/人生与职场",
     "知识库/软件开发/机器人开发/ROS2 - 话题 - 用python创建发布者节点与订阅者节点.md",
     "ROS2 - 用C++创建发布者节点与订阅者节点.md",
@@ -205,10 +208,6 @@
     "知识库/开发工具/oh_my_zsh使用汇总.md",
     "vscode - 解决IntelliSense没有正常工作.md",
     "知识库/软件开发/QT/QT Quick - Charts09 - sin波形在C++生成，传递给QML显示出来.md",
-    "知识库/软件开发/QT/QT Quick - Charts08 - pyside6,使用ChartView绘制一个正弦波.md",
-    "知识库/软件开发/QT/QT Quick - Charts06 - 让X轴随着时间移动，递增.md",
-    "知识库/软件开发/QT/QT Quick - Charts01 - 使用ChartView绘制一个正弦波.md",
-    "知识库/Maps/QT汇总.md",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
