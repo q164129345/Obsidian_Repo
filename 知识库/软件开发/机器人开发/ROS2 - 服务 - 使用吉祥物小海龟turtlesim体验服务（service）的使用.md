@@ -1,5 +1,8 @@
 # 导言
 ---
+![[Service-SingleServiceClient.gif]]
+![[Service-MultipleServiceClient.gif]]
+
 **服务（Service）**
 - **请求/响应模型**：服务采用客户端和服务器的通信模型。客户端发送请求，服务器处理后返回响应。
 - **同步通信**：客户端在发送请求后，会等待服务器的响应。这意味着通信是同步的，客户端需要等待操作完成。

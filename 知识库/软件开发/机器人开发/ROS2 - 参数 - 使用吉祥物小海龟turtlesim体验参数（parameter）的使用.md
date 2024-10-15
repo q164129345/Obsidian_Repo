@@ -1,5 +1,7 @@
 # 导言
 ---
+官方文档：https://fishros.org/doc/ros2/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
+
 在ROS2（Robot Operating System 2）中，**参数（Parameters）** 是一种用于配置节点行为的机制。参数的引入旨在提高系统的灵活性和可配置性，使得节点的行为可以在运行时动态调整，而无需修改代码或重新编译。
 
 **参数的目的**
