@@ -69,3 +69,30 @@ float32 remaining
 
 ```
 
+# 六、发送一个动作目标ros2 action send_goal
+---
+跟话题、服务、参数一样，动作也可以通过命令行直接控制，使用公式：`ros2 action send_goal <action_name> <action_type> <values>`。
+一开始，乌龟的头向左边，如下图所示：
+![[Pasted image 20241016075118.png | 500]]
+<br>
+接着，使用如下命令：
+```shell
+ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: 1.57}"
+```
+可以看到，小乌龟开始转动，直到头往上。从命令行上看也有结果反馈。
+![[Pasted image 20241016075507.png]]
+<br>
+## 在命令行增加 --feedback
+通过增加--feedback，可以让动作服务端持续发送运动过程信息，直到动作结束。
+```shell
+ros2 action send_goal /turtle1/rotate_absolute turtlesim/action/RotateAbsolute "{theta: -1.57}" --feedback
+```
+![[Pasted image 20241016080049.png | 800]]
+
+<br>
+
+# 七、总结
+---
+动作类似于服务，允许您执行长时间运行的任务，提供定期反馈，并可取消。
+一个机器人系统可能会使用动作进行导航。一个动作目标可以告诉机器人前往一个位置。当机器人导航到该位置时，它可以沿途发送更新（即反馈），然后在到达目的地后发送最终结果消息。
+Turtlesim具有一个动作服务器，动作客户端可以向其发送旋转乌龟的目标。在本教程中，您可以内省该动作``/turtle1/rotate_absolute``，以更好地了解动作是什么以及它们是如何工作的。
