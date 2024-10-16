@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验动作（action）的使用.md",
-                "mode": "preview",
+                "file": "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               }
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5
+    "width": 334.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验动作（action）的使用.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验动作（action）的使用.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验动作（action）的使用.md"
+                "file": "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md"
               }
             }
           },
@@ -163,8 +163,7 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
-    "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md",
-    "README.md",
+    "附件存放/Pasted image 20241016154306.png",
     "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验动作（action）的使用.md",
     "附件存放/Pasted image 20241016080049.png",
     "附件存放/Pasted image 20241016075507.png",
@@ -174,12 +173,15 @@
     "附件存放/Pasted image 20241016000250.png",
     "附件存放/Pasted image 20241015235655.png",
     "附件存放/Pasted image 20241015234310.png",
-    "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务（service）的使用.md",
-    "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验话题（topic）的使用.md",
-    "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 interface查看官方的标准消息包.md",
     "附件存放/Pasted image 20241015233752.png",
     "附件存放/Pasted image 20241015233519.png",
-    "知识库/软件开发/机器人开发/ROS2 - 话题 - 用C++创建发布者节点与订阅者节点.md",
+    "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数的使用.md",
+    "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验话题（topic）的使用.md",
+    "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务（service）的使用.md",
+    "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md",
+    "README.md",
+    "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务的使用.md",
+    "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验话题的使用.md",
     "知识库/Maps/机器人开发汇总.md",
     "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 topic.md",
     "知识库/软件开发/机器人开发/ROS2 - 为什么要在终端执行source.md",
@@ -207,7 +209,6 @@
     "知识库/大脑与学习/人为什么要读书？.md",
     "知识库/大脑与学习",
     "附件存放/1501589076-1-192.mp4",
-    "知识库/开发工具/cursor - 有用的提示词01.md",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]

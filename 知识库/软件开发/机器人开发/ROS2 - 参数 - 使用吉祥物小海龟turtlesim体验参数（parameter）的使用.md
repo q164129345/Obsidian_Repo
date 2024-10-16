@@ -60,4 +60,8 @@ turtlesim.yaml的内容如下图：
 接着，通过导入刚才导出来的turtlesim.yaml。最后，背景颜色变化了，在终端上看到很多`successful`的字眼，证明导入参数成功了。
 ![[Pasted image 20241014210349.png]]
 
+## 1.6、启动节点时，同时导入参数
+普通启动小乌龟节点：`ros2 run turtlesim turtlesim_node`
+启动节点 + 导入参数：`ros2 run turtlesim turtlesim_node --ros-args --params-file turtlesim.yaml`，如下图所示，启动节点时背景颜色已经变化了。
+![[Pasted image 20241016154306.png | 800]]
 
