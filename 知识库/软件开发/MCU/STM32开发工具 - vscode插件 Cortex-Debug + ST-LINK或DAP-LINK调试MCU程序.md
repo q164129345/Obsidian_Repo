@@ -76,7 +76,12 @@ svdFile在刚创建工程的时候，并没有的。在芯片支持包那里安�
 ![[Pasted image 20240820143238.png]]
 
 ## 3.3、J-LINK
-如下图所示，J-LINK需要特别增加`"device"`字段。
+如下图所示，J-LINK需要额外增加以下字段：
+- `"device"` - 根据芯片型号填写，我当前用APM32F103CBT6；
 ![[Pasted image 20241022134834.png]]
+
+
+
+
 
 
