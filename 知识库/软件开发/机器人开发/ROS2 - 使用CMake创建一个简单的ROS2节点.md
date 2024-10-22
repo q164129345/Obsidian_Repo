@@ -99,7 +99,7 @@ target_link_libraries(basic_cpp rclcpp::rclcpp)
 
 ![[Pasted image 20241023012121.png]]
 
-## 2.2.1、find_package的原理
+### 2.2.1、find_package的原理
 以下摘自鱼香ROS2教程:https://fishros.com/d2lros2/#/humble/chapt2/basic/4.CMake%E4%BE%9D%E8%B5%96%E6%9F%A5%E6%89%BE%E6%B5%81%E7%A8%8B
 ![[Pasted image 20241023012327.png]]
 
