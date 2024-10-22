@@ -20,6 +20,7 @@
 [[STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序]]
 [[STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序]]
 [[STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败]]
+[[STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log]]
 ### 四、开源库
 ---
 1. [Ringbuffer](https://github.com/xiaoxinpro/QueueForMcu)

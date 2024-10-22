@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT.md",
+                "file": "知识库/Maps/STM32汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32开发工具 - vscode + Embedded 移植SEGGER RTT"
+              "title": "STM32汇总"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT.md"
+                "file": "知识库/Maps/STM32汇总.md"
               },
               "icon": "lucide-list",
-              "title": "STM32开发工具 - vscode + Embedded 移植SEGGER RTT 的大纲"
+              "title": "STM32汇总 的大纲"
             }
           },
           {
@@ -181,6 +181,9 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
+    "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
+    "知识库/Maps/STM32汇总.md",
     "附件存放/Pasted image 20241022190514.png",
     "附件存放/Pasted image 20241022190458.png",
     "附件存放/Pasted image 20241022190449.png",
@@ -191,13 +194,9 @@
     "附件存放/Pasted image 20241022174045.png",
     "附件存放/Pasted image 20241022173837.png",
     "附件存放/Pasted image 20241022173711.png",
-    "附件存放/Pasted image 20241022173623.png",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT.md",
-    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
