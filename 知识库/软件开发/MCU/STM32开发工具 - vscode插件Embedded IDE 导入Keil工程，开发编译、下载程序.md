@@ -41,6 +41,22 @@ Keil工程编译通过。然后，可以关闭Keil软件，打开vscode继续Emb
 ### 2.2.5、烧录配置
 烧录，根据手上的烧录器来选择即可，我使用ST-LINK V2。
 ![[Pasted image 20240820140939.png]]
-### 2.2.6、下载程序
+### 2.2.6、下载程序(STLINK)
 如下图所示，可以正常下载程序了！！！
 ![[Pasted image 20240820141005.png]]
+### 2.2.7、下载程序(J-LINK)
+首先，到官网下载J-LINK的驱动程序:https://www.segger.com/downloads/jlink/JLink_Windows.exe
+
+将J-LINK接入到PC后，在Windows的设备管理器能看到J-LINK driver，说明驱动正常。如下图所示：
+![[Pasted image 20241022115815.png]]
+
+在EIDE项目里，选择JLink，芯片名称一定要选择，我这一次用的是APM32F103CBT6，如下图所示：
+![[Pasted image 20241022115946.png]]
+
+点击下载，可以看到下载信息；
+![[Pasted image 20241022134228.png | 800]]
+
+
+
+
+
