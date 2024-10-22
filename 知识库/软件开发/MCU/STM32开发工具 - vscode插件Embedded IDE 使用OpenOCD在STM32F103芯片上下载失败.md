@@ -1,6 +1,6 @@
 # 导言
 ---
-[[STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK或DAP-LINK调试MCU程序]]
+[[STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序]]
 在上一篇备忘录介绍使用OpenOCD的stlink-v2.cfg接口下载固件，在STM32F407的项目上很顺利。但是，在stm32f103上会出现下载失败。
 在网上搜了一下，这位博主的文章解决了这个问题: https://www.iotword.com/26738.html
 
