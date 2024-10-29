@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/linux/mosquitto - 在linux上订阅消息、增加时间戳、过滤消息.md",
+                "file": "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/linux/mosquitto - 在linux上订阅消息、增加时间戳、过滤消息.md",
+                "file": "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/linux/mosquitto - 在linux上订阅消息、增加时间戳、过滤消息.md",
+                "file": "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/linux/mosquitto - 在linux上订阅消息、增加时间戳、过滤消息.md"
+                "file": "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md"
               }
             }
           },
@@ -163,26 +163,28 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
-    "知识库/软件开发/linux/oh_my_zsh使用汇总.md",
+    "附件存放/Pasted image 20241029175416.png",
+    "附件存放/Pasted image 20241029175213.png",
+    "附件存放/Pasted image 20241029175038.png",
+    "附件存放/Pasted image 20241029174926.png",
+    "附件存放/Pasted image 20241029174852.png",
+    "附件存放/Pasted image 20241029173351.png",
+    "附件存放/Pasted image 20241029173240.png",
+    "附件存放/Pasted image 20241029173102.png",
+    "附件存放/Pasted image 20241029173010.png",
+    "附件存放/Pasted image 20241029172910.png",
+    "附件存放/Pasted image 20241029172839.png",
+    "知识库/软件开发/linux/ubuntu22.04 - 安装中文输入法，亲自测试，简单，快速.md",
     "知识库/软件开发/linux/mosquitto - 在linux上订阅消息、增加时间戳、过滤消息.md",
-    "附件存放/Pasted image 20241029170128.png",
-    "附件存放/Pasted image 20241029170108.png",
-    "知识库/软件开发/linux/ubuntu22.04 安装中文输入法，亲自测试，简单，快速.md",
+    "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
+    "知识库/软件开发/linux/oh_my_zsh使用汇总.md",
     "知识库/软件开发/开发工具/vscode - 解决IntelliSense没有正常工作.md",
     "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
     "知识库/Maps/开发工具汇总.md",
     "知识库/Maps/未命名.md",
-    "附件存放/Pasted image 20241029165058.png",
-    "附件存放/Pasted image 20241029164713.png",
-    "附件存放/Pasted image 20241029164555.png",
     "知识库/软件开发/linux",
     "知识库/软件开发/机器人开发/ROS2 - 使用CMake创建一个简单的ROS2节点.md",
     "知识库/Maps/机器人开发汇总.md",
-    "附件存放/Pasted image 20241023012327.png",
-    "附件存放/Pasted image 20241023012121.png",
-    "附件存放/Pasted image 20241023011950.png",
-    "附件存放/Pasted image 20241023011714.png",
-    "附件存放/Pasted image 20241023011545.png",
     "README.md",
     "知识库/软件开发/机器人开发/差速轮运动学解算.md",
     "知识库/软件开发/机器人开发/ROS2 - 使用colcon创建C++功能包与python功能包.md",
@@ -198,7 +200,6 @@
     "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验动作（action）的使用.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
     "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验话题（topic）的使用.md",
-    "知识库/硬件开发/电机控制/电机控制理论 - 无刷电机硬件控制原理.md",
     "知识库/硬件开发/电机控制/未命名",
     "知识库/硬件开发/电机控制",
     "知识库/硬件开发/PCB设计",
