@@ -49,3 +49,5 @@ systemctl status brltty
 ## 二、解决方案二
 ---
 ![[Pasted image 20240904195140.png]]
+
+# 三、解决方案三 - 重启ubuntu

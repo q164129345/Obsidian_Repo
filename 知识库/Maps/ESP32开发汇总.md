@@ -6,6 +6,10 @@
 [[ESP-IDF - ubuntu，JTAG刚开始正常使用，但删除brltty后JTAG无法使用]]
 [[ESP-IDF - ubuntu，JTAG下载、调试突然不管用了！！]]
 [[ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题]]
+[[ESP-IDF - ubuntu无法进入GDB调试，提示espidf.getXtensaGdb not found]]
+
+
+
 
 ### 二、其他
 ---

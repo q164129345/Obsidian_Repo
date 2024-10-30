@@ -13,11 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
+                "file": "知识库/Maps/ESP32开发汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "ESP32开发汇总"
             }
           }
         ]
@@ -40,7 +42,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -55,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -63,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用 的反向链接列表"
             }
           },
           {
@@ -103,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
+                "file": "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用 的出链列表"
             }
           },
           {
@@ -117,7 +129,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -126,8 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md"
-              }
+                "file": "知识库/Maps/ESP32开发汇总.md"
+              },
+              "icon": "lucide-list",
+              "title": "ESP32开发汇总 的大纲"
             }
           },
           {
@@ -139,7 +155,9 @@
                 "sortOrder": "frequency",
                 "showSearch": false,
                 "searchQuery": ""
-              }
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
             }
           }
         ],
@@ -163,43 +181,42 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/ESP-IDF - ubuntu无法进入GDB调试，提示espidf.getXtensaGdb not found.md",
+    "知识库/Maps/ESP32开发汇总.md",
+    "附件存放/Pasted image 20241030113919.png",
+    "附件存放/Pasted image 20241030113817.png",
+    "附件存放/Pasted image 20241030113702.png",
+    "附件存放/Pasted image 20241030113550.png",
+    "附件存放/Pasted image 20241030113348.png",
+    "附件存放/Pasted image 20241030113010.png",
+    "知识库/软件开发/MCU/EPS-IDF - ubuntu搭建vscode + ESP-IDF时，解决无法通过串口下载、监控程序.md",
+    "知识库/软件开发/MCU/EPS-IDF - ubuntu，vscode安装PlatformIO IDE失败.md",
+    "知识库/软件开发/MCU/ESP-IDF - 修复虚拟机Ubuntu系统的JTAG驱动问题.md",
+    "知识库/软件开发/MCU/ESP-IDF - ubuntu，JTAG刚开始正常使用，但删除brltty后JTAG无法使用.md",
+    "知识库/软件开发/MCU/ESP-IDF - ubuntu，JTAG下载、调试突然不管用了！！.md",
+    "知识库/软件开发/MCU/ESP-IDF - 创建工程01 -使用simple模板编写简单的Hello,World工程.md",
     "附件存放/Pasted image 20241029175416.png",
     "附件存放/Pasted image 20241029175213.png",
     "附件存放/Pasted image 20241029175038.png",
     "附件存放/Pasted image 20241029174926.png",
-    "附件存放/Pasted image 20241029174852.png",
-    "附件存放/Pasted image 20241029173351.png",
-    "附件存放/Pasted image 20241029173240.png",
-    "附件存放/Pasted image 20241029173102.png",
-    "附件存放/Pasted image 20241029173010.png",
-    "附件存放/Pasted image 20241029172910.png",
-    "附件存放/Pasted image 20241029172839.png",
-    "知识库/软件开发/linux/ubuntu22.04 - 安装中文输入法，亲自测试，简单，快速.md",
-    "知识库/软件开发/linux/mosquitto - 在linux上订阅消息、增加时间戳、过滤消息.md",
     "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
+    "知识库/软件开发/linux/ubuntu22.04 - 安装中文输入法，亲自测试，简单，快速.md",
     "知识库/软件开发/linux/oh_my_zsh使用汇总.md",
-    "知识库/软件开发/开发工具/vscode - 解决IntelliSense没有正常工作.md",
-    "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
-    "知识库/Maps/开发工具汇总.md",
-    "知识库/Maps/未命名.md",
+    "知识库/软件开发/linux/mosquitto - 在linux上订阅消息、增加时间戳、过滤消息.md",
     "知识库/软件开发/linux",
+    "知识库/Maps/QT汇总.md",
+    "知识库/Maps/STM32汇总.md",
+    "知识库/软件开发/MCU/ESP-IDF - 将export.sh的脚本加入系统环境变量 - ubuntu篇.md",
+    "知识库/软件开发/QT/QML6 - 组件.md",
+    "知识库/软件开发/MCU/ESP-IDF - GPIO01 - 普通输入与输出实现LED电平翻转.md",
+    "知识库/软件开发/MCU/ESP-IDF - 创建工程04 - CMakeLists.txt.md",
+    "知识库/软件开发/MCU/ESP-IDF - 创建工程02 - esp32s3基础工程配置，匹配模组内部资源，充分发挥模组的性能.md",
     "知识库/软件开发/机器人开发/ROS2 - 使用CMake创建一个简单的ROS2节点.md",
     "知识库/Maps/机器人开发汇总.md",
     "README.md",
     "知识库/软件开发/机器人开发/差速轮运动学解算.md",
     "知识库/软件开发/机器人开发/ROS2 - 使用colcon创建C++功能包与python功能包.md",
     "知识库/软件开发/机器人开发/ROS2 - 话题 - 用C++创建发布者节点与订阅者节点.md",
-    "知识库/软件开发/机器人开发/ROS2 - 话题 - 用python创建发布者节点与订阅者节点.md",
-    "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 interface查看官方的标准消息包.md",
-    "知识库/软件开发/机器人开发/ROS2 - 为什么要在终端执行source.md",
-    "知识库/软件开发/机器人开发/ROS2 - 参数 - 使用吉祥物小海龟turtlesim体验参数（parameter）的使用.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
-    "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 topic.md",
-    "知识库/软件开发/机器人开发/ROS2 - 服务 - 使用吉祥物小海龟turtlesim体验服务（service）的使用.md",
-    "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验动作（action）的使用.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
-    "知识库/软件开发/机器人开发/ROS2 - 话题 - 使用吉祥物小海龟turtlesim体验话题（topic）的使用.md",
     "知识库/硬件开发/电机控制/未命名",
     "知识库/硬件开发/电机控制",
     "知识库/硬件开发/PCB设计",
