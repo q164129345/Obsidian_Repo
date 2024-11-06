@@ -1,6 +1,6 @@
 # 一、前言
 ---
-网络上大部分都是Windows平台的教程，找一个linux的教程很困难。为此，记录Qt6.7版本安装QtMqtt库的过程。
+网络上大部分都是Windows平台的教程，找一个linux的教程很困难。为此，记录Qt6.8版本安装QtMqtt库的过程。
 
 # 二、安装
 ---
@@ -188,40 +188,14 @@ Install the project...
 ~/Public/Coding/Qt_Project/qtmqtt-6.7.0/build »   
 ```
 
-# 三、步骤
+
+# 三、执行完sudo make install之后，QMqtt库被安装到哪里？
 ---
-### 3.1、从Git仓库下载QMqtt模块
-1. **安装必要的工具和依赖**
-    首先，确保你已经安装了必要的工具和依赖：
-    ```bash
-    sudo apt-get update
-    sudo apt-get install git build-essential qt6-base-dev
-    ```
-    
-2. **克隆QMqtt模块的Git仓库**
-    然后，从Qt官方Git仓库中克隆QMqtt模块：
-    ```bash
-    git clone <https://code.qt.io/qt/qtmqtt.git>
-    cd qtmqtt
-    ```
-    
-3. **创建构建目录**
-    为了保持源代码目录的整洁，创建一个单独的构建目录：
-    ```bash
-    mkdir build
-    cd build
-    ```
-    
-4. **配置和编译QMqtt模块**
-    使用CMake配置和编译QMqtt模块：
-    ```bash
-    cmake .. -G "Unix Makefiles" -DCMAKE_PREFIX_PATH=~/Qt/6.7.0/gcc_64
-    make
-    sudo make install
-    ```
-请将 `/path/to/qt6/installation` 替换为实际的Qt6安装路径。
-我的电脑上Qt6的安装路径：
-![[Pasted image 20240918191603.png]]
+![[Pasted image 20241106202437.png]]
+如上图所示，gcc_64/include/文件夹下出现QtMqtt。
+
+![[Pasted image 20241106202653.png]]
+如上图所示，同时，在gcc_64/lib下也找到QtMqtt的共享库。
 
 # 四、代码测试
 ---
