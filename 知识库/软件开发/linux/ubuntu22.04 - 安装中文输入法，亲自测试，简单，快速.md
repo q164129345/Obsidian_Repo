@@ -28,3 +28,45 @@ im-config -n fcitx5
 
 ![[Pasted image 20241029165058.png]]
 可以输入中文了。
+
+
+# 三、使用zsh(oh my zsh)后，fcitx5中文输入法不正常了
+---
+从bash终端切换到zsh终端，安装oh my zsh后，突然发现中文输入法不管用了。经过几番折腾，原因是fcitx5没有被启动。解决方法：
+1. 将fcitx5的环境变量加入~/.zshrc的文件里
+2. 配置fcitx5开机自启。
+
+## 3.1、将fcitx5的环境变量加入~/.zshrc的文件
+在终端运行：
+![[Pasted image 20241118190815.png]]
+然后在最下面的地方填入：
+```zsh
+export XMODIFIERS="@im=fcitx" 
+export GTK_IM_MODULE=fcitx 
+export QT_IM_MODULE=fcitx
+```
+接着，保存。
+![[Pasted image 20241118190741.png]]
+
+## 3.2、配置fcitx5开机自启
+**创建自启动文件：** 使用如下命令在 `~/.config/autostart` 目录下创建 Fcitx5 的自启动配置文件：
+```zsh
+mkdir -p ~/.config/autostart
+nano ~/.config/autostart/fcitx5.desktop
+```
+
+**在文件中输入以下内容：**
+```zsh
+[Desktop Entry]
+Type=Application
+Exec=fcitx5
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Fcitx5
+Comment=Start Fcitx5 input method framework
+
+```
+-**保存并退出：** 按下 `Ctrl + O` 保存文件，按 `Ctrl + X` 退出编辑器。
+ **验证启动效果：** 重启系统后，`fcitx5` 应会自动启动。
+ 
