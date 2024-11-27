@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 208.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -179,7 +179,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4eacf2a7d3f813f4",
+  "active": "57b286174304e95c",
   "lastOpenFiles": [
     "附件存放/Pasted image 20241127153939.png",
     "附件存放/Pasted image 20241127153711.png",
