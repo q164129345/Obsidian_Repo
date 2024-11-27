@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "109b34ae74f83b2e",
+        "id": "4ef44172aa9a8a1d",
         "type": "tabs",
         "children": [
           {
-            "id": "2b22901646d79740",
+            "id": "4eacf2a7d3f813f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -179,8 +179,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b22901646d79740",
+  "active": "4eacf2a7d3f813f4",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241127153939.png",
+    "附件存放/Pasted image 20241127153711.png",
+    "附件存放/Pasted image 20241127161327.png",
+    "附件存放/Pasted_image_20241127161327.png",
+    "附件存放/Pasted_image_20241127153711.png",
+    "附件存放/Pasted_image_20241127153939.png",
+    "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
@@ -205,20 +212,13 @@
     "知识库/软件开发/QT/QT Quick,C++ - 使用共享指针在堆上创建一个定时器.md",
     "知识库/Maps/QT汇总.md",
     "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
-    "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
     "附件存放/Pasted image 20241127193348.png",
     "附件存放/Pasted image 20241127192806.png",
     "附件存放/Pasted image 20241127192701.png",
     "附件存放/Pasted image 20241127192502.png",
     "附件存放/Pasted image 20241127185013.png",
-    "附件存放/Pasted image 20241127184052.png",
-    "附件存放/Pasted image 20241127181838.png",
-    "附件存放/Pasted image 20241127181055.png",
     "附件存放/1551001463-1-16 1.mp4",
     "附件存放/1551001463-1-16.mp4",
-    "附件存放/Pasted image 20241127162603.png",
-    "附件存放/Pasted image 20241127162319.png",
     "附件存放/152526716-1-208.mp4",
     "附件存放/152526704-1-16.mp4",
     "附件存放/152526696-1-16.mp4",
