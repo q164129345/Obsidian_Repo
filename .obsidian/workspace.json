@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": true,
                 "source": false
               },
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 465.5,
-    "collapsed": true
+    "width": 304.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -182,21 +181,25 @@
   },
   "active": "2b22901646d79740",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241127193348.png",
+    "附件存放/Pasted image 20241127192806.png",
+    "附件存放/Pasted image 20241127192701.png",
+    "附件存放/Pasted image 20241127192502.png",
+    "README.md",
+    "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "附件存放/Pasted image 20241127185013.png",
+    "附件存放/Pasted image 20241127184052.png",
+    "附件存放/Pasted image 20241127181838.png",
+    "附件存放/Pasted image 20241127181055.png",
+    "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
+    "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
     "附件存放/1551001463-1-16 1.mp4",
     "附件存放/1551001463-1-16.mp4",
     "附件存放/Pasted image 20241127162603.png",
     "附件存放/Pasted image 20241127162319.png",
     "附件存放/Pasted image 20241127162033.png",
-    "附件存放/Pasted image 20241127161717.png",
-    "附件存放/Pasted image 20241127161327.png",
-    "附件存放/Pasted image 20241127161237.png",
-    "README.md",
-    "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-    "附件存放/Pasted image 20241127155014.png",
-    "附件存放/Pasted image 20241127154751.png",
-    "附件存放/Pasted image 20241127154444.png",
-    "附件存放/Pasted image 20241127153939.png",
-    "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
     "知识库/软件开发/linux/ubuntu22.04 - 强大的录屏工具peek.md",
@@ -223,11 +226,7 @@
     "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
     "知识库/Maps/未命名.md",
     "知识库/软件开发/linux",
-    "知识库/软件开发/机器人开发/ROS2 - 使用CMake创建一个简单的ROS2节点.md",
-    "知识库/软件开发/机器人开发/差速轮运动学解算.md",
-    "知识库/软件开发/机器人开发/ROS2 - 使用colcon创建C++功能包与python功能包.md",
     "知识库/硬件开发/电机控制/未命名",
-    "知识库/硬件开发/电机控制",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
