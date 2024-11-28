@@ -74,7 +74,7 @@
 如上图所示，在Update Event中断时，翻转GPIO的电平。
 
 ### 3.3.4、示波器观察
-![[Pasted image 20241127193348.png]]
+![[Pasted image 20241128102034.png]]
 
 
 
