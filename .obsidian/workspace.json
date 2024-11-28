@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+                "file": "知识库/硬件开发/电机控制/电机控制 - 三相BLDC六步换相算法跟SVPWM算法的三相半桥MOS管开关序列的区别.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）"
+              "title": "电机控制 - 三相BLDC六步换相算法跟SVPWM算法的三相半桥MOS管开关序列的区别"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 208.5
+    "width": 327.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -140,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md"
+                "file": "知识库/硬件开发/电机控制/电机控制 - 三相BLDC六步换相算法跟SVPWM算法的三相半桥MOS管开关序列的区别.md"
               },
               "icon": "lucide-list",
-              "title": "STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用） 的大纲"
+              "title": "电机控制 - 三相BLDC六步换相算法跟SVPWM算法的三相半桥MOS管开关序列的区别 的大纲"
             }
           },
           {
@@ -181,18 +182,23 @@
   },
   "active": "4eacf2a7d3f813f4",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241128142708.png",
+    "附件存放/Peek 2024-11-28 13-55.gif",
+    "附件存放/Peek 2024-11-28 13-54.gif",
+    "附件存放/Peek 2024-11-28 13-52.gif",
+    "附件存放/Peek 2024-11-28 11-57.gif",
+    "附件存放/1607957026859.mp4",
+    "附件存放/Pasted image 20241128115551.png",
+    "附件存放/Pasted image 20241128115045.png",
+    "附件存放/Pasted image 20241128114940.png",
+    "知识库/硬件开发/电机控制/电机控制 - FOC控制原理.md",
+    "知识库/硬件开发/电机控制/电机控制 - 三相BLDC六步换相算法跟SVPWM算法的三相半桥MOS管开关序列的区别.md",
+    "知识库/硬件开发/电机控制/电机控制- 无刷电机硬件控制原理.md",
+    "知识库/硬件开发/电机控制/电机控制 - 无刷电机概论.md",
+    "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "附件存放/Pasted image 20241128102034.png",
     "附件存放/Pasted image 20241127193348.png",
     "附件存放/Pasted image 20241127192806.png",
-    "附件存放/Pasted image 20241127192701.png",
-    "附件存放/Pasted image 20241127192502.png",
-    "附件存放/Pasted image 20241127181838.png",
-    "附件存放/Pasted image 20241127153939.png",
-    "附件存放/Pasted image 20241127153711.png",
-    "附件存放/Pasted image 20241127161327.png",
-    "附件存放/Pasted_image_20241127161327.png",
-    "附件存放/Pasted_image_20241127153711.png",
-    "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
@@ -213,10 +219,6 @@
     "知识库/软件开发/linux/oh_my_zsh使用汇总.md",
     "知识库/软件开发/linux/ubuntu22.04 - 安装中文输入法，亲自测试，简单，快速.md",
     "知识库/软件开发/linux/ubuntu22.04 - 测试强大的截图工具flameshot.md",
-    "知识库/软件开发/linux/ubuntu22.04 - 强大的录屏工具peek.md",
-    "知识库/软件开发/QT/QT Quick,C++ - 使用共享指针在堆上创建一个定时器.md",
-    "知识库/Maps/QT汇总.md",
-    "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
     "附件存放/1551001463-1-16 1.mp4",
     "附件存放/1551001463-1-16.mp4",
     "附件存放/152526716-1-208.mp4",
@@ -226,7 +228,6 @@
     "附件存放/152526673-1-208.mp4",
     "知识库/软件开发/python",
     "知识库/软件开发/linux",
-    "知识库/硬件开发/电机控制/未命名",
     "知识库/软件开发/MCU/未命名.canvas",
     "未命名.canvas"
   ]
