@@ -33,7 +33,7 @@ J-LINK驱动下载:https://www.segger.com/products/debug-probes/j-link/tools/rtt
 # 四、细节补充
 ---
 ## 4.1、SEGGER_RTT_WriteString()与SEGGER_RTT_printf()的区别是什么？
-优先使用 `SEGGER_RTT_WriteString()`：简单场景下效率更高，减少系统开销。在需要动态内容时选择 `SEGGER_RTT_printf()`，但要注意控制格式化内容的复杂度，避免不必要的性能损失。
+**优先使用 `SEGGER_RTT_WriteString()`：简单场景下效率更高，减少系统开销。在需要动态内容时选择 `SEGGER_RTT_printf()`，但要注意控制格式化内容的复杂度，避免不必要的性能损失。**
 
 ### SEGGER_RTT_WriteString()
 功能
@@ -66,3 +66,17 @@ SEGGER_RTT_printf(0, "The answer is %d\n", value);
 - 需要输出动态数据或变量值。
 - 需要格式化显示内容，例如对齐、填充、精度控制等。
 
+## 4.2、log字体颜色设置
+**只有SEGGER_RTT_WriteString()支持修改字体颜色，SEGGER_RTT_printf()不支持修改字体颜色**
+摘自:https://wiki.segger.com/RTT
+![[Pasted image 20241206172104.png | 900]]
+![[Pasted image 20241206172705.png]]
+如上所示。在代码SEGGER_RTT.h里能找到这些字体颜色选项。
+
+```c
+// 用法
+SEGGER_RTT_WriteString(0,RTT_CTRL_TEXT_RED"Hello,World\n"); // 红色字体
+SEGGER_RTT_WriteString(0,RTT_CTRL_TEXT_YELLOW"Hello,World\n"); // 黄色字体
+SEGGER_RTT_WriteString(0,RTT_CTRL_TEXT_BLUE"Hello,World\n");  // 蓝色字体
+SEGGER_RTT_WriteString(0,RTT_CTRL_TEXT_GREEN"Hello,World\n"); // 绿色字体
+```
