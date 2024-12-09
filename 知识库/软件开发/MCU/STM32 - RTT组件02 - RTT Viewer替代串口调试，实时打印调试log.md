@@ -5,7 +5,7 @@ J-LINK RTT Viewer不需要USART，只需SWD接口就可以实现高速调试信�
 <strong>提示</strong><br><br>参考安富莱教程《专题教程第5期：工程调试利器SEGGER的RTT组件，替代串口调试(V1.1)》，网址：https://www.armbbs.cn/forum.php?mod=viewthread&tid=86177&highlight=RTT
 </div>
 
-开发板：
+开发板 + JLink：
 ![[Pasted image 20241209161818.png | 800]]
 ![[rtt_Viewer1.gif | 900]]
 如上所示，在J-LINK RTT Viewer软件上打印调试log，分别在终端0、终端1、终端2上。

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer 替代串口调试，实时打印调试log.md",
+                "file": "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32 - RTT组件02 - RTT Viewer 替代串口调试，实时打印调试log"
+              "title": "STM32 - RTT组件03 - RTT Viewer测试回环打印"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 396.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -140,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer 替代串口调试，实时打印调试log.md"
+                "file": "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md"
               },
               "icon": "lucide-list",
-              "title": "STM32 - RTT组件02 - RTT Viewer 替代串口调试，实时打印调试log 的大纲"
+              "title": "STM32 - RTT组件03 - RTT Viewer测试回环打印 的大纲"
             }
           },
           {
@@ -181,19 +182,21 @@
   },
   "active": "4eacf2a7d3f813f4",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241209194909.png",
+    "附件存放/Pasted image 20241209194651.png",
+    "附件存放/Pasted image 20241209194502.png",
+    "附件存放/Pasted image 20241209193351.png",
+    "附件存放/Pasted image 20241209192513.png",
+    "附件存放/Pasted image 20241209192409.png",
+    "附件存放/Pasted image 20241209192305.png",
+    "附件存放/Pasted image 20241209192157.png",
+    "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log.md",
+    "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
     "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
-    "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer 替代串口调试，实时打印调试log.md",
+    "附件存放/Pasted image 20241209191423.png",
+    "附件存放/RTT_Input.gif",
     "知识库/Maps/STM32汇总.md",
     "附件存放/Pasted image 20241209161818.png",
-    "附件存放/Pasted image 20241209160740.png",
-    "附件存放/Pasted image 20241209154022.png",
-    "附件存放/Pasted image 20241209153907.png",
-    "附件存放/Pasted image 20241209153547.png",
-    "附件存放/Pasted image 20241209153433.png",
-    "附件存放/Pasted image 20241209153310.png",
-    "附件存放/Pasted image 20241209153130.png",
-    "附件存放/Pasted image 20241209152536.png",
-    "附件存放/Pasted image 20241209152440.png",
     "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
@@ -216,7 +219,6 @@
     "知识库/软件开发/机器人开发/ROS2 - 使用CMake创建一个简单的ROS2节点.md",
     "知识库/软件开发/机器人开发/ROS2 - 使用colcon创建C++功能包与python功能包.md",
     "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 interface查看官方的标准消息包.md",
-    "知识库/软件开发/机器人开发/ROS2 - CLI - ros2 service、ros2 interface.md",
     "附件存放/1551001463-1-16 1.mp4",
     "附件存放/1551001463-1-16.mp4",
     "附件存放/152526716-1-208.mp4",

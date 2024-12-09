@@ -10,7 +10,7 @@ RTT支持两个方向的多个通道，上到主机，下到目标，它可以�
 RTT的性能明显高于其他任何用于将数据输出到主机PC的方式。平均一行文本可以在1微秒或更短的时间内输出。基本上相当于做一个memcopy()的时间。
 RTT实现代码使用大约500字节的ROM和(n(通道数) * (24字节ID+24字节))的RAM。推荐的大小是1 kByte（上行信道）和16到32字节（下行信道），这取决于输入/输出的负载。
 
-开发板+J-LINK：
+开发板+J-Link：
 ![[Pasted image 20241209161818.png | 800]]
 项目源码github:https://github.com/q164129345/MCU_Develop/tree/main/jlink_rtt_viewer
 
