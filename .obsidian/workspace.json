@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
+                "file": "知识库/Maps/STM32汇总.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32系统 - RT_Thread系统移植"
+              "title": "STM32汇总"
             }
           }
         ]
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md"
+                "file": "知识库/Maps/STM32汇总.md"
               },
               "icon": "lucide-list",
-              "title": "STM32系统 - RT_Thread系统移植 的大纲"
+              "title": "STM32汇总 的大纲"
             }
           },
           {
@@ -181,22 +181,22 @@
   },
   "active": "4eacf2a7d3f813f4",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32 - RTT组件04 - RTT Viewer接入rt_thread console.md",
+    "附件存放/Pasted image 20241210174650.png",
+    "附件存放/Pasted image 20241210174604.png",
+    "附件存放/Pasted image 20241210173537.png",
+    "附件存放/Pasted image 20241210172511.png",
+    "附件存放/Pasted image 20241210172310.png",
+    "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
+    "附件存放/rt_thread console.gif",
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
     "附件存放/Pasted image 20241210142613.png",
     "附件存放/Pasted image 20241210142542.png",
     "知识库/Maps/STM32汇总.md",
     "附件存放/RTT_Input.gif",
     "附件存放/Pasted image 20241209194909.png",
-    "附件存放/Pasted image 20241209194651.png",
-    "附件存放/Pasted image 20241209194502.png",
-    "附件存放/Pasted image 20241209193351.png",
-    "附件存放/Pasted image 20241209192513.png",
-    "附件存放/Pasted image 20241209192409.png",
-    "附件存放/Pasted image 20241209192305.png",
-    "附件存放/Pasted image 20241209192157.png",
-    "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
     "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log.md",
     "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
     "知识库/软件开发/MCU/STM32开发工具 - RTT Viewer 替代串口调试，实时打印调试log.md",
     "知识库/软件开发/MCU/STM32 - RTT组件01 - RTT Viewer 替代串口调试，实时打印调试log.md",
@@ -217,7 +217,6 @@
     "知识库/硬件开发/电机控制/电机控制 - FOC控制原理.md",
     "知识库/硬件开发/电机控制/电机控制- 无刷电机硬件控制原理.md",
     "知识库/硬件开发/电机控制/电机控制 - 无刷电机概论.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
     "附件存放/1551001463-1-16 1.mp4",
     "附件存放/1551001463-1-16.mp4",
     "附件存放/152526716-1-208.mp4",
