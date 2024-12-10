@@ -24,6 +24,8 @@
 [[STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log]]
 [[STM32 - RTT组件01 - 移植]]
 [[STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log]]
+[[STM32 - RTT组件03 - RTT Viewer测试回环打印]]
+
 ### 四、开源库
 ---
 1. [Ringbuffer](https://github.com/xiaoxinpro/QueueForMcu)
