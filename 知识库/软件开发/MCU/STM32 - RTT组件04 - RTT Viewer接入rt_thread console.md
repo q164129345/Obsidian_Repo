@@ -73,3 +73,8 @@ char rt_hw_console_getchar(void)
 }
 ```
 完成！
+
+# 三、细节补充
+---
+![[Pasted image 20241210200946.png]]
+![[Pasted image 20241210201030.png]]
