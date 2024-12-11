@@ -2,6 +2,9 @@
 ----
 参考安富莱教程：《[【专题教程第4期】SEGGER的J-Scope波形上位机软件，HSS模式简单易用，无需额外资源，也不需要写目标板代码](https://www.armbbs.cn/forum.php?mod=viewthread&tid=83097)》
 我发现RTT Viewer可以跟J-Scope一起开起来监控，一边检测log，另外一边检测波形，真的很爽。
+根据安富莱的测试：
+- HSS方式下，可以同时采样10路，且频率在1KHz左右。（一般情况下是足够用的）
+- RTT方式，基本没有限制，但是要在代码里添加额外的代码。
 ![[rtt_viewer_scope.gif]]
 如上所示，左边RTT Viewer与右边的J-Scope都是在监控同一个全局变量sineValue。
 
