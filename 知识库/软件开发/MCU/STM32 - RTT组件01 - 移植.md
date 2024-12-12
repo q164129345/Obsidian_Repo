@@ -12,7 +12,7 @@ RTT实现代码使用大约500字节的ROM和(n(通道数) * (24字节ID+24字�
 
 开发板+J-Link：
 ![[Pasted image 20241209161818.png | 800]]
-项目源码github:https://github.com/q164129345/MCU_Develop/tree/main/jlink_rtt_viewer
+项目源码:https://github.com/q164129345/MCU_Develop/tree/main/jlink_rtt_viewer
 
 # 一、下载
 ---

@@ -8,6 +8,8 @@
 ![[rtt_viewer_scope.gif]]
 如上所示，左边RTT Viewer与右边的J-Scope都是在监控同一个全局变量sineValue。
 
+项目源码:https://github.com/q164129345/MCU_Develop/tree/main/jlink_scope_hss
+
 # 一、代码
 ---
 ## 1.1、main.h
