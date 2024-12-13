@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md",
+                "file": "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32汇总"
+              "title": "STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式"
             }
           },
           {
@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5
+    "width": 346.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -155,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md"
+                "file": "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md"
               },
               "icon": "lucide-list",
-              "title": "STM32汇总 的大纲"
+              "title": "STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式 的大纲"
             }
           },
           {
@@ -196,6 +197,12 @@
   },
   "active": "4eacf2a7d3f813f4",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241213113304.png",
+    "附件存放/Pasted image 20241213113235.png",
+    "知识库/Maps/STM32汇总.md",
+    "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
+    "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
+    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md",
     "附件存放/Pasted image 20241212195619.png",
     "附件存放/Pasted image 20241212195316.png",
@@ -206,21 +213,17 @@
     "附件存放/Pasted image 20241212194046.png",
     "附件存放/Pasted image 20241212193845.png",
     "附件存放/Pasted image 20241212191408.png",
-    "附件存放/Pasted image 20241212191241.png",
     "知识库/软件开发/MCU/STM32 - RTT组件04 - RTT Viewer接入rt_thread console.md",
     "知识库/软件开发/MCU/STM32 - RTT组件05 - J-Scope数据可视化，使用HSS方式.md",
     "案例分析/清洁机器人.md",
-    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log.md",
     "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
     "案例分析",
     "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
     "知识库/软件开发/MCU/STM32开发工具 - RTT Viewer 替代串口调试，实时打印调试log.md",
     "知识库/软件开发/MCU/STM32 - RTT组件01 - RTT Viewer 替代串口调试，实时打印调试log.md",
     "README.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "知识库/软件开发/MCU/STM32异常 - CmBacktrace库.md",
     "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
     "知识库/软件开发/MCU/STM32时间戳 -  计算64位的上电运行总时间（RTX5）.md",
@@ -231,7 +234,6 @@
     "知识库/Maps/QT汇总.md",
     "知识库/软件开发/QT/QT Quick,C++ - 信号与槽01 - UI界面点击button控件，触发C++类的某个方法.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
-    "知识库/硬件开发/电机控制/电机控制 - 三相BLDC六步换相算法跟SVPWM算法的三相半桥MOS管开关序列的区别.md",
     "附件存放/1607957026859.mp4",
     "附件存放/1551001463-1-16 1.mp4",
     "附件存放/1551001463-1-16.mp4",
