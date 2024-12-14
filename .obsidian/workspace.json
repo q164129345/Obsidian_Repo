@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md",
+                "file": "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式"
+              "title": "STM32 - RTT组件01 - 移植"
             }
           },
           {
@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 346.5,
-    "collapsed": true
+    "width": 346.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -156,10 +155,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md"
+                "file": "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md"
               },
               "icon": "lucide-list",
-              "title": "STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式 的大纲"
+              "title": "STM32 - RTT组件01 - 移植 的大纲"
             }
           },
           {
@@ -197,13 +196,13 @@
   },
   "active": "4eacf2a7d3f813f4",
   "lastOpenFiles": [
+    "知识库/Maps/STM32汇总.md",
+    "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md",
     "附件存放/Pasted image 20241213113304.png",
     "附件存放/Pasted image 20241213113235.png",
-    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
-    "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md",
     "附件存放/Pasted image 20241212195619.png",
     "附件存放/Pasted image 20241212195316.png",
     "附件存放/Pasted image 20241212195020.png",
@@ -212,7 +211,6 @@
     "附件存放/Pasted image 20241212194125.png",
     "附件存放/Pasted image 20241212194046.png",
     "附件存放/Pasted image 20241212193845.png",
-    "附件存放/Pasted image 20241212191408.png",
     "知识库/软件开发/MCU/STM32 - RTT组件04 - RTT Viewer接入rt_thread console.md",
     "知识库/软件开发/MCU/STM32 - RTT组件05 - J-Scope数据可视化，使用HSS方式.md",
     "案例分析/清洁机器人.md",
