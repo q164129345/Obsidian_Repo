@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md",
+                "file": "知识库/软件开发/MCU/STM32 -RTT组件07 - J-Scope数据可视化，RTT方式+MCU相对时间戳.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32汇总"
+              "title": "STM32 -RTT组件07 - J-Scope数据可视化，RTT方式+MCU相对时间戳"
             }
           },
           {
@@ -156,10 +156,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md"
+                "file": "知识库/软件开发/MCU/STM32 -RTT组件07 - J-Scope数据可视化，RTT方式+MCU相对时间戳.md"
               },
               "icon": "lucide-list",
-              "title": "STM32汇总 的大纲"
+              "title": "STM32 -RTT组件07 - J-Scope数据可视化，RTT方式+MCU相对时间戳 的大纲"
             }
           },
           {
@@ -197,25 +197,26 @@
   },
   "active": "4eacf2a7d3f813f4",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241216175155.png",
+    "附件存放/Pasted image 20241216175124.png",
+    "附件存放/Pasted image 20241216175011.png",
+    "附件存放/Pasted image 20241216174452.png",
+    "附件存放/Pasted image 20241216174421.png",
+    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
     "知识库/软件开发/MCU/STM32 -RTT组件07 - J-Scope数据可视化，RTT方式+MCU相对时间戳.md",
-    "知识库/Maps/STM32汇总.md",
     "附件存放/Pasted image 20241216173622.png",
     "附件存放/Pasted image 20241216173415.png",
     "附件存放/Pasted image 20241216173056.png",
     "附件存放/Pasted image 20241216172749.png",
     "附件存放/Pasted image 20241216171633.png",
     "附件存放/J-Scope_RTT_timestamp.gif",
-    "附件存放/Pasted image 20241216170819.png",
     "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md",
     "案例分析/清洁机器人.md",
     "知识库/软件开发/python/python3虚拟环境05 - 虚拟环境的打包.md",
-    "附件存放/Pasted image 20241213113304.png",
-    "附件存放/Pasted image 20241213113235.png",
     "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
-    "附件存放/Pasted image 20241212195619.png",
     "知识库/软件开发/MCU/STM32 - RTT组件04 - RTT Viewer接入rt_thread console.md",
     "知识库/软件开发/MCU/STM32 - RTT组件05 - J-Scope数据可视化，使用HSS方式.md",
     "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log.md",
