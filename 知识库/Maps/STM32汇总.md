@@ -22,6 +22,9 @@
 [[STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序]]
 [[STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败]]
 [[STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log]]
+[[STM32 - Embedded IDE01 - vscode搭建Embedded IDE开发环境]]
+[[STM32 - Embedded IDE02 - 调试、断点、观察全局变量]]
+
 [[STM32 - RTT组件01 - 移植]]
 [[STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log]]
 [[STM32 - RTT组件03 - RTT Viewer测试回环打印]]
