@@ -7,6 +7,7 @@ Embedded IDE官网:https://em-ide.com/docs/intro
 ![[Pasted image 20241219154223.png]]
 本次实验使用安富莱的开发板 + J-LINK。
 
+项目源码：https://github.com/q164129345/MCU_Develop/tree/main/eide_example
 # 一、CubeMX
 ---
 ![[Pasted image 20241219154438.png]]
