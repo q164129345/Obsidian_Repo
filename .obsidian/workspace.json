@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4ef44172aa9a8a1d",
+        "id": "24dc46bf9ad290be",
         "type": "tabs",
         "children": [
           {
-            "id": "4eacf2a7d3f813f4",
+            "id": "e47ad78cc82de9fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "知识库/Maps/STM32汇总.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "STM32汇总"
-            }
-          },
-          {
-            "id": "ac01f6f6b3c2f027",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序"
+              "title": "STM32汇总"
             }
           }
         ]
@@ -93,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 509.5
+    "width": 229.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -155,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md"
+                "file": "未命名.canvas"
               },
               "icon": "lucide-list",
-              "title": "STM32汇总 的大纲"
+              "title": "未命名 的大纲"
             }
           },
           {
@@ -174,13 +159,23 @@
               "icon": "lucide-archive",
               "title": "添加笔记属性"
             }
+          },
+          {
+            "id": "a60868e0307c778b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 299.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,12 +189,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4eacf2a7d3f813f4",
+  "active": "e47ad78cc82de9fd",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
+    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
     "知识库/Maps/STM32汇总.md",
-    "知识库/软件开发/MCU/STM32 - Embedded IDE01 - vscode搭建Embedded IDE开发环境（支持JLINK、STLINK、DAPLINK）.md",
+    "未命名.canvas",
+    "202412192011.md",
+    "2024-12-19.md",
+    "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
+    "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
+    "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
+    "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
+    "知识库/软件开发/MCU/STM32 - Embedded IDE01 - vscode搭建Embedded IDE开发环境（支持JLINK、STLINK、DAPLINK）.md",
     "附件存放/dap-debug.gif",
     "附件存放/Pasted image 20241219180547.png",
     "附件存放/Pasted image 20241219180202.png",
@@ -211,18 +213,14 @@
     "附件存放/Pasted image 20241219172935.png",
     "附件存放/Pasted image 20241219172634.png",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
     "附件存放/20241219-155340.mp4",
     "案例分析/清洁机器人.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32外设 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
-    "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
-    "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
     "知识库/软件开发/MCU/STM32 -RTT组件07 - J-Scope数据可视化，RTT方式+DWT相对时间戳.md",
     "知识库/软件开发/MCU/STM32 - RTT组件07 - J-Scope数据可视化，RTT方式+DWT相对时间戳.md",
-    "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
     "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md",
     "知识库/软件开发/python/python3虚拟环境05 - 虚拟环境的打包.md",
     "知识库/软件开发/MCU/STM32 - RTT组件04 - RTT Viewer接入rt_thread console.md",
@@ -231,8 +229,6 @@
     "案例分析",
     "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
-    "知识库/软件开发/MCU/STM32开发工具 - RTT Viewer 替代串口调试，实时打印调试log.md",
-    "知识库/软件开发/MCU/STM32 - RTT组件01 - RTT Viewer 替代串口调试，实时打印调试log.md",
     "附件存放/1607957026859.mp4",
     "附件存放/1551001463-1-16 1.mp4",
     "附件存放/1551001463-1-16.mp4",
@@ -241,7 +237,6 @@
     "附件存放/152526696-1-16.mp4",
     "附件存放/152526685-1-208.mp4",
     "附件存放/152526673-1-208.mp4",
-    "知识库/软件开发/MCU/未命名.canvas",
-    "未命名.canvas"
+    "知识库/软件开发/MCU/未命名.canvas"
   ]
 }
