@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - FOC控制算法01 - 坐标变换的简单梳理.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - FOC控制算法02 - 克拉克变换的.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - FOC控制算法01 - 坐标变换的简单梳理"
+              "title": "无刷电机控制 - FOC控制算法02 - 克拉克变换的"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 432.5
+    "width": 297.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -140,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - FOC控制算法01 - 坐标变换的简单梳理.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - FOC控制算法02 - 克拉克变换的.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - FOC控制算法01 - 坐标变换的简单梳理 的大纲"
+              "title": "无刷电机控制 - FOC控制算法02 - 克拉克变换的 的大纲"
             }
           },
           {
@@ -171,11 +172,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,19 +190,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a60868e0307c778b",
+  "active": "e47ad78cc82de9fd",
   "lastOpenFiles": [
-    "知识库/Maps/STM32汇总.md",
+    "附件存放/Pasted image 20241223180835.png",
+    "附件存放/Pasted image 20241223180744.png",
+    "附件存放/Pasted image 20241223180630.png",
+    "附件存放/Pasted image 20241223180100.png",
+    "附件存放/Pasted image 20241223173244.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC控制算法01 - 坐标变换的简单梳理.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - FOC控制算法02 - 克拉克变换的.md",
+    "附件存放/Pasted image 20241223141319.png",
+    "知识库/Maps/STM32汇总.md",
     "附件存放/Pasted image 20241220172653.png",
     "附件存放/Pasted image 20241220171845.png",
     "附件存放/idiq.gif",
     "附件存放/Pasted image 20241220171055.png",
     "附件存放/帕克变换 1.gif",
-    "附件存放/克拉克.gif",
-    "附件存放/帕克变换.gif",
-    "附件存放/Pasted image 20241220162658.png",
-    "附件存放/Pasted image 20241220162252.png",
     "知识库/硬件开发/电机控制/电机控制- 无刷电机硬件控制原理.md",
     "知识库/软件开发/linux/ubuntu22.04 - 强大的录屏工具peek.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
@@ -214,7 +218,6 @@
     "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE01 - vscode搭建Embedded IDE开发环境（支持JLINK、STLINK、DAPLINK）.md",
-    "附件存放/dap-debug.gif",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 导入Keil工程，开发编译、下载程序.md",
     "附件存放/20241219-155340.mp4",
     "案例分析/清洁机器人.md",
@@ -227,7 +230,6 @@
     "知识库/软件开发/MCU/STM32 - RTT组件06 - J-Scope数据可视化，使用RTT方式.md",
     "知识库/软件开发/python/python3虚拟环境05 - 虚拟环境的打包.md",
     "知识库/软件开发/MCU/STM32 - RTT组件04 - RTT Viewer接入rt_thread console.md",
-    "知识库/软件开发/MCU/STM32 - RTT组件05 - J-Scope数据可视化，使用HSS方式.md",
     "案例分析",
     "附件存放/1607957026859.mp4",
     "附件存放/1551001463-1-16 1.mp4",
