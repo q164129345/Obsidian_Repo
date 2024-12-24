@@ -7,6 +7,10 @@
 **帕克变换的公式：**
 ![[Pasted image 20241224124605.png]]
 
+<div class="tip">
+<strong>提示</strong><br><br>旋转的角度θ，可以通过位置编码器获得
+</div>
+
 # 一、旋转坐标系
 ---
 ![[idiq.gif]]
