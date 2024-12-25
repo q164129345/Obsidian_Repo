@@ -9,6 +9,8 @@ simpleFOC源码分为如下5个部分，其中communication是跟simpleFOC上位
 
 先从common开始移植，编译，调试。
 
+项目源码:https://github.com/q164129345/MCU_Develop/tree/main/simplefoc01_stm32f103
+
 # 一、移植
 ---
 ## 1.1、Arduino-FOC/src/common
