@@ -1,7 +1,13 @@
 # 导言
 ---
+simpleFOC源码分为如下5个部分，其中communication是跟simpleFOC上位机通讯，暂时不打算使用，忽略它：
+1. common(数学工具、关键类)
+2. communication（simpleFOC上位机）
+3. current_sensor（电流传感器）
+4. drivers（驱动器，三相逆变电路）
+5. sensors（位置编码器）
 
-
+先从common开始移植，编译，调试。
 
 # 一、移植
 ---
@@ -72,6 +78,8 @@ simpleFOC使用C++语言编写，然后，.c代码不能调用.cpp代码里的�
 
 # 四、调试代码
 ---
+到目前为止，暂时只能调试time_utils.cpp的功能，time_utils.cpp为simpleFOC提供精确的时间戳与时间延时，非常重要。
+
 ## 4.1、编译
 ![[Pasted image 20241225153337.png]]
 通过第三章节的处理，解决所有代码的报错，最终编译成功。
