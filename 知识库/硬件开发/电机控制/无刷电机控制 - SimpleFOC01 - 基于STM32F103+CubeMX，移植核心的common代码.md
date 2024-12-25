@@ -1,16 +1,14 @@
 # 导言
 ---
-simpleFOC源码分为如下5个部分，其中communication是跟simpleFOC上位机通讯，暂时不打算使用，忽略它：
+**完成comom代码的移植后，simpleFOC的移植算是完成一大半**。simpleFOC源码分为如下5个部分，其中communication是跟simpleFOC上位机通讯，暂时不打算使用，忽略它：
 1. common(数学工具、关键类)
-2. communication（simpleFOC上位机）
-3. current_sensor（电流传感器）
-4. drivers（驱动器，三相逆变电路）
-5. sensors（位置编码器）
-
-先从common开始移植，编译，调试。
+2. communication（simpleFOC上位机）：simpleFOC上位机通讯，暂时不打算使用，没必要移植。
+3. current_sensor（电流传感器）simpleFOC官方使用过的开发板，一般我们都要根据自己的开发板重新写，重新调。
+4. drivers（驱动器，三相逆变电路）：simpleFOC官方使用过的开发板，一般我们都要根据自己的开发板重新写，重新调。
+5. sensors（位置编码器）：simpleFOC官方使用过的编码器驱动程序，一般我们都要根据自己的项目重新写，重新调。
+6. BLDCMotor.cpp与BLDCMotor.h：核心的FOC算法（如帕克变换、SVPWM算法等）
 
 项目源码:https://github.com/q164129345/MCU_Develop/tree/main/simplefoc01_stm32f103
-
 # 一、移植
 ---
 ## 1.1、Arduino-FOC/src/common
