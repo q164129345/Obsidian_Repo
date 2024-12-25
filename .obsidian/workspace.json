@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/硬件开发汇总.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "硬件开发汇总"
+              "title": "无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 380.5
+    "width": 380.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -140,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/硬件开发汇总.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md"
               },
               "icon": "lucide-list",
-              "title": "硬件开发汇总 的大纲"
+              "title": "无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码 的大纲"
             }
           },
           {
@@ -189,25 +190,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "57b286174304e95c",
+  "active": "f708b910734d09d7",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20241225194310.png",
+    "附件存放/Pasted image 20241225190321.png",
+    "附件存放/simplefoc_dwt.gif",
+    "附件存放/Pasted image 20241225175718.png",
+    "附件存放/Pasted image 20241225175119.png",
+    "附件存放/Pasted image 20241225174314.png",
+    "附件存放/Pasted image 20241225172348.png",
+    "附件存放/Pasted image 20241225172132.png",
+    "附件存放/Pasted image 20241225165306.png",
+    "附件存放/Pasted image 20241225165232.png",
+    "附件存放/Pasted image 20241225165039.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论04 - 克拉克变换 + 帕克变换的最终目标.md",
-    "知识库/Maps/硬件开发汇总.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论01 - 坐标变换的简单梳理.md",
+    "知识库/Maps/硬件开发汇总.md",
+    "知识库/硬件开发/电机控制/未命名.canvas",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论03 - 帕克变换.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论02 - 克拉克变换.md",
     "README.md",
     "知识库/Maps/STM32汇总.md",
-    "附件存放/Pasted image 20241224124605.png",
-    "附件存放/kelake + park.gif",
-    "附件存放/park_change.gif",
-    "附件存放/Pasted image 20241224111819.png",
-    "附件存放/Pasted image 20241224092009.png",
-    "附件存放/Pasted image 20241224091409.png",
-    "附件存放/Pasted image 20241224091310.png",
-    "附件存放/Pasted image 20241224091122.png",
-    "附件存放/Pasted image 20241224091020.png",
-    "附件存放/Pasted image 20241223180835.png",
     "知识库/硬件开发/电机控制/电机控制- 无刷电机硬件控制原理.md",
     "知识库/软件开发/linux/ubuntu22.04 - 强大的录屏工具peek.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
@@ -227,8 +231,6 @@
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32外设 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
-    "知识库/软件开发/MCU/STM32 -RTT组件07 - J-Scope数据可视化，RTT方式+DWT相对时间戳.md",
-    "知识库/软件开发/MCU/STM32 - RTT组件07 - J-Scope数据可视化，RTT方式+DWT相对时间戳.md",
     "案例分析",
     "附件存放/1607957026859.mp4",
     "附件存放/1551001463-1-16 1.mp4",
