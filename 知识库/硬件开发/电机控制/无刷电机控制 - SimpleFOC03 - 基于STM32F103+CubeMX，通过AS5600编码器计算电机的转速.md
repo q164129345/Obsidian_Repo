@@ -7,6 +7,10 @@
 ![[AS5600_velocity.gif]]
 效果如上所示，左侧是RTT_Viewer，右侧是Jscope的数据曲线化。波形不平滑主要是因为电机是被我的手转动的，转速极其不均匀。
 
+![[Pasted image 20241226205355.png]]
+如上图所示，通过上一章节与这一章节的实验，终于完成了FOC框图的上述模块Position Sensor Signal Processing。
+
+
 项目源码: https://github.com/q164129345/MCU_Develop/tree/main/simplefoc03_stm32f103_velocity
 ## 一、代码
 ---
