@@ -1,7 +1,10 @@
 # 导言
 ---
 [[无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码]]
-上一个笔记完成common代码的移植，下一步是完成位置编码器的角度读取。
+上一章节完成common代码的移植，下一步是完成位置编码器的角度读取。
+![[Pasted image 20241226203127.png]]
+如上所示，通过`getSensorAngle()`方法可以获取电机的当前角度信息。
+
 ![[Pasted image 20241225203755.png | 500]]
 如上所示，通过AS5600编码器获取云台电机的位置角度信息。
 ![[Pasted image 20241226193821.png]]
@@ -28,7 +31,7 @@
 
 ## 3.1、先解决编译失败问题
 
-**simpleFOC源码是基于Arduino框架编写的，需要先注释掉Arduino代码。**
+**simpleFOC源码是基于Arduino框架编写的，需要先注释掉Arduino代码。** 接着，根据STM32的HAL库框架来编写AS5600_I2C类。
 
 ## 3.1.1、AS5600_I2C.h
 ```C++
@@ -269,3 +272,12 @@ int AS5600_I2C::read(uint8_t angle_reg_msb) {
 ## 4.2、RTT_Viewer
 ![[AS5600_Angle.gif]]
 如上图所示，转动电机时，电机的角度（弧度值）发生变化，范围0 ～ 2PI。
+
+# 五、细节补充
+---
+## 5.1、I2C的高速模式
+### 5.1.1、CubeMX
+![[Pasted image 20241226204649.png]]
+### 5.1.2、RTT_Viewer
+AS5600支持I2C的高速模式。
+![[I2C_HighSpeed.gif]]

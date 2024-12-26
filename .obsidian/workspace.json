@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/硬件开发汇总.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "硬件开发汇总"
+              "title": "无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/硬件开发汇总.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md"
               },
               "icon": "lucide-list",
-              "title": "硬件开发汇总 的大纲"
+              "title": "无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速 的大纲"
             }
           },
           {
@@ -192,20 +192,21 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
+    "附件存放/Pasted image 20241226204649.png",
+    "附件存放/I2C_HighSpeed.gif",
+    "附件存放/Pasted image 20241226203127.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
+    "附件存放/Pasted image 20241226202910.png",
+    "附件存放/Pasted image 20241226202406.png",
+    "附件存放/AS5600_velocity.gif",
     "知识库/Maps/硬件开发汇总.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
     "知识库/Maps/机器人开发汇总.md",
     "附件存放/Pasted image 20241226193821.png",
     "附件存放/AS5600_Angle.gif",
     "附件存放/Pasted image 20241226193149.png",
     "附件存放/Pasted image 20241226141529.png",
-    "附件存放/Pasted image 20241226115547.png",
-    "附件存放/Pasted image 20241226115454.png",
-    "附件存放/Pasted image 20241226115355.png",
-    "附件存放/Pasted image 20241226115244.png",
-    "附件存放/Pasted image 20241226115055.png",
-    "附件存放/Pasted image 20241226114716.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论04 - 克拉克变换 + 帕克变换的最终目标.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论01 - 坐标变换的简单梳理.md",
     "知识库/硬件开发/电机控制/未命名.canvas",
@@ -229,8 +230,6 @@
     "附件存放/20241219-155340.mp4",
     "案例分析/清洁机器人.md",
     "知识库/软件开发/MCU/STM32开发工具 - vscode + Embedded 移植SEGGER RTT，打印log.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
     "案例分析",
     "附件存放/1607957026859.mp4",
     "附件存放/1551001463-1-16 1.mp4",
