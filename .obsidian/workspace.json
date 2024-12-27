@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
+                "file": "README.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速"
+              "title": "README"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 640.5
+    "width": 334.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -140,10 +140,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md"
+                "file": "README.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速 的大纲"
+              "title": "README 的大纲"
             }
           },
           {
@@ -191,11 +191,13 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20241226205355.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
+    "知识库/Maps/硬件开发汇总.md",
+    "知识库/Maps/电机控制.canvas",
+    "附件存放/Pasted image 20241226205355.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论01 - 坐标变换的简单梳理.md",
     "知识库/硬件开发/电机控制/电机控制- 无刷电机硬件控制原理.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论03 - 帕克变换.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论02 - 克拉克变换.md",
     "附件存放/Pasted image 20241226204649.png",
@@ -204,13 +206,11 @@
     "附件存放/Pasted image 20241226202910.png",
     "附件存放/Pasted image 20241226202406.png",
     "附件存放/AS5600_velocity.gif",
-    "知识库/Maps/硬件开发汇总.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
     "知识库/Maps/机器人开发汇总.md",
     "附件存放/Pasted image 20241226193821.png",
     "附件存放/AS5600_Angle.gif",
     "附件存放/Pasted image 20241226193149.png",
-    "附件存放/Pasted image 20241226141529.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论04 - 克拉克变换 + 帕克变换的最终目标.md",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "README.md",
