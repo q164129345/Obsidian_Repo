@@ -4,6 +4,8 @@
 在FOC（Field-Oriented Control）框架中，Power Inverter（电源逆变器）扮演着将直流电（DC）转换为交流电（AC）的关键角色。这个转换是必要的，因为电机通常需要交流电来运行，而系统中的电源可能提供的是直流电。
 在图中，逆变器接收来自SVPWM生成器的控制信号，并根据这些信号调整其输出，从而驱动PMSM电机按照预定的速度和转矩运行。通过这一过程，逆变器在FOC系统中起到了将控制算法的指令转化为实际电机驱动的桥梁作用。
 
+项目源码:https://github.com/q164129345/MCU_Develop/tree/main/simplefoc04_stm32f103_3_phrase_pwm
+
 # 一、电机开发板的三相逆变电路分析
 ---
 ![[Pasted image 20241227141718.png]]
