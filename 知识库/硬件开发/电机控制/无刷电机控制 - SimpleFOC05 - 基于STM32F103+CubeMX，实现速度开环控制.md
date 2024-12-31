@@ -13,4 +13,9 @@
 
 ![[Pasted image 20241227165025.png]]
 
+# 二、simpleFOC源码
+---
+## 2.1、BLDCMotor类
+![[Pasted image 20241231180512.png]]
+
 

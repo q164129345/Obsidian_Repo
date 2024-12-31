@@ -20,9 +20,7 @@
 
 # 二、simpleFOC源码移植
 ---
-## 1.1、BLDCMotor
-![[Pasted image 20241227141313.png | 1200]]
-## 1.2、BLDCDriver3PWM
+## 2.1、BLDCDriver3PWM
 ![[Pasted image 20241227141437.png | 1200]]
 
 # 三、CubeMX
@@ -325,3 +323,8 @@ void main_Cpp(void)
 ![[Pasted image 20241231154911.png]]
 ![[Pasted image 20241231155604.png]]
 如上图所示，示波器测量出来的PWM波形的频率是20KHz，占空比50.2%，没有问题。
+
+
+# 六、细节补充
+---
+## 6.1、验证电流采样的中断回调
