@@ -5,6 +5,13 @@
 1. Inverse Park Transform(反帕克变换)
 2. SVPWM Generator（SVPWM算法，或者克拉克逆变换）
 
+效果如下，电机终于开始旋转起来了：
+![[20250102-204654.mp4]]
+
+RTT Viewer的打印，虽然是速度开环控制，但速度也接近控制的4rad/s：
+![[rtt_open_vel.gif]]
+项目源码:https://github.com/q164129345/MCU_Develop/tree/main/simplefoc05_stm32f103_open_vel_ctrl
+
 # 一、CubeMX
 ---
 ## 1.1、TIM4
@@ -17,5 +24,5 @@
 ---
 ## 2.1、BLDCMotor类
 ![[Pasted image 20241231180512.png]]
-
-
+![[Pasted image 20250102205835.png]]
+![[Pasted image 20250102210033.png]]

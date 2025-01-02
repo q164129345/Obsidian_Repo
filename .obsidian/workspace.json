@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序"
+              "title": "无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序 的大纲"
+              "title": "无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制 的大纲"
             }
           },
           {
@@ -192,6 +192,11 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250102210033.png",
+    "附件存放/Pasted image 20250102205835.png",
+    "附件存放/rtt_open_vel.gif",
+    "附件存放/20250102-204654.mp4",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
     "附件存放/Pasted image 20250102121747.png",
     "附件存放/Pasted image 20250102121424.png",
     "附件存放/Pasted image 20250102121000.png",
@@ -200,11 +205,7 @@
     "附件存放/Pasted image 20250102115209.png",
     "附件存放/Pasted image 20250102113958.png",
     "附件存放/Pasted image 20250102113847.png",
-    "附件存放/Pasted image 20250102112419.png",
-    "附件存放/Pasted image 20250102111450.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
-    "附件存放/Pasted image 20241231180512.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
@@ -240,7 +241,6 @@
     "附件存放/152526704-1-16.mp4",
     "附件存放/152526696-1-16.mp4",
     "附件存放/152526685-1-208.mp4",
-    "附件存放/152526673-1-208.mp4",
     "知识库/软件开发/MCU/未命名.canvas"
   ]
 }
