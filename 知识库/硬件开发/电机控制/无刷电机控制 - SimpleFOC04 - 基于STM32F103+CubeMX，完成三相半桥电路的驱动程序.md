@@ -328,3 +328,39 @@ void main_Cpp(void)
 # 六、细节补充
 ---
 ## 6.1、验证电流采样的中断回调
+另外一篇相关的笔记:[STM32F405 + CubeMX - 产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）](https://blog.csdn.net/wallace89/article/details/144520720?sharetype=blogdetail&sharerId=144520720&sharerefer=PC&sharesource=wallace89&spm=1011.2480.3001.8118)
+
+### 6.1.1、Update Event中断事件
+![[Pasted image 20250102111450.png | 1000]]
+**如上图所示，TIM2没有RCR计数器，在Center Aligned mode1下，一个PWM周期会产生两次Update Event中断，分别是“下溢”与“上溢”。** 《STM32F103参考手册》的260页有相关的说明。就是说，Update Event中断时，一个PWM周期会产生两次的中断，如果在中断里进行电流采样的话，相当于一个PWM周期采样两次电流。
+![[Pasted image 20250102112419.png]]
+### 6.1.2、用示波器验证Update Event中断事件
+![[Pasted image 20250102113847.png]]
+如上所示，在tim.c里，启动定时器2中断。
+![[Pasted image 20250102113958.png]]
+如上所示，在user_main.cpp里的TIM2的定时器中断回调里翻转LED灯的引脚电平，使用示波器的探头抓去波形。
+![[Pasted image 20250102115411.png]]
+![[Pasted image 20250102115209.png]]
+如上所示，从示波器的波形看到，一个PWM周期真的有两次Update Event事件，分别是下溢与上溢。
+有一个问题：PWM频率是20KHz，Update Event的频率是40KHz,如果在Update Event里进行电流采样，那么电流采样的频率是40KHz。FOC的电流采样频率应该跟PWM的频率，怎样改进代码？
+
+### 6.1.3、让电流采样频率跟PWM频率一致（使用Upate Event的下溢中断）
+其实，选择下溢或者上溢，二选一进行一次电流采样就能满足电流采样的频率跟PWM频率一致。
+![[Pasted image 20250102120239.png]]
+改进的方法很简单，实现一个软件RCR计数器，如上所示。
+![[Pasted image 20250102121000.png]]
+如上所示，只有在下溢的时候翻转LED电平，上溢的时候不再翻转LED电平了。在翻转LED的位置进行电流采样的话，电流采样的频率跟PWM频率一致都是20KHz了。
+
+### 6.1.4、让电流采样频率跟PWM频率一致（使用Upate Event的上溢中断）
+![[Pasted image 20250102121424.png]]
+如上所示，改为上溢中断翻转LED电平。
+![[Pasted image 20250102121747.png]]
+如上所示，采样的频率没有变化，只是从下溢改为下溢采样。
+
+总的来说：
+1. 如果想在三相逆变电路的上桥臂稳定导通的时候进行采样，选择上溢Update Event。
+2. 反之，想在下桥臂稳定导通的时候进行采样，选择下溢Update Event。
+
+
+
+
