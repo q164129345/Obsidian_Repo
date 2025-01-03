@@ -48,6 +48,12 @@ RTT Viewer的打印，虽然是速度开环控制，但速度也接近控制的4
 
 # 四、细节补充
 ---
+## 4.1、程序流程图
+![[Pasted image 20250103180401.png]]
+如上图所示，使用simpleFOC库，只需简单配置BLDCDriver类与BLDCMotor类就能实现开环速度控制。
+
+
+
 
 
 
