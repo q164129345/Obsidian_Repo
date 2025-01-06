@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5,
-    "collapsed": true
+    "width": 302.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -192,6 +191,14 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
+    "附件存放/j-scope_maanbo.gif",
+    "附件存放/Pasted image 20250106194124.png",
+    "附件存放/j-scope_open_vel.gif",
+    "附件存放/Pasted image 20250106192851.png",
+    "知识库/软件开发/现代C++/C++多态01 - 虚函数的基本使用.md",
+    "知识库/软件开发/现代C++/C++智能指针 - std：：unique_ptr与std：：share_ptr的区别.md",
+    "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
     "附件存放/Pasted image 20250103180401.png",
     "附件存放/Pasted image 20250103173817.png",
     "附件存放/Pasted image 20250103170830.png",
@@ -199,13 +206,8 @@
     "附件存放/Pasted image 20250103161216.png",
     "附件存放/Pasted image 20250103111848.png",
     "附件存放/Pasted image 20250103110739.png",
-    "附件存放/Pasted image 20250103105936.png",
-    "附件存放/Pasted image 20250103105844.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
-    "附件存放/Pasted image 20250102210033.png",
-    "附件存放/Pasted image 20250102205835.png",
     "附件存放/20250102-204654.mp4",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
@@ -229,9 +231,6 @@
     "未命名.canvas",
     "202412192011.md",
     "2024-12-19.md",
-    "知识库/软件开发/MCU/STM32程序优化 - volatile的正确理解与使用.md",
-    "知识库/软件开发/MCU/STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode插件 Cortex-Debug + ST-LINK与DAP-LINK与J-LINK调试MCU程序.md",
     "附件存放/20241219-155340.mp4",
     "案例分析",
     "附件存放/1607957026859.mp4",
