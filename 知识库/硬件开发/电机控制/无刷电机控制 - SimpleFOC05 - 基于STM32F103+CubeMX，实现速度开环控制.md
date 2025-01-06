@@ -1,14 +1,14 @@
 # 导言
 ---
-![[Pasted image 20241231160807.png]]
-如上所示，要让三相电机转起来，实现速度开环控制，需要完成FOC框架如下部分：
+![[Pasted image 20250106201231.png]]
+如上所示，构建速度开环控制的框架，需要继续完成如下模块：
 1. Inverse Park Transform(反帕克变换)
 2. SVPWM Generator（SVPWM算法，或者克拉克逆变换）
 
 效果如下，电机终于开始旋转起来了：
 ![[20250102-204654.mp4]]
 
-RTT Viewer的打印，虽然是速度开环控制，但速度也接近控制的4rad/s：
+RTT Viewer的打印，虽然是速度开环控制，也能比较接近期望的转速4rad/s：
 ![[rtt_open_vel.gif]]
 项目源码:https://github.com/q164129345/MCU_Develop/tree/main/simplefoc05_stm32f103_open_vel_ctrl
 
