@@ -65,7 +65,11 @@ RTT Viewer的打印，虽然是速度开环控制，也能比较接近期望的�
 ![[j-scope_maanbo.gif]]
 如上图所示，切换控制算法后，正弦波变成马鞍波。simpleFOC支持两种算法，随意我们切换来做实验。
 
+## 4.4、BLDCMotor motor(7)
+![[Pasted image 20250106211707.png]]
+如上图所示，实例化一个BLDCMotor对象，最简单的方式是填入电机的极对数，实验的云台无刷电机是7极多。稍微深入研究一下代码`BLDCMotor motor(7)`的意义。
 
-
-
+### 4.4.1、父类FOCMotor
+![[Pasted image 20250106212503.png | 800]]
+![[Pasted image 20250106213045.png]]
 
