@@ -1,6 +1,6 @@
 # 导言
 ---
-![[Pasted image 20250106201231.png]]
+![[Pasted image 20250106201758.png]]
 如上所示，构建速度开环控制的框架，需要继续完成如下模块：
 1. Inverse Park Transform(反帕克变换)
 2. SVPWM Generator（SVPWM算法，或者克拉克逆变换）
