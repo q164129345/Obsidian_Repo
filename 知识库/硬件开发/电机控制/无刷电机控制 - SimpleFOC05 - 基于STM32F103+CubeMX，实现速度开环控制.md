@@ -65,11 +65,35 @@ RTT Viewer的打印，虽然是速度开环控制，也能比较接近期望的�
 ![[j-scope_maanbo.gif]]
 如上图所示，切换控制算法后，正弦波变成马鞍波。simpleFOC支持两种算法，随意我们切换来做实验。
 
-## 4.4、BLDCMotor motor(7)
+## 4.4、BLDCMotor motor(7)发生了什么？
 ![[Pasted image 20250106211707.png]]
-如上图所示，实例化一个BLDCMotor对象，最简单的方式是填入电机的极对数，实验的云台无刷电机是7极多。稍微深入研究一下代码`BLDCMotor motor(7)`的意义。
+如上图所示，实例化一个BLDCMotor对象，最简单的方式是填入电机的极对数，实验用的云台无刷电机是7极多。接下来，稍微深入研究一下代码`BLDCMotor motor(7)`的意义。
 
-### 4.4.1、父类FOCMotor
+![[Pasted image 20250107191354.png]]
+BLDCMotor类的父类是FOCMotor类，BLDCMotor实例化对象motor时会先调用FOCMotor类的构造函数FOCMotor()，接着再调用自己的构造函数BLDCMotor()。
+
 ![[Pasted image 20250106212503.png | 800]]
+如上图所示，BLDCMotor的父类是FOCMotor。
+
 ![[Pasted image 20250106213045.png]]
+如上图所示，FOCMotor类的的构造函数初始化一堆软件上的参数。
+
+![[Pasted image 20250107192031.png]]
+如上图所示，BLDCMotor类的构造函数的目的是初始化电机的硬件参数，极对数必须填写。
+
+![[Pasted image 20250107194657.png]]
+为什么在BLDCMotor()的构造函数末尾要增加:FOCMotor()？
+1. 如果BLDCMotor的父类FOCMotor类只有一个默认的无参数的构造函数时，末尾的:FOCMotor()可以删除掉，不影响。
+2. 如果父类FOCMotor有两个或者以上的构造函数（包含带参数的构造函数），必须显式调用FOCMotor(...)来调用指定的构造函数，否则C++编译器会尝试调用无参数的构造函数FOCMotor()。如果没有这个无参数构造函数FOCMotor()的话，编译会失败。
+综上所述，从simpleFOC的源码看到，FOCMotor类只有一个默认的无参数的构造函数。所以，BLDCMotor类的构造函数BLDCMotor()结尾的:FOCMotor()可以有，可以无。只能说simpleFOC的作者有一个好习惯！
+
+
+
+
+
+
+
+
+
+
 

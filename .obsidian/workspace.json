@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5,
-    "collapsed": true
+    "width": 329.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -192,6 +191,9 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250107194657.png",
+    "附件存放/Pasted image 20250107192031.png",
+    "附件存放/Pasted image 20250107191354.png",
     "附件存放/Pasted image 20250106213045.png",
     "附件存放/Pasted image 20250106212503.png",
     "附件存放/Pasted image 20250106211707.png",
@@ -202,12 +204,9 @@
     "附件存放/j-scope_maanbo.gif",
     "附件存放/Pasted image 20250106194124.png",
     "附件存放/j-scope_open_vel.gif",
-    "附件存放/Pasted image 20250106192851.png",
     "知识库/软件开发/现代C++/C++多态01 - 虚函数的基本使用.md",
     "知识库/软件开发/现代C++/C++智能指针 - std：：unique_ptr与std：：share_ptr的区别.md",
     "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
-    "附件存放/Pasted image 20250103180401.png",
-    "附件存放/Pasted image 20250103173817.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
     "附件存放/20250102-204654.mp4",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
