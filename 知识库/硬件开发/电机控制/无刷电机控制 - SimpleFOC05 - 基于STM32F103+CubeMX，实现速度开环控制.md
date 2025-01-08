@@ -88,12 +88,3 @@ BLDCMotor类的父类是FOCMotor类，BLDCMotor实例化对象motor时会先调�
 综上所述，从simpleFOC的源码看到，FOCMotor类只有一个默认的无参数的构造函数。所以，BLDCMotor类的构造函数BLDCMotor()结尾的:FOCMotor()可以有，可以无。只能说simpleFOC的作者有一个好习惯！
 
 
-
-
-
-
-
-
-
-
-

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制"
+              "title": "无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 329.5
+    "width": 691.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -140,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制 的大纲"
+              "title": "无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准 的大纲"
             }
           },
           {
@@ -191,19 +192,20 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
+    "附件存放/飞书20250108-121114.mp4",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
+    "附件存放/Pasted image 20250108120717.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
+    "附件存放/Pasted image 20250107211108.png",
+    "附件存放/Pasted image 20250107210915.png",
     "附件存放/Pasted image 20250107194657.png",
     "附件存放/Pasted image 20250107192031.png",
     "附件存放/Pasted image 20250107191354.png",
     "附件存放/Pasted image 20250106213045.png",
     "附件存放/Pasted image 20250106212503.png",
     "附件存放/Pasted image 20250106211707.png",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
     "附件存放/Pasted image 20250106201758.png",
-    "附件存放/Pasted image 20250106201231.png",
-    "附件存放/j-scope_maanbo.gif",
-    "附件存放/Pasted image 20250106194124.png",
-    "附件存放/j-scope_open_vel.gif",
     "知识库/软件开发/现代C++/C++多态01 - 虚函数的基本使用.md",
     "知识库/软件开发/现代C++/C++智能指针 - std：：unique_ptr与std：：share_ptr的区别.md",
     "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
@@ -230,7 +232,6 @@
     "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
     "未命名.canvas",
     "202412192011.md",
-    "2024-12-19.md",
     "附件存放/20241219-155340.mp4",
     "案例分析",
     "附件存放/1607957026859.mp4",
