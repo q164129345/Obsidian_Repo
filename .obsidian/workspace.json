@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准"
+              "title": "无刷电机控制 - simpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准 的大纲"
+              "title": "无刷电机控制 - simpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准 的大纲"
             }
           },
           {
@@ -192,8 +192,13 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
     "附件存放/Pasted image 20250108184709.png",
     "附件存放/Pasted image 20250108184328.png",
     "附件存放/Pasted image 20250108184226.png",
@@ -204,15 +209,11 @@
     "附件存放/Pasted image 20250108165547.png",
     "附件存放/Pasted image 20250108165016.png",
     "附件存放/飞书20250108-121114.mp4",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
     "附件存放/Pasted image 20250108120717.png",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
     "知识库/软件开发/现代C++/C++多态01 - 虚函数的基本使用.md",
     "知识库/软件开发/现代C++/C++智能指针 - std：：unique_ptr与std：：share_ptr的区别.md",
     "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
     "附件存放/20250102-204654.mp4",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
     "知识库/Maps/硬件开发汇总.md",
     "知识库/Maps/机器人开发汇总.md",
     "知识库/Maps/数据结构与算法汇总.md",
