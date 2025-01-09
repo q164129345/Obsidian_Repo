@@ -1,6 +1,6 @@
 # 导言
 ---
-**完成comom代码的移植后，simpleFOC的移植算是完成一大半**。simpleFOC源码分为如下5个部分，其中communication是跟simpleFOC上位机通讯，暂时不打算使用，忽略它：
+**comom代码的移植后，simpleFOC的移植算是完成一大半**。simpleFOC源码分为如下5个部分，其中communication是跟simpleFOC上位机通讯，暂时不打算使用，忽略它：
 1. common(数学工具、关键类)
 2. communication（simpleFOC上位机）：simpleFOC上位机通讯，暂时不打算使用，没必要移植。
 3. current_sensor（电流传感器）simpleFOC官方使用过的开发板，一般我们都要根据自己的开发板重新写，重新调。
