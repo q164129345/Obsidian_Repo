@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制"
+              "title": "无刷电机控制 - simpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制"
             }
           }
         ]
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制 的大纲"
+              "title": "无刷电机控制 - simpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制 的大纲"
             }
           },
           {
@@ -192,6 +192,7 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
+    "附件存放/vel_control.gif",
     "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制.md",
     "附件存放/Pasted image 20250110151416.png",
