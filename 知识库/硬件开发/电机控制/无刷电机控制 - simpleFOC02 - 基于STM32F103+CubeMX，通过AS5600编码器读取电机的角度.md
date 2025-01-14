@@ -15,18 +15,18 @@
 
 # 一、Keil
 ---
-![[Pasted image 20241225204308.png | 1000]]
-![[Pasted image 20241225204405.png]]
+![[Pasted image 20241225204308.png | 1100]]
+![[Pasted image 20241225204405.png | 1100]]
 
 # 二、CubeMX
 ---
-![[Pasted image 20241226141529.png | 1200]]
+![[Pasted image 20241226141529.png | 1100]]
 
 
 
 # 三、代码
 ---
-![[Pasted image 20241225204652.png | 1000]]
+![[Pasted image 20241225204652.png | 1100]]
 因为AS5600使用的是I2C通讯接口，跟源码MagneticSensorI2C类很相似，可以直接Copy过来修改。
 
 ## 3.1、先解决编译失败问题
@@ -261,12 +261,12 @@ int AS5600_I2C::read(uint8_t angle_reg_msb) {
 ```
 
 ## 3.1.3、user_main.cpp
-![[Pasted image 20241226193149.png]]
+![[Pasted image 20241226193149.png | 1100]]
 
 # 四、调试程序
 ---
 ## 4.1、编译
-![[Pasted image 20241226115547.png]]
+![[Pasted image 20241226115547.png | 1100]]
 如上所示，编译通过。
 
 ## 4.2、RTT_Viewer
@@ -277,7 +277,7 @@ int AS5600_I2C::read(uint8_t angle_reg_msb) {
 ---
 ## 5.1、I2C的高速模式
 ### 5.1.1、CubeMX
-![[Pasted image 20241226204649.png]]
+![[Pasted image 20241226204649.png | 1100]]
 ### 5.1.2、RTT_Viewer
 AS5600支持I2C的高速模式。
 ![[I2C_HighSpeed.gif]]

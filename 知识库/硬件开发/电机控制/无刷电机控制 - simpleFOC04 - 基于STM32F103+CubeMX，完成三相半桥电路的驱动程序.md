@@ -1,6 +1,6 @@
 # 导言
 ---
-![[Pasted image 20241231113230.png]]
+![[Pasted image 20241231113230.png | 1100]]
 在FOC（Field-Oriented Control）框架中，Power Inverter（电源逆变器）扮演着将直流电（DC）转换为交流电（AC）的关键角色。这个转换是必要的，因为电机通常需要交流电来运行，而系统中的电源可能提供的是直流电。
 在图中，逆变器接收来自SVPWM生成器的控制信号，并根据这些信号调整其输出，从而驱动PMSM电机按照预定的速度和转矩运行。通过这一过程，逆变器在FOC系统中起到了将控制算法的指令转化为实际电机驱动的桥梁作用。
 
@@ -8,32 +8,32 @@
 
 # 一、电机开发板的三相逆变电路分析
 ---
-![[Pasted image 20241227141718.png]]
+![[Pasted image 20241227141718.png | 1100]]
 如上图所示，simpleFOC的源码提供两种PWM驱动：
 1. 3PWM
 2. 6PWM
 
 选择哪种驱动，取决于开发板的三相逆变电路的设计。
 
-![[Pasted image 20241227142137.png]]
+![[Pasted image 20241227142137.png | 1100]]
 如上所示，电机驱动板的三相逆变电路只用了3路PWM，还有1路Enable控制，一共4个GPIO。所以，这个电机控制板需要移植的是BLDCDriver3PWM.cpp与.h的源码。
 
 # 二、simpleFOC源码移植
 ---
 ## 2.1、BLDCDriver3PWM
-![[Pasted image 20241227141437.png | 1200]]
+![[Pasted image 20241227141437.png | 1100]]
 
 # 三、CubeMX
 ---
 ## 3.1、TIM2
 **TIM2的目的是产生中间对齐的PWM，并在下半桥导通后的中间位置触发定时器中断，进行电流采样。** 下面，将用示波器抓波形核对一遍。
 ### 3.1.1、Mode
-![[Pasted image 20241227161205.png]]
+![[Pasted image 20241227161205.png | 1100]]
 ### 3.1.2、Configuration
-![[Pasted image 20241227164217.png]]
+![[Pasted image 20241227164217.png | 1100]]
 如上所示，完成Parameter Settings。为什么这样设置TIM去产生PWM，可以参考CSDN另外一篇详细的笔记：https://blog.csdn.net/wallace89/article/details/144520720?spm=1001.2014.3001.5501
-![[Pasted image 20241227163507.png]]
-![[Pasted image 20241227163545.png]]
+![[Pasted image 20241227163507.png | 1100]]
+![[Pasted image 20241227163545.png | 1100]]
 
 # 四、代码
 ---
@@ -44,9 +44,9 @@
 3. BLDCDriver3PWM::disable()，失能三相逆变电路
 4. BLDCDriver3PWM::init()，三相逆变电路初始化
 5. BLDCDriver3PWM::setPwm()，根据控制的电压值转换为PWM占空比%
-![[Pasted image 20241231152401.png]]
-![[Pasted image 20241231152555.png]]
-![[Pasted image 20241231152716.png]]
+![[Pasted image 20241231152401.png | 1100]]
+![[Pasted image 20241231152555.png | 1100]]
+![[Pasted image 20241231152716.png | 1100]]
 ```C++
 #include "BLDCDriver3PWM.h"
 
@@ -137,7 +137,7 @@ void BLDCDriver3PWM::setPwm(float Ua, float Ub, float Uc) {
 ```
 
 ## 4.2、BLDCDriver3PWM.h
-![[Pasted image 20241231153516.png]]
+![[Pasted image 20241231153516.png | 1100]]
 ```C++
 #ifndef BLDCDriver3PWM_h
 #define BLDCDriver3PWM_h
@@ -210,7 +210,7 @@ class BLDCDriver3PWM: public BLDCDriver
 ```
 
 ## 4.3、bsp_pwm.c
-![[Pasted image 20241231153751.png]]
+![[Pasted image 20241231153751.png | 1100]]
 ```c
 #include "bsp_pwm.h"
 
@@ -236,7 +236,7 @@ void _writeDutyCycle3PWM(TIM_HandleTypeDef *htimx, float dc_a, float dc_b, float
 }
 ```
 ## 4.4、bsp_pwm.h
-![[Pasted image 20241231154512.png]]
+![[Pasted image 20241231154512.png | 1100]]
 ```C
 /*
  * @brief 这个库用于STM32F103的三相PWM输出控制
@@ -279,7 +279,7 @@ void _writeDutyCycle3PWM(TIM_HandleTypeDef *htimx, float dc_a, float dc_b, float
 
 ```
 ## 4.5、user_main.cpp
-![[Pasted image 20241231155758.png]]
+![[Pasted image 20241231155758.png | 1100]]
 ```C
 #include "user_main.h"
 #include "AS5600_I2C.h"
@@ -320,8 +320,8 @@ void main_Cpp(void)
 # 五、调试
 ---
 ## 5.1、示波器确认PWM波形
-![[Pasted image 20241231154911.png]]
-![[Pasted image 20241231155604.png]]
+![[Pasted image 20241231154911.png | 1100]]
+![[Pasted image 20241231155604.png | 1100]]
 如上图所示，示波器测量出来的PWM波形的频率是20KHz，占空比50.2%，没有问题。
 
 
@@ -331,30 +331,30 @@ void main_Cpp(void)
 另外一篇相关的笔记:[STM32F405 + CubeMX - 产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）](https://blog.csdn.net/wallace89/article/details/144520720?sharetype=blogdetail&sharerId=144520720&sharerefer=PC&sharesource=wallace89&spm=1011.2480.3001.8118)
 
 ### 6.1.1、Update Event中断事件
-![[Pasted image 20250102111450.png | 1000]]
+![[Pasted image 20250102111450.png | 1100]]
 **如上图所示，TIM2没有RCR计数器，在Center Aligned mode1下，一个PWM周期会产生两次Update Event中断，分别是“下溢”与“上溢”。** 《STM32F103参考手册》的260页有相关的说明。就是说，Update Event中断时，一个PWM周期会产生两次的中断，如果在中断里进行电流采样的话，相当于一个PWM周期采样两次电流。
-![[Pasted image 20250102112419.png]]
+![[Pasted image 20250102112419.png | 1100]]
 ### 6.1.2、用示波器验证Update Event中断事件
-![[Pasted image 20250102113847.png]]
+![[Pasted image 20250102113847.png | 1100]]
 如上所示，在tim.c里，启动定时器2中断。
-![[Pasted image 20250102113958.png]]
+![[Pasted image 20250102113958.png | 1100]]
 如上所示，在user_main.cpp里的TIM2的定时器中断回调里翻转LED灯的引脚电平，使用示波器的探头抓去波形。
-![[Pasted image 20250102115411.png]]
-![[Pasted image 20250102115209.png]]
+![[Pasted image 20250102115411.png | 1100]]
+![[Pasted image 20250102115209.png | 1100]]
 如上所示，从示波器的波形看到，一个PWM周期真的有两次Update Event事件，分别是下溢与上溢。
 有一个问题：PWM频率是20KHz，Update Event的频率是40KHz,如果在Update Event里进行电流采样，那么电流采样的频率是40KHz。FOC的电流采样频率应该跟PWM的频率，怎样改进代码？
 
 ### 6.1.3、让电流采样频率跟PWM频率一致（使用Upate Event的下溢中断）
 其实，选择下溢或者上溢，二选一进行一次电流采样就能满足电流采样的频率跟PWM频率一致。
-![[Pasted image 20250102120239.png]]
+![[Pasted image 20250102120239.png | 1100]]
 改进的方法很简单，实现一个软件RCR计数器，如上所示。
-![[Pasted image 20250102121000.png]]
+![[Pasted image 20250102121000.png | 1100]]
 如上所示，只有在下溢的时候翻转LED电平，上溢的时候不再翻转LED电平了。在翻转LED的位置进行电流采样的话，电流采样的频率跟PWM频率一致都是20KHz了。
 
 ### 6.1.4、让电流采样频率跟PWM频率一致（使用Upate Event的上溢中断）
-![[Pasted image 20250102121424.png]]
+![[Pasted image 20250102121424.png | 1100]]
 如上所示，改为上溢中断翻转LED电平。
-![[Pasted image 20250102121747.png]]
+![[Pasted image 20250102121747.png | 1100]]
 如上所示，采样的频率没有变化，只是从下溢改为下溢采样。
 
 总的来说：
