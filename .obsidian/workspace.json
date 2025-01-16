@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环）.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环）"
+              "title": "无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 533.5,
+    "width": 561.5,
     "collapsed": true
   },
   "right": {
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环）.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环） 的大纲"
+              "title": "无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环） 的大纲"
             }
           },
           {
@@ -192,24 +192,28 @@
   },
   "active": "f708b910734d09d7",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250116210918.png",
+    "附件存放/Pasted image 20250116210758.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
+    "附件存放/RTT.gif",
+    "附件存放/20250116-205844.mp4",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
+    "附件存放/Pasted image 20250116205129.png",
+    "附件存放/Pasted image 20250116205046.png",
+    "附件存放/Pasted image 20250116205016.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
+    "附件存放/Pasted image 20250116195502.png",
+    "附件存放/Pasted image 20250116195242.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
     "附件存放/20250115-180522.mp4",
     "附件存放/Pasted image 20250115180344.png",
     "附件存放/Pasted image 20250115180311.png",
-    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - simpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环）.md",
     "附件存放/Pasted image 20250114204706.png",
-    "附件存放/Pasted image 20250114204609.png",
-    "附件存放/Pasted image 20250114204041.png",
-    "附件存放/Pasted image 20250114200340.png",
-    "附件存放/Pasted image 20250114200114.png",
-    "附件存放/Pasted image 20250114195451.png",
-    "附件存放/Uabc.gif",
-    "附件存放/Pasted image 20250114173842.png",
     "附件存放/20250114-114914.mp4",
     "附件存放/飞书20250108-121114.mp4",
     "知识库/软件开发/现代C++/C++多态01 - 虚函数的基本使用.md",
@@ -231,16 +235,12 @@
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论02 - 克拉克变换.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论04 - 克拉克变换 + 帕克变换的最终目标.md",
     "知识库/硬件开发/电机控制/未命名.canvas",
-    "知识库/软件开发/linux/ubuntu22.04 - 强大的录屏工具peek.md",
-    "知识库/软件开发/MCU/STM32开发工具 - vscode插件Embedded IDE 使用OpenOCD在STM32F103芯片上下载失败.md",
     "未命名.canvas",
     "附件存放/20241219-155340.mp4",
     "案例分析",
     "附件存放/1607957026859.mp4",
     "附件存放/1551001463-1-16 1.mp4",
     "附件存放/1551001463-1-16.mp4",
-    "附件存放/152526716-1-208.mp4",
-    "附件存放/152526704-1-16.mp4",
     "知识库/软件开发/MCU/未命名.canvas"
   ]
 }

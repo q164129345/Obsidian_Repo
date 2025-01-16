@@ -1,6 +1,6 @@
 # 导言
 ---
-[[无刷电机控制 - simpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码]]
+[[无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码]]
 上一章节完成common代码的移植，下一步是完成位置编码器的角度读取。
 ![[Pasted image 20241226203127.png]]
 如上所示，通过`getSensorAngle()`方法可以获取电机的当前角度信息。
