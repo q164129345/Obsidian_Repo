@@ -17,4 +17,11 @@
 ![[Pasted image 20250116210758.png | 1100]]
 ![[Pasted image 20250116210918.png | 1100]]
 
+# 二、细节补充
+---
+## 2.1、使用J-Scope观察Ua、Ub、Uc的波形
+![[Pasted image 20250117150103.png | 1100]]
+
+![[J-Scope.gif]]
+如上图所示，使用J-Scope读取三相占空比dc_a、dc_b、dc_c的波形。
 
