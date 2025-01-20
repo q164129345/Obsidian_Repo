@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "1fb5f18d52d8f44e",
+        "id": "10b0ff8a84333cfa",
         "type": "tabs",
         "children": [
           {
-            "id": "f708b910734d09d7",
+            "id": "90e8956339a34861",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）"
+              "title": "无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 413.5,
+    "width": 339.5,
     "collapsed": true
   },
   "right": {
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/linux/ubuntu22.04 - 强大的录屏工具peek.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "ubuntu22.04 - 强大的录屏工具peek 的反向链接列表"
+              "title": "无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流 的反向链接列表"
             }
           },
           {
@@ -114,12 +114,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/linux/ubuntu22.04 - 强大的录屏工具peek.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "ubuntu22.04 - 强大的录屏工具peek 的出链列表"
+              "title": "无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流 的出链列表"
             }
           },
           {
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环） 的大纲"
+              "title": "无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流 的大纲"
             }
           },
           {
@@ -172,11 +172,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 244.5
+    "width": 511.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,28 +190,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f708b910734d09d7",
+  "active": "90e8956339a34861",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250120180154.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
+    "附件存放/Pasted image 20250120175416.png",
+    "附件存放/Pasted image 20250120175057.png",
+    "附件存放/Pasted image 20250120174734.png",
+    "附件存放/Pasted image 20250120174601.png",
+    "附件存放/Pasted image 20250120174517.png",
+    "附件存放/Pasted image 20250120174436.png",
+    "附件存放/Pasted image 20250120174418.png",
+    "附件存放/Pasted image 20250120174234.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
+    "知识库/Maps/硬件开发汇总.md",
+    "知识库/Maps/机器人开发汇总.md",
+    "知识库/Maps/开发工具汇总.md",
+    "电子书/深度探索C++对象模型 PDF中文清晰版.pdf",
+    "电子书/Dopamine_Nation_by_Anna_Lembke.md",
+    "电子书/经济学原理（第7版）_宏观经济学分册_美_曼.pdf",
+    "电子书/经济学原理（第7版）_微观经济学分册_美_曼昆.pdf",
+    "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论02 - 克拉克变换.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论03 - 帕克变换.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论04 - 克拉克变换 + 帕克变换的最终目标.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
     "附件存放/Pasted image 20250117150103.png",
     "附件存放/J-Scope.gif",
-    "附件存放/Pasted image 20250116210918.png",
-    "附件存放/Pasted image 20250116210758.png",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
-    "附件存放/RTT.gif",
     "附件存放/20250116-205844.mp4",
-    "附件存放/Pasted image 20250116205129.png",
-    "附件存放/Pasted image 20250116205046.png",
-    "附件存放/Pasted image 20250116205016.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
-    "附件存放/Pasted image 20250116195502.png",
-    "附件存放/Pasted image 20250116195242.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
     "附件存放/20250115-180522.mp4",
     "附件存放/20250114-114914.mp4",
     "附件存放/飞书20250108-121114.mp4",
@@ -219,27 +231,16 @@
     "知识库/软件开发/现代C++/C++智能指针 - std：：unique_ptr与std：：share_ptr的区别.md",
     "知识库/软件开发/现代C++/C++智能指针 - 共享指针std：：share_ptr.md",
     "附件存放/20250102-204654.mp4",
-    "知识库/Maps/硬件开发汇总.md",
-    "知识库/Maps/机器人开发汇总.md",
     "知识库/Maps/数据结构与算法汇总.md",
-    "知识库/Maps/开发工具汇总.md",
     "知识库/Maps/ESP32开发汇总.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "README.md",
     "知识库/Maps/电机控制.canvas",
-    "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论01 - 坐标变换的简单梳理.md",
-    "知识库/硬件开发/电机控制/电机控制- 无刷电机硬件控制原理.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论03 - 帕克变换.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论02 - 克拉克变换.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论04 - 克拉克变换 + 帕克变换的最终目标.md",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
     "附件存放/20241219-155340.mp4",
     "案例分析",
-    "附件存放/1607957026859.mp4",
-    "附件存放/1551001463-1-16 1.mp4",
-    "附件存放/1551001463-1-16.mp4",
     "知识库/软件开发/MCU/未命名.canvas"
   ]
 }
