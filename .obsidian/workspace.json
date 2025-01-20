@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 511.5
+    "width": 289.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,17 +192,19 @@
   },
   "active": "90e8956339a34861",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250120210115.png",
+    "附件存放/Pasted image 20250120210035.png",
+    "附件存放/Pasted image 20250120205111.png",
+    "附件存放/Pasted image 20250120204425.png",
+    "附件存放/Pasted image 20250120204223.png",
+    "附件存放/Pasted image 20250120204045.png",
+    "附件存放/Pasted image 20250120203627.png",
     "附件存放/Pasted image 20250120180154.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
     "附件存放/Pasted image 20250120175416.png",
     "附件存放/Pasted image 20250120175057.png",
     "附件存放/Pasted image 20250120174734.png",
-    "附件存放/Pasted image 20250120174601.png",
-    "附件存放/Pasted image 20250120174517.png",
-    "附件存放/Pasted image 20250120174436.png",
-    "附件存放/Pasted image 20250120174418.png",
-    "附件存放/Pasted image 20250120174234.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
@@ -219,8 +221,6 @@
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC01 - 基于STM32F103+CubeMX，移植核心的common代码.md",
-    "附件存放/Pasted image 20250117150103.png",
-    "附件存放/J-Scope.gif",
     "附件存放/20250116-205844.mp4",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
