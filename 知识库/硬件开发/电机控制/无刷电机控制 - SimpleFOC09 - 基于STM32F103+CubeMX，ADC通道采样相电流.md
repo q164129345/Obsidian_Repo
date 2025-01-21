@@ -2,14 +2,14 @@
 ---
 开始移植SimpleFOC的电流环代码之前，先实现ADC通道采样相电流的功能。
 ![[Pasted image 20250120204223.png]]
-本章节的目的是完成函数_readADCVoltageInline(pinx)的驱动，它会被InlineCurrentSensor类使用，获取相电流。
+本章节主要目的是完成函数_readADCVoltageInline(pinx)，它会被InlineCurrentSensor类使用，获取相电流。
 
 ## 为什么是InlineCurrentSense类，而不是LowsideCurrentSense类？
 ![[Pasted image 20250120204045.png | 1100]]
 从SimpleFOC的源码看到，current_snese里一共有三个类：
-1. GenericCurrentSense
-2. InlineCurrentSense
-3. LowsideCurrentSense
+1. GenericCurrentSense（这个不清楚，暂时不管）
+2. InlineCurrentSense（采样电阻在上桥臂与下桥臂之间）
+3. LowsideCurrentSense（采样电阻在下桥臂下方且与GND连接。*多数大功率且高电压的FOC驱动板使用这个方案*）
 
 ![[Pasted image 20250120204425.png | 1100]]
 如上图所示，选择InlineCurrentSense的原因是电路板的采样电路设计。
@@ -17,6 +17,9 @@
 # 一、CubeMX
 ---
 ## 1.1、ADC1
+参考以下博主的文章：
+《[STM32CubeMX | STM32使用HAL库的ADC多通道数据采集（DMA+非DMA方式）+ 读取内部传感器温度](https://blog.51cto.com/u_15950551/6031866)》
+《[STM32CUBEMX配置教程（十一）STM32的ADC轮询模式扫描多个通道](https://blog.csdn.net/weixin_44584198/article/details/119442880)》
 ![[Pasted image 20250120205111.png]]
 ### 1.1.1、Scan Conversion Mode（扫描模式）
 目的：让 ADC 能依次转换多个规则通道（Rank1 → Rank2 → …）。
