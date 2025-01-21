@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 495.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,21 +190,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "90e8956339a34861",
+  "active": "a60868e0307c778b",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250121210807.png",
+    "附件存放/Pasted image 20250121210605.png",
+    "附件存放/Pasted image 20250121210043.png",
+    "附件存放/Pasted image 20250121204838.png",
+    "附件存放/Pasted image 20250121201822.png",
+    "附件存放/Pasted image 20250121201453.png",
+    "附件存放/Pasted image 20250121201356.png",
+    "附件存放/Pasted image 20250121201248.png",
+    "附件存放/Pasted image 20250121200953.png",
     "附件存放/Pasted image 20250120210115.png",
     "附件存放/Pasted image 20250120210035.png",
-    "附件存放/Pasted image 20250120205111.png",
-    "附件存放/Pasted image 20250120204425.png",
-    "附件存放/Pasted image 20250120204223.png",
-    "附件存放/Pasted image 20250120204045.png",
-    "附件存放/Pasted image 20250120203627.png",
-    "附件存放/Pasted image 20250120180154.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
-    "附件存放/Pasted image 20250120175416.png",
-    "附件存放/Pasted image 20250120175057.png",
-    "附件存放/Pasted image 20250120174734.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
