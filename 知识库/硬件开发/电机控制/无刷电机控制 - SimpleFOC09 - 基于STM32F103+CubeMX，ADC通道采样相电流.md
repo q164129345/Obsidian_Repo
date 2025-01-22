@@ -14,6 +14,10 @@
 ![[Pasted image 20250120204425.png | 1100]]
 如上图所示，选择InlineCurrentSense的原因是电路板的采样电路设计。
 
+**RTT**
+![[ADC_RTT.gif]]
+项目源码：https://github.com/q164129345/MCU_Develop/tree/main/simplefoc09_stm32f103_adc_sample
+
 # 一、CubeMX
 ---
 ## 1.1、ADC1
@@ -412,9 +416,9 @@ class InlineCurrentSense: public CurrentSense{
 ```
 
 ## 2.5、user_main.cpp
-
-
-
+![[Pasted image 20250122143413.png | 1100]]
+![[Pasted image 20250122143738.png | 1100]]
+![[Pasted image 20250122144228.png | 1100]]
 
 
 
@@ -449,4 +453,15 @@ class InlineCurrentSense: public CurrentSense{
 
 ### 3.1.4、总时间
 如果ADC频率是12MHz时，总时间 = 采样时间（7cycles = 0.625us) + 转换时间（12.5cycles = 1.0317us) = 1.6567us
+
+## 3.2、InlineCurrentSense类实例化，且init()后，其对象的属性变成怎样了？？
+![[Pasted image 20250122150859.png | 1100]]
+执行完实例化与init()方法，为了就是计算出各相的offset（偏置量，又叫“零电流电压基准”）与volts_to_amps_ratio（电压到电流的转换系数）。
+
+### 3.2.1、为什么需要offset（零电流电压基准）
+![[Pasted image 20250122151208.png | 1100]]
+**后续在实际测量电流时，就会用这些偏置量来抵消因硬件或采样环境带来的偏移误差，以得到更准确的电流测量结果。** 从函数InlineCurrentSense::calibrateOffsets()看到，它通过多次读取（默认1000次）来求取“零电流电压基准”，把这个值保存为 offset_ia / offset_ib / offset_ic。
+
+
+
 

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "10b0ff8a84333cfa",
+        "id": "20ded6fcbfd77331",
         "type": "tabs",
         "children": [
           {
-            "id": "90e8956339a34861",
+            "id": "f5fd6535ee1b0177",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "20250122150438",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 495.5
+    "width": 399.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,29 +190,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a60868e0307c778b",
+  "active": "f5fd6535ee1b0177",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250122151208.png",
+    "附件存放/Pasted image 20250122150859.png",
+    "附件存放/Pasted image 20250122150438.png",
+    "附件存放/Pasted image 20250122145818.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
+    "附件存放/ADC_RTT.gif",
+    "附件存放/Pasted image 20250122144228.png",
+    "附件存放/Pasted image 20250122143738.png",
+    "附件存放/Pasted image 20250122143413.png",
+    "电子书/深度探索C++对象模型 PDF中文清晰版.md",
+    "电子书/深度探索C++对象模型 PDF中文清晰版.pdf",
+    "电子书/Dopamine_Nation_by_Anna_Lembke.md",
     "附件存放/Pasted image 20250121210807.png",
     "附件存放/Pasted image 20250121210605.png",
     "附件存放/Pasted image 20250121210043.png",
-    "附件存放/Pasted image 20250121204838.png",
-    "附件存放/Pasted image 20250121201822.png",
-    "附件存放/Pasted image 20250121201453.png",
-    "附件存放/Pasted image 20250121201356.png",
-    "附件存放/Pasted image 20250121201248.png",
-    "附件存放/Pasted image 20250121200953.png",
-    "附件存放/Pasted image 20250120210115.png",
-    "附件存放/Pasted image 20250120210035.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC08 - 基于STM32F103+CubeMX，速度闭环控制（没电流环）.md",
     "知识库/Maps/硬件开发汇总.md",
     "知识库/Maps/机器人开发汇总.md",
     "知识库/Maps/开发工具汇总.md",
-    "电子书/深度探索C++对象模型 PDF中文清晰版.pdf",
-    "电子书/Dopamine_Nation_by_Anna_Lembke.md",
     "电子书/经济学原理（第7版）_宏观经济学分册_美_曼.pdf",
     "电子书/经济学原理（第7版）_微观经济学分册_美_曼昆.pdf",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论02 - 克拉克变换.md",
@@ -235,7 +236,6 @@
     "知识库/Maps/ESP32开发汇总.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-    "README.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
