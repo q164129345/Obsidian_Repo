@@ -462,6 +462,12 @@ class InlineCurrentSense: public CurrentSense{
 ![[Pasted image 20250122151208.png | 1100]]
 **后续在实际测量电流时，就会用这些偏置量来抵消因硬件或采样环境带来的偏移误差，以得到更准确的电流测量结果。** 从函数InlineCurrentSense::calibrateOffsets()看到，它通过多次读取（默认1000次）来求取“零电流电压基准”，把这个值保存为 offset_ia / offset_ib / offset_ic。
 
+## 3.3、使用示波器测量STM32F103运行函数ADC_StartReadVoltageFromChannels()的所需时间
+![[20250122-163536.mp4]]
+**从视频看到，高电平的持续时间约为133.0us，STM32F103执行函数ADC_StartReadVoltageFromChannels()的总时间是133.0us。**
 
+![[Pasted image 20250122163252.png | 1100]]
+如上所示，关闭全局中断的目的是保证MCU在执行函数ADC_StartReadVoltageFromChannels()期间不被打断（不会在中途跑去执行中断回调函数）。
+![[Pasted image 20250122163516.png | 1100]]
 
 

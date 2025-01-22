@@ -176,7 +176,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 401.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,6 +192,9 @@
   },
   "active": "f5fd6535ee1b0177",
   "lastOpenFiles": [
+    "附件存放/20250122-163536.mp4",
+    "附件存放/Pasted image 20250122163516.png",
+    "附件存放/Pasted image 20250122163252.png",
     "附件存放/Pasted image 20250122151208.png",
     "附件存放/Pasted image 20250122150859.png",
     "附件存放/Pasted image 20250122150438.png",
@@ -205,9 +208,6 @@
     "电子书/深度探索C++对象模型 PDF中文清晰版.md",
     "电子书/深度探索C++对象模型 PDF中文清晰版.pdf",
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
-    "附件存放/Pasted image 20250121210807.png",
-    "附件存放/Pasted image 20250121210605.png",
-    "附件存放/Pasted image 20250121210043.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
