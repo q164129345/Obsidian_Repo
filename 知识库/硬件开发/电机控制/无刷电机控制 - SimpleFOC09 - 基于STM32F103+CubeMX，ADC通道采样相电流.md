@@ -67,7 +67,7 @@ Rank1 = Channel 3，Rank2 = Channel 4
 ## 2.3、修改InlineCurrentSense.cpp
 ![[Pasted image 20250121204838.png | 1100]]
 ![[Pasted image 20250121210043.png | 1100]]
-![[Pasted image 20250121210605.png | 1100]]
+![[Pasted image 20250122181340.png | 1100]]
 
 修改完后的源码如下：
 ```cpp
@@ -154,8 +154,8 @@ void InlineCurrentSense::calibrateOffsets(){
 PhaseCurrent_s InlineCurrentSense::getPhaseCurrents(){
     PhaseCurrent_s current;
     ADC_StartReadVoltageFromChannels(); // 每一次都要启动一次ADC采样流程
-    current.a = _readADCVoltageInline(pinA - offset_ia)*gain_a;// amps
-    current.b = _readADCVoltageInline(pinB - offset_ib)*gain_b;// amps
+    current.a = (_readADCVoltageInline(pinA) - offset_ia) * gain_a;// amps
+    current.b = (_readADCVoltageInline(pinB) - offset_ib) * gain_b;// amps
     current.c = (!_isset(pinC)) ? 0 : (_readADCVoltageInline(pinC) - offset_ic)*gain_c; // amps
     return current;
 }
