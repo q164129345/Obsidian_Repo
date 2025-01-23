@@ -44,12 +44,13 @@
 
 # 1.2、ADC时钟频率
 ![[Pasted image 20250120210035.png | 1100]]
-
-
 # 二、代码
 ---
 ## 2.1、adc.c
 ![[Pasted image 20250120210115.png | 1100]]
+![[Pasted image 20250123141622.png | 1100]]
+![[Pasted image 20250123151136.png | 1100]]
+
 ## 2.2、移植SimpleFOC源码的InlineCurrentSense类
 ![[Pasted image 20250121200953.png | 1100]]
 如上所示，先从SimpleFOC源码的LnlineCurrentSense.cpp与.h代码Copy到Keil项目。
