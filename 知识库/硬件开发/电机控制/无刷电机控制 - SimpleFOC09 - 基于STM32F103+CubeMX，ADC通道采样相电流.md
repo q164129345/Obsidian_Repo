@@ -414,6 +414,8 @@ class InlineCurrentSense: public CurrentSense{
 
 ## 2.5、user_main.cpp
 ![[Pasted image 20250122143413.png | 1100]]
+从电路板的原理图看到，采样电阻使用0.001欧姆，ADC运算放大器的型号是INA181A2，增益50V/V。[[无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流#3.4、电流检测放大器INAx181 双向低侧和高侧电压输出]]
+
 ![[Pasted image 20250122143738.png | 1100]]
 ![[Pasted image 20250122144228.png | 1100]]
 
@@ -426,16 +428,16 @@ class InlineCurrentSense: public CurrentSense{
 
 ### 3.1.1、ADC采样时间
 来自bilibili：《[[STM32 HAL库][ADC]采样时间和转换时间，最佳教程，没有之一](https://www.bilibili.com/video/BV1XM4m1y7eP/?spm_id_from=333.1391.0.0&vd_source=5a3da2d3c2504fa7535978c724745a9e)》的视频6：45分。
-![[Pasted image 20250120174234.png]]
-![[Pasted image 20250120174418.png]]
-![[Pasted image 20250120174601.png]]
-![[Pasted image 20250120174734.png]]
+![[Pasted image 20250120174234.png | 500]]
+![[Pasted image 20250120174418.png | 500]]
+![[Pasted image 20250120174601.png | 500]]
+![[Pasted image 20250120174734.png | 500]]
 所谓采样时间，就是开关闭合，让模拟信号跑进电容Cadc，接着再断开开关，这个流程的时间。
 
 ### 3.1.2、采样时间怎样计算?
-![[Pasted image 20250120175057.png]]
+![[Pasted image 20250120175057.png | 500]]
 其中Radc=1k是MCU的内阻，它是固定的。电容Cadc也是固定的8pF。MCU外部的电阻有锂电池的内阻 + 电机相电阻 + 导线电阻等等。
-![[Pasted image 20250120175416.png]]
+![[Pasted image 20250120175416.png | 500]]
 如上图所示，博主计算了一番：
 - 当MCU外面的电阻 = 400欧姆时，如果ADC运行频率 = 14MHz时，那么采样时间至少 = 1.54cycles
 - 当MCU外面的电阻 = 10k欧姆时，如果ADC运算频率 = 14MHz时，那么采样时间至少 = 11.9cycles
@@ -444,7 +446,7 @@ class InlineCurrentSense: public CurrentSense{
 >如果ADC频率是12MHz，采样时间等于0.625us。1 / 12MHz = 83.3333ns、7.5 cycles * 83.333ns = 0.625us。
 
 ### 3.1.3、转换时间
-![[Pasted image 20250120180154.png | 1100]]
+![[Pasted image 20250120180154.png | 800]]
 如上所示，STM32F103的中文参考手册的161页有说明，转换时间是固定的12.5cycle。
 >注：如果ADC频率是12MHz，转换时间等于1.0417us。 1 / 12MHz = 83.333ns、12.5cycle * 83.333ns = 1.0317us。
 
@@ -456,15 +458,26 @@ class InlineCurrentSense: public CurrentSense{
 执行完实例化与init()方法，为了就是计算出各相的offset（偏置量，又叫“零电流电压基准”）与volts_to_amps_ratio（电压到电流的转换系数）。
 
 ### 3.2.1、为什么需要offset（零电流电压基准）
-![[Pasted image 20250122151208.png | 1100]]
+![[Pasted image 20250122151208.png | 800]]
 **后续在实际测量电流时，就会用这些偏置量来抵消因硬件或采样环境带来的偏移误差，以得到更准确的电流测量结果。** 从函数InlineCurrentSense::calibrateOffsets()看到，它通过多次读取（默认1000次）来求取“零电流电压基准”，把这个值保存为 offset_ia / offset_ib / offset_ic。
 
 ## 3.3、使用示波器测量STM32F103运行函数ADC_StartReadVoltageFromChannels()的所需时间
 ![[20250122-163536.mp4]]
 **从视频看到，高电平的持续时间约为133.0us，STM32F103执行函数ADC_StartReadVoltageFromChannels()的总时间是133.0us。**
 
-![[Pasted image 20250122163252.png | 1100]]
+![[Pasted image 20250122163252.png | 800]]
 如上所示，关闭全局中断的目的是保证MCU在执行函数ADC_StartReadVoltageFromChannels()期间不被打断（不会在中途跑去执行中断回调函数）。
-![[Pasted image 20250122163516.png | 1100]]
+![[Pasted image 20250122163516.png | 800]]
+
+
+## 3.4、电流检测放大器INAx181，配合0.001欧采样电阻时，电流量程是多少？
+![[Pasted image 20250124092740.png | 800]]
+从原理图看到，这块STM32F103的FOC电机驱动板使用的电流放大器型号是INA181A2。
+![[Pasted image 20250124100717.png]]
+如上所示，芯片手册的第一页，看到增益是50V/V。实例化电流传感器对象时，50.0f指的就是增益50V/V。`InlineCurrentSense currentSense(0.001f,50.0f,ADC_CHANNEL_3,ADC_CHANNEL_4,NOT_SET); // 创建电流传感器对象`
+
+**INA181A2配合0.001欧采样电阻时，电流测量的理论量程是+-32A。** 从原理图看到，INA181A2的REF引脚接入参考电压1.65V。相当于正反方向各有约1.6V摆幅，对应输入差分是+-1.6V / 50 = +-32mV，若采样电阻是0.001欧，那么测量量程 = +-32mV / 1m欧 = +-32A。
+> INA181A2属于低成本方案，电机驱动最好使用类似INA240A2芯片，性能强，针对电机控制有抗干扰的优化等。
+
 
 
