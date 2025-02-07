@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）"
+              "title": "无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 384.5,
+    "width": 756.5,
     "collapsed": true
   },
   "right": {
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md"
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环） 的大纲"
+              "title": "无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现 的大纲"
             }
           },
           {
@@ -192,23 +192,26 @@
   },
   "active": "a60868e0307c778b",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250207180426.png",
+    "附件存放/Pasted image 20250207175956.png",
+    "附件存放/Pasted image 20250207175857.png",
+    "附件存放/Pasted image 20250207173757.png",
+    "附件存放/Pasted image 20250207171506.png",
+    "附件存放/Pasted image 20250207171018.png",
+    "附件存放/Pasted image 20250207170849.png",
+    "附件存放/20250207-170113.mp4",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现.md",
     "附件存放/20250206-174937.mp4",
     "附件存放/Pasted image 20250206174826.png",
     "附件存放/Pasted image 20250206174428.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC10 - 基于STM32F103+CubeMX，速度闭环控制（有电流环）.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
     "附件存放/Pasted image 20250206174102.png",
     "附件存放/Pasted image 20250206173817.png",
-    "附件存放/Pasted image 20250206173617.png",
     "附件存放/20250206-172600.mp4",
-    "附件存放/Pasted image 20250206165130.png",
-    "附件存放/POS_J-RTT.gif",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "电子书/STM32F1中文参考手册V10.pdf",
-    "附件存放/Pasted image 20250124175518.png",
-    "附件存放/Pasted image 20250124175415.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
-    "附件存放/Pasted image 20250124100717.png",
     "知识库/Maps/硬件开发汇总.md",
     "知识库/Maps/ESP32开发汇总.md",
     "知识库/Maps/机器人开发汇总.md",
@@ -235,9 +238,6 @@
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
     "附件存放/20250116-205844.mp4",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC05 - 基于STM32F103+CubeMX，实现速度开环控制.md",
-    "附件存放/20250115-180522.mp4",
-    "附件存放/20250114-114914.mp4",
-    "知识库/软件开发/现代C++/C++多态01 - 虚函数的基本使用.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
