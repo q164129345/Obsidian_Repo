@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现.md",
+                "file": "知识库/Maps/电机控制汇总.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现"
+              "title": "电机控制汇总"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 658.5,
+    "width": 670.5,
     "collapsed": true
   },
   "right": {
@@ -141,10 +141,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现.md"
+                "file": "知识库/Maps/电机控制汇总.md"
               },
               "icon": "lucide-list",
-              "title": "无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现 的大纲"
+              "title": "电机控制汇总 的大纲"
             }
           },
           {
@@ -190,12 +190,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a60868e0307c778b",
+  "active": "f5fd6535ee1b0177",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/ESP-IDF - 定时器01 - 系统定时器 (SYSTIMER)与定时器组 (TIMG）的区别.md",
+    "知识库/Maps/ESP32开发汇总.md",
+    "知识库/Maps/机器人开发汇总.md",
+    "知识库/Maps/数据结构与算法汇总.md",
+    "知识库/Maps/开发工具汇总.md",
+    "知识库/Maps/硬件开发汇总.md",
+    "知识库/Maps/电机控制汇总.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现.md",
     "附件存放/Pasted image 20250207205028.png",
     "附件存放/Pasted image 20250207204954.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现.md",
     "附件存放/Pasted image 20250207203016.png",
     "附件存放/20250207-202524.mp4",
     "附件存放/Pasted image 20250207180426.png",
@@ -208,15 +215,11 @@
     "附件存放/20250207-170113.mp4",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
     "附件存放/20250206-174937.mp4",
-    "附件存放/Pasted image 20250206174826.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC10 - 基于STM32F103+CubeMX，速度闭环控制（有电流环）.md",
     "附件存放/20250206-172600.mp4",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
-    "知识库/Maps/硬件开发汇总.md",
-    "知识库/Maps/ESP32开发汇总.md",
-    "知识库/Maps/机器人开发汇总.md",
     "知识库/硬件开发/电机控制/电机控制 - FOC - simpleFOC库的核心算法SVPWM.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
@@ -231,13 +234,10 @@
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC06 - 基于STM32F103+CubeMX，编码器（位置传感器）的校准.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
-    "知识库/Maps/开发工具汇总.md",
     "电子书/经济学原理（第7版）_宏观经济学分册_美_曼.pdf",
     "电子书/经济学原理（第7版）_微观经济学分册_美_曼昆.pdf",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论02 - 克拉克变换.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - FOC算法理论03 - 帕克变换.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC03 - 基于STM32F103+CubeMX，通过AS5600编码器计算电机的转速.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
