@@ -4,19 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "20ded6fcbfd77331",
+        "id": "c3f1e8e454175021",
         "type": "tabs",
         "children": [
           {
-            "id": "f5fd6535ee1b0177",
+            "id": "8adf9af663f5a8ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
                 "mode": "source",
+                "source": false,
                 "backlinks": true,
-                "source": false
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "Matlab官方教程 - Matlab入门之旅"
@@ -41,7 +50,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -141,7 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md"
+                "file": "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
               "title": "Matlab官方教程 - Matlab入门之旅 的大纲"
@@ -176,7 +189,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 377.5
+    "width": 516.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,19 +205,19 @@
   },
   "active": "a60868e0307c778b",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250210203730.png",
-    "附件存放/Pasted image 20250210202924.png",
-    "附件存放/Pasted image 20250210202902.png",
-    "附件存放/mat03.gif",
-    "附件存放/mat02.gif",
-    "附件存放/mat01.gif",
-    "附件存放/Pasted image 20250210174220.png",
-    "附件存放/Pasted image 20250210172253.png",
-    "附件存放/Pasted image 20250210172127.png",
-    "附件存放/Pasted image 20250210170742.png",
-    "附件存放/Pasted image 20250210170314.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "附件存放/Pasted image 20250211180956.png",
+    "附件存放/Pasted image 20250211180910.png",
+    "附件存放/Pasted image 20250211180824.png",
+    "附件存放/Pasted image 20250211180547.png",
+    "附件存放/Pasted image 20250211175658.png",
+    "附件存放/Pasted image 20250211175324.png",
+    "附件存放/Pasted image 20250211175059.png",
+    "附件存放/Pasted image 20250211174452.png",
+    "附件存放/Pasted image 20250211174211.png",
+    "附件存放/Pasted image 20250211173921.png",
+    "附件存放/Pasted image 20250211173736.png",
     "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/matlab",
     "知识库/Maps/电机控制汇总.md",
     "知识库/硬件开发/电机控制/电机控制 - FOC - simpleFOC库的核心算法SVPWM.md",
