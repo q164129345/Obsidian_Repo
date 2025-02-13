@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
+                "file": "知识库/Maps/Matlab汇总.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Matlab官方教程 - Matlab入门之旅"
+              "title": "Matlab汇总"
             }
           }
         ]
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
+                "file": "知识库/Maps/Matlab汇总.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Matlab官方教程 - Matlab入门之旅 的大纲"
+              "title": "Matlab汇总 的大纲"
             }
           },
           {
@@ -203,11 +203,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a60868e0307c778b",
+  "active": "8adf9af663f5a8ee",
   "lastOpenFiles": [
+    "知识库/Maps/电机控制汇总.md",
+    "知识库/Maps/Matlab汇总.md",
+    "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
     "知识库/软件开发/matlab/Matlab入门之旅摘要.md",
     "附件存放/Pasted image 20250213122606.png",
-    "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
     "附件存放/Pasted image 20250213120013.png",
     "附件存放/Pasted image 20250213115815.png",
     "附件存放/Pasted image 20250213115318.png",
@@ -226,7 +228,6 @@
     "附件存放/data9.mat",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/matlab",
-    "知识库/Maps/电机控制汇总.md",
     "知识库/硬件开发/电机控制/电机控制 - FOC - simpleFOC库的核心算法SVPWM.md",
     "知识库/软件开发/MCU/ESP-IDF - 定时器01 - 系统定时器 (SYSTIMER)与定时器组 (TIMG）的区别.md",
     "知识库/Maps/ESP32开发汇总.md",
