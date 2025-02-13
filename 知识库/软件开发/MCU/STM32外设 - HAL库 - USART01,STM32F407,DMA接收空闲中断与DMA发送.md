@@ -7,7 +7,7 @@ HAL库把本：V1.26.2
 ![[Pasted image 20240816224848.png]]
 
 ==这个笔记有缺陷，DMA发送被DMA接收打断，导致串口发送异常终止。需要看本笔记的6.2章:==
-[[STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送#6.2、本例程有bug，DMA发送会有问题]]
+[[STM32外设 - HAL库 - USART01,STM32F407,DMA接收空闲中断与DMA发送#6.2、本例程有bug，DMA发送会有问题]]
 
 
 ## 一、STM32CubeMX

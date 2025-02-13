@@ -8,13 +8,12 @@
 [[STM32时间戳 -  计算64位的上电运行总时间（RTX5）]]
 [[STM32异常 - HardFault_Handler处理方法]]
 
-### 二、外设
+### 二、HAL库
 ----
-[[STM32外设 - USART01,STM32F407,DMA接收空闲中断与DMA发送]]
-[[STM32外设 - USART02,使用C语言面向对象的方式改写上一篇代码]]
-[[STM32外设 - CAN,bsp_can.c与bsp_can.h备忘录]]
-[[STM32外设 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）]]
-
+[[STM32外设 - HAL库 - USART01,STM32F407,DMA接收空闲中断与DMA发送]]
+[[STM32外设 - HAL库 - USART02,使用C语言面向对象的方式改写上一篇代码]]
+[[STM32外设 - HAL库 - CAN,bsp_can.c与bsp_can.h备忘录]]
+[[STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）]]
 
 ### 三、开发工具
 ---
@@ -46,4 +45,5 @@
 [[STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数]]
 [[STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数]]
 
+### 六、LL库
 
