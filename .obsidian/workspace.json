@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/matlab/Matlab入门之旅摘要.md",
+                "file": "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Matlab入门之旅摘要"
+              "title": "Matlab官方教程 - Matlab入门之旅"
             }
           }
         ]
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/matlab/Matlab入门之旅摘要.md",
+                "file": "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Matlab入门之旅摘要 的大纲"
+              "title": "Matlab官方教程 - Matlab入门之旅 的大纲"
             }
           },
           {
@@ -205,9 +205,9 @@
   },
   "active": "a60868e0307c778b",
   "lastOpenFiles": [
+    "知识库/软件开发/matlab/Matlab入门之旅摘要.md",
     "附件存放/Pasted image 20250213122606.png",
     "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
-    "知识库/软件开发/matlab/Matlab入门之旅摘要.md",
     "附件存放/Pasted image 20250213120013.png",
     "附件存放/Pasted image 20250213115815.png",
     "附件存放/Pasted image 20250213115318.png",
@@ -218,7 +218,6 @@
     "附件存放/Pasted image 20250213102358.png",
     "附件存放/Pasted image 20250212173723.png",
     "附件存放/Pasted image 20250212173522.png",
-    "附件存放/Pasted image 20250212173346.png",
     "附件存放/data12.mat",
     "附件存放/data10_1.mat",
     "附件存放/data11.mat",

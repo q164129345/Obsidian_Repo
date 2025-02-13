@@ -1,7 +1,7 @@
 # 导言
 ---
 网址：https://matlabacademy.mathworks.com/cn/details/matlab-onramp/gettingstarted
-
+[[Matlab入门之旅摘要]]
 # 一、命令
 ---
 在 MATLAB 中输入命令以执行计算和创建变量。

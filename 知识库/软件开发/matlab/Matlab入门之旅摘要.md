@@ -75,3 +75,24 @@
 | ------------------------------------------------------------------------------------------------ | ------------------------------ |
 | [data.HeightYards](https://ww2.mathworks.cn/help/matlab/matlab_prog/access-data-in-a-table.html) | 从表 `data` 中提取变量 `HeightYards`。 |
 | data.HeightMeters = data.HeightYards * 0.9144                                                    | 从现有数据中派生一个表变量。                 |
+# 十二、逻辑运算
+| 示例                                                                                                                 | 说明                            |
+| ------------------------------------------------------------------------------------------------------------------ | ----------------------------- |
+| [[5 10 15] > 12](https://ww2.mathworks.cn/help/matlab/matlab_prog/array-comparison-with-relational-operators.html) | 将向量与值 `12` 进行比较。              |
+| [v1(v1 > 6)](https://ww2.mathworks.cn/help/matlab/matlab_prog/find-array-elements-that-meet-a-condition.html)      | 提取 `v1` 中大于 `6` 的所有元素。        |
+| x(x == 999) = 1                                                                                                    | 用值 `1` 替换 `x` 中等于 `999` 的所有值。 |
+# 十三、编程
+| 示例                                                               | 说明                                    |
+| ---------------------------------------------------------------- | ------------------------------------- |
+|                                                                  | 如果 `x` 大于 `0.5`，则将 `y` 的值设置为 `3`。     |
+| [if ](https://ww2.mathworks.cn/help/matlab/ref/if.html)x > 0.5   |                                       |
+| &nbsp;&nbsp;&nbsp;y = 3                                          |                                       |
+| else                                                             | 否则，将 `y` 的值设置为 `4`。                   |
+| &nbsp;&nbsp;&nbsp;y = 4                                          |                                       |
+| end                                                              |                                       |
+|                                                                  |                                       |
+|                                                                  | 循环计数器 `c` 遍历值 `1:3`（即 `1`、`2` 和 `3`）。 |
+| [for](https://ww2.mathworks.cn/help/matlab/ref/for.html) c = 1:3 |                                       |
+| &nbsp;&nbsp;&nbsp;disp(c)                                        | 循环体显示 `c` 的每个值。                       |
+| end                                                              |                                       |
+| ```                                                              |                                       |
