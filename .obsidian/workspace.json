@@ -11,36 +11,24 @@
             "id": "8adf9af663f5a8ee",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "pdf-annotator",
               "state": {
-                "file": "电子书/STM32F1中文参考手册V10.pdf"
+                "file": "电子书/STM32F1中文参考手册V10 - 读书笔记.md"
               },
-              "icon": "lucide-file-text",
-              "title": "STM32F1中文参考手册V10"
+              "icon": "lucide-file",
+              "title": "STM32F1中文参考手册V10 - 读书笔记"
             }
           },
           {
             "id": "9f0771cda5588f4e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md"
               },
               "icon": "lucide-file",
-              "title": "STM32 - 在机器人领域，LL库相比HAL优势明显"
+              "title": "Cortex-M3技术参考手册(TRM)_读书笔记"
             }
           }
         ],
@@ -101,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 519.5,
-    "collapsed": true
+    "width": 385.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -164,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
+                "file": "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32 - 在机器人领域，LL库相比HAL优势明显 的大纲"
+              "title": "Cortex-M3技术参考手册(TRM)_读书笔记 的大纲"
             }
           },
           {
@@ -216,16 +203,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f0771cda5588f4e",
+  "active": "a60868e0307c778b",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理基础框架.md",
-    "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
+    "电子书/Cortex-M3技术参考手册(TRM)..pdf",
+    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的基础框架.md",
+    "知识库/软件开发/未命名.md",
+    "附件存放/Pasted image 20250213205328.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "附件存放/Pasted image 20250213205024.png",
+    "电子书/STM32F1中文参考手册V10.pdf",
     "知识库/Maps/STM32汇总.md",
+    "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - CAN,bsp_can.c与bsp_can.h备忘录.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
-    "电子书/STM32F1中文参考手册V10.pdf",
     "知识库/Maps/Matlab汇总.md",
     "知识库/Maps/电机控制汇总.md",
     "知识库/软件开发/matlab/Matlab官方教程 - Matlab入门之旅.md",
@@ -239,15 +232,12 @@
     "附件存放/Pasted image 20250213110618.png",
     "附件存放/data13.mat",
     "附件存放/Pasted image 20250213102358.png",
-    "附件存放/Pasted image 20250212173723.png",
-    "附件存放/Pasted image 20250212173522.png",
     "附件存放/data12.mat",
     "附件存放/data10_1.mat",
     "附件存放/data11.mat",
     "附件存放/elements.xlsx",
     "附件存放/data10.mat",
     "附件存放/data9.mat",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/matlab",
     "知识库/硬件开发/电机控制/电机控制 - FOC - simpleFOC库的核心算法SVPWM.md",
     "知识库/软件开发/MCU/ESP-IDF - 定时器01 - 系统定时器 (SYSTIMER)与定时器组 (TIMG）的区别.md",
@@ -258,12 +248,8 @@
     "知识库/Maps/硬件开发汇总.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现.md",
-    "附件存放/20250207-202524.mp4",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC10 - 基于STM32F103+CubeMX，速度闭环控制（有电流环）.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC02 - 基于STM32F103+CubeMX，通过AS5600编码器读取电机的角度.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
