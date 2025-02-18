@@ -5,16 +5,17 @@ annotation-target: "[[Cortex-M3技术参考手册(TRM)..pdf]]"
 
 >%%
 >```annotation-json
->{"created":"2025-02-17T03:50:36.173Z","text":"裸机开发中，处理模式主要用于：\n1. 中断服务程序（ISR）\n2. 异常处理（HardFault、MemManage等）\n处理模式始终是特权模式，可以访问所有系统资源。","updated":"2025-02-17T03:50:36.173Z","document":{"title":"Microsoft Word - Cortex-M3技术参考手册.doc","link":[{"href":"urn:x-pdf:2a8543ad58433a814357c5c8db4dce7d"},{"href":"vault:/%E7%94%B5%E5%AD%90%E4%B9%A6/Cortex-M3%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C(TRM)..pdf"}],"documentFingerprint":"2a8543ad58433a814357c5c8db4dce7d"},"uri":"vault:/%E7%94%B5%E5%AD%90%E4%B9%A6/Cortex-M3%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C(TRM)..pdf","target":[{"source":"vault:/%E7%94%B5%E5%AD%90%E4%B9%A6/Cortex-M3%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C(TRM)..pdf","selector":[{"type":"TextPositionSelector","start":45084,"end":45088},{"type":"TextQuoteSelector","exact":"处理模式","prefix":"代码能够在线程模式下运行。 z 出现异常时处理器进入处理模式，在","suffix":"中，所有代码都是特权访问的。 2.1.2 工作状态 Cortex"}]}]}
+>{"text":"处理模式主要用于：\n1. 中断服务程序（ISR）。\n2. 异常处理（HardFault、MemManage等）。\n处理模式始终是特权模式，可以访问所有系统资源。\n3. 且处理模式强制使用MSP堆栈。","target":[{"source":"vault:/%E7%94%B5%E5%AD%90%E4%B9%A6/Cortex-M3%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C(TRM)..pdf","selector":[{"type":"TextPositionSelector","start":45084,"end":45088},{"type":"TextQuoteSelector","exact":"处理模式","prefix":"代码能够在线程模式下运行。 z 出现异常时处理器进入处理模式，在","suffix":"中，所有代码都是特权访问的。 2.1.2 工作状态 Cortex"}]}],"created":"2025-02-17T03:50:36.173Z","updated":"2025-02-17T03:50:36.173Z","document":{"title":"Microsoft Word - Cortex-M3技术参考手册.doc","link":[{"href":"urn:x-pdf:2a8543ad58433a814357c5c8db4dce7d"},{"href":"vault:/%E7%94%B5%E5%AD%90%E4%B9%A6/Cortex-M3%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C(TRM)..pdf"}],"documentFingerprint":"2a8543ad58433a814357c5c8db4dce7d"},"uri":"vault:/%E7%94%B5%E5%AD%90%E4%B9%A6/Cortex-M3%E6%8A%80%E6%9C%AF%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C(TRM)..pdf"}
 >```
 >%%
 >*%%PREFIX%%代码能够在线程模式下运行。 z 出现异常时处理器进入处理模式，在%%HIGHLIGHT%% ==处理模式== %%POSTFIX%%中，所有代码都是特权访问的。 2.1.2 工作状态 Cortex*
 >%%LINK%%[[#^f8p08eatbgt|show annotation]]
 >%%COMMENT%%
->裸机开发中，处理模式主要用于：
->1. 中断服务程序（ISR）
->2. 异常处理（HardFault、MemManage等）
+>处理模式主要用于：
+>1. 中断服务程序（ISR）。
+>2. 异常处理（HardFault、MemManage等）。
 >处理模式始终是特权模式，可以访问所有系统资源。
+>3. 且处理模式强制使用MSP堆栈。
 >%%TAGS%%
 >
 ^f8p08eatbgt
