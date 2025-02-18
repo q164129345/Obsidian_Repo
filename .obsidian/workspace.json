@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "9f0771cda5588f4e",
+            "id": "8b3bcdd6ae542fa7",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -89,7 +89,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 385.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -204,9 +205,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f0771cda5588f4e",
+  "active": "8b3bcdd6ae542fa7",
   "lastOpenFiles": [
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
     "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小系统框架.md",
@@ -240,7 +242,6 @@
     "附件存放/elements.xlsx",
     "附件存放/data10.mat",
     "附件存放/data9.mat",
-    "知识库/软件开发/matlab",
     "知识库/硬件开发/电机控制/电机控制 - FOC - simpleFOC库的核心算法SVPWM.md",
     "知识库/软件开发/MCU/ESP-IDF - 定时器01 - 系统定时器 (SYSTIMER)与定时器组 (TIMG）的区别.md",
     "知识库/Maps/ESP32开发汇总.md",
@@ -251,7 +252,6 @@
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC10 - 基于STM32F103+CubeMX，速度闭环控制（有电流环）.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
