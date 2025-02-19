@@ -1,6 +1,8 @@
 # 导言
 ---
-《[[STM32 - 在机器人领域，LL库相比HAL优势明显]]》在机器人、自动化设备领域使用MCU开发项目，必须用LL库。本系列笔记记录使用LL库的开发过程，并通过LL库梳理寄存器的使用（相当于构建自己的LL库）。只要掌握操作寄存器，才能真正掌握MCU开发。
+《[[STM32 - 在机器人领域，LL库相比HAL优势明显]]》在机器人、自动化设备领域使用MCU开发项目，必须用LL库。
+本系列笔记记录使用LL库的开发过程，首先通过CubeMX生成LL库代码，梳理LL库源码。通过学习LL库源码，弄清楚寄存器的使用。最后，删除LL库代码，编写自己的寄存器驱动代码验证一遍。
+
 《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
 《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
 《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
@@ -45,7 +47,7 @@ CubeMX的Clock Configuration其实就是《STM32F1中文参考手册》6.2时钟
 2. 主循环：
 	1. 每隔1S，将变量cnt加1。
 
-# 3.2、RCC时钟相关代码
+## 3.2、RCC时钟相关代码
 **当需要使用 MCU 的某些外设功能时，必须先打开对应的时钟。** 请记住，让外设正常工作的前提是启动对应的时钟。例如，UART、SPI、I2C等外设都需要其对应的时钟启动。其中RCC的寄存器APB1ENR与寄存器APB2ENR几乎管理着所有外设的时钟，
 本章节需要启动以下几个外设的时钟：
 - AFIO
@@ -54,7 +56,7 @@ CubeMX的Clock Configuration其实就是《STM32F1中文参考手册》6.2时钟
 - GPIOA
 为此，需要通过RCC的寄存器APB1ENR与寄存器APB2ENR去启用它们的时钟。
 
-### 3.2.1、启用AFIO辅助功能IO时钟时钟
+### 3.2.1、启用AFIO辅助功能IO时钟
 `LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_AFIO)`的作用是启用AFIOEN辅助功能IO时钟时钟。
 ```c
 __STATIC_INLINE void LL_APB2_GRP1_EnableClock(uint32_t Periphs)
@@ -117,7 +119,8 @@ __STATIC_INLINE void LL_APB2_GRP1_EnableClock(uint32_t Periphs)
 如上所示，`RCC_BASE`是RCC寄存器的起始地址，`RCC_TypeDef`是结构体，那么`RCC_TypeDef*`是一个结构体指针。RCC通过宏定义变成一个`RCC_TypeDef`类型结构体指针。后续我们可以通过`RCC->`去访问RCC内部各个寄存器了。**这是一个非常常用的方法来抽象硬件寄存器，使得代码在可读性和维护性上更易于管理。它利用了 C 语言的结构体指针特性，让硬件寄存器的访问看起来更像是在操作一个普通的结构体变量。**
 
 ### 3.2.2、启用PWR电源时钟接口时钟
-跟3.2.1章节一样，简单梳理一下。``LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_PWR)``的作用是启用PWR电源时钟接口时钟。
+跟3.2.1章节一样，简单梳理一下。``LL_APB1_GRP1_EnableClock(LL_APB1_GRP1_PERIPH_PWR)``的作用是启用PWR电源时钟接口时钟。宏`LL_APB1_GRP1_PERIPH_PWR`相当于 1UL << 28U。
+![[Pasted image 20250219180552.png | 800]]
 ![[Pasted image 20250219162559.png | 800]]
 ![[Pasted image 20250219162728.png | 800]]
 如上两图所示。进入debug模式，打断点看到RCC的寄存器APB1ENR的bit28置1，启动PWR时钟。
@@ -125,10 +128,31 @@ __STATIC_INLINE void LL_APB2_GRP1_EnableClock(uint32_t Periphs)
 如上图所示，《STM32F1参考手册》的6.3.8章节看到bit28的PWREN置1相当于启动电源接口时钟。
 
 ### 3.2.3、启用GPIOD与GPIOA时钟
+![[Pasted image 20250219180518.png | 800]]
+![[Pasted image 20250219180628.png | 800]]
+如上图所示，`LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_GPIOD)`启用了GPIOD组的时钟，`LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_GPIOA)`启用了GPIOA组的时钟。其中宏`LL_APB2_GRP1_PERIPH_GPIOD`相当于1UL << 5UL，宏LL_APB2_GRP1_PERIPH_GPIOA相当于1UL << 2UL。
+![[Pasted image 20250219181116.png | 1100]]
+如山图所示，《STM32F1参考手册》的6.3.7章节看到位5是控制GPIOD时钟，位2是控制GPIOA时钟。
 
+![[Pasted image 20250219181458.png | 800]]
+![[Pasted image 20250219181529.png | 800]]
+![[Pasted image 20250219181558.png | 800]]
+如上图所示，用Debug模式观察寄存器的变化，执行完MX_GPIO_Init()之后，寄存器IOPAEN与IOPDEN都从0变成1。
 
+### 3.2.4、编写自己的代码
+![[Pasted image 20250219194209.png | 800]]
+如上图所示，函数`Enable_Peripherals_Clock()`启动了这章节所用到的所有外设的时钟。
+![[Pasted image 20250219194414.png | 800]]
+如上图所示，把启动外设时钟的LL库注释掉。
+### 3.2.5、调试自己编写的函数Enable_Peripherals_Clock()
+![[Pasted image 20250219194539.png | 800]]
+如上，`SET_BIT(RCC->APB2ENR, 1UL << 0UL);`，成功将寄存器APB2ENR的AFIOEN位置1，成功启动AFIO时钟。
+![[Pasted image 20250219194703.png | 800]]
+如上，`SET_BIT(RCC->APB1ENR, 1UL << 28UL);`，成功启动了PWR时钟。
+![[Pasted image 20250219194737.png | 800]]
+如上，`SET_BIT(RCC->APB2ENR, 1UL << 5UL);`，成功启动了GPIOD时钟。
+![[Pasted image 20250219194804.png | 800]]
+如上，`SET_BIT(RCC->APB2ENR, 1UL << 2UL);`，成功启动了GPIOA时钟。
 
-
-
-
+## 3.3、配置NVIC优先级组
 
