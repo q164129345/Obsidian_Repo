@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小系统框架.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小的裸机系统框架.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小系统框架"
+              "title": "STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小的裸机系统框架"
             }
           }
         ],
@@ -88,7 +88,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "20250122150438",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小系统框架.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小的裸机系统框架.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小系统框架 的大纲"
+              "title": "STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小的裸机系统框架 的大纲"
             }
           },
           {
@@ -214,7 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 297.5
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,21 +230,20 @@
   },
   "active": "a60868e0307c778b",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250218214822.png",
-    "附件存放/Pasted image 20250218214653.png",
-    "附件存放/Pasted image 20250218213253.png",
-    "附件存放/Pasted image 20250218195257.png",
-    "附件存放/Pasted image 20250218195203.png",
-    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小系统框架.md",
-    "附件存放/Pasted image 20250218182045.png",
-    "附件存放/Pasted image 20250218182015.png",
-    "附件存放/Pasted image 20250218181941.png",
-    "附件存放/Pasted image 20250218181036.png",
-    "附件存放/Pasted image 20250218180958.png",
-    "附件存放/Pasted image 20250218180911.png",
-    "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小的裸机系统框架.md",
+    "附件存放/Pasted image 20250219163057.png",
+    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
+    "附件存放/Pasted image 20250219162728.png",
+    "附件存放/Pasted image 20250219162559.png",
+    "附件存放/Pasted image 20250219150103.png",
+    "附件存放/Pasted image 20250219145917.png",
+    "附件存放/Pasted image 20250219145253.png",
+    "附件存放/Pasted image 20250219144714.png",
+    "附件存放/Pasted image 20250219144159.png",
+    "附件存放/Pasted image 20250219121116.png",
+    "附件存放/Pasted image 20250219115234.png",
+    "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
     "知识库/软件开发/未命名.md",
