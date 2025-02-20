@@ -2,10 +2,20 @@
 ---
 《[[STM32 - 在机器人领域，LL库相比HAL优势明显]]》在机器人、自动化设备领域使用MCU开发项目，必须用LL库。
 本系列笔记记录使用LL库的开发过程，首先通过CubeMX生成LL库代码，梳理LL库源码。通过学习LL库源码，弄清楚寄存器的使用。最后，删除LL库代码，编写自己的寄存器驱动代码验证一遍。
+MCU开发的精髓在于寄存器。
+MCU开发的精髓在于寄存器。
+MCU开发的精髓在于寄存器。
+《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
+《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
+《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
 
-《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
-《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
-《STM32F1中文参考手册》、《Cortex-M3技术参考手册》一定要多看，读烂它！！
+## 外设的内存映射
+**外设的内存映射分为两个区域：常规外设（peripherals）与核心外设（core peripherals)**。梳理寄存器，要先找到它们的内存地址。
+![[Pasted image 20250220111326.png | 800]]
+通过查阅《STM32F1中文参考手册》的章节2.3-内存映像、《STM32F1编程手册》的章节4-Core peripherals，针对外设的内存映射分为两个区域。一个是常规外设区域，内存地址从0x40000000开始。另外一个是核心外设区域，内存地址从0xE000E010。这样做的目的是根据功能进行分离管理。
+- 常规外设，内存地址在0x40000000~0x5003FFFF，如UART、SPI、GPIO等。
+- 核心外设，内存地址0xE000E010 ~ 0xE000EF03，如System Timter、System control block等。
+
 
 # 一、CubeMX
 ---
@@ -83,7 +93,7 @@ __STATIC_INLINE void LL_APB2_GRP1_EnableClock(uint32_t Periphs)
 从上两张图看到，在Keil的Debug模式观察LL_APB2_GRP1_EnableClock(LL_APB2_GRP1_PERIPH_AFIO)的运行过程，看到RCC的寄存器APB2ENR的bit0位AFIOEN被置1。
 #### 3.2.1.2、梳理APB2 外设时钟使能寄存器(RCC_APB2ENR)
 ![[Pasted image 20250219111820.png | 1100]]
-如上所示，在STM32F1参考手册的6.3.7章节找到APB2 外设时钟使能寄存器(RCC_APB2ENR)的详细信息，看到RCC的寄存器APB2ENR的bit0位是AFIO_EN。
+如上所示，在《STM32F1参考手册》章节6.3.7找到APB2 外设时钟使能寄存器(RCC_APB2ENR)的详细信息，看到RCC的寄存器APB2ENR的bit0位是AFIO_EN。
 
 ![[Pasted image 20250219112041.png | 1100]]
 **因为需要用到GPIO的复用功能，GPIO的复用功能由AFIO管理，所以要使用GPIO的复用功能必须先把对应的时钟（AFIO时钟）打开。** 如上所示，置1代表开启时钟。另外，RCC的寄存器APB1ENR与寄存器APB2ENR几乎管理着所有外设时钟的开启与关闭。另外值得注意的是，关闭不使用的外设的时钟可以有效降低MCU的功耗，这在低功耗场合非常关键。
@@ -144,7 +154,16 @@ __STATIC_INLINE void LL_APB2_GRP1_EnableClock(uint32_t Periphs)
 如上图所示，函数`Enable_Peripherals_Clock()`启动了这章节所用到的所有外设的时钟。
 ![[Pasted image 20250219194414.png | 800]]
 如上图所示，把启动外设时钟的LL库注释掉。
-### 3.2.5、调试自己编写的函数Enable_Peripherals_Clock()
+### 3.2.5、调试自己编写的函数
+```c
+static void Enable_Peripherals_Clock(void) {
+    SET_BIT(RCC->APB2ENR, 1UL << 0UL);  // 启动AFIO时钟
+    SET_BIT(RCC->APB1ENR, 1UL << 28UL); // 启动PWR时钟
+    SET_BIT(RCC->APB2ENR, 1UL << 5UL);  // 启动GPIOD时钟
+    SET_BIT(RCC->APB2ENR, 1UL << 2UL);  // 启动GPIOA时钟
+    __NOP(); // 稍微延时一下下
+}
+```
 ![[Pasted image 20250219194539.png | 800]]
 如上，`SET_BIT(RCC->APB2ENR, 1UL << 0UL);`，成功将寄存器APB2ENR的AFIOEN位置1，成功启动AFIO时钟。
 ![[Pasted image 20250219194703.png | 800]]
@@ -154,5 +173,89 @@ __STATIC_INLINE void LL_APB2_GRP1_EnableClock(uint32_t Periphs)
 ![[Pasted image 20250219194804.png | 800]]
 如上，`SET_BIT(RCC->APB2ENR, 1UL << 2UL);`，成功启动了GPIOA时钟。
 
-## 3.3、配置NVIC优先级组
+## 3.3、配置NVIC（Nested vectored interrupt controller）的中断优先级分组
+### 3.3.1、寄存器SCB_AIRCR
+![[Pasted image 20250220151044.png | 1100]]
+如上图，摘自《STM32F1编程手册》的章节4.4.5，介绍寄存器SCB->AIRCR的结构，函数函数`__NVIC_SetPriorityGrouping()`的主要目的是修改段PRIGROUP(bit10~bit8)。为了修改段PRIGROUP必须往段VECTKEY写入0xFA05，否则不能往寄存器SCB->AIRCR写入任何值。
+
+![[Pasted image 20250220152750.png | 1100]]
+如上所示，根据《STM32F1编程手册》的章节4.1介绍，SCB(System control block)的内存映射起始地址是0xE000ED00，跟源码定义的指针地址SCB_BASE一样。所以，通过宏`#define SCB    (SCB_Type *)SCB_BASE`之后，可以通过结构体指针SCB->去访问SCB里面的各个寄存器。
+
+### 3.3.2、LL库源码
+![[Pasted image 20250220142931.png | 800]]
+如上图所示，函数NVIC_SetPriorityGrouping()的作用是设置NIVC的中断优先级分组。优先级分组一共有4种设置（如下图所示），摘自《STM32F1编程手册》4.4.5章节：
+![[Pasted image 20250220142151.png | 1100]]
+如上图，为什么一般工程会选择NVIC_PRIORITYGROUP_4？
+1. **最大抢占优先级数量。** 删除子优先级，剩下抢占优先级，这样可以区分更多中断的紧急程度（通常 4 位可以划分 16 个级别）。这在系统中存在大量中断且各中断优先级差异较大时非常有用。
+2. **简化中断配置。** 由于没有子优先级，配置时只需关注抢占优先级，减少了设置上的复杂性，有助于避免在子优先级上的混淆和错误。
+3. **更明确的中断抢占关系。** 每个中断的优先级完全由抢占优先级决定，当一个中断执行时，只有比它优先级高（数值更低）的中断才会抢占，这使得系统行为更直观。
+总之，大多数工程选择 NVIC_PRIORITYGROUP_4，原因在于它能提供更多的抢占级别，适合中断较多、要求严格抢占控制的系统，同时也能简化配置和设计。
+
+![[Pasted image 20250220140420.png | 800]]
+如上所示，根据`#define NVIC_SetPriorityGrouping    __NVIC_SetPriorityGrouping`得知，其实NVIC_SetPriorityGrouping()还有一个别名__NVIC_SetPriorityGrouping()。接着，看看函数__NVIC_SetPriorityGrouping()是怎样实现的。
+![[Pasted image 20250220140654.png | 800]]
+如上图所示，在源码core_cm3.h的第1480行找到函数`__NVIC_SetPriorityGrouping()`的实现。可见，这个函数并不是LL库的，属于内核级别的源码。
+
+![[Pasted image 20250220145017.png | 800]]
+如上图，函数__NVIC_SetPriorityGrouping()的目的是保留其他位的内容，只更改VECTKEY段(bit31~bit16)与PRIGROUP段(bit10~bit8)的内容。**这是一种非常值得学习的标准的“读-修改-写”的标准写法。**
+如果在设置NVIC的中断优先级分组时，确认过寄存器的其他位都是0的话，可以使用更加简洁的代码来实现：
+```c
+SCB->AIRCR = (0x5FA << SCB_AIRCR_VECTKEY_Pos) | (NVIC_PRIORITYGROUP_4 << SCB_AIRCR_PRIGROUP_Pos); // 0x5FA是寄存器AIRCR的写入钥匙，没有它，这个寄存器写不进去。 
+```
+
+### 3.3.3、debug模式查看寄存器SCB->AIRCR
+![[Pasted image 20250220153304.png | 1100]]
+![[Pasted image 20250220153341.png | 1100]]
+从上两图看到，寄存器AIRCR的值从0xFA050000变成0xFA050300。
+![[Pasted image 20250220153739.png]]
+![[Pasted image 20250220153825.png]]
+### 3.3.4、编写自己的函数
+```c
+static void Set_NVIC_PriorityGrouping(uint32_t group_numer) {
+    SCB->AIRCR = (0x5FA << SCB_AIRCR_VECTKEY_Pos) | (group_numer << SCB_AIRCR_PRIGROUP_Pos);
+}
+```
+![[Pasted image 20250220154454.png | 1100]]
+![[Pasted image 20250220154524.png | 1100]]
+![[Pasted image 20250220154601.png | 1100]]
+如上两图，SCB->AIRCR从0xFA050000变成0xFA050300。
+
+## 3.4、禁用JTAG，启用SWD调试接口
+### 3.4.1、寄存器AFIO_MAPR
+![[Pasted image 20250220195839.png | 1100]]
+如上图，通过修改寄存器AFIO_MAPR的段SWJ_CFG(bit26~bit24)设置debug口。本例程只使用SWD接口，所以需要将段SWJ_CFG设置为010。
+
+### 3.4.2、LL库源码
+![[Pasted image 20250220193115.png | 800]]
+函数`LL_GPIO_AF_Remap_SWJ_NOJTAG()`的作用是关闭JTAG接口，仅启动SWD接口。这个方案是最节省GPIO口的。
+![[Pasted image 20250220195008.png | 800]]
+函数`LL_GPIO_AF_Remap_SWJ_NOJTAG()`里只有一句代码，使用宏`MODIFY_REG()`去修改AFIO的寄存器MAPR。
+![[Pasted image 20250220200414.png | 800]]
+如上所示，宏`MODIFY_REG()`的作用是**先将寄存器中第二个参数所指定位清零，然后再将第三个参数所指定位设置为1。** 具体过程如下：
+1. 读取原寄存器值：先通过 READ_REG(REG) 获取寄存器当前值。
+2. 清零操作：使用 ~(CLEARMASK) 将第二个参数对应的位取反，再与原值进行按位与运算，从而将这些位清0。
+3. 置位操作：将上一步的结果与第三个参数（SETMASK）进行按位或运算，将其中为1的位设置为1。
+4. 写回寄存器：最终通过 WRITE_REG 把更新后的值写回寄存器。
+所以，第二个参数确定了哪些位被清0，第三个参数则指定了哪些位被置1。
+
+如果不考虑原子性较高的场合时，宏`MODIFY_REG()`相当于`READ_REG()`+`CLEAR_BIT()`+`SET_BIT()`的组合。
+>Note：“原子性”是指一个操作在执行过程中不可被中断或分割，要么完全执行完毕，要么根本不执行，保证在整个过程中数据的一致性。
+
+### 3.4.3、debug模式查看寄存器AFIO->MAPR
+![[Pasted image 20250220204218.png | 1100]]
+![[Pasted image 20250220204452.png | 1100]]
+![[Pasted image 20250220204556.png]]
+如上所示，执行代码`MODIFY_REG(AFIO->MAPR, AFIO_MAPR_SWJ_CFG, AFIO_MAPR_SWJ_CFG_JTAGDISABLE);`之后，段SWJ_CFG变成010了。
+
+### 3.4.4、调试自己编写的函数
+```c
+__STATIC_INLINE void Set_USE_SWD_NOT_JTAG(void) {
+    __IO uint32_t reg = READ_REG(AFIO->MAPR);
+    CLEAR_BIT(reg, AFIO_MAPR_SWJ_CFG);  // AFIO_MAPR_SWJ_CFG = 0x07 << 24UL
+    SET_BIT(reg, AFIO_MAPR_SWJ_CFG_JTAGDISABLE); // AFIO_MAPR_SWJ_CFG_JTAGDISABLE = 1UL << 25UL
+    AFIO->MAPR = reg; // 设置AFIO
+}
+```
+![[Pasted image 20250220205620.png | 1100]]
+如上所示，AFIO_MAPR同样变成0x02000000。**另外，还是使用宏`MODIFY_REG`比较完美啊，又精简又保证原子性。**
 

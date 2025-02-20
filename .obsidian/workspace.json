@@ -20,15 +20,15 @@
             }
           },
           {
-            "id": "e04ee60aec99ff70",
+            "id": "21d0bdb911d35682",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md"
+                "file": "电子书/PM0056_Programming_manual - 读书笔记.md"
               },
               "icon": "lucide-file",
-              "title": "Cortex-M3技术参考手册(TRM)_读书笔记"
+              "title": "PM0056_Programming_manual - 读书笔记"
             }
           },
           {
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 379.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -175,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小的裸机系统框架.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Cortex-M3技术参考手册(TRM)_读书笔记 的大纲"
+              "title": "STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小的裸机系统框架 的大纲"
             }
           },
           {
@@ -209,12 +210,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 472.5,
-    "collapsed": true
+    "width": 472.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,22 +228,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e04ee60aec99ff70",
+  "active": "a60868e0307c778b",
   "lastOpenFiles": [
-    "电子书/PM0056_Programming_manual.pdf",
+    "附件存放/Pasted image 20250220205620.png",
+    "附件存放/Pasted image 20250220204556.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
+    "电子书/PM0056_Programming_manual - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库的最小的裸机系统框架.md",
-    "附件存放/Pasted image 20250219194804.png",
-    "附件存放/Pasted image 20250219194737.png",
-    "附件存放/Pasted image 20250219194703.png",
-    "附件存放/Pasted image 20250219194539.png",
-    "附件存放/Pasted image 20250219194414.png",
-    "附件存放/Pasted image 20250219194209.png",
-    "附件存放/Pasted image 20250219181558.png",
-    "附件存放/Pasted image 20250219181529.png",
-    "附件存放/Pasted image 20250219181458.png",
-    "附件存放/Pasted image 20250219181116.png",
+    "附件存放/Pasted image 20250220204452.png",
+    "附件存放/Pasted image 20250220204218.png",
+    "附件存放/Pasted image 20250220203945.png",
+    "附件存放/Pasted image 20250220200414.png",
+    "附件存放/Pasted image 20250220195839.png",
+    "附件存放/Pasted image 20250220195008.png",
+    "附件存放/Pasted image 20250220193348.png",
+    "附件存放/Pasted image 20250220193115.png",
+    "附件存放/Pasted image 20250220154601.png",
+    "电子书/PM0056_Programming_manual.pdf",
+    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
@@ -265,7 +267,6 @@
     "附件存放/data11.mat",
     "附件存放/elements.xlsx",
     "附件存放/data10.mat",
-    "附件存放/data9.mat",
     "知识库/硬件开发/电机控制/电机控制 - FOC - simpleFOC库的核心算法SVPWM.md",
     "知识库/软件开发/MCU/ESP-IDF - 定时器01 - 系统定时器 (SYSTIMER)与定时器组 (TIMG）的区别.md",
     "知识库/Maps/ESP32开发汇总.md",
@@ -275,7 +276,6 @@
     "知识库/Maps/硬件开发汇总.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
