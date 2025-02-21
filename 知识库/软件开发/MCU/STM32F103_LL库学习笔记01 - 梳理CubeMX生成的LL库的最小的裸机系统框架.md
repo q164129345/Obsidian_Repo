@@ -259,3 +259,165 @@ __STATIC_INLINE void Set_USE_SWD_NOT_JTAG(void) {
 ![[Pasted image 20250220205620.png | 1100]]
 如上所示，AFIO_MAPR同样变成0x02000000。**另外，还是使用宏`MODIFY_REG`比较完美啊，又精简又保证原子性。**
 
+## 3.5、配置系统时钟
+![[Pasted image 20250221093058.png | 800]]
+`SystemClock_Config()` 函数完成了以下任务：
+1. 设置 Flash 等待周期为 2，以适应 72MHz 的系统时钟。
+2. 启用 HSE 时钟（外部晶振，假设 8MHz），并等待稳定。
+3. 配置 PLL 使用 HSE 作为输入，倍频 9 倍，输出 72MHz。
+4. 启用 PLL 并等待锁定。
+5. 设置 AHB、APB1 和 APB2 的时钟分频器：
+	- AHB 时钟 = 72MHz。
+	- APB1 时钟 = 36MHz。
+	- APB2 时钟 = 72MHz。
+6. 将系统时钟源切换到 PLL 输出（72MHz）。
+7. 初始化 SysTick 定时器（1ms 中断），并设置系统核心时钟为 72MHz。
+通过这些步骤，系统时钟被成功配置为 72MHz，AHB 时钟为 72MHz，APB1 时钟为 36MHz，APB2 时钟为 72MHz，SysTick 定时器每 1 毫秒中断一次。
+
+### 3.5.1、设置 Flash 等待周期为 2，以适应 72MHz 的系统时钟
+![[Pasted image 20250221102604.png | 800]]
+![[Pasted image 20250221102959.png | 800]]
+如上所示，设置FLASH的等待周期，需要了解外设FLASH的寄存器ACR。宏`FLASH_ACR_LATENCY`从代码上看到是0x07UL << 0UL。代码`MODIFY_REG(FLASH->ACR, FLASH_ACR_LATENCY, Latency)`的意思是先读取寄存器ACR原来的值，接着清除`FLASH_ACR_LATENCY`指定的位，然后按照变量`Latency`指定的位来置1。**这是一种非常值得学习的标准的“读-修改-写”的标准写法。**
+![[Pasted image 20250221103152.png | 800]]
+![[Pasted image 20250221103321.png | 800]]
+![[Pasted image 20250221103408.png | 800]]
+如上图，从《STM32F1参考手册》的章节2.3-存储器映像找到外设FLASH在内存上的起始地址是0x40022000。从代码看到，宏FLASH指向的内存地址确实是0x40022000。
+![[Pasted image 20250221104157.png | 800]]
+![[Pasted image 20250221104224.png | 800]]
+从《STM32F1闪存编程手册》的章节3.1找到FLASH_ACR的内容，段LATENCY(bit2~bit0)的作用是配置FLASH等待周期。当前的工程使用系统时钟72M，所以段LATENCY需要设置010（相当于0x02)。
+![[Pasted image 20250221105207.png | 800]]
+debug模式调试寄存器状态看来，确实是0x02。
+### 3.5.2、启用 HSE 时钟（外部晶振，假设 8MHz）
+![[Pasted image 20250221105808.png | 800]]
+![[Pasted image 20250221105848.png | 800]]
+如上所示，启动HSE时钟，需了解外设RCC的寄存器CR。宏`RCC_CR_HSEON`，从代码上看到是0x01UL << 16UL。代码`SET_BIT(RCC->CR, RCC_CR_HSEON)`的意思是将宏`RCC_CR_HSEON`指定的位来置1。
+
+![[Pasted image 20250221110124.png | 800]]
+![[Pasted image 20250221110205.png | 800]]
+如上所示，寄存器RCC_CR的位16是控制HSE振荡器开启或者关闭。
+![[Pasted image 20250221110744.png | 800]]
+![[Pasted image 20250221110818.png | 800]]
+如上所示，寄存器CR的HSEON启动了。
+### 3.5.3、配置 PLL 使用 HSE 作为输入，倍频 9 倍，输出 72MHz
+![[Pasted image 20250221112235.png | 800]]
+![[Pasted image 20250221113235.png | 800]]
+如上图，源码分析：
+1. 函数参数。
+	- `LL_RCC_PLLSOURCE_HSE_DIV_1` = `(RCC_CFGR_PLLSRC | 0x00000000U)`。接着，`RCC_CFGR_PLLSRC` = 0x01UL << 16UL。
+	- `LL_RCC_PLL_MUL_9` = `RCC_CFGR_PLLMULL9` = 0x07UL << 18UL。
+2. 计算需要清除的位。
+	- `RCC_CFGR_PLLSRC` = 0x01UL << 16UL。
+	- `RCC_CFGR_PLLXTPRE` = 0x01UL << 17UL。
+	- `RCC_CFGR_PLLMULL` = 0x01UL << 18UL。
+	- `RCC_CFGR_PLLSRC` | `RCC_CFGR_PLLXTPRE` | `RCC_CFGR_PLLMULL`后相当于要清除位16、位17、位18。
+![[Pasted image 20250221120145.png | 800]]
+3. 计算需要置1的位。
+	- 局部变量`Source` = `LL_RCC_PLLSOURCE_HSE_DIV_1` = 0x01UL << 16UL。
+	- `RCC_CFGR_PLLSRC` = 0x01UL << 16UL。
+	- `RCC_CFGR_PLLXTPRE` = 0x01UL << 17UL。
+	- `Source` & (`RCC_CFGR_PLLSRC` | `RCC_CFGR_PLLXTPRE`) = 0x01UL << 16UL（即0x00010000）。
+	- 局部变量`PLLMul` = `LL_RCC_PLL_MUL_9` = 0x07UL << 18UL(即0x001C0000)。
+	- (`Source` & (`RCC_CFGR_PLLSRC` | `RCC_CFGR_PLLXTPRE`)) | PLLMul = 0x01UL << 16UL | 0x07UL << 18UL = 0x00010000 | 0x001C0000 = 0x001D0000，相当于位16、位18、位19、位20需要置1。
+![[Pasted image 20250221120657.png | 800]]
+ 接着，进入debug模式调试看看。
+ ![[Pasted image 20250221140732.png | 800]]![[Pasted image 20250221140914.png | 800]]
+ 如上两图所示，寄存器CFGR里的PLLSRC置1与PLLMUL的值变成0x07（二进制0111）。
+ ![[Pasted image 20250221141054.png | 800]]
+ 如上所示：
+ 1. PLLSRC置1 = HSE时钟作为PLL输入时钟。
+ 2. PLLMUL的值是0x07(二进制0111) = PLL 9倍频输出。
+![[Pasted image 20250221141335.png | 800]]
+如上所示，CubeMX的Clock Configuration看到，8M晶振从HSE输入，接着通过PLLMUL的9倍频变成72M。
+
+### 3.5.4、启动PLL，并等待锁定
+![[Pasted image 20250221142226.png | 800]]
+![[Pasted image 20250221142344.png | 800]]
+如上图所示，通过外设RCC的寄存器CR来启动PLL。宏`RCC_CR_PLLON`= 0x01UL << 24UL。
+
+![[Pasted image 20250221142636.png | 800]]
+如上所示，RCC_CR的PLLON在bit14，当它置1时，PLL使能。
+
+![[Pasted image 20250221142829.png | 800]]
+![[Pasted image 20250221142955.png | 800]]
+从debug调试看来，寄存器CR的PLLON被置1，PLL使能。从下面的PLLRDY看到，PLL已经完成使能。
+
+![[Pasted image 20250221143201.png | 800]]
+![[Pasted image 20250221143243.png | 800]]
+如上所示，了解PLL是否已经完成锁定，还是从RCC_CR里看。宏`RCC_CR_PLLRDY` = 0x01UL << 25UL。
+
+![[Pasted image 20250221143526.png | 800]]
+如上图，《STM32F1参考手册》章节6.3.1，当RCC_CR的bit25变成1时，表示PLL已经锁定。
+
+### 3.5.5、设置 AHB、APB1 和 APB2 的时钟分频器
+![[Pasted image 20250221144114.png | 800]]
+![[Pasted image 20250221144203.png | 800]]
+如上图所示，设置AHB、APB1、APB2的分频都是在外设RCC的寄存器CFGR。其中，宏`RCC_CFGR_HPRE` = 0xF << 4UL,宏`RCC_CFGR_PPRE1` = 0x07 << 8UL，宏`RCC_CFGR_PPRE2` = 0x07 << 11UL。
+
+![[Pasted image 20250221145224.png | 800]]
+如上图所示:
+- 设置AHB分频的是寄存器CFGR的段HPRE，一共4个bit（bit4～bit7）。
+- 设置APB1分频的是寄存器CFGR的段PPRE1，一共3个bit（bit8～bit10）。
+- 设置APB2分频的是寄存器CFGR的段PPRE2，一共3个bit（bit11～bit13）。
+
+![[Pasted image 20250221145828.png | 800]]
+从代码看来，APB1要2分频，其他两个不需要分频。按理来说，在保证外设能稳定工作的话，时钟频率越高越好。为什么APB1要2分频？接着分析。
+
+![[Pasted image 20250221150222.png | 800]]
+如上所示，《STM32F1参考手册》章节6.3.2有说明，APB1的时钟频率不能超过36MHz。因为之前PLL时钟频率设置了72MHz，所以APB1要在PLL时钟的前提下2分频得到时钟频率36MHz。
+
+![[Pasted image 20250221150609.png | 800]]
+如上所示：
+- 段HPRE要设置二进制的000(相当于0x00000000 = 宏`LL_RCC_SYSCLK_DIV_1`)。
+- 段PPRE1要设置二进制的100(相当于0x01UL << 10UL = 0x00000400 = 宏`RCC_CFGR_PPRE1_DIV2`)。
+- 段PPRE2要设置二进制的0000(相当于0x00000000 = 宏`LL_RCC_APB2_DIV_1`)。
+
+![[Pasted image 20250221151347.png | 800]]
+进入debug模式看来，以上的分析是正确的。最终AHB的频率 = 72M = ARB2，只有APB1 = 72M / 2 = 36M。
+
+### 3.5.6、将系统时钟源切换到 PLL 输出（72MHz）
+![[Pasted image 20250221151753.png | 800]]
+![[Pasted image 20250221151839.png | 800]]
+如上所示，还是外设RCC的寄存器CFGR。
+
+![[Pasted image 20250221151957.png | 800]]
+如上所示，将寄存器CFGR的段SW设置为10（二进制）就可以将系统时钟设置为PLL输出。
+
+![[Pasted image 20250221152226.png | 800]]
+从debug模式观察到，SW确实被设置成10（十六进制0x02）。
+
+![[Pasted image 20250221152408.png | 800]]
+如上所示，记得检查系统时钟是不是已经切换到PLL时钟。
+
+![[Pasted image 20250221152738.png | 800]]
+如上所示，宏`RCC_CFGR_SWS` = 0x03 << 2UL，`READ_BIT(RCC->CFGR, RCC_CFGR_SWS)`相当于读取寄存器CFGR的位2～位3。
+
+![[Pasted image 20250221152532.png | 800]]
+如上所示，寄存器CFGR的位2～位3等于10(二进制)时，PLL输出已经作为系统时钟。
+
+![[Pasted image 20250221153130.png | 800]]
+如上所示，LL库源码确实是等待位2～位3等于10(二进制)。
+
+### 3.5.7、初始化 SysTick 定时器（1ms 中断）
+![[Pasted image 20250221153554.png | 800]]
+![[Pasted image 20250221153640.png | 800]]
+![[Pasted image 20250221161731.png | 800]]
+如上所示，嵌套一套一套解开，最后是函数`LL_InitTick(72000000,1000U)`。
+
+![[Pasted image 20250221170224.png | 800]]
+1. 代码`SysTick->LOAD  = (uint32_t)((HCLKFrequency / Ticks) - 1UL)`
+	- 将720000000代入HCLKFrequency，将1000代入Ticks后，SysTick->LOAD = 72000000 / 1000 - 1 = 72000 - 1 = 71999（十六进制0x0001193F）。
+2. 代码`SysTick->VAL   = 0UL`
+	- 将VAL计时器清0，准备开始计时。
+3. 代码`SysTick->CTRL = SysTick_CTRL_CLKSOURCE_Msk | SysTick_CTRL_ENABLE_Msk`
+	- 宏`SysTick_CTRL_CLKSOURCE_Msk` = 0x01UL << 2UL
+	- 宏`SysTick_CTRL_ENABLE_Msk` = 0x01UL
+	- 所以`SysTick_CTRL_CLKSOURCE_Msk` | `SysTick_CTRL_ENABLE_Msk` = 0x05UL
+![[Pasted image 20250221172330.png | 800]]
+如上图所示，debug模式看到SysTick->CTRL确实等于0x05，还有SysTick->LOAD确认等于0x0001193F(十进制是71999)。
+
+![[Pasted image 20250221172950.png | 800]]
+如上所示，《STM32F1编程手册》的章节4.5.1 - SysTick control and status register (STK_CTRL)看到，外设SysTick的bit2-CLKSOURCE的作用是选择分频，然后bit0-ENABLE的作用是启动计数器，SysTick开始计数。
+SysTick->CTRL = 0x05，相当于bit2与bit0置1。
+
+![[Pasted image 20250221173326.png | 800]]
+如上所示，SysTick->CTRL的设置相当于Clock Configuration图的后半段。
