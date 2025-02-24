@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架"
+              "title": "STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断"
             }
           }
         ],
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架 的大纲"
+              "title": "STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断 的大纲"
             }
           },
           {
@@ -230,20 +230,22 @@
   },
   "active": "a60868e0307c778b",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250224200333.png",
+    "附件存放/Pasted image 20250224214032.png",
+    "附件存放/Pasted image 20250224213450.png",
+    "附件存放/Pasted image 20250224213400.png",
+    "附件存放/Pasted image 20250224213310.png",
+    "附件存放/Pasted image 20250224213246.png",
+    "附件存放/Pasted image 20250224213218.png",
+    "附件存放/Pasted image 20250224213148.png",
+    "附件存放/Pasted image 20250224213107.png",
+    "附件存放/Pasted image 20250224210450.png",
+    "附件存放/Pasted image 20250224210351.png",
     "电子书/PM0056_Programming_manual - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
-    "附件存放/Pasted image 20250224200128.png",
-    "附件存放/Pasted image 20250224143842.png",
-    "附件存放/Pasted image 20250224142553.png",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断.md",
+    "附件存放/Pasted image 20250224210223.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "附件存放/Pasted image 20250224115009.png",
-    "附件存放/Pasted image 20250224114639.png",
-    "附件存放/Pasted image 20250224114538.png",
-    "附件存放/Pasted image 20250224113404.png",
-    "附件存放/Pasted image 20250224093351.png",
-    "附件存放/Pasted image 20250224090735.png",
-    "附件存放/Pasted image 20250221173326.png",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
+    "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/PM0056_Programming_manual.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
@@ -274,8 +276,6 @@
     "知识库/Maps/数据结构与算法汇总.md",
     "知识库/Maps/开发工具汇总.md",
     "知识库/Maps/硬件开发汇总.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC13 - 基于STM32F103+CubeMX，实战项目 - 挡块手感实现.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC12 - 基于STM32F103+CubeMX，实战项目 - 棘轮手感的实现.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
