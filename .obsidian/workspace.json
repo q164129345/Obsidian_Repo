@@ -210,7 +210,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -228,8 +228,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8b3bcdd6ae542fa7",
+  "active": "a60868e0307c778b",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250224200333.png",
+    "电子书/PM0056_Programming_manual - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
+    "附件存放/Pasted image 20250224200128.png",
+    "附件存放/Pasted image 20250224143842.png",
+    "附件存放/Pasted image 20250224142553.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "附件存放/Pasted image 20250224115009.png",
     "附件存放/Pasted image 20250224114639.png",
     "附件存放/Pasted image 20250224114538.png",
@@ -237,13 +244,6 @@
     "附件存放/Pasted image 20250224093351.png",
     "附件存放/Pasted image 20250224090735.png",
     "附件存放/Pasted image 20250221173326.png",
-    "电子书/PM0056_Programming_manual - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
-    "附件存放/Pasted image 20250221172950.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "附件存放/Pasted image 20250221172330.png",
-    "附件存放/Pasted image 20250221170224.png",
-    "附件存放/Pasted image 20250221161731.png",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/PM0056_Programming_manual.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",

@@ -259,7 +259,7 @@ __STATIC_INLINE void Set_USE_SWD_NOT_JTAG(void) {
 ![[Pasted image 20250220205620.png | 1100]]
 如上所示，AFIO_MAPR同样变成0x02000000。**另外，还是使用宏`MODIFY_REG`比较完美啊，又精简又保证原子性。**
 
-## 3.5、配置系统时钟
+## 3.5、配置系统时钟链路
 ![[Pasted image 20250221093058.png | 800]]
 `SystemClock_Config()` 函数完成了以下任务：
 1. 设置 Flash 等待周期为 2，以适应 72MHz 的系统时钟。
@@ -431,12 +431,32 @@ SysTick->CTRL = 0x05，相当于bit2与bit0置1。
 ![[Pasted image 20250224114538.png | 800]]
 ![[Pasted image 20250224115009.png | 800]]
 如上所示，函数`SystemClock_Config()`的作用是配置MCU整条时钟链路，基于HCLK产生5条时钟线：
-1. HCLK to AHB bus,core,memory,DMA（驱动 AHB 总线、SRAM、外设寄存器访问等，属于总线级的时钟。）
+1. HCLK to AHB bus,core,memory,DMA（驱动 AHB 总线、SRAM、外设寄存器访问等，属于总线级的时钟。） 
 2. Cortex System timer（System Tick滴答定时器）
 3. FCLK（驱动 CPU 内核，用于取指、执行指令以及和内核相关的逻辑。）
 4. APB1（各类常用外设）
 5. APB2（各类常用外设）
 
+## 3.6、寄存器SysTick->CTRL
+![[Pasted image 20250224143842.png | 800]]
+如上所示，函数`LL_mDelay()`的实现主要使用寄存器SysTick->CTRL。先来梳理一下寄存器SysTick->CTRL里4个段的使用说明。
+1. **Bit 16: COUNT FLAG**
+	- 当 SysTick 计数器自上一次读取本寄存器后曾经从 1 递减到 0 时，该位返回 1；否则返回 0。
+	- 读取此寄存器（或读取 COUNTFLAG）后，该位会自动清零（即再次读取时如果计数器没有再次从 1 减到 0，就会返回 0）。
+	- 该标志常用于检测是否发生过一次计数周期结束。
+2. **Bit 2: CLKSOURCE（时钟源选择）**
+	- 0：使用外部参考时钟（通常为 AHB 时钟 / 8）。
+	- 1：使用处理器时钟（即 AHB 时钟，不分频）。
+3. **Bit 1: TICKINT（SysTick 中断使能）**
+	- 0：禁止 SysTick 计数到 0 时产生中断请求。
+	- 1：使能 SysTick 计数到 0 时产生中断请求（SysTick 异常）。
+	- 当计数器由 1 减到 0 时，如果该位为 1，就会触发 SysTick 异常（Exception），在向量表中对应的异常号是“SysTick Handler”，由相应的中断服务程序（ISR）进行处理。
+4. **Bit 0: ENABLE（使能 SysTick 计数器）**
+	- 0：禁止 SysTick 计数。
+	- 1：使能 SysTick 计数。
+	- 当 ENABLE = 1 时，SysTick 会开始从 RELOAD 寄存器中的初始值开始倒计数；当倒计数到 0 时，会根据 TICKINT 的配置触发中断，并且根据 COUNTFLAG 进行状态标记，然后重新装载 RELOAD 寄存器的值并继续倒计数（如果 ENABLE 始终保持为 1）。
 
-
-
+## 3.7、延时函数LL_mDelay()
+![[Pasted image 20250224200128.png | 800]]
+如上所示，LL库的`LL_mDelay()`的串行延时主要依赖寄存器SysTick->CTRL的段COUNTFLAG这个标志位。
+![[Pasted image 20250224200333.png | 800]]
