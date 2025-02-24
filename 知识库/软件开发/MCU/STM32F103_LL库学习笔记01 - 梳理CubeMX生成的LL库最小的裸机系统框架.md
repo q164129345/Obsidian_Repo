@@ -421,3 +421,22 @@ SysTick->CTRL = 0x05，相当于bit2与bit0置1。
 
 ![[Pasted image 20250221173326.png | 800]]
 如上所示，SysTick->CTRL的设置相当于Clock Configuration图的后半段。
+
+### 3.5.8、设置系统核心时钟（HCLK）
+![[Pasted image 20250224113404.png | 800]]
+![[Pasted image 20250224093351.png | 800]]
+如上所示，函数LL_SetSystemCoreClock()的目的是记录HCLK的时钟频率。*为什么说是记录？* 在CubeMX生成的代码中，PLL配置、AHB分频器等设置只是修改了硬件寄存器，使实际的时钟源和分频后的时钟达到72MHz。调用`LL_SetSystemCoreClock(72000000)`的主要作用是更新软件层面的全局变量（通常是 SystemCoreClock），这个变量被库函数（比如延时函数、定时器初始化等）用来计算时间参数。如果不更新这个变量，软件计算的时基就会出错，即使硬件已经配置正确。因此，**这个调用是用来同步软件的时钟信息，并非重新配置硬件的时钟频率。**
+
+### 3.5.9、总结系统时钟的配置
+![[Pasted image 20250224114538.png | 800]]
+![[Pasted image 20250224115009.png | 800]]
+如上所示，函数`SystemClock_Config()`的作用是配置MCU整条时钟链路，基于HCLK产生5条时钟线：
+1. HCLK to AHB bus,core,memory,DMA（驱动 AHB 总线、SRAM、外设寄存器访问等，属于总线级的时钟。）
+2. Cortex System timer（System Tick滴答定时器）
+3. FCLK（驱动 CPU 内核，用于取指、执行指令以及和内核相关的逻辑。）
+4. APB1（各类常用外设）
+5. APB2（各类常用外设）
+
+
+
+
