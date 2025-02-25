@@ -113,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 379.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -227,10 +228,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a60868e0307c778b",
+  "active": "8b3bcdd6ae542fa7",
   "lastOpenFiles": [
-    "知识库/Maps/STM32汇总.md",
+    "电子书/PM0056_Programming_manual - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
+    "知识库/Maps/STM32汇总.md",
     "附件存放/Pasted image 20250225174520.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "附件存放/LL03,read_gpio.gif",
@@ -239,7 +241,6 @@
     "附件存放/Pasted image 20250225171505.png",
     "附件存放/Pasted image 20250225170233.png",
     "附件存放/Pasted image 20250225163638.png",
-    "电子书/PM0056_Programming_manual - 读书笔记.md",
     "附件存放/Pasted image 20250225162636.png",
     "附件存放/Pasted image 20250225162557.png",
     "附件存放/Pasted image 20250225162005.png",

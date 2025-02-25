@@ -8,6 +8,8 @@
 ![[Pasted image 20250225114540.png | 1100]]
 如上所示，使用CubeMX设置PB4为输入模式，Pull-up（上拉）。
 
+项目地址:https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library03_gpio_input
+
 # 二、代码
 ---
 ## 2.1、MX_GPIO_Init()
