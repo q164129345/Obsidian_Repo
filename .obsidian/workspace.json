@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断"
+              "title": "STM32F103_LL库学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态"
             }
           }
         ],
@@ -113,8 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5,
-    "collapsed": true
+    "width": 379.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -176,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断 的大纲"
+              "title": "STM32F103_LL库学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态 的大纲"
             }
           },
           {
@@ -214,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 472.5
+    "width": 513.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,22 +229,26 @@
   },
   "active": "a60868e0307c778b",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250224214032.png",
-    "附件存放/Pasted image 20250224213450.png",
-    "附件存放/Pasted image 20250224213400.png",
-    "附件存放/Pasted image 20250224213310.png",
-    "附件存放/Pasted image 20250224213246.png",
-    "附件存放/Pasted image 20250224213218.png",
-    "附件存放/Pasted image 20250224213148.png",
-    "附件存放/Pasted image 20250224213107.png",
-    "附件存放/Pasted image 20250224210450.png",
-    "附件存放/Pasted image 20250224210351.png",
-    "电子书/PM0056_Programming_manual - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断.md",
-    "附件存放/Pasted image 20250224210223.png",
+    "知识库/Maps/STM32汇总.md",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
+    "附件存放/Pasted image 20250225174520.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "附件存放/LL03,read_gpio.gif",
+    "附件存放/Pasted image 20250225174110.png",
+    "附件存放/Pasted image 20250225173944.png",
+    "附件存放/Pasted image 20250225171505.png",
+    "附件存放/Pasted image 20250225170233.png",
+    "附件存放/Pasted image 20250225163638.png",
+    "电子书/PM0056_Programming_manual - 读书笔记.md",
+    "附件存放/Pasted image 20250225162636.png",
+    "附件存放/Pasted image 20250225162557.png",
+    "附件存放/Pasted image 20250225162005.png",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记05 - GPIO输入模式，捕获高或者（低）电平变化进入中断回调.md",
+    "知识库/软件开发/MCU/STM32F103_LL库学习笔记04 - GPIO设置输出模式.md",
     "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
+    "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/PM0056_Programming_manual.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
@@ -253,8 +256,6 @@
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
     "知识库/软件开发/未命名.md",
-    "知识库/Maps/STM32汇总.md",
-    "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - CAN,bsp_can.c与bsp_can.h备忘录.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
@@ -273,9 +274,6 @@
     "知识库/软件开发/MCU/ESP-IDF - 定时器01 - 系统定时器 (SYSTIMER)与定时器组 (TIMG）的区别.md",
     "知识库/Maps/ESP32开发汇总.md",
     "知识库/Maps/机器人开发汇总.md",
-    "知识库/Maps/数据结构与算法汇总.md",
-    "知识库/Maps/开发工具汇总.md",
-    "知识库/Maps/硬件开发汇总.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",
