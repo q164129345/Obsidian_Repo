@@ -92,6 +92,10 @@ ErrorStatus LL_GPIO_Init(GPIO_TypeDef *GPIOx, LL_GPIO_InitTypeDef *GPIO_InitStru
 ![[LL03,gpio_input.gif | 1100]]
 如上图所示，pinStatus刚开始等于1，因为PB4的初始状态是上拉。当我将PB4连接到GND，pinStatus变成0。当我再一次将PB4与GND断开，pinStatus又变回1。
 
+## 2.3、通过LL库设置GPIO输入模式的另外一种方法
+![[Pasted image 20250227144211.png | 800]]
+如上所示，通过函数`LL_GPIO_SetPinMode()`与函数`LL_GPIO_SetPinPull()`就能完成GPIO的输入模式配置。
+
 # 三、寄存器梳理
 ---
 ## 3.1、GPIOB的RCC时钟
@@ -108,7 +112,7 @@ RCC->APB2ENR |= 0x01UL << 3UL; // 使能GPIOB的时钟
 
 
 ## 3.2、GPIO相关寄存器
-### 3.2.1、GPIOB_CRL
+### 3.2.1、GPIOx_CRL
 ![[Pasted image 20250225163638.png]]
 如上所示，《STM32F1参考手册》的章节8.2.1，首先要配置GPIO的寄存器CRL（PB0～PB7）或者CRH（PB8～PB15）。比如PB4要设置段MODE4 = 00（输入模式），段CNF4 = 10（上拉/下拉输入模式）。
 ```c
@@ -118,7 +122,7 @@ GPIOB->CRL |= 0x08 << 16UL;   // 设置段CNF4 = 10，段MODE4 = 00
 // MODIFY_REG(GPIOB->CRL, 0x0F << 16UL, 0x08 << 16UL); 
 ```
 
-### 3.2.2、GPIOB_ODR
+### 3.2.2、GPIOx_ODR
 ![[Pasted image 20250225170233.png]]
 如上所示，《STM32F1参考手册》的章节8.2.4，寄存器ODR对应的位置1相当于上拉，置0相当于下拉。
 ```c
@@ -153,7 +157,7 @@ if (READ_BIT(GPIOB->IDR, 0x01 << 4UL)) {
 
 ```
 
-# 四、寄存器方式实现
+# 四、寄存器方式的实现
 ![[Pasted image 20250225173944.png | 800]]
 ![[Pasted image 20250225174110.png | 800]]
 ![[LL03,read_gpio.gif| 800]]
