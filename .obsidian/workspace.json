@@ -137,7 +137,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5
+    "width": 379.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -233,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -251,7 +252,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a60868e0307c778b",
+  "active": "8b3bcdd6ae542fa7",
   "lastOpenFiles": [
     "附件存放/LL05_EXTI.gif",
     "附件存放/Pasted image 20250227205331.png",

@@ -2,6 +2,8 @@
 ---
 GPIO设置输入模式后，一般会用轮询的方式去查看GPIO的电平状态。比如，最常用的案例是用于检测按钮的当前状态（是按下还是没按下）。中断的使用一般用于计算脉冲的频率与计算脉冲的数量。
 
+项目地址：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library05_gpio_input_interrupt
+
 # 一、代码
 ---
 ## 1.1、main.c
