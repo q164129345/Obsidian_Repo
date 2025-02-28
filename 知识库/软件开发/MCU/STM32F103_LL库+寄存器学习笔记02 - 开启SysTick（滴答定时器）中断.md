@@ -1,6 +1,6 @@
 # 导言
 ---
-[[STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架]]上一章节对CubeMX生成的最小系统框架进行梳理，在此工程的基础上，梳理SysTick（滴答定时器）中断是怎样开启的？为什么SysTick中断会自动调用函数`SysTick_Handler()`？
+[[STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架]]上一章节对CubeMX生成的最小系统框架进行梳理，在此工程的基础上，梳理SysTick（滴答定时器）中断是怎样开启的？为什么SysTick中断会自动调用函数`SysTick_Handler()`？
 
 效果如下：
 ![[LL02_Tick_Interrupt.gif | 1100]]

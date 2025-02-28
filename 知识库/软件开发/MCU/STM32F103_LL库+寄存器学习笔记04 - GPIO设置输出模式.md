@@ -1,6 +1,6 @@
 # 导言
 ---
-[[STM32F103_LL库学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态]]，上一章节完成GPIO输入模式的设置。接下來梳理GPIO的输出模式配置，并且控制GPIO输出高电平或低电平。
+[[STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态]]，上一章节完成GPIO输入模式的设置。接下來梳理GPIO的输出模式配置，并且控制GPIO输出高电平或低电平。
 首先，先梳理一下LL库怎样去设置GPIO的输出模式与控制GPIO输出高电平或低电平。
 
 项目地址：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library04_gpio_output

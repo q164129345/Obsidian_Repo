@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理USART与发送“Hello,World\".md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调"
+              "title": "STM32F103_LL库+寄存器学习笔记06 - 梳理USART与发送“Hello,World\""
             }
           },
           {
@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记04 - GPIO设置输出模式.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库学习笔记04 - GPIO设置输出模式"
+              "title": "STM32F103_LL库+寄存器学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调"
             }
           }
         ],
@@ -137,7 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 379.5,
+    "width": 675.5,
     "collapsed": true
   },
   "right": {
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理USART与发送“Hello,World\".md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记06 - 梳理USART与发送“Hello,World\" 的大纲"
             }
           },
           {
@@ -238,7 +238,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 418.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -254,27 +255,29 @@
   },
   "active": "8b3bcdd6ae542fa7",
   "lastOpenFiles": [
-    "附件存放/LL05_EXTI.gif",
-    "附件存放/Pasted image 20250227205331.png",
+    "附件存放/Pasted image 20250228180939.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
-    "附件存放/Pasted image 20250227203519.png",
-    "附件存放/Pasted image 20250227203129.png",
-    "附件存放/Pasted image 20250227203017.png",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记04 - GPIO设置输出模式.md",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断.md",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
-    "附件存放/Pasted image 20250227201806.png",
-    "附件存放/Pasted image 20250227201627.png",
-    "附件存放/Pasted image 20250227201407.png",
-    "附件存放/Pasted image 20250227175147.png",
-    "附件存放/Pasted image 20250227174505.png",
-    "附件存放/Pasted image 20250227165217.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理USART与发送“Hello,World\".md",
+    "附件存放/Pasted image 20250228173209.png",
+    "附件存放/Pasted image 20250228171324.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记04 - GPIO设置输出模式.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
+    "附件存放/Pasted image 20250228153609.png",
+    "附件存放/Pasted image 20250228153335.png",
+    "附件存放/Pasted image 20250228151538.png",
+    "附件存放/Pasted image 20250228151137.png",
+    "附件存放/Pasted image 20250228151053.png",
+    "附件存放/Pasted image 20250228145926.png",
+    "附件存放/Pasted image 20250228145817.png",
+    "附件存放/Pasted image 20250228144946.png",
+    "知识库/Maps/STM32汇总.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - USART回环通讯.md",
     "电子书/PM0056_Programming_manual - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记02 - 开启SysTick（滴答定时器）中断.md",
     "知识库/Maps/电机控制汇总.md",
     "知识库/Maps/硬件开发汇总.md",
-    "知识库/Maps/STM32汇总.md",
-    "知识库/软件开发/MCU/STM32F103_LL库学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
     "知识库/软件开发/MCU/STM32异常 - HardFault_Handler处理方法.md",
     "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
     "电子书/STM32F1中文参考手册V10.pdf",
@@ -298,8 +301,6 @@
     "附件存放/elements.xlsx",
     "附件存放/data10.mat",
     "知识库/硬件开发/电机控制/电机控制 - FOC - simpleFOC库的核心算法SVPWM.md",
-    "知识库/软件开发/MCU/ESP-IDF - 定时器01 - 系统定时器 (SYSTIMER)与定时器组 (TIMG）的区别.md",
-    "知识库/Maps/ESP32开发汇总.md",
     "知识库/Maps/电机控制.canvas",
     "知识库/硬件开发/电机控制/未命名.canvas",
     "未命名.canvas",

@@ -100,4 +100,17 @@ if (EXTI->PR & (0x01UL << 10UL)) { 判断是不是EXTI10中断
 ![[LL05_EXTI.gif | 1100]]
 如上图所示，CubeMX不支持PA4与PB4一起映射到EXTI4。PA4映射到EXTI4后，如果将PAB4映射到EXTI4的话，PA4就会自动失效。**所以，每一个EXTIx只能映射某一个PAx。**
 
+## 4.2、STM32F103一共支持多少路EXTI中断？
+![[Pasted image 20250228092407.png | 800]]
+如上所示，参考《STM32F1参考手册》的章节9.2.5，在STM32F103引脚资源足够的情况下，**最多支持16个GPIO口映射到EXTI外部中断（EXTI0～EXTI15）。** 另外EXTI16～EXTI19不能映射到普通GPIO，只能用于处理特定内部事件或外设的中断/事件，比如EXTI18的USB唤醒事件。
+
+
+
+
+
+
+
+
+
+
 

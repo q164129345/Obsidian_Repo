@@ -1,6 +1,6 @@
 # 导言
 ---
-[[STM32F103_LL库学习笔记02 - 开启SysTick（滴答定时器）中断]]上一章节完成SysTick中断。接着，开始梳理大家肯定逃不过的外设GPIO。
+[[STM32F103_LL库+寄存器学习笔记02 - 开启SysTick（滴答定时器）中断]]上一章节完成SysTick中断。接着，开始梳理大家肯定逃不过的外设GPIO。
 首先，先梳理一下LL库怎样去设置GPIO的模式，读取GPIO的电平的状态。
 
 项目地址:https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library03_gpio_input
