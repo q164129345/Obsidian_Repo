@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - USART中断接收.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - USART接收缓冲区非空中断.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记07 - USART中断接收"
+              "title": "STM32F103_LL库+寄存器学习笔记07 - USART接收缓冲区非空中断"
             }
           },
           {
@@ -200,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - USART中断接收.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - USART接收缓冲区非空中断.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记07 - USART中断接收 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记07 - USART接收缓冲区非空中断 的大纲"
             }
           },
           {
@@ -234,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -252,8 +252,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8b3bcdd6ae542fa7",
+  "active": "a60868e0307c778b",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250303193749.png",
+    "附件存放/Pasted image 20250303192110.png",
+    "附件存放/Pasted image 20250303191937.png",
+    "附件存放/Pasted image 20250303191746.png",
+    "附件存放/Pasted image 20250303191644.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - USART接收缓冲区非空中断.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理USART与发送“Hello,World\".md",
     "附件存放/LL06_USART_Con.gif",
     "附件存放/Pasted image 20250303173827.png",
@@ -261,13 +269,6 @@
     "附件存放/Pasted image 20250303170316.png",
     "附件存放/Pasted image 20250303163411.png",
     "附件存放/Pasted image 20250303163328.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "附件存放/Pasted image 20250303143412.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
-    "附件存放/Pasted image 20250303142308.png",
-    "附件存放/Pasted image 20250303142213.png",
-    "附件存放/Pasted image 20250303142108.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - USART中断接收.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记04 - GPIO设置输出模式.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
     "知识库/Maps/STM32汇总.md",
