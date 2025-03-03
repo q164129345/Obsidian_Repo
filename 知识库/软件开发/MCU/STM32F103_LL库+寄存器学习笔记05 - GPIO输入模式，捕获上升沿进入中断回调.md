@@ -4,7 +4,7 @@ GPIO设置输入模式后，一般会用轮询的方式去查看GPIO的电平状
 
 项目地址：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library05_gpio_input_interrupt
 
-# 一、代码
+# 一、代码（LL库）
 ---
 ## 1.1、main.c
 ![[Pasted image 20250227154032.png | 800]]
@@ -80,7 +80,7 @@ if (EXTI->PR & (0x01UL << 10UL)) { 判断是不是EXTI10中断
 }
 ```
 
-# 三、寄存是方式的实现
+# 三、代码（寄存器方式）
 ---
 ## 3.1、main.c
 ![[Pasted image 20250227203017.png | 800]]
