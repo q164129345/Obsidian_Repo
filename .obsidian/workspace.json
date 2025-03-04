@@ -25,10 +25,10 @@
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "电子书/PM0056_Programming_manual - 读书笔记.md"
+                "file": "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md"
               },
               "icon": "lucide-file",
-              "title": "PM0056_Programming_manual - 读书笔记"
+              "title": "Cortex-M3技术参考手册(TRM)_读书笔记"
             }
           },
           {
@@ -234,11 +234,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 418.5
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,27 +252,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a60868e0307c778b",
+  "active": "8b3bcdd6ae542fa7",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250303193749.png",
-    "附件存放/Pasted image 20250303192110.png",
-    "附件存放/Pasted image 20250303191937.png",
-    "附件存放/Pasted image 20250303191746.png",
-    "附件存放/Pasted image 20250303191644.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - USART接收缓冲区非空中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
+    "附件存放/Pasted image 20250304115431.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "附件存放/LL07_Receive_IT.gif",
+    "附件存放/Pasted image 20250304115037.png",
+    "附件存放/Pasted image 20250304114102.png",
+    "附件存放/Pasted image 20250304112810.png",
+    "附件存放/Pasted image 20250304112715.png",
+    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
+    "附件存放/Pasted image 20250304111732.png",
+    "附件存放/Pasted image 20250304111655.png",
+    "附件存放/Pasted image 20250304111310.png",
+    "附件存放/Pasted image 20250304111223.png",
+    "电子书/PM0056_Programming_manual - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理USART与发送“Hello,World\".md",
-    "附件存放/LL06_USART_Con.gif",
-    "附件存放/Pasted image 20250303173827.png",
-    "附件存放/Pasted image 20250303171008.png",
-    "附件存放/Pasted image 20250303170316.png",
-    "附件存放/Pasted image 20250303163411.png",
-    "附件存放/Pasted image 20250303163328.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记04 - GPIO设置输出模式.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
-    "知识库/Maps/STM32汇总.md",
-    "电子书/PM0056_Programming_manual - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记02 - 开启SysTick（滴答定时器）中断.md",
     "知识库/Maps/电机控制汇总.md",
@@ -281,7 +281,6 @@
     "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/PM0056_Programming_manual.pdf",
-    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
