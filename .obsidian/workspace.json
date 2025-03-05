@@ -242,9 +242,9 @@
   },
   "active": "21d0bdb911d35682",
   "lastOpenFiles": [
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - 串口DMA发送.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - 串口接收缓冲区非空中断.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - 串口DMA发送.md",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "附件存放/LL08_USART_Send1.gif",
     "附件存放/Pasted image 20250305204310.png",
     "附件存放/Pasted image 20250305203945.png",
