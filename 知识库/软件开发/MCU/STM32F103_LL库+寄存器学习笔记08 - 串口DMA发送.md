@@ -105,6 +105,12 @@ __STATIC_INLINE void DMA1_Channel4_Configure(void) {
 }
 ```
 
+![[Pasted image 20250305205808.png | 1100]]
+
+如上所示，函数DMA1_Channel4_Configure()运行完之后，从debug模式的寄存器列表看到只有DMA1的寄存器CCR4有值。
+![[Pasted image 20250305210154.png | 1100]]
+如上所示，代码跟debug模式下看到的寄存器状态一一对应上。
+
 ## 3.4、串口DMA发送
 ```c
 void USART1_SendString_DMA(const char *data, uint16_t len)
