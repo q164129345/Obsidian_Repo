@@ -6,6 +6,11 @@
 ![[LL09_USART_IDLE_DMA.gif | 1000]]
 串口助手发送字符串`"LL_Example09_DMA_Rece_IDLE\r\n"`给STM32F103，接着马上收到来自STM32F103发出来的字符串`"LL_Example09_DMA_Rece_IDLE\r\n"`。
 
+来一个高强度的测试效果，115200 波特率意味着每秒传输 115200 个比特。如果使用标准格式（1 个起始位、8 个数据位、1 个停止位，共 10 个比特传输一个字节），那么每秒可以传输 115200 / 10 = 11520 个字节。换算下来，每毫秒大约传输 11520 / 1000 ≈ 11.52 字节，**实际约为 11 个字节/ms。**
+接着，我用100个字节/10ms去测试收发的效果（相当于每1S传输10000bytes）。因为每一次发送的字节总数多了，所以RX与TX的缓存区我都改为2K了。效果如下所示：
+![[LL09_USART_IDLE_DMA8.gif]]
+最后，发送了87100bytes，接收了87100bytes，发送=接收，**没有丢包！然后MCU是空闲的，因为USART1的发送与接收都是DMA完成的！**
+
 项目地址：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library09_usart_dma_rec_with_ilde
 
 # 一、CubeMX
