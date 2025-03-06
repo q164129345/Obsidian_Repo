@@ -1125,3 +1125,71 @@ __STATIC_INLINE void USART1_Configure(void) {
 如上所示，编译通过。
 ![[LL09_USART_IDLE_DMA1.gif | 1100]]
 如上所示，效果跟LL库一样。
+
+
+# 五、细节补充
+---
+## 5.1、有没有办法知道接收的字符串的长度超过DMA接收缓冲区？
+![[Pasted image 20250306193728.png | 800]]
+如上所示，DMA接收的缓冲区大小是64个字节。如果电脑的串口助手一次性发送的字节数超过64的话，会怎样？？
+![[LL09_USART_IDLE_DMA2.gif]]
+如上所示，串口助手发送字符串"LL_Example09_DMA_Rece_IDLELL_Example09_DMA_Rece_IDLELL_Example09_DMA_Rece_IDLE"，长度78bytes。接着，单片机回传的字符串是"\_DMA_Rece_IDLE"，其长度是14bytes。为什么？咱们计算一下。
+DMA接收缓冲区大小64bytes，如果一次性发送78bytes的话，相当于多了78-64=14bytes。原因是DMA1通道5设置了循环模式，当发送数据量超过缓冲区大小（如78字节）时，DMA在接收满64字节后自动重载，导致旧数据被覆盖；IDLE中断时读取的有效数据只剩下新写入的部分（14bytes）。发生这种情况时，USART1与DMA都没有产生错误，对于它们俩来说都是正常。那有什么办法让我们知道上位机曾经发送过一串字符串，长度超过我们设置的缓存区？好让我们把缓冲区调大，避免数据被覆盖？
+**使用寄存器DMA_ISR的位TCIFx来判断DMA接收有没有被重载（字符串长度有没有超过DMA接收缓存区）。** 例如本章节，在USART1的IDLE中断里判断DMA1->ISR的位17-TCIF5是不是等于1，如果TCIF5等于1的话，代表DMA接收被重载了。
+![[LL09_USART_IDLE_DMA3.gif]]
+如上所示：
+1. 发送字符串"LL_Example09_DMA_Rece_IDLE"，长度26bytes。 ISR中`GIF5`、`TCIF5`、`HTIF5`、`TEIF5`都未置位。
+2. 发送字符串"LL_Example09_DMA_Rece_IDLELL_Example09_DMA_Rece_IDLE"，长度52bytes。ISR中`GIF5=1`，`HTIF5=1(DMA传输过半事件）`，`TCIF5=0`，`TEIF5=0`。
+3. 发送字符串"LL_Example09_DMA_Rece_IDLELL_Example09_DMA_Rece_IDLELL_Example09_DMA_Rece_IDLE"，长度78bytes。ISR中`GIF5`、`TCIF5(DMA传输完成事件)`、`HTIF5(DMA传输过半事件)`均为1，但`TEIF5`仍为0，表示没有错误发生。
+
+代码如下:
+```c
+uint16_t usart1_rec_buffer_full = 0; // 如果这个值大于0,相当于发生过DMA接收缓冲区被重载的事件，应适当调整接收缓冲区大小
+void USART1_IRQHandler(void)
+{
+    // 检查IDLE中断标志（USART1->SR位4）
+    if (USART1->SR & (1UL << 4))
+    {
+        uint32_t tmp;
+        // 按照要求先读SR，再读DR，清除IDLE标志
+        tmp = USART1->SR;
+        tmp = USART1->DR;
+        (void)tmp;
+        
+        // 禁用DMA1通道5（清除CCR的EN位）
+        DMA1_Channel5->CCR &= ~(1UL << 0);
+        
+        // 检查TCIF5是否置位
+        // TCIF5位于DMA1->ISR中（对于通道5通常是位17）
+        uint8_t tc_flag = (DMA1->ISR & (1UL << 17)) ? 1 : 0;
+        if (tc_flag)
+        {
+            // 清除TCIF5标志，通过IFCR寄存器写1到相应位（位17）
+            DMA1->IFCR |= (1UL << 17);
+            // 此时可认为接收数据已超过DMA接收缓存区的大小
+            usart1_rec_buffer_full++;
+        }
+        
+        // 计算本次接收的字节数：
+        // recvd_length = RX_BUFFER_SIZE - 当前DMA剩余字节数（CNDTR寄存器）
+        uint16_t recvd_length = RX_BUFFER_SIZE - DMA1_Channel5->CNDTR;
+        
+        // 如果需要将数据作为字符串处理，在末尾添加结束符（仅当数据未填满整个缓冲区时）
+        if (recvd_length < RX_BUFFER_SIZE)
+        {
+            rx_buffer[recvd_length] = '\0';
+        }
+        
+        // 将接收到的数据从接收缓冲区复制到发送缓冲区
+        memcpy((void*)tx_buffer, (const void*)rx_buffer, recvd_length);
+        
+        // 标记接收完成，主循环中可根据rx_complete进行后续处理
+        rx_complete = 1;
+        
+        // 重置DMA接收：设置CNDTR为RX_BUFFER_SIZE，并重新使能DMA1通道5
+        DMA1_Channel5->CNDTR = RX_BUFFER_SIZE;
+        DMA1_Channel5->CCR |= 1UL;  // 置EN位启动通道
+    }
+}
+```
+
