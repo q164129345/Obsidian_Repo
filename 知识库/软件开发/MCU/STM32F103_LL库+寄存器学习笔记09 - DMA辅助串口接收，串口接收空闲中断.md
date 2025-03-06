@@ -6,6 +6,8 @@
 ![[LL09_USART_IDLE_DMA.gif | 1000]]
 串口助手发送字符串`"LL_Example09_DMA_Rece_IDLE\r\n"`给STM32F103，接着马上收到来自STM32F103发出来的字符串`"LL_Example09_DMA_Rece_IDLE\r\n"`。
 
+项目地址：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library09_usart_dma_rec_with_ilde
+
 # 一、CubeMX
 ---
 ![[Pasted image 20250304140027.png | 800]]
