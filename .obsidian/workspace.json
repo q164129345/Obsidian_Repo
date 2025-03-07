@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA辅助串口接收与串口发送，串口接收空闲中断.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\".md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记09 - DMA辅助串口接收与串口发送，串口接收空闲中断"
+              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\""
             }
           },
           {
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA辅助串口接收与串口发送，串口接收空闲中断.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记09 - DMA辅助串口接收与串口发送，串口接收空闲中断"
+              "title": "STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断"
             }
           }
         ],
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA辅助串口接收与串口发送，串口接收空闲中断.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\".md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记09 - DMA辅助串口接收与串口发送，串口接收空闲中断 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\" 的大纲"
             }
           },
           {
@@ -226,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 294.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,14 +243,15 @@
   },
   "active": "21d0bdb911d35682",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA辅助串口接收，开启接收空闲与DMA接收传输过半中断.md",
+    "附件存放/Pasted image 20250307113632.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\".md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - DMA辅助串口发送，DMA传输完成中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA辅助串口接收与串口发送，串口接收空闲中断.md",
     "附件存放/LL09_USART_IDLE_DMA8.gif",
     "附件存放/LL09_USART_IDLE_DMA5.gif",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "附件存放/LL09_USART_IDLE_DMA3.gif",
     "附件存放/LL09_USART_IDLE_DMA2.gif",
     "附件存放/Pasted image 20250306193728.png",
@@ -282,7 +284,6 @@
     "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - CAN,bsp_can.c与bsp_can.h备忘录.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
-    "知识库/软件开发/MCU/STM32外设 - HAL库 - USART01,STM32F407,DMA接收空闲中断与DMA发送.md",
     "附件存放/data13.mat",
     "附件存放/data12.mat",
     "附件存放/data10_1.mat",
