@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\".md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\"，终极解决方案.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\""
+              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\"，终极解决方案"
             }
           },
           {
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 340.5,
+    "width": 483.5,
     "collapsed": true
   },
   "right": {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\".md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\"，终极解决方案.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\" 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\"，终极解决方案 的大纲"
             }
           },
           {
@@ -243,7 +243,7 @@
   "active": "21d0bdb911d35682",
   "lastOpenFiles": [
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\".md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA串口接收，实现软件\"双缓冲\"，终极解决方案.md",
     "附件存放/LL10_USART_INTER.gif",
     "附件存放/Pasted image 20250307164643.png",
     "附件存放/Pasted image 20250307164424.png",
