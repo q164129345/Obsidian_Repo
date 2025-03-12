@@ -16,7 +16,7 @@
 
 另外，中断的处理必须保证简单，尽可能保证**快进快出。** 所以，数据的处理必须留在主循环来做（配合高效的数据结构ringbuffer）。后续章节会介绍ringbuffer的移植与使用。
 
-![[Pasted image 20250307113632.png]]
+![[Pasted image 20250312183550.png]]
 
 以115200波特率计算（假设每字节约10位，即包括起始、数据、停止位），理论上每秒可以传输约11520字节，也就是每毫秒大约11.5个字节。512个字节大概需要44~46毫秒填满。当然，这个值会依据具体的帧配置（比如数据位、停止位、校验位）略有不同。**所以，如果数据量很大（一直连续）当触发传输过半中断时，要在大概44ms内把数据搬运出去，否则会被覆盖。**
 ![[Pasted image 20250307115256.png]]
@@ -28,30 +28,18 @@
 # 一、代码（LL库）
 ---
 ## 1.1、main.c
-![[Pasted image 20250307163236.png | 800]]
-![[Pasted image 20250307163525.png | 800]]
-
+![[Pasted image 20250312183723.png | 800]]
+![[Pasted image 20250312193047.png | 800]]
 ## 1.2、usart.c
 ![[Pasted image 20250307163653.png | 800]]
 ## 1.3、stm32f1xx_it.c
 ![[Pasted image 20250307163854.png | 800]]
-![[Pasted image 20250307164013.png | 800]]
-![[Pasted image 20250307164424.png | 800]]
-
+![[Pasted image 20250312194008.png | 800]]
 ## 1.4、编译、下载
-![[Pasted image 20250307164643.png | 800]]
+![[Pasted image 20250312194041.png | 800]]
 如上所示，编译通过。
 ![[LL10_USART_INTER.gif]]
 效果如上所示，大量发送数据包，不丢包！
-
-
-
-
-
-
-
-
-
 
 # 二、调试传输过半中断与传输完成中断
 ---
@@ -75,32 +63,80 @@
 
 # 三、寄存器梳理
 ---
-# 3.1、启动传输过半中断、传输完成中断
+## 3.1、启动传输过半中断、传输完成中断
+![[Pasted image 20250312194856.png]]
+![[Pasted image 20250312194930.png]]
+如上所示，寄存器DMA_CCR5的位2与位1置1就可以打开半传输中断与传输完成中断。
+```c
+// 增加传输完成与传输过半中断
+DMA1_Channel5->CCR |= (1UL << 1);             // 传输完成中断 (TCIE)
+DMA1_Channel5->CCR |= (1UL << 2);             // 传输过半中断 (HTIE)
+```
 
+## 3.2、全局中断DMA1_Channel5_IRQHandler()里判断传输过半标志与传输完成标志
+![[Pasted image 20250312200308.png]]
+![[Pasted image 20250312200514.png]]
+```c
+void DMA1_Channel5_IRQHandler(void) {
+    // 半传输中断
+    if (DMA1->ISR & (1UL << 18)) {
+	    DMA1->IFCR |= (1UL << 18); // 清除标志
+    }
 
+    // 传输完成中断
+    if (DMA1->ISR & (1UL << 17)) {
+	    DMA1->IFCR |= (1UL << 17); // 清除标志
+    }
 
+	// 改为if...else if，中断运行的时间更短
+}
+```
+如上所示，通过寄存器ISR判断是否进入该中断，接着使用寄存器IFCR来清除中断标志位。
 
+# 四、代码（寄存器）
+---
+## 4.1、main.c
+![[Pasted image 20250312201435.png | 800]]
+![[Pasted image 20250312201518.png | 800]]
+![[Pasted image 20250312201550.png | 800]]
+![[Pasted image 20250312201711.png | 800]]
 
+## 4.2、stm32f1xx_it.c
+![[Pasted image 20250312201859.png | 800]]
+![[Pasted image 20250312201808.png | 800]]
+![[Pasted image 20250312201937.png | 800]]
 
+## 4.3、编译、下载
+![[Pasted image 20250312202006.png | 800]]
 
-
-
-
+## 4.4、串口助手调试
+![[LL10_USART_INTER1.gif]]
+如上所示，效果跟LL库一样。
 
 # 五、细节补充
 ----
 # 5.1、当接收缓存区大小1024bytes，刚好收到一帧大小512bytes数据时，会怎样？？？
 当接收缓存区大小1024bytes，刚好收到一帧大小512bytes数据时，**将会进入传输过半中断，然后再进入接收空闲中断。** 然后，传输过半中断与接收空闲中断都有将接收缓存区复制到发送缓存区的功能，会复制两遍数据给发送缓存区吗？**代码处理好了，不会！** 以下是接收空闲中断里的某部分代码。
 ```c
-    if (remaining > (RX_BUFFER_SIZE/2)) {
-        // 还在接收前半区：接收数据量 = (RX_BUFFER_SIZE - remaining)
-        count = RX_BUFFER_SIZE - remaining;
-        memcpy((void*)tx_buffer, (const void*)rx_buffer, count);
-    } else {
-        // 前半区已写满，当前在后半区：接收数据量 = (RX_BUFFER_SIZE/2 - remaining)
-        count = (RX_BUFFER_SIZE/2) - remaining;
-        memcpy((void*)tx_buffer, (const void*)(rx_buffer + RX_BUFFER_SIZE/2), count);
-    }
+// 根据剩余字节判断当前正在哪个半区
+// 还有，避免当数据长度刚好512字节与1024字节时，传输过半中断与空闲中断复制两遍数据，与传输完成中断与空闲中断复制两遍数据。
+if (remaining > (RX_BUFFER_SIZE/2)) {
+	// 还在接收前半区：接收数据量 = (1K - remaining)，但肯定不足 512 字节
+	count = RX_BUFFER_SIZE - remaining;
+	if (count != 0) { // 避免与传输完成中断冲突，多复制一次
+		memcpy((void*)tx_buffer, (const void*)rx_buffer, count);
+	}
+} else {
+	// 前半区已写满，当前在后半区：后半区接收数据量 = (RX_BUFFER_SIZE/2 - remaining)
+	count = (RX_BUFFER_SIZE/2) - remaining;
+	if (count != 0) { // 避免与传输过半中断冲突，多复制一次
+		memcpy((void*)tx_buffer, (const void*)(rx_buffer + RX_BUFFER_SIZE/2), count);
+	}
+}
+if (count != 0) {
+	recvd_length = count;
+	rx_complete = 1;
+}
 ```
 假设RX_BUFFER_SIZE为1024，当串口助手发送512个字节时，DMA剩余计数remaining正好为512。此时remaining不大于512，所以进入else分支，计算得到count = (1024/2) - 512 = 512 - 512 = 0。因此不会再复制数据，也就避免了重复拷贝前半段数据。
 
@@ -109,17 +145,32 @@
 2. 当接收到后512字节时，DMA触发传输完成中断，同样将后半区（偏移512~1023）的数据复制到发送缓冲区（注意，如果使用同一个tx_buffer，则需要根据应用需求处理两次复制的数据是合并还是分别处理）。
 3. 如果此时串口没有继续接收数据，USART1空闲中断也可能触发。此时，在空闲中断处理代码中，会先禁用DMA，然后通过下面这段代码来计算“新增”的数据长度：
 ```c
-uint16_t remaining = LL_DMA_GetDataLength(DMA1, LL_DMA_CHANNEL_5);
+// 禁用 DMA1 通道5，防止数据继续写入
+LL_DMA_DisableChannel(DMA1, LL_DMA_CHANNEL_5);
+uint16_t remaining = LL_DMA_GetDataLength(DMA1, LL_DMA_CHANNEL_5); // 获取剩余的容量
 uint16_t count = 0;
+// 根据剩余字节判断当前正在哪个半区
+// 还有，避免当数据长度刚好512字节与1024字节时，传输过半中断与空闲中断复制两遍数据，与传输完成中断与空闲中断复制两遍数据。
 if (remaining > (RX_BUFFER_SIZE/2)) {
-    // 还在接收前半区：接收数据量 = (RX_BUFFER_SIZE - remaining)
-    count = RX_BUFFER_SIZE - remaining;
-    memcpy((void*)tx_buffer, (const void*)rx_buffer, count);
+	// 还在接收前半区：接收数据量 = (1K - remaining)，但肯定不足 512 字节
+	count = RX_BUFFER_SIZE - remaining;
+	if (count != 0) { // 避免与传输完成中断冲突，多复制一次
+		memcpy((void*)tx_buffer, (const void*)rx_buffer, count);
+	}
 } else {
-    // 前半区已写满，当前在后半区：接收数据量 = (RX_BUFFER_SIZE/2 - remaining)
-    count = (RX_BUFFER_SIZE/2) - remaining;
-    memcpy((void*)tx_buffer, (const void*)(rx_buffer + RX_BUFFER_SIZE/2), count);
+	// 前半区已写满，当前在后半区：后半区接收数据量 = (RX_BUFFER_SIZE/2 - remaining)
+	count = (RX_BUFFER_SIZE/2) - remaining;
+	if (count != 0) { // 避免与传输过半中断冲突，多复制一次
+		memcpy((void*)tx_buffer, (const void*)(rx_buffer + RX_BUFFER_SIZE/2), count);
+	}
 }
+if (count != 0) {
+	recvd_length = count;
+	rx_complete = 1;
+}
+// 重新设置 DMA 传输长度并使能 DMA
+LL_DMA_SetDataLength(DMA1, LL_DMA_CHANNEL_5, RX_BUFFER_SIZE);
+LL_DMA_EnableChannel(DMA1, LL_DMA_CHANNEL_5);
 ```
 对于1024字节的情况，DMA工作在循环模式下，当完整数据传输完成后，DMA的计数器会重新加载为 RX_BUFFER_SIZE（即1024），因此当空闲中断进入处理时：
 - remaining 将等于1024，

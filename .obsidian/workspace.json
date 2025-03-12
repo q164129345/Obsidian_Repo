@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控+超时保护机制.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理"
+              "title": "STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控+超时保护机制"
             }
           },
           {
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断"
+              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\""
             }
           }
         ],
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 483.5,
+    "width": 610.5,
     "collapsed": true
   },
   "right": {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控+超时保护机制.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控+超时保护机制 的大纲"
             }
           },
           {
@@ -242,24 +242,26 @@
   },
   "active": "21d0bdb911d35682",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250312211721.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控+超时保护机制.md",
+    "附件存放/Pasted image 20250312211655.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
+    "附件存放/LL10_USART_INTER1.gif",
+    "附件存放/Pasted image 20250312202006.png",
+    "附件存放/Pasted image 20250312201937.png",
+    "附件存放/Pasted image 20250312201859.png",
+    "附件存放/Pasted image 20250312201808.png",
+    "附件存放/Pasted image 20250312201711.png",
+    "附件存放/Pasted image 20250312201550.png",
+    "附件存放/Pasted image 20250312201518.png",
+    "附件存放/Pasted image 20250312201435.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断.md",
     "知识库/Maps/STM32汇总.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - 串口接收缓冲区非空中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - DMA串口发送，开启DMA传输完成中断.md",
-    "附件存放/LL10_USART_INTER.gif",
-    "附件存放/Pasted image 20250307164643.png",
-    "附件存放/Pasted image 20250307164424.png",
-    "附件存放/Pasted image 20250307164013.png",
-    "附件存放/Pasted image 20250307163854.png",
-    "附件存放/Pasted image 20250307163653.png",
-    "附件存放/Pasted image 20250307163525.png",
-    "附件存放/Pasted image 20250307163236.png",
-    "附件存放/Pasted image 20250307152300.png",
-    "附件存放/Pasted image 20250307152110.png",
     "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记05 - GPIO输入模式，捕获上升沿进入中断回调.md",
@@ -281,8 +283,6 @@
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
     "知识库/软件开发/未命名.md",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-    "知识库/软件开发/MCU/STM32外设 - HAL库 - CAN,bsp_can.c与bsp_can.h备忘录.md",
-    "知识库/软件开发/MCU/STM32外设 - HAL库 - USART02,使用C语言面向对象的方式改写上一篇代码.md",
     "附件存放/data13.mat",
     "附件存放/data12.mat",
     "附件存放/data10_1.mat",
