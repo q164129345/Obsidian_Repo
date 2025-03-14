@@ -157,6 +157,11 @@ USART1->CR1 |= (1UL << 13UL); // USART模块使能
 ## 4.1、main.c
 ![[Pasted image 20250303163328.png | 800]]
 如上所示，函数`USART1_Configure(void)`用于初始化外设USART1。
+>  1. 错误修复： 第80行代码，改为GPIOA->CRH |= (0x09UL << 4UL)才对，速度10MHz的话，MODE9 = 01。所以应该是1001 = 0x09。
+
+
+
+
 ![[Pasted image 20250303163411.png | 800]]
 如上所示，函数`USART1_SendString(const char \*str)`用于串行发送字符串。
 ![[Pasted image 20250303171008.png | 800]]
@@ -194,3 +199,9 @@ USART1->CR1 |= (1UL << 13UL); // USART模块使能
 	- 简单性优先：在低成本或简单应用中（如串口调试、传感器通信），开发者往往选择关闭硬件奇偶校验，简化配置（使用 8-N-1 格式：8 位数据、无校验、1 停止位），并通过软件实现必要校验。
 	- 兼容性：许多设备和工具（如串口调试助手）默认使用无校验配置，启用硬件奇偶校验可能导致不兼容。
 
+## 5.3、USART1默认是PA9、PA19，怎样复用到PB6、PB7？
+![[Pasted image 20250314144522.png | 1100]]
+![[Pasted image 20250314144656.png]]
+![[Pasted image 20250314144736.png]]
+如上所示，从寄存器`AFIO_MAPR`的bit2-USART1_REMAP可以设置USART1所使用的引脚。代码例子如下：
+![[Pasted image 20250314144952.png | 800]]
