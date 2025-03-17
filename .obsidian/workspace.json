@@ -25,31 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\""
-            }
-          },
-          {
-            "id": "22d0785f2d8d1a03",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制"
+              "title": "STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文"
             }
           }
         ]
@@ -124,7 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 372.5,
+    "width": 525.5,
     "collapsed": true
   },
   "right": {
@@ -242,23 +218,25 @@
   },
   "active": "8adf9af663f5a8ee",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
-    "附件存放/Pasted image 20250314144952.png",
-    "附件存放/Pasted image 20250314144736.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文.md",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "附件存放/Pasted image 20250314144656.png",
-    "附件存放/Pasted image 20250314144522.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
+    "附件存放/Pasted image 20250317214148.png",
+    "附件存放/Pasted image 20250317211940.png",
+    "附件存放/Pasted image 20250317211241.png",
+    "附件存放/Pasted image 20250317210809.png",
+    "附件存放/Pasted image 20250317210640.png",
+    "附件存放/Pasted image 20250317205941.png",
+    "附件存放/Pasted image 20250317205843.png",
+    "附件存放/Pasted image 20250317205358.png",
+    "附件存放/Pasted image 20250317203951.png",
+    "附件存放/Pasted image 20250317203852.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
-    "附件存放/LL11_USART1_ERROR.gif",
-    "附件存放/Pasted image 20250313114413.png",
-    "附件存放/Pasted image 20250313114042.png",
-    "附件存放/Pasted image 20250313103057.png",
-    "附件存放/Pasted image 20250312211721.png",
-    "附件存放/Pasted image 20250312211655.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - 串口接收缓冲区非空中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - DMA串口发送，开启DMA传输完成中断.md",
@@ -271,7 +249,6 @@
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
     "电子书/PM0056_Programming_manual - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记04 - GPIO设置输出模式.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记02 - 开启SysTick（滴答定时器）中断.md",
     "知识库/Maps/电机控制汇总.md",
     "知识库/Maps/硬件开发汇总.md",
@@ -281,7 +258,6 @@
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
     "知识库/软件开发/未命名.md",
-    "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "附件存放/data13.mat",
     "附件存放/data12.mat",
     "附件存放/data10_1.mat",
