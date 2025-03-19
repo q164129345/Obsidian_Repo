@@ -88,7 +88,7 @@ CAN发送比CAN接收要简单许多，所以先从简单的CAN发送开始梳�
 
 # 四、寄存器梳理
 ---
-## 4.1、时钟
+## 4.1、配置时钟
 ### 4.1.1、开启CAN时钟
 ![[Pasted image 20250318210117.png | 800]]
 ![[Pasted image 20250318210149.png | 800]]
@@ -103,7 +103,7 @@ RCC->APB1ENR |= (1UL << 25UL); // 开启CAN时钟
 RCC->APB2ENR |= (1UL << 2UL); // 开启GPIOA时钟，因为CAN使用PA11与PA12端口
 ```
 
-## 4.2、GPIO
+## 4.2、配置GPIO
 ### 4.2.1、CAN_REMAP决定使用哪个GPIO口
 ![[Pasted image 20250318210607.png | 800]]
 ![[Pasted image 20250318210958.png]]
@@ -123,8 +123,20 @@ RCC->APB2ENR |= (1UL << 2UL); // 开启GPIOA时钟，因为CAN使用PA11与PA12�
     GPIOA->CRH |=  (0xB << 16);
 ```
 
-## 4.3、CAN
-### 4.3.1、进入初始化模式
+## 4.3、配置CAN
+### 4.3.1、退出睡眠模式
+![[Pasted image 20250319165423.png]]
+如上所示，进入初始化之前必须先退出睡眠模式，避免进入初始化模式失败。
+```c
+if (CAN1->MSR & (1UL << 1)) { // 检查 MSR.SLAK 是否为 1
+	CAN1->MCR &= ~(1UL << 1);  // 清除 SLEEP 位
+	while (CAN1->MSR & (1UL << 1));  // 等待 MSR.SLAK 变 0
+}
+```
+
+
+
+### 4.3.2、进入初始化模式
 ![[Pasted image 20250318211833.png]]
 ![[Pasted image 20250318211915.png]]
 ![[Pasted image 20250318211939.png]]
@@ -134,47 +146,47 @@ CAN1->MCR |= (1UL << 0);            // 请求进入INIT (MCR.INRQ=1)
 while (!(CAN1->MSR & (1UL << 0)));  // 等待INAK=1 (MSR.INAK=1)
 ```
 
-### 4.3.2、关闭时间触发模式
+### 4.3.3、关闭时间触发模式
 ![[Pasted image 20250318212558.png]]
 ```c
 CAN1->MCR &= ~(1UL << 7);  // 清除TTCM位(时间触发模式）
 ```
 
-### 4.3.3、自动离线管理模式
+### 4.3.4、自动离线管理模式
 ![[Pasted image 20250318212744.png]]
 ```c
 CAN1->MCR &= ~(1UL << 6);  // 清除ABOM位（自动离线管理模式）
 ```
 
-### 4.3.4、自动唤醒
+### 4.3.5、自动唤醒
 ![[Pasted image 20250318212856.png]]
 ![[Pasted image 20250318212936.png]]
 ```c
 CAN1->MCR &= ~(1UL << 5);  // 清除AWUM位（软件自动唤醒）
 ```
 
-### 4.3.4、接收FIFO锁定模式
+### 4.3.6、接收FIFO锁定模式
 ![[Pasted image 20250318213039.png]]
 ![[Pasted image 20250318213227.png]]
 ```c
 CAN1->MCR &= ~(1UL << 3);  // 清除RFLM位（接收FIFO设置新报文覆盖旧报文）
 ```
 
-### 4.3.5、发送FIFO优先级
+### 4.3.7、发送FIFO优先级
 ![[Pasted image 20250318213329.png]]
 ![[Pasted image 20250318213406.png]]
 ```c
 CAN1->MCR &= ~(1UL << 2);  // 清除TXFP位（发送FIFO优先级由标识符来决定）
 ```
 
-### 4.3.6、禁止报文自动重传
+### 4.3.8、禁止报文自动重传
 ![[Pasted image 20250318213517.png]]
 ![[Pasted image 20250318213535.png]]
 ```c
 CAN1->MCR |= (1UL << 4); // CAN报文只发送一次
 ```
 
-### 4.3.7、位时序（重点！！！！）
+### 4.3.9、位时序（重点！！！！）
 位时序设置规则参考[《CAN总线技术 | 物理层03 - 采样点》](https://blog.csdn.net/wallace89/article/details/119811949)
 ![[Pasted image 20250318213924.png]]
 如上所示，相当于CubeMX里的Bit Timings Parameters。
@@ -194,3 +206,156 @@ CAN1->MCR |= (1UL << 4); // CAN报文只发送一次
             (0x0003);       // BRP(9:0) = 3 (Prescaler = 4)
 ```
 
+### 4.3.10、退出初始化模式、进入正常模式
+![[Pasted image 20250319170049.png]]
+![[Pasted image 20250319170115.png]]
+如上所示，软件对寄存器CAN_MCR的位INRQ清0时，会退出初始化模式，进入工作模式。
+```c
+CAN1->MCR &= ~(1UL << 0);  // 清除 INRQ (进入正常模式)
+while (CAN1->MSR & (1UL << 0)); // 等待 MSR.INAK 变 0
+```
+
+### 4.3.11、设置过滤器0
+![[Pasted image 20250319171413.png]]
+如上所示，STM32F103ZET6一共有14个过滤器，但CAN要能正常收发，必须至少要设置一个过滤器。
+
+#### 所有过滤器进入初始化模式
+![[Pasted image 20250319172227.png]]
+如上所示，通过寄存器CAN_FMR的位0-FINIT置1，让所有过滤器组进入初始化模式。
+```c
+CAN1->FMR |= (1UL << 0);   // 进入过滤器初始化模式
+```
+
+#### 设置过滤器组0通过所有标识符（CANID），即不过滤
+```c
+CAN1->sFilterRegister[0].FR1 = 0x00000000;
+CAN1->sFilterRegister[0].FR2 = 0x00000000;
+```
+如上所示，数组0代表过滤器组0。当FR1与FR2都设置0x00000000时，代表不过滤任何CANID，即所有CANID都会被接收。此时，如果CAN总线上有很多高频的CAN消息的话，CAN中断会非常频繁地进入，极大地浪费MCU的资源。
+后续，会弄一篇笔记，讲讲怎样设置过滤器组，让开发板只接收感兴趣的CANID，而不是所有的CANID。
+
+#### 过滤器组0匹配FIFO0
+![[Pasted image 20250319175428.png]]
+```c
+CAN1->FFA1R &= ~(1UL << 0);  // 过滤器组0 分配到 FIFO0
+```
+
+#### 激活过滤器组0
+![[Pasted image 20250319175955.png]]
+```c
+CAN1->FA1R  |=  (1UL << 0);  // 激活过滤器 0
+```
+
+#### 所有过滤器组退出初始化模式
+![[Pasted image 20250319180148.png]]
+```c
+CAN1->FMR   &= ~(1UL << 0);  // 退出过滤器初始化模式
+```
+
+## 4.4、发送CAN报文
+### 4.4.1、确认邮箱是不是空闲
+![[Pasted image 20250319181113.png]]
+如上所示，通过判断寄存器CAN_TIxR的bit0-TXRQ是不是等于0，来确认发送邮箱是不是空闲的。
+```c
+/* 寻找空闲邮箱 */
+for(mailbox = 0; mailbox < 3; mailbox++) {
+  if((CAN1->sTxMailBox[mailbox].TIR & (1UL << 0)) == 0)
+	 break;
+}
+if(mailbox >= 3)
+	return 1; // 无空闲邮箱
+```
+
+### 4.4.2、清空某个发送邮箱
+![[Pasted image 20250319181813.png]]
+将发送邮箱的4个寄存器都清0即可，包括TIR、TDTR、TDLR、TDHR。
+```c
+/* 清空该邮箱 */
+CAN1->sTxMailBox[mailbox].TIR  = 0;
+CAN1->sTxMailBox[mailbox].TDTR = 0;
+CAN1->sTxMailBox[mailbox].TDLR = 0;
+CAN1->sTxMailBox[mailbox].TDHR = 0;
+```
+
+### 4.4.3、设置将要发送的CANID、CAN帧类型
+![[Pasted image 20250319182602.png]]
+```c
+CAN1->sTxMailBox[mailbox].TIR |= (stdId << 21);  // 标准ID写入TIR的[31:21]、IDE=0相当于标准帧、RTR=0相当于数据帧
+```
+
+### 4.4.4、设置CAN报文长度
+![[Pasted image 20250319182816.png]]
+```c
+CAN1->sTxMailBox[mailbox].TDTR = (DLC & 0x0F); // 设置CAN报文的长度。使用&运算的目的是保证只有变量DLC的低四位写入TDTR寄存器，不会干涉到其他位。
+```
+
+### 4.4.5、将要发送的数据放入发送邮箱
+![[Pasted image 20250319183827.png]]
+```c
+/* 填充数据 */
+if(DLC <= 4) {
+	for(uint8_t i = 0; i < DLC; i++) {
+	  CAN1->sTxMailBox[mailbox].TDLR |= ((uint32_t)data[i]) << (8 * i);
+	}
+} else {
+	for(uint8_t i = 0; i < 4; i++) {
+	  CAN1->sTxMailBox[mailbox].TDLR |= ((uint32_t)data[i]) << (8 * i);
+	}
+	for(uint8_t i = 4; i < DLC; i++) {
+	  CAN1->sTxMailBox[mailbox].TDHR |= ((uint32_t)data[i]) << (8 * (i-4));
+	}
+}
+```
+
+### 4.4.6、请求发送数据
+![[Pasted image 20250319183938.png]]
+```c
+CAN1->sTxMailBox[mailbox].TIR |= CAN_TI0R_TXRQ;
+```
+
+### 4.4.7、等待邮箱的CAN消息被成功发送（可选）
+![[Pasted image 20250319185105.png]]
+```c
+/* 轮询等待TXRQ清零或超时 */
+while((CAN1->sTxMailBox[mailbox].TIR & CAN_TI0R_TXRQ) && --timeout);
+if(timeout == 0) {
+	// 发送失败(无ACK或位错误), 返回2
+	return 2;
+}
+```
+
+#### 为什么要等待TXRQ清零？
+TXRQ 位的作用是在发送请求时置 1，并在以下情况下自动清零：
+1. 报文成功发送（总线空闲时成功仲裁，并收到 ACK）。
+2. 发送失败（无 ACK 或仲裁失败）：
+	- 若 NART=0（自动重传开启），CAN 硬件会自动重试，直到发送成功。
+	- 若 NART=1（自动重传关闭），发送失败时 TXRQ 也会清零，并可能产生错误标志（TERR、ALST、REC/TEC 递增等）。
+3. 软件手动中止发送（通过设置 ABRQ 置 1 来取消发送）。
+
+如果不等待 TXRQ 清零，可能发生：
+- 报文未成功发送（因无ACK、错误等原因），但代码并不知道，导致误以为报文已经发送成功；
+- CAN 总线忙碌，报文未立即发送，但代码已经继续执行其他任务，可能影响数据完整性。
+
+#### 什么时候可以不等 TXRQ 清零？
+1. 如果程序不关心发送是否成功（只管发，不管 ACK），可以不等 TXRQ 清零。
+2. 如果使用中断模式（而非轮询），可以不在此等待 TXRQ，而是注册 CAN 发送完成中断（最常用！！！！！！）。
+3. 如果应用层通过 TSR（Transmit Status Register）等方式定期检查发送状态，而不依赖 TXRQ 位轮询。
+
+#### 什么时候必须等 TXRQ 清零？
+1. 需要确认报文已发送完毕（尤其是 NART=1 时，若无 ACK 会导致发送失败）。
+2. 要确保 FIFO 发送顺序正确（如果多个报文依次发送，等待 TXRQ 清零可确保当前报文已经结束）。
+3. 应用层需要可靠的反馈（如果 TXRQ 持续置位，说明发送失败，应触发错误处理机制）。
+
+# 五、代码（寄存器方式）
+## 5.1、main.c
+![[Pasted image 20250319191709.png | 800]]
+![[Pasted image 20250319191911.png | 800]]
+如上所示，函数`CAN_Config()`将CAN设置好，并进入正常工作模式。波特率500K，其他小功能全部关闭，且不过滤任何CANID。
+![[Pasted image 20250319192409.png | 800]]
+![[Pasted image 20250319192448.png | 800]]
+![[Pasted image 20250319192539.png | 800]]
+
+## 5.2、编译、调试
+![[Pasted image 20250319192614.png | 800]]
+编译OK，下载程序到开发板，效果如下所示：
+![[LL_12_CANSend.gif]]
