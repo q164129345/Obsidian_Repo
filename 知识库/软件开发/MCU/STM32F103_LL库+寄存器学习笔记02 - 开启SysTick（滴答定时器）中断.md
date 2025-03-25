@@ -13,8 +13,7 @@
 如上所示，将SysTick->CTRL的段TICKINT置1就可以开启SysTick中断。
 ![[Pasted image 20250224210223.png | 800]]
 ![[Pasted image 20250224210351.png | 800]]
-如上所示，
-
+如上所示，SysTick->CTRL的段CLKSOURCE置1选择AHB时钟，不会分频。 SysTick->CTRL的段ENABLE置1启动滴答定时器。
 
 # 二、代码
 ---
