@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记14 - CAN发送中断.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文"
+              "title": "STM32F103_LL库+寄存器学习笔记14 - CAN发送中断"
             }
           },
           {
@@ -125,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 525.5,
-    "collapsed": true
+    "width": 408.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -188,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记14 - CAN发送中断.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记14 - CAN发送中断 的大纲"
             }
           },
           {
@@ -242,6 +241,15 @@
   },
   "active": "21d0bdb911d35682",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记14 - CAN发送中断.md",
+    "附件存放/Pasted image 20250321090514.png",
+    "附件存放/Pasted image 20250321085902.png",
+    "附件存放/Pasted image 20250321085420.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
     "附件存放/LL_12_CANSend.gif",
     "附件存放/Pasted image 20250319192614.png",
     "附件存放/Pasted image 20250319192539.png",
@@ -249,15 +257,6 @@
     "附件存放/Pasted image 20250319192409.png",
     "附件存放/Pasted image 20250319191911.png",
     "附件存放/Pasted image 20250319191709.png",
-    "附件存放/Pasted image 20250319185105.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文.md",
-    "附件存放/Pasted image 20250319183938.png",
-    "附件存放/Pasted image 20250319183827.png",
-    "附件存放/Pasted image 20250319182816.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
@@ -282,7 +281,6 @@
     "电子书/PM0056_Programming_manual.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
-    "知识库/软件开发/未命名.md",
     "附件存放/data13.mat",
     "附件存放/data12.mat",
     "附件存放/data10_1.mat",

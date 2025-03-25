@@ -7,8 +7,8 @@ CAN总线因其高速稳定的数据传输与卓越抗干扰性能，在汽车�
 ![[LL12_CAN_Send.gif]]
 
 项目地址：
-- （HAL库）：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library12_Can_Send
-- （寄存器方式）：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library12_Can_Send
+- （HAL库）：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library13_Can_Send
+- （寄存器方式）：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library13_Can_Send
 # 一、CubeMX
 ---
 ## 1.1、Clock Configuration
