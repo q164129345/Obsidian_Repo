@@ -55,7 +55,7 @@ void USART1_SendChar_Reg(uint8_t c) {
 	USART1->DR = c;  
 }
 ```
-1. USART_TXE是发送的”第一级缓冲“状态，表示数据从USART_DR到移位寄存器的转移完成，并不意味着数据已经完全发送出去。如下图所示：
+2. USART_TXE是发送的”第一级缓冲“状态，表示数据从USART_DR到移位寄存器的转移完成，并不意味着数据已经完全发送出去。如下图所示：
 ![[Pasted image 20250228173209.png | 1100]]
 3. USART_TC才是代表数据完成发送出去，TC = 1时，表明硬件发送通道完全空闲。比如在低功耗场景中，通过TC = 1的判断，进入低功耗模式。
 4. 在单字节发送流程里，TXE会先置1，TC后置1。用户写入USART_DR->TXE清零。接着，数据转移到移位寄存器->TXE置1，此时可以写入新数据。最后，移位寄存器逐位发送数据->发送完成，TC置1。
@@ -158,9 +158,6 @@ USART1->CR1 |= (1UL << 13UL); // USART模块使能
 ![[Pasted image 20250303163328.png | 800]]
 如上所示，函数`USART1_Configure(void)`用于初始化外设USART1。
 >  1. 错误修复： 第80行代码，改为GPIOA->CRH |= (0x09UL << 4UL)才对，速度10MHz的话，MODE9 = 01。所以应该是1001 = 0x09。
-
-
-
 
 ![[Pasted image 20250303163411.png | 800]]
 如上所示，函数`USART1_SendString(const char \*str)`用于串行发送字符串。

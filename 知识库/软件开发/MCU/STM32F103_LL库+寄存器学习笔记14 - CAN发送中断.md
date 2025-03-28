@@ -6,6 +6,11 @@ STM32CubeMX的CAN代码不支持LL库，所以只能用HAL库，或者自己撸�
 
 项目地址：
 
+
+## CAN发送中断
+![[Pasted image 20250327191507.png]]
+如上图所示，触发CAN发送中断的条件是发送邮箱0～2中任一个的消息发送出去，发送邮箱变成空。
+
 # 一、CubeMX
 ---
 ![[Pasted image 20250321085420.png]]
@@ -20,6 +25,8 @@ STM32CubeMX的CAN代码不支持LL库，所以只能用HAL库，或者自己撸�
 ![[Pasted image 20250321090514.png | 800]]
 如上所示，勾选CAN TX Interrupts全局中断后，stm32f1xx_it.c增加函数`USB_HP_CAN1_TX_IRQHandler()`，它就是CAN发送的中断回调的主函数。
 
+## 2.3、main.c
+![[Pasted image 20250327195406.png | 1100]]
 
 
 
