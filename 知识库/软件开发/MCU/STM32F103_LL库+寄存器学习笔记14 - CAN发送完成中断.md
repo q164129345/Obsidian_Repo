@@ -18,7 +18,7 @@ STM32CubeMX的CAN代码不支持LL库，所以只能用HAL库，或者自己撸�
 # 一、CubeMX
 ---
 ![[Pasted image 20250321085420.png]]
-如上所示，勾选CAN TX Interrupts全局中断。另外，其他设置跟上一章节一样[[STM32F103_LL库+寄存器学习笔记13 - 梳理CAN外设与发送报文]]。
+如上所示，勾选CAN TX Interrupts全局中断。另外，其他设置跟上一章节一样[[STM32F103_LL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）]]。
 
 # 二、代码（HAL库）
 ---
