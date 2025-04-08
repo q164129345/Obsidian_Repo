@@ -19,7 +19,7 @@
 
 ### 三、实战开发
 ---
-[[ESP-IDF - 创建工程01 -使用simple模板编写简单的Hello,World工程]]
+[[ESP-IDF - 创建工程01 - 使用simple模板编写简单的Hello,World工程]]
 [[ESP-IDF - 创建工程02 - esp32s3基础工程配置，匹配模组内部资源，充分发挥模组的性能]]
 [[ESP-IDF - 创建工程03 - 配置分区表，管理外部flash]]
 [[ESP-IDF - 创建工程04 - CMakeLists.txt]]
