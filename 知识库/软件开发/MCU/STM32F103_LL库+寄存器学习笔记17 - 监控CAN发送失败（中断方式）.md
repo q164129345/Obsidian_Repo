@@ -7,9 +7,12 @@
 - 实现简单，无需配置中断向量，直接在主循环中定期检查错误寄存器即可。
 ```c
 while (1) {
-    CAN_ESR_t esr;
-    if (CAN1_Check_Error(&esr) {
-        // 处理错误
+    /* 监控CAN错误 */
+    if (CAN_Check_Error() == 0x03) { // 因为错误太严重，进入离线状态
+        g_BusOffCount++;      // 每发生一次busoff严重错误，记录一次
+        CAN_BusOff_Recover(); // 离线状态恢复
+    } else {
+        // 其他错误与没有错误
     }
     HAL_Delay(10); // 10ms轮询间隔
 }
