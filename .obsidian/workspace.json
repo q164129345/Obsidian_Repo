@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（中断方式）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（中断方式）"
+              "title": "STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）"
             }
           }
         ],
@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 552.5
+    "width": 552.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -187,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（中断方式）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（中断方式） 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式） 的大纲"
             }
           },
           {
@@ -241,6 +242,7 @@
   },
   "active": "c68d12da9b0eba92",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（中断方式）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
@@ -250,7 +252,6 @@
     "附件存放/Pasted image 20250408144116.png",
     "附件存放/Pasted image 20250408144032.png",
     "附件存放/Pasted image 20250408143955.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（中断方式）.md",
     "附件存放/Pasted image 20250402134107.png",
     "附件存放/CAN_ERROR_TEST.gif",
     "附件存放/Pasted image 20250402112322.png",
