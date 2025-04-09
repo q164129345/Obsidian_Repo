@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（轮询+中断方式）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（轮询+中断方式）"
+              "title": "STM32F103_LL库+寄存器学习笔记17 - CAN中断接收"
             }
           }
         ],
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5,
+    "width": 641.5,
     "collapsed": true
   },
   "right": {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（轮询+中断方式）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（轮询+中断方式） 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 的大纲"
             }
           },
           {
@@ -226,7 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 221.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,25 +242,28 @@
   },
   "active": "80b25f6cabec5ccd",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250409194909.png",
+    "附件存放/Pasted image 20250409194247.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - 监控CAN发送失败（轮询+中断方式）.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收.md",
+    "附件存放/Pasted image 20250409194119.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记14 - CAN发送完成中断.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16.1 - 监控CAN发送失败（轮询+中断方式），未能调试成功！！.md",
+    "附件存放/Pasted image 20250409151510.png",
+    "附件存放/Pasted image 20250409151451.png",
+    "附件存放/Pasted image 20250409151305.png",
+    "知识库/Maps/自动化控制汇总.md",
+    "附件存放/Pasted image 20250409094727.png",
+    "附件存放/Pasted image 20250409094703.png",
+    "附件存放/Pasted image 20250409094601.png",
     "电子书/STM32F1中文参考手册V10.pdf",
     "知识库/Maps/STM32汇总.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "知识库/软件开发/MCU/ESP-IDF - 创建工程01 - 使用simple模板编写简单的Hello,World工程.md",
     "附件存放/Bus-off.gif",
     "附件存放/Pasted image 20250408202231.png",
-    "附件存放/Pasted image 20250408151054.png",
-    "附件存放/Pasted image 20250408144116.png",
-    "附件存放/Pasted image 20250408144032.png",
-    "附件存放/Pasted image 20250408143955.png",
-    "附件存放/Pasted image 20250402134107.png",
-    "附件存放/CAN_ERROR_TEST.gif",
-    "附件存放/Pasted image 20250402112322.png",
-    "附件存放/Pasted image 20250402102532.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
@@ -278,8 +281,6 @@
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
     "知识库/人生与职场/视频 - 黑化才能救自己，那些从底层杀出来的狠人到底做了什么.md",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - 串口发送中断.md",
-    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
     "电子书/PM0056_Programming_manual.pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
     "附件存放/data13.mat",
