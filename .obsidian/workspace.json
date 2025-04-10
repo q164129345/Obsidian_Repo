@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）"
+              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\""
             }
           },
           {
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记17 - CAN中断接收"
+              "title": "STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文"
             }
           }
         ],
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文 的大纲"
             }
           },
           {
@@ -242,32 +242,31 @@
   },
   "active": "80b25f6cabec5ccd",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250409194909.png",
-    "附件存放/Pasted image 20250409194247.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
+    "附件存放/LL17_CAN_RX_FIFO1.gif",
+    "附件存放/Pasted image 20250410205203.png",
+    "附件存放/Pasted image 20250410204556.png",
+    "附件存放/Pasted image 20250410204216.png",
+    "附件存放/Pasted image 20250410204017.png",
+    "附件存放/Pasted image 20250410203633.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收.md",
-    "附件存放/Pasted image 20250409194119.png",
+    "附件存放/Pasted image 20250410203205.png",
+    "附件存放/Pasted image 20250410203048.png",
+    "附件存放/Pasted image 20250410202806.png",
+    "附件存放/Pasted image 20250410202406.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16.1 - 监控CAN发送失败（轮询+中断方式），未能调试成功！！.md",
-    "附件存放/Pasted image 20250409151510.png",
-    "附件存放/Pasted image 20250409151451.png",
-    "附件存放/Pasted image 20250409151305.png",
     "知识库/Maps/自动化控制汇总.md",
-    "附件存放/Pasted image 20250409094727.png",
-    "附件存放/Pasted image 20250409094703.png",
-    "附件存放/Pasted image 20250409094601.png",
     "电子书/STM32F1中文参考手册V10.pdf",
     "知识库/Maps/STM32汇总.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "知识库/软件开发/MCU/ESP-IDF - 创建工程01 - 使用simple模板编写简单的Hello,World工程.md",
-    "附件存放/Bus-off.gif",
-    "附件存放/Pasted image 20250408202231.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记09 - DMA串口接收与DMA串口发送，串口接收空闲中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - DMA串口发送，开启DMA传输完成中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记07 - 串口接收缓冲区非空中断.md",
