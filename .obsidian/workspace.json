@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记18 - CAN接收溢出中断.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\""
+              "title": "STM32F103_LL库+寄存器学习笔记18 - CAN接收溢出中断"
             }
           },
           {
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 641.5,
+    "width": 568.5,
     "collapsed": true
   },
   "right": {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记18 - CAN接收溢出中断.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记18 - CAN接收溢出中断 的大纲"
             }
           },
           {
@@ -226,7 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 221.5
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,28 +240,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80b25f6cabec5ccd",
+  "active": "21d0bdb911d35682",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记18 - CAN接收溢出中断.md",
+    "附件存放/Pasted image 20250411170627.png",
+    "附件存放/Pasted image 20250411165351.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
+    "知识库/Maps/STM32汇总.md",
+    "附件存放/Pasted image 20250411115934.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
+    "附件存放/Pasted image 20250411103722.png",
+    "附件存放/LL17_CAN_RX_FIFO1_plus.gif",
+    "附件存放/Pasted image 20250411102559.png",
+    "附件存放/Pasted image 20250411101823.png",
+    "附件存放/Pasted image 20250411100541.png",
     "附件存放/LL17_CAN_RX_FIFO1.gif",
     "附件存放/Pasted image 20250410205203.png",
-    "附件存放/Pasted image 20250410204556.png",
-    "附件存放/Pasted image 20250410204216.png",
-    "附件存放/Pasted image 20250410204017.png",
-    "附件存放/Pasted image 20250410203633.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "附件存放/Pasted image 20250410203205.png",
-    "附件存放/Pasted image 20250410203048.png",
-    "附件存放/Pasted image 20250410202806.png",
-    "附件存放/Pasted image 20250410202406.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16.1 - 监控CAN发送失败（轮询+中断方式），未能调试成功！！.md",
     "知识库/Maps/自动化控制汇总.md",
     "电子书/STM32F1中文参考手册V10.pdf",
-    "知识库/Maps/STM32汇总.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "知识库/软件开发/MCU/ESP-IDF - 创建工程01 - 使用simple模板编写简单的Hello,World工程.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）.md",
@@ -278,7 +279,6 @@
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
     "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
     "电子书/Dopamine_Nation_by_Anna_Lembke.md",
-    "知识库/人生与职场/视频 - 黑化才能救自己，那些从底层杀出来的狠人到底做了什么.md",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",

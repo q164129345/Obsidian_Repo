@@ -6,6 +6,10 @@
 ![[Pasted image 20250409194247.png]]
 如上所示，当接收FIFO的3级深度（缓存）都被占满时，将会导致溢出。此时，必须让MCU快读取接收FIFO的邮箱，避免出现溢出。
 
+最终效果如下：
+![[LL17_CAN_RX_FIFO1_plus.gif | 1100]]
+如上所示，使用CAN分析仪发送5000个CAN报文，发送间隔1ms。从Keil的debug模式观察到，全局变量g_RxCount从0变成5000。没有丢包！
+
 项目地址：
 - HAL库：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library17_Can_Rec_Interrupt
 - 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library17_Can_Rec_Interrupt
@@ -199,3 +203,29 @@ CAN1->RF1R |= CAN_RF1R_RFOM1; // 释放FIFO1中的报文：写1到CAN1->RF1R中�
 ---
 ![[LL17_CAN_RX_FIFO1.gif | 1100]]
 如上所示，CAN分析仪发送50条CAN报文到CAN总线，发送间隔100ms。从Keil的debug模式观察全局变量g_RxCount等于50。没有丢包，效果跟HAL库一样。但是，寄存器效率肯定比HAL库高得多。
+
+# 七、进一步优化全局中断函数CAN1_RX1_IRQHandler()的代码
+----
+## 7.1、再谈CAN接收FIFO1寄存器CAN_RF1R
+![[Pasted image 20250411100541.png]]
+FMP1（FIFO1报文数目），指的是FIFO1邮箱里一共接收到几个CAN报文（存储深度是3，所以最多3个CAN报文）。利用它，就能在全局中断函数CAN1_RX1_IRQHandler()里一次性把所有的CAN报文读取完。
+
+![[Pasted image 20250411101823.png]]
+如果你在中断函数中只读取了一个报文就退出，而此时FIFO1中仍残留有其他报文（例如还有一个报文未处理），那么由于CAN外设的中断条件依然成立（FIFO1报文挂号数FMP1不为0），会再一次进入中断。
+所以，优化的思路是：
+1. 如果在`CAN1_RX1_IRQHandler()`里采用了根据FMP1来循环处理FIFO1中所有报文的方法（即在中断中使用while循环，直到FMP1为0），那么当两个报文都被读取处理后，FIFO1就被清空，中断触发条件就不再满足，此时就不会立即再次触发`CAN1_RX1_IRQHandler()`。只有当之后有新的报文进入FIFO1，且FMP1变为非零时，才会再次触发中断回调。
+2. 使用while循环依据FMP1处理所有报文，可以一次性清空FIFO内所有待处理报文，从而避免不必要的重复中断，减轻中断服务函数的负担。但是，值得注意的是，正因为有while循环，所以一定要避免长时间卡在全局中断函数里。所以，在`CAN1_RX1_IRQHandler()`里不能当场解析、处理CAN报文，而是使用例如消息队列(ringbuffer)等数据结构。在全局中断`CAN1_RX1_IRQHandler()`里用while循环将所有CAN报文放入ringbuffer，然后在`main()`主循环while(1)里再从ringbuffer拿出CAN报文，接着解析、处理CAN报文。
+
+## 7.2、优化myCanDrive.c
+![[Pasted image 20250411102559.png | 1100]]
+如上所示，增加代码`while (CAN1->RF1R & CAN_RF1R_FMP1) { ... }`实现一次把FIFO1的所有CAN报文读取出来。
+
+# 八、细节补充
+---
+## 8.1、再再谈CAN接收FIFO1寄存器（CAN_RF1R）
+![[Pasted image 20250411103722.png]]
+如上所示，还有另外两个中断可以使用。其中，FOVR1（FIFO1溢出）非常有用。通过它，就能知道咱们现在的系统是不是接不过来CAN总线的报文。此时，应该调整滤波器，过滤掉系统不关心的CAN报文，避免它们进入FIFO邮箱。下一章节，将用代码实践一遍这个功能。
+
+
+
+
