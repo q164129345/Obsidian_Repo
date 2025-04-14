@@ -31,6 +31,7 @@ git仓库：https://github.com/MaJerle/lwrb/tree/develop
 如上所示，使用git clone指令克隆git远程仓库。
 ![[Pasted image 20250414204350.png | 800]]
 如上所示，克隆完毕。
+![[Pasted image 20250414212528.png | 800]]
 ## 1.3、添加.c源码
 ![[Pasted image 20250414204610.png | 1000]]
 如上所示，将`stm32f103_hal_library19_Can_Rec_With_RB\lwrb\lwrb\src\lwrb\`文件夹下的两个.c源代码文件添加到Keil项目。
