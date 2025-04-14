@@ -226,7 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 331.5
+    "width": 237.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,21 +242,22 @@
   },
   "active": "21d0bdb911d35682",
   "lastOpenFiles": [
+    "附件存放/LL18_CAN_RX_FIFO1_Reg.gif",
+    "附件存放/Pasted image 20250414180954.png",
+    "附件存放/Pasted image 20250414180852.png",
+    "附件存放/Pasted image 20250414180654.png",
+    "附件存放/Pasted image 20250414180516.png",
+    "附件存放/Pasted image 20250414180242.png",
+    "附件存放/Pasted image 20250414180021.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记18 - CAN接收溢出中断.md",
-    "附件存放/Pasted image 20250411170627.png",
-    "附件存放/Pasted image 20250411165351.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
+    "附件存放/LL18_CAN_RX_FIFO1_HAL.gif",
+    "附件存放/Pasted image 20250414142226.png",
+    "附件存放/Pasted image 20250414142100.png",
+    "附件存放/Pasted image 20250414115744.png",
     "知识库/Maps/STM32汇总.md",
-    "附件存放/Pasted image 20250411115934.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
-    "附件存放/Pasted image 20250411103722.png",
-    "附件存放/LL17_CAN_RX_FIFO1_plus.gif",
-    "附件存放/Pasted image 20250411102559.png",
-    "附件存放/Pasted image 20250411101823.png",
-    "附件存放/Pasted image 20250411100541.png",
-    "附件存放/LL17_CAN_RX_FIFO1.gif",
-    "附件存放/Pasted image 20250410205203.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
