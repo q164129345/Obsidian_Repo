@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN接收中断 + 接收所有CAN报文 + ringbuffer数据结构.md",
+                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_HAL库+寄存器学习笔记19 - CAN接收中断 + 接收所有CAN报文 + ringbuffer数据结构"
+              "title": "STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -240,21 +240,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80b25f6cabec5ccd",
+  "active": "21d0bdb911d35682",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250414212528.png",
-    "附件存放/Pasted image 20250414210126.png",
-    "附件存放/Pasted image 20250414210029.png",
-    "附件存放/Pasted image 20250414205733.png",
-    "附件存放/Pasted image 20250414205714.png",
-    "附件存放/Pasted image 20250414205027.png",
-    "附件存放/Pasted image 20250414204911.png",
-    "附件存放/Pasted image 20250414204648.png",
-    "附件存放/Pasted image 20250414204610.png",
-    "附件存放/Pasted image 20250414204350.png",
-    "附件存放/Pasted image 20250414204148.png",
-    "知识库/Maps/STM32汇总.md",
+    "附件存放/Pasted image 20250415211736.png",
+    "附件存放/Pasted image 20250415211654.png",
+    "附件存放/Pasted image 20250415210214.png",
+    "附件存放/Pasted image 20250415195555.png",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN接收中断 + 接收所有CAN报文 + ringbuffer数据结构.md",
+    "附件存放/HAL19_CAN_RX_FIFO1_RB.gif",
+    "附件存放/Pasted image 20250415191659.png",
+    "附件存放/Pasted image 20250415150326.png",
+    "附件存放/Pasted image 20250415144255.png",
+    "附件存放/Pasted image 20250415141503.png",
+    "附件存放/Pasted image 20250415141131.png",
+    "附件存放/Pasted image 20250415135404.png",
+    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
@@ -262,7 +263,6 @@
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）.md",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
