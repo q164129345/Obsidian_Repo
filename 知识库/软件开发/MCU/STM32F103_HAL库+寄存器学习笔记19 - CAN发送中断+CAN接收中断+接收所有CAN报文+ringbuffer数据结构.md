@@ -78,10 +78,35 @@ git仓库：https://github.com/MaJerle/lwrb/tree/develop
 ![[Pasted image 20250415211736.png | 1100]]
 如上所示，每隔50ms调用函数`CAN_Send_CANMsg_FromRingBuffer()`一次，将ringbuffer里的CAN报文发送出去。
 
+## 2.3、编译代码
+![[Pasted image 20250416091601.png | 1100]]
 
+如上所示，代码编译成功。
+![[Pasted image 20250416164911.png]]
+如上所示，从.map文件看到寄存器程序占用ROM = 5.23KB，占用RAM = 2.86KB。
+## 2.4、debug调试
+![[HAL19_CAN_RX_FIFO1_RB_01.gif | 1100]]
+如上所示，CAN分析仪发送50条CAN报文到CAN总线上，STM32F103一共收到50条CAN报文，并将50条CAN报文发回给CAN分析仪。
 
+# 三、代码（寄存器方式）
+---
+## 3.1、myCanDrive_reg.c
+![[Pasted image 20250416163355.png | 1100]]
+如上所示，在函数`CAN_Config()`里调用`lwrb_init()`完成ringbuffer的初始化。
+![[Pasted image 20250416163627.png | 1100]]
 
+## 3.2、main.c
+![[Pasted image 20250416163842.png | 1100]]
 
+## 3.3、编译代码
+![[Pasted image 20250416163922.png | 1100]]
+编译成功，0错误0警告。
+![[Pasted image 20250416164715.png]]
+如上所示，从.map文件看到寄存器程序占用ROM = 3.54KB，占用RAM = 2.81KB。
+> 对应的HAL库占用ROM = 5.23KB，RAM = 2.86KB。
+## 3.4、debug调试
+![[19_RB_REG.gif | 1100]]
+如上所示，使用CAN分析仪发送50个CAN报文到CAN总线上，CANID:0x201 ~ 0x232。从全局变量g_RxCount看到，STM32F103收到50个CAN报文，并将所有CAN报文返回给CAN分析仪。
 
 # 五、细节补充
 ---

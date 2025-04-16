@@ -110,7 +110,7 @@ if(CAN1->TSR & (0x1UL << 28UL)) // 邮箱2空
 
 ## 4.2、main.c
 ![[Pasted image 20250329165652.png]]
-![[Pasted image 20250330113920.png]]
+![[Pasted image 20250416171405.png]]
 
 ![[Pasted image 20250330113510.png]]
 
@@ -142,7 +142,7 @@ if(CAN1->TSR & (0x1UL << 28UL)) // 邮箱2空
 总的来说，**通过二级缓存的引入，系统在保持CAN硬件高效性的同时，获得了更强的鲁棒性和灵活性，是构建高可靠性CAN通信系统的关键设计模式。** 下一章笔记开始梳理怎样编写这个二级缓存。
 
 ## 5.2、继续讨论一下函数CAN_SendMessage_NonBlocking()
-![[Pasted image 20250330123315.png]]
+![[Pasted image 20250416171529.png]]
 如上所示，函数CAN_SendMessage_NonBlocking()可以这样去写：
 ```c
 /**
