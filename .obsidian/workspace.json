@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
+                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构"
+              "title": "STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN接收中断+接收所有CAN报文+ringbuffer数据结构"
             }
           },
           {
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_HAL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）"
+              "title": "STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断"
             }
           }
         ],
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
+                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构 的大纲"
+              "title": "STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN接收中断+接收所有CAN报文+ringbuffer数据结构 的大纲"
             }
           },
           {
@@ -242,11 +242,15 @@
   },
   "active": "21d0bdb911d35682",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250417114954.png",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
+    "知识库/Maps/STM32汇总.md",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
+    "附件存放/Pasted image 20250417135350.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
+    "附件存放/Pasted image 20250417114954.png",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "附件存放/Pasted image 20250416171529.png",
@@ -257,10 +261,6 @@
     "附件存放/Pasted image 20250416163922.png",
     "附件存放/Pasted image 20250416163842.png",
     "附件存放/Pasted image 20250416163627.png",
-    "附件存放/Pasted image 20250416163355.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "附件存放/HAL19_CAN_RX_FIFO1_RB_01.gif",
-    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记16.1 - 监控CAN发送失败（轮询+中断方式），未能调试成功！！.md",
@@ -279,7 +279,6 @@
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记04 - GPIO设置输出模式.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记03 - GPIO设置输入模式，并轮询GPIO的电平状态.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记02 - 开启SysTick（滴答定时器）中断.md",
-    "知识库/软件开发/MCU/STM32 - 在机器人领域，LL库相比HAL优势明显.md",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
