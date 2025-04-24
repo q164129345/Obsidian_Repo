@@ -25,31 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN接收中断+接收所有CAN报文+ringbuffer数据结构"
-            }
-          },
-          {
-            "id": "80b25f6cabec5ccd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题.md",
+                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +40,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题"
+              "title": "STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构"
+            }
+          },
+          {
+            "id": "80b25f6cabec5ccd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer"
             }
           }
         ],
@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 488.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -187,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题.md",
+                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题 的大纲"
+              "title": "STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer 的大纲"
             }
           },
           {
@@ -241,6 +242,20 @@
   },
   "active": "80b25f6cabec5ccd",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer.md",
+    "附件存放/Pasted image 20250424183703.png",
+    "附件存放/Pasted image 20250424183538.png",
+    "附件存放/Pasted image 20250424183446.png",
+    "附件存放/Pasted image 20250424183113.png",
+    "附件存放/Pasted image 20250424182946.png",
+    "附件存放/Pasted image 20250424182821.png",
+    "附件存放/Pasted image 20250424182528.png",
+    "附件存放/LL_20_CAN_TX_RB.gif",
+    "附件存放/Pasted image 20250423182230.png",
+    "附件存放/Pasted image 20250423182045.png",
+    "知识库/Maps/STM32汇总.md",
+    "知识库/软件开发/MCU/ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题.md",
     "知识库/软件开发/MCU/ESP-IDF - 将export.sh的脚本加入系统环境变量 - ubuntu篇.md",
     "知识库/软件开发/MCU/ESP-IDF - 定时器04 - 使用通用定时器创建一个频率1MHz的挂钟.md",
     "知识库/软件开发/MCU/EPS-IDF - ubuntu搭建vscode + ESP-IDF时，解决无法通过串口下载、监控程序.md",
@@ -251,34 +266,19 @@
     "知识库/软件开发/MCU/ESP-IDF - 串口01 - 梳理ESP32S3的UART.md",
     "知识库/软件开发/MCU/ESP-IDF - 串口02 - UART1串行发送、接收消息.md",
     "知识库/软件开发/MCU/ESP-IDF - wifi01 - 官方例程softAP.md",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断.md",
-    "附件存放/Pasted image 20250418134814.png",
-    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
-    "附件存放/Pasted image 20250417135350.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
-    "附件存放/Pasted image 20250417114954.png",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记14 - CAN发送完成中断.md",
-    "附件存放/Pasted image 20250416171529.png",
-    "附件存放/Pasted image 20250416171405.png",
-    "附件存放/Pasted image 20250416164911.png",
-    "附件存放/Pasted image 20250416164715.png",
-    "附件存放/19_RB_REG.gif",
-    "附件存放/Pasted image 20250416163922.png",
-    "附件存放/Pasted image 20250416163842.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记01 - 梳理CubeMX生成的LL库最小的裸机系统框架.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记16.1 - 监控CAN发送失败（轮询+中断方式），未能调试成功！！.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记10 - DMA传输过半+DMA传输完成中断实现DMA串口接收\"双缓冲\".md",
-    "知识库/Maps/自动化控制汇总.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记11 - 串口收发的中断优先级梳理.md",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
     "电子书/DUI0379G_mdk_armasm_user_guide.pdf",
