@@ -27,7 +27,7 @@
 
 项目地址：
 - HAL库：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library19_Can_Rec_With_RB
-- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library19_Can_Rec_With_RB
+- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library19_Can_Rec_With_RB
 
 # 一、移植开源ringbuffer - LwRB
 ---

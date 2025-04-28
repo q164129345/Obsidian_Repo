@@ -12,11 +12,11 @@
 项目地址：
 github:
 - HAL库: https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library20_Can_Send_Rec_With_RB
-- 寄存器方式: https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library20_Can_Send_Rec_With_RB
+- 寄存器方式: https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library20_Can_Send_Rec_With_RB
 
 gitee(国内):
 - HAL库: https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_hal_library20_Can_Send_Rec_With_RB
-- 寄存器方式: https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_ll_library20_Can_Send_Rec_With_RB
+- 寄存器方式: https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_reg_library20_Can_Send_Rec_With_RB
 
 ## 使用for循环一口气发送50条CAN报文
 为了验证ringbuffer可以解决上述提到的问题，尤其是问题1（三邮箱限制）与问题2（突发流量平滑）。在主循环里调用for循环一口气发送50条CAN报文，看看效果！

@@ -8,7 +8,7 @@ STM32CubeMX的CAN代码不支持LL库，所以只能用HAL库，或者自己撸�
 如上所示，CAN分析仪持续收到间隔100ms的CAN消息。
 
 项目地址：
-- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library14_Can_Send_Interrupt
+- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library14_Can_Send_Interrupt
 - HAL库方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library14_Can_Send_Interrupt
 
 ## CAN发送中断

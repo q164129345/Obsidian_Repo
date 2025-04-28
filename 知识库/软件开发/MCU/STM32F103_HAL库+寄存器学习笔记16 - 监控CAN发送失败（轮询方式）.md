@@ -5,7 +5,7 @@
 效果如下：
 ![[LL16_CAN_ERROR.gif | 1100]]
 
-项目地址：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library16_Can_Send_Error
+项目地址：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library16_Can_Send_Error
 
 # 一、代码（寄存器）
 ---

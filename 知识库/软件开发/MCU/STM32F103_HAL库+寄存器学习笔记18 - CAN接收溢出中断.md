@@ -8,7 +8,7 @@
 
 项目地址：
 - HAL库：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library18_Can_Rec_Overflow_Error
-- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library18_Can_Rec_Overflow_Error
+- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library18_Can_Rec_Overflow_Error
 
 # 一、代码（HAL库）
 ---

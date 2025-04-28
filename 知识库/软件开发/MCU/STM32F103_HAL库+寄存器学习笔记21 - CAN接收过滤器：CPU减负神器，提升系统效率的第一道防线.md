@@ -22,16 +22,16 @@
 
 ## 本次实验
 ![[Pasted image 20250427181848.png]]
-如上所示，本次实验的目的是使用CAN滤波器1 + CAN滤波器2对CAN总线上的CAN报文进行过滤，让开发板只能当接收特定的CANID。开发板只有接收到以上CANID时，才会触发系统中断。
+如上所示，本次实验旨在使用CAN滤波器1与CAN滤波器2对CAN总线报文进行过滤，使开发板仅接收特定的CAN ID。开发板只有接收到以上CANID时，才会触发系统中断。
 
 项目地址：  
 github:
 - HAL库: https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library21_Can_Rx_Filter
-- 寄存器方式: https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library21_Can_Rx_Filter
+- 寄存器方式: https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library21_Can_Rx_Filter
 
 gitee(国内):
 - HAL库: https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_hal_library21_Can_Rx_Filter
-- 寄存器方式: https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_ll_library21_Can_Rx_Filter
+- 寄存器方式: https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_reg_library21_Can_Rx_Filter
 
 # 一、过滤器方案的4种组合
 ---
@@ -60,7 +60,7 @@ gitee(国内):
 ![[LL_21_CAN_Filter.gif]]
 如上所示，CAN分析仪发送CANID0x200~0x20F到开发板。然后，全局变量g_RxCount = 16证明开发板收到16个CAN报文。
 ![[LL_21_CAN_Filter_HAL_0X100.gif]]
-如上所示，CAN分析仪发送CANID0x100~0x10F到开发板。全局变量g_RxCount仍然是16，并没有发现变化，证明没有收到CAN报文。CANID0x100~0x10F被过滤了，这是我们的目的。
+如上所示，CAN分析仪发送CANID0x100~0x10F到开发板。全局变量g_RxCount仍然为16，未发生变化，证明未接收到CAN报文。CANID0x100~0x10F被过滤了，这是我们的目的。
 ![[LL_21_CAN_Filter_HAL_0X300.gif]]如上所示，CAN分析仪发送CANID0x300~0x30F到开发板。全局变量g_RxCount变成32，证明开发板收到16个CAN报文。
 **实验证明，CAN过滤波器2只能接收两个区间的CANID，分别是0x200~0x20F与0x300~0x30F。**
 
@@ -88,7 +88,7 @@ gitee(国内):
 如上所示，使用CAN分析仪发送CANID0x058~0x067，一共16帧CAN报文给开发板。从全局变量g_RxCount看来，开发板只收到一个CANID(0x058)的报文。
 ![[LL_21_CAN_Filter_HAL_0X158.gif]]
 如上所示，使用CAN分析仪发送CANID0x158~0x167，一共16帧CAN报文给开发板。从全局变量g_RxCount看来，开发板只收到一个CANID(0x158)的报文。
-**同理，0x258与0x358的实验结果一样的。**
+**同理，0x258和0x358的实验结果相同。**
 
 ## 3.4、代码（寄存器方式）
 ### 3.4.1、myCanDrive_reg.c

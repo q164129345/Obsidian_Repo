@@ -10,7 +10,7 @@
 3. 当我重启开启CAN分析仪的CAN通道1，CAN错误状态寄存器CAN_ESR的TEC（发送错误计数器）持续递减，且最终递减至0。此时，EPVF（错误被动标志）与EWGF（错误警告标志）与LEC（上次错误代码）都被置0。
 
 项目地址：
-- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library14_Can_Send_Interrupt
+- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library14_Can_Send_Interrupt
 - HAL库方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library14_Can_Send_Interrupt
 
 # 一、梳理寄存器

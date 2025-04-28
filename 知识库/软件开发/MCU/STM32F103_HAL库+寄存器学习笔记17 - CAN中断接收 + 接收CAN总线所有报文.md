@@ -15,7 +15,7 @@
 
 项目地址：
 - HAL库：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_library17_Can_Rec_Interrupt
-- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library17_Can_Rec_Interrupt
+- 寄存器方式：https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library17_Can_Rec_Interrupt
 
 # 一、CubeMX
 ---
