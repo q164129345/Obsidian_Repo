@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线"
+              "title": "STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构"
             }
           },
           {
@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 488.5
+    "width": 369.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -187,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构 的大纲"
             }
           },
           {
@@ -225,8 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,29 +242,32 @@
   },
   "active": "21d0bdb911d35682",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer.md",
+    "附件存放/Pasted image 20250512174125.png",
+    "附件存放/Pasted image 20250512172745.png",
+    "附件存放/Pasted image 20250512172446.png",
+    "附件存放/Pasted image 20250512172021.png",
+    "附件存放/Pasted image 20250512171429.png",
+    "附件存放/Pasted image 20250512171321.png",
+    "附件存放/Pasted image 20250512171208.png",
+    "附件存放/Pasted image 20250512170946.png",
+    "附件存放/Pasted image 20250512170640.png",
+    "附件存放/Pasted image 20250512170216.png",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
+    "附件存放/Pasted image 20250512160312.png",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记16 - 监控CAN发送失败（轮询方式）.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）.md",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
-    "附件存放/Pasted image 20250427181848.png",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
     "知识库/Maps/电机控制汇总.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
-    "附件存放/LL_21_CAN_Filter_LL_Range.gif",
-    "附件存放/LL_21_CAN_Filter_LL 1.gif",
-    "附件存放/Pasted image 20250427180507.png",
-    "附件存放/Pasted image 20250427180434.png",
-    "附件存放/Pasted image 20250427180402.png",
-    "附件存放/LL_21_CAN_Filter_HAL_0X158.gif",
-    "附件存放/LL_21_CAN_Filter_HAL_0X058.gif",
-    "附件存放/Pasted image 20250427174515.png",
-    "附件存放/Pasted image 20250427174431.png",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题.md",
     "知识库/软件开发/MCU/ESP-IDF - 将export.sh的脚本加入系统环境变量 - ubuntu篇.md",
@@ -275,9 +278,6 @@
     "知识库/软件开发/MCU/ESP-IDF - 创建工程01 - 使用simple模板编写简单的Hello,World工程.md",
     "知识库/软件开发/MCU/EPS-IDF - ubuntu，vscode安装PlatformIO IDE失败.md",
     "知识库/软件开发/MCU/ESP-IDF - 串口01 - 梳理ESP32S3的UART.md",
-    "知识库/软件开发/MCU/ESP-IDF - 串口02 - UART1串行发送、接收消息.md",
-    "知识库/软件开发/MCU/ESP-IDF - wifi01 - 官方例程softAP.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
