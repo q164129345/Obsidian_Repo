@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构"
+              "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构"
             }
           },
           {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构 的大纲"
             }
           },
           {
@@ -253,7 +253,7 @@
     "附件存放/Pasted image 20250512170640.png",
     "附件存放/Pasted image 20250512170216.png",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - USART DMA高效收发实战：引入ringbuffer结构.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "附件存放/Pasted image 20250512160312.png",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
