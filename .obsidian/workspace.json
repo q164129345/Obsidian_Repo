@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8adf9af663f5a8ee",
+            "id": "21d0bdb911d35682",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "21d0bdb911d35682",
+            "id": "8adf9af663f5a8ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 创建一个回调周期1ms的基本定时器.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构"
+              "title": "STM32F103_LL库+寄存器学习笔记22 - 创建一个回调周期1ms的基本定时器"
             }
           },
           {
-            "id": "80b25f6cabec5ccd",
+            "id": "fd41cc5af69929c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
+                "file": "知识库/Maps/STM32汇总.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,11 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线"
+              "title": "STM32汇总"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 369.5,
+    "width": 321.5,
     "collapsed": true
   },
   "right": {
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
+                "file": "知识库/Maps/STM32汇总.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构 的大纲"
+              "title": "STM32汇总 的大纲"
             }
           },
           {
@@ -240,24 +240,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21d0bdb911d35682",
+  "active": "fd41cc5af69929c7",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250512174125.png",
-    "附件存放/Pasted image 20250512172745.png",
-    "附件存放/Pasted image 20250512172446.png",
-    "附件存放/Pasted image 20250512172021.png",
-    "附件存放/Pasted image 20250512171429.png",
-    "附件存放/Pasted image 20250512171321.png",
-    "附件存放/Pasted image 20250512171208.png",
-    "附件存放/Pasted image 20250512170946.png",
-    "附件存放/Pasted image 20250512170640.png",
-    "附件存放/Pasted image 20250512170216.png",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
-    "附件存放/Pasted image 20250512160312.png",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 创建一个回调周期1ms的基本定时器.md",
+    "附件存放/22_Basic_Timer_Reg.gif",
+    "附件存放/Pasted image 20250512205126.png",
+    "附件存放/Pasted image 20250512204958.png",
+    "附件存放/Pasted image 20250512204855.png",
+    "附件存放/Pasted image 20250512204527.png",
+    "附件存放/22_Basic_Timer.gif",
+    "附件存放/Pasted image 20250512202240.png",
+    "附件存放/Pasted image 20250512202150.png",
+    "附件存放/Pasted image 20250512202008.png",
+    "附件存放/Pasted image 20250512201816.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
+    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记18 - CAN接收溢出中断.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记17 - CAN中断接收 + 接收CAN总线所有报文.md",
@@ -275,9 +277,6 @@
     "知识库/软件开发/MCU/EPS-IDF - ubuntu搭建vscode + ESP-IDF时，解决无法通过串口下载、监控程序.md",
     "知识库/软件开发/MCU/ESP-IDF - 创建工程03 - 配置分区表，管理外部flash.md",
     "知识库/软件开发/MCU/ESP-IDF - 创建工程02 - esp32s3基础工程配置，匹配模组内部资源，充分发挥模组的性能.md",
-    "知识库/软件开发/MCU/ESP-IDF - 创建工程01 - 使用simple模板编写简单的Hello,World工程.md",
-    "知识库/软件开发/MCU/EPS-IDF - ubuntu，vscode安装PlatformIO IDE失败.md",
-    "知识库/软件开发/MCU/ESP-IDF - 串口01 - 梳理ESP32S3的UART.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
