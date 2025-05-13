@@ -25,30 +25,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现 1 ms 周期回调.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现 1 ms 周期回调"
-            }
-          },
-          {
-            "id": "fd41cc5af69929c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
                 "mode": "source",
                 "source": false,
@@ -73,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，可控频率、可控占空比.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，并用软件方式修改PWM周期与PWM占空比.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -88,11 +64,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，可控频率、可控占空比"
+              "title": "STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，并用软件方式修改PWM周期与PWM占空比"
+            }
+          },
+          {
+            "id": "0d4df9aa320b2c65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -212,13 +212,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，可控频率、可控占空比.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，并用软件方式修改PWM周期与PWM占空比.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，可控频率、可控占空比 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，并用软件方式修改PWM周期与PWM占空比 的大纲"
             }
           },
           {
@@ -250,8 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -267,24 +266,25 @@
   },
   "active": "3cbb72632279697f",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，可控频率、可控占空比.md",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现 1 ms 周期回调.md",
-    "知识库/Maps/STM32汇总.md",
-    "附件存放/Pasted image 20250513103728.png",
-    "附件存放/Pasted image 20250513103105.png",
-    "附件存放/Pasted image 20250513102447.png",
-    "附件存放/Pasted image 20250513102246.png",
-    "附件存放/Pasted image 20250513102126.png",
-    "附件存放/Pasted image 20250513101715.png",
-    "附件存放/22_Basic_Timer_Reg.gif",
-    "附件存放/Pasted image 20250512205126.png",
-    "附件存放/Pasted image 20250512204958.png",
-    "附件存放/Pasted image 20250512204855.png",
-    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM产生PWM波形，并用软件方式修改PWM周期与PWM占空比.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
+    "附件存放/Pasted image 20250513172255.png",
+    "附件存放/Pasted image 20250513171405.png",
+    "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "附件存放/Pasted image 20250513171115.png",
+    "附件存放/Pasted image 20250513170236.png",
+    "附件存放/Pasted image 20250513170122.png",
+    "附件存放/Pasted image 20250513170056.png",
+    "附件存放/Pasted image 20250513164650.png",
+    "附件存放/Pasted image 20250513164550.png",
+    "附件存放/Pasted image 20250513154829.png",
+    "附件存放/Pasted image 20250513154351.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "知识库/Maps/STM32汇总.md",
+    "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
@@ -301,8 +301,6 @@
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
     "知识库/软件开发/MCU/ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题.md",
     "知识库/软件开发/MCU/ESP-IDF - 将export.sh的脚本加入系统环境变量 - ubuntu篇.md",
-    "知识库/软件开发/MCU/ESP-IDF - 定时器04 - 使用通用定时器创建一个频率1MHz的挂钟.md",
-    "知识库/软件开发/MCU/EPS-IDF - ubuntu搭建vscode + ESP-IDF时，解决无法通过串口下载、监控程序.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",

@@ -3,6 +3,14 @@
 ![[Pasted image 20250512192708.png]]
 如上所示，STM32F103有两个基本定时器TIM6与TIM7，所谓「基本定时器」，即功能最简单的定时器。
 
+项目地址：
+github:
+- LL库: https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_ll_library22_Basic_Timer
+- 寄存器方式: https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_reg_library22_Basic_Timer
+
+gitee(国内):
+- LL库: https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_ll_library22_Basic_Timer
+- 寄存器方式: https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_reg_library22_Basic_Timer
 
 # 一、LL库
 ---
@@ -41,7 +49,7 @@ CubeMX 根据上述配置，自动生成了相应初始化代码。
 ![[22_Basic_Timer_Reg.gif | 1000]]
 由此可见，两种实现方式在功能和效果上完全一致。
 
-# 三、相关的TIM寄存器
+# 三、梳理寄存器
 ---
 ## 3.1、RCC_APB1ENR时钟使能寄存器
 ![[Pasted image 20250513101715.png]]
