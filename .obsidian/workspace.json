@@ -25,6 +25,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）"
+            }
+          },
+          {
+            "id": "0d4df9aa320b2c65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM5 PWM波形输出及软件方式调整周期与占空比.md",
                 "mode": "source",
                 "source": false,
@@ -42,33 +66,8 @@
               "icon": "lucide-file",
               "title": "STM32F103_LL库+寄存器学习笔记23 - TIM5 PWM波形输出及软件方式调整周期与占空比"
             }
-          },
-          {
-            "id": "0d4df9aa320b2c65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +124,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 626.5
+    "width": 626.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM5 PWM波形输出及软件方式调整周期与占空比.md",
+                "file": "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记23 - TIM5 PWM波形输出及软件方式调整周期与占空比 的大纲"
+              "title": "STM32F1中文参考手册V10 - 读书笔记 的大纲"
             }
           },
           {
@@ -239,24 +239,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3cbb72632279697f",
+  "active": "21d0bdb911d35682",
   "lastOpenFiles": [
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "附件存放/Pasted image 20250513203010.png",
+    "附件存放/Pasted image 20250513202825.png",
+    "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "附件存放/Pasted image 20250513202426.png",
+    "附件存放/Pasted image 20250513202108.png",
+    "附件存放/Pasted image 20250513201902.png",
+    "附件存放/Pasted image 20250513201748.png",
+    "附件存放/Pasted image 20250513201619.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM5 PWM波形输出及软件方式调整周期与占空比.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调.md",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
     "附件存放/Pasted image 20250513172255.png",
     "附件存放/Pasted image 20250513171405.png",
     "附件存放/Pasted image 20250513171115.png",
-    "附件存放/Pasted image 20250513170236.png",
-    "附件存放/Pasted image 20250513170122.png",
-    "附件存放/Pasted image 20250513170056.png",
-    "附件存放/Pasted image 20250513164650.png",
-    "附件存放/Pasted image 20250513164550.png",
-    "附件存放/Pasted image 20250513154829.png",
-    "附件存放/Pasted image 20250513154351.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
     "知识库/Maps/STM32汇总.md",
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
