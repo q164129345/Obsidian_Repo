@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 创建一个回调周期1ms的基本定时器.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32汇总 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记22 - 创建一个回调周期1ms的基本定时器 的大纲"
             }
           },
           {
@@ -240,20 +240,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fd41cc5af69929c7",
+  "active": "8adf9af663f5a8ee",
   "lastOpenFiles": [
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 创建一个回调周期1ms的基本定时器.md",
+    "附件存放/Pasted image 20250513103728.png",
+    "附件存放/Pasted image 20250513103105.png",
+    "附件存放/Pasted image 20250513102447.png",
+    "附件存放/Pasted image 20250513102246.png",
+    "附件存放/Pasted image 20250513102126.png",
+    "知识库/Maps/STM32汇总.md",
+    "附件存放/Pasted image 20250513101715.png",
     "附件存放/22_Basic_Timer_Reg.gif",
     "附件存放/Pasted image 20250512205126.png",
     "附件存放/Pasted image 20250512204958.png",
     "附件存放/Pasted image 20250512204855.png",
-    "附件存放/Pasted image 20250512204527.png",
-    "附件存放/22_Basic_Timer.gif",
-    "附件存放/Pasted image 20250512202240.png",
-    "附件存放/Pasted image 20250512202150.png",
-    "附件存放/Pasted image 20250512202008.png",
-    "附件存放/Pasted image 20250512201816.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
@@ -270,7 +271,6 @@
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
     "知识库/Maps/电机控制汇总.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
-    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题.md",
     "知识库/软件开发/MCU/ESP-IDF - 将export.sh的脚本加入系统环境变量 - ubuntu篇.md",
     "知识库/软件开发/MCU/ESP-IDF - 定时器04 - 使用通用定时器创建一个频率1MHz的挂钟.md",
