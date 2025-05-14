@@ -135,6 +135,8 @@ void TIM5_PWM_Init(uint16_t psc, uint16_t arr, uint16_t ccr)
 }
 ```
 
+## 2.2、TIM5PWMOutput_reg.h
+
 ```c
 /**
  * @file    TIM5PWMOutput_reg.h
@@ -183,11 +185,11 @@ void TIM5_PWM_Init(uint16_t psc, uint16_t arr, uint16_t ccr);
 
 ```
 
-## 2.2、main.c
+## 2.3、main.c
 ![[Pasted image 20250513164550.png | 1000]]
 如上所示，在main()函数里依次调用两个函数即可。
 
-## 2.3、编译、调试
+## 2.4、编译、调试
 ![[Pasted image 20250513164650.png | 1000]]
 将代码烧录进去，效果跟LL库一样。
 
