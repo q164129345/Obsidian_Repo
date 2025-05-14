@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）"
+              "title": "STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比"
             }
           },
           {
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM5 PWM波形输出及软件方式调整周期与占空比.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记23 - TIM5 PWM波形输出及软件方式调整周期与占空比"
+              "title": "STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比"
             }
           }
         ],
@@ -125,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 626.5,
-    "collapsed": true
+    "width": 626.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -188,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用） 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比 的大纲"
             }
           },
           {
@@ -242,8 +241,8 @@
   },
   "active": "3cbb72632279697f",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - TIM5 PWM波形输出及软件方式调整周期与占空比.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
     "附件存放/Pasted image 20250514171942.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "附件存放/Pasted image 20250514160403.png",
