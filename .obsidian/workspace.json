@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,10 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）"
+              "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,13 +164,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "电子书/STM32F4xx中文参考手册.pdf",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F4xx中文参考手册 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构 的大纲"
             }
           },
           {
@@ -201,8 +202,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,11 +216,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "21d0bdb911d35682",
+  "active": "0d4df9aa320b2c65",
   "lastOpenFiles": [
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "电子书/STM32F4xx中文参考手册.pdf",
+    "附件存放/Pasted image 20250516114157.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "电子书/STM32F4xx中文参考手册.pdf",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
     "附件存放/Pasted image 20250514171942.png",
