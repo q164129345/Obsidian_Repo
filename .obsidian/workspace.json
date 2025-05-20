@@ -66,9 +66,33 @@
               "icon": "lucide-file",
               "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构"
             }
+          },
+          {
+            "id": "53edbc8f2e2b4781",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/Maps/STM32汇总.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32汇总"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -125,8 +149,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 626.5,
-    "collapsed": true
+    "width": 626.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -188,13 +211,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
+                "file": "知识库/Maps/STM32汇总.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率 的大纲"
+              "title": "STM32汇总 的大纲"
             }
           },
           {
@@ -240,11 +263,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0d4df9aa320b2c65",
+  "active": "53edbc8f2e2b4781",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
     "附件存放/Pasted image 20250520154816.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
     "附件存放/Pasted image 20250520153445.png",
     "附件存放/Pasted image 20250520153036.png",
     "附件存放/Pasted image 20250520153002.png",
@@ -260,7 +283,6 @@
     "附件存放/Pasted image 20250514160403.png",
     "附件存放/Pasted image 20250514153505.png",
     "附件存放/Pasted image 20250514151907.png",
-    "附件存放/Pasted image 20250514151348.png",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
