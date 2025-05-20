@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32汇总"
+              "title": "STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率"
+            }
+          },
+          {
+            "id": "fb6a70b116d5dedf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构"
             }
           }
         ],
@@ -101,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 626.5
+    "width": 626.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -163,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md",
+                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32汇总 的大纲"
+              "title": "STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率 的大纲"
             }
           },
           {
@@ -217,10 +242,17 @@
   },
   "active": "0d4df9aa320b2c65",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "附件存放/Pasted image 20250520154816.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
-    "附件存放/Pasted image 20250516114157.png",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
+    "附件存放/Pasted image 20250520153445.png",
+    "附件存放/Pasted image 20250520153036.png",
+    "附件存放/Pasted image 20250520153002.png",
+    "附件存放/Pasted image 20250520152127.png",
+    "知识库/Maps/STM32汇总.md",
     "电子书/STM32F4xx中文参考手册.pdf",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
+    "附件存放/Pasted image 20250516114157.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
@@ -229,14 +261,9 @@
     "附件存放/Pasted image 20250514153505.png",
     "附件存放/Pasted image 20250514151907.png",
     "附件存放/Pasted image 20250514151348.png",
-    "附件存放/Pasted image 20250514145500.png",
-    "附件存放/Pasted image 20250514145215.png",
-    "附件存放/Pasted image 20250514140331.png",
-    "附件存放/Pasted image 20250514135559.png",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
-    "知识库/Maps/STM32汇总.md",
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
@@ -252,7 +279,6 @@
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
     "知识库/Maps/电机控制汇总.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
-    "知识库/软件开发/MCU/ESP-IDF - 解决vscode误报语法错误，但能正常编译、下载程序的问题.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
