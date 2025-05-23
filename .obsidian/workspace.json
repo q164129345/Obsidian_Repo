@@ -11,21 +11,21 @@
             "id": "21d0bdb911d35682",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "pdf-annotator",
               "state": {
-                "file": "电子书/STM32F4xx中文参考手册.pdf"
+                "file": "电子书/STM32F1中文参考手册V10 - 读书笔记.md"
               },
-              "icon": "lucide-file-text",
-              "title": "STM32F4xx中文参考手册"
+              "icon": "lucide-file",
+              "title": "STM32F1中文参考手册V10 - 读书笔记"
             }
           },
           {
-            "id": "0d4df9aa320b2c65",
+            "id": "8d14d4d937fcee57",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,16 +40,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率"
+              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构"
             }
           },
           {
-            "id": "fb6a70b116d5dedf",
+            "id": "e4e4dc5c9a42d433",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
+                "file": "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,35 +64,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构"
-            }
-          },
-          {
-            "id": "53edbc8f2e2b4781",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率"
+              "title": "STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 626.5,
+    "width": 500.5,
     "collapsed": true
   },
   "right": {
@@ -212,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
+                "file": "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率 的大纲"
+              "title": "STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板 的大纲"
             }
           },
           {
@@ -250,7 +226,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5
+    "width": 289.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,27 +241,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "53edbc8f2e2b4781",
+  "active": "e4e4dc5c9a42d433",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
+    "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
+    "附件存放/Pasted image 20250523170304.png",
+    "附件存放/Pasted image 20250523105207.png",
+    "附件存放/Pasted image 20250523105059.png",
+    "附件存放/Pasted image 20250523093121.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "电子书/STM32F1中文参考手册V10.pdf",
+    "电子书/STM32F4xx中文参考手册.pdf",
     "附件存放/Pasted image 20250520155957.png",
     "知识库/Maps/STM32汇总.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
     "附件存放/Pasted image 20250520154816.png",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
     "附件存放/Pasted image 20250520153445.png",
     "附件存放/Pasted image 20250520153036.png",
     "附件存放/Pasted image 20250520153002.png",
     "附件存放/Pasted image 20250520152127.png",
-    "电子书/STM32F4xx中文参考手册.pdf",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-    "附件存放/Pasted image 20250516114157.png",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
-    "附件存放/Pasted image 20250514171942.png",
-    "附件存放/Pasted image 20250514160403.png",
-    "附件存放/Pasted image 20250514153505.png",
-    "附件存放/Pasted image 20250514151907.png",
     "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
@@ -301,9 +281,6 @@
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
-    "知识库/Maps/电机控制汇总.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
-    "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
