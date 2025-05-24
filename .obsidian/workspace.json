@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构.md",
+                "file": "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构"
+              "title": "STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板"
             }
           },
           {
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -125,7 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 500.5,
+    "width": 441.5,
     "collapsed": true
   },
   "right": {
@@ -226,8 +226,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 289.5,
-    "collapsed": true
+    "width": 289.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,27 +240,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e4e4dc5c9a42d433",
+  "active": "8d14d4d937fcee57",
   "lastOpenFiles": [
+    "附件存放/USART_DMA_rb.gif",
+    "附件存放/Pasted image 20250524192040.png",
+    "附件存放/Pasted image 20250524191948.png",
+    "附件存放/Pasted image 20250524191604.png",
+    "附件存放/Pasted image 20250524190953.png",
+    "附件存放/Pasted image 20250524190757.png",
+    "附件存放/Pasted image 20250524185807.png",
+    "附件存放/Pasted image 20250524185539.png",
+    "附件存放/Pasted image 20250524174407.png",
+    "附件存放/Pasted image 20250524174217.png",
+    "附件存放/Pasted image 20250524173937.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构.md",
+    "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
-    "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
-    "附件存放/Pasted image 20250523170304.png",
-    "附件存放/Pasted image 20250523105207.png",
-    "附件存放/Pasted image 20250523105059.png",
-    "附件存放/Pasted image 20250523093121.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/STM32F4xx中文参考手册.pdf",
-    "附件存放/Pasted image 20250520155957.png",
     "知识库/Maps/STM32汇总.md",
-    "附件存放/Pasted image 20250520154816.png",
-    "附件存放/Pasted image 20250520153445.png",
-    "附件存放/Pasted image 20250520153036.png",
-    "附件存放/Pasted image 20250520153002.png",
-    "附件存放/Pasted image 20250520152127.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
@@ -280,7 +280,6 @@
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记15 - 梳理CAN发送失败时，涉及哪些寄存器.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记14 - CAN发送完成中断.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记13 - 梳理外设CAN与如何发送CAN报文（串行发送）.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC07 - 基于STM32F103+CubeMX，位置闭环控制（位置、速度闭环、没电流环）.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
