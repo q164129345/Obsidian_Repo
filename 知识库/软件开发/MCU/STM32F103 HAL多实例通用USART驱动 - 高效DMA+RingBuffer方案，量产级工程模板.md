@@ -28,6 +28,10 @@ bsp_usart_hal 驱动代码特点总结：
 测试效果如下，接收与发送都没有丢包。
 ![[Pasted image 20250523170304.png | 1100]]
 
+项目地址：
+github:https://github.com/q164129345/MCU_Develop/tree/main/stm32f103_hal_usart_dma_ringbuffer
+gitee(国内):https://gitee.com/wallace89/MCU_Develop/tree/main/stm32f103_hal_usart_dma_ringbuffer
+
 # 一、CubeMX
 ---
 ## 1.1、Clock Configuration
