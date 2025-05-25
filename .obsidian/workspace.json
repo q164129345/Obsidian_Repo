@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,11 +40,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构"
+              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -164,13 +163,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构.md",
+                "file": "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构 的大纲"
+              "title": "STM32F1中文参考手册V10 - 读书笔记 的大纲"
             }
           },
           {
@@ -216,23 +215,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c3a8500d138fe70",
+  "active": "21d0bdb911d35682",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
+    "附件存放/Pasted image 20250525185852.png",
+    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
+    "附件存放/Pasted image 20250525185104.png",
+    "附件存放/Pasted image 20250525184622.png",
+    "附件存放/Pasted image 20250525184402.png",
+    "附件存放/Pasted image 20250525112656.png",
     "附件存放/Pasted image 20250525111130.png",
     "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构.md",
-    "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "附件存放/USART_DMA_rb.gif",
     "附件存放/Pasted image 20250524192040.png",
     "附件存放/Pasted image 20250524191948.png",
     "附件存放/Pasted image 20250524191604.png",
-    "附件存放/Pasted image 20250524190953.png",
-    "附件存放/Pasted image 20250524190757.png",
-    "附件存放/Pasted image 20250524185807.png",
-    "附件存放/Pasted image 20250524185539.png",
-    "附件存放/Pasted image 20250524174407.png",
-    "附件存放/Pasted image 20250524174217.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
