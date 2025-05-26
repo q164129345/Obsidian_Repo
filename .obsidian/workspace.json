@@ -44,30 +44,6 @@
             }
           },
           {
-            "id": "90990f425877bc3b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划"
-            }
-          },
-          {
             "id": "2c4f3a8dfad8b1dc",
             "type": "leaf",
             "state": {
@@ -92,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -212,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h).md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发04 - App跳转模块.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h) 的大纲"
+              "title": "STM32F103_Bootloader程序开发04 - App跳转模块 的大纲"
             }
           },
           {
@@ -264,7 +240,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c4f3a8dfad8b1dc",
+  "active": "7c3a8500d138fe70",
   "lastOpenFiles": [
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h).md",
