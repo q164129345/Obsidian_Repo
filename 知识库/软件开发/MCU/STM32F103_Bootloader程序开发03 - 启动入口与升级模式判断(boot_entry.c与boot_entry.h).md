@@ -1,8 +1,10 @@
 # 导言
 ---
-我的bootloader程序开发参考优秀的bootloader开源项目：[mOTA](https://gitee.com/DinoHaw/mOTA) ，强烈建议大家去学习一下这个优秀的开源项目。
+这个章节的重点是`“怎样让一个自己编写的函数比main()先运行，完成一些初始化操作。”`
 ![[Pasted image 20250526194315.png]]
 我暂时将bootloader程序分别五个模块，先从"启动入口与升级模式判断"模块开始吧。代码分别是boot_entry.c与boot_entry.h。项目刚开始，boot_entry.c与boot_entry.h会随着项目的推进会增加一些代码。
+
+> 我的bootloader程序开发参考优秀的bootloader开源项目：[mOTA](https://gitee.com/DinoHaw/mOTA) ，强烈建议大家去学习一下这个优秀的开源项目。
 
 项目地址：
 github: https://github.com/q164129345/MCU_Develop/tree/main/bootloader03_stm32f103_boot_entry
@@ -90,7 +92,7 @@ extern "C" {
 ## 2.2、为什么_SystemStart()会先执行？
 **凡是被加了__attribute__((constructor))的函数，在main()之前被自动调用一次。** 这里的__attribute__((constructor))是GCC/ARMCC/KEIL等编译器的一个特殊拓展属性。这是编译器层面的“静态初始化”机制，与C++里的全局对象构造类似。
 
-**这个不是STM32硬件的行为，而是编译器“加的钩子”。** STM32启动顺序没有变，主入口依然是main()。SystemStart()之所以main()之前执行，是编译器__attribute_((constructor))机制帮你做的。
+**这个不是STM32硬件的行为，而是编译器“加的钩子”。** STM32启动顺序没有变，主入口依然是main()。`_SystemStart()`之所以`main()`之前执行，是编译器__attribute_((constructor))机制帮你做的。
 
 ![[Pasted image 20250526202203.png]]
 
