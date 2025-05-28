@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划"
+              "title": "STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h)"
             }
           },
           {
@@ -125,7 +125,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.5
+    "width": 441.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -187,13 +188,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划 的大纲"
+              "title": "STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h) 的大纲"
             }
           },
           {
@@ -241,8 +242,10 @@
   },
   "active": "7c3a8500d138fe70",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250528145633.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h).md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h).md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
+    "附件存放/Pasted image 20250528145633.png",
     "附件存放/Pasted image 20250528144911.png",
     "附件存放/Pasted image 20250528144703.png",
     "附件存放/Pasted image 20250528141459.png",
@@ -252,9 +255,6 @@
     "附件存放/Pasted image 20250528135725.png",
     "附件存放/Pasted image 20250528135412.png",
     "附件存放/Pasted image 20250528120209.png",
-    "附件存放/Pasted image 20250528115903.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h).md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",

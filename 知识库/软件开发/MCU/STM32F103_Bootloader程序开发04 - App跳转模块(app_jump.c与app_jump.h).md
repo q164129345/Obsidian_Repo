@@ -10,8 +10,8 @@
 如上所示，摘自bootloader开源项目[mOTA](https://gitee.com/DinoHaw/mOTA)。
 
 项目地址：
-github: 
-gitee(国内): 
+github: https://github.com/q164129345/MCU_Develop/tree/main/bootloader04_stm32f103_jump_app
+gitee(国内): https://gitee.com/wallace89/MCU_Develop/tree/main/bootloader04_stm32f103_jump_app
 
 # 一、Keil设置Flash与RAM
 ---
