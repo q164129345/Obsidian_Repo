@@ -13,54 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”"
-            }
-          },
-          {
-            "id": "55f02e3376cc5cac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件"
-            }
-          },
-          {
-            "id": "8cbe50d603e7354b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 校验App的CRC32.md",
                 "mode": "source",
                 "source": false,
@@ -77,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "STM32F103_Bootloader程序开发07 - 校验App的CRC32"
+            }
+          },
+          {
+            "id": "3f245478713957a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”"
             }
           }
         ]
@@ -136,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.5,
+    "width": 463.5,
     "collapsed": true
   },
   "right": {
@@ -199,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 校验App的CRC32.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖” 的大纲"
+              "title": "STM32F103_Bootloader程序开发07 - 校验App的CRC32 的大纲"
             }
           },
           {
@@ -253,8 +229,9 @@
   },
   "active": "7c3a8500d138fe70",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 校验App的CRC32.md",
+    "附件存放/Pasted image 20250530091816.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 校验App的CRC32.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件.md",
     "附件存放/Pasted image 20250529192850.png",
     "附件存放/Pasted image 20250529192559.png",

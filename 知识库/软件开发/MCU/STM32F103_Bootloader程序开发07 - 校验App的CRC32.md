@@ -193,6 +193,7 @@ uint32_t Calculate_Firmware_CRC32_SW(uint32_t flash_addr, uint32_t total_len);
 
 ## 2.3、main.c
 ![[Pasted image 20250529192508.png | 1100]]
+![[Pasted image 20250530091816.png | 1100]]
 ![[Pasted image 20250529192559.png | 1100]]
 
 # 三、测试代码
