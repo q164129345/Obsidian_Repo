@@ -4,6 +4,10 @@
 
 `为了保障IAP升级过程中的固件完整性，避免因损坏文件导致设备“变砖”，为App.bin添加CRC32校验码是一项关键措施。`在实际产品中，IAP（在应用程序中编程）升级机制极大地提升了设备远程维护与功能迭代的效率。然而，一旦升级过程中出现传输异常、存储错误或数据被篡改，App.bin中的固件内容若无有效校验机制，将可能导致“程序跳转失败”或“设备变砖”的严重问题。为避免此类风险，我们在本篇中将介绍如何在生成的App.bin文件末尾添加一个CRC32校验码，并在Bootloader中进行验证。通过这一机制，系统能在启动前准确判断固件的完整性，拒绝加载损坏固件，从而提升系统的可靠性与安全性。
 
+![[Pasted image 20250530092955.png]]
+`总的来说，本章节的目的是在App.bin的结尾增加4个字节的CRC32，OTA（IAP）升级的时候使用App_crc.bin。注意不要使用App.bin。`
+
+
 项目地址：
 github: https://github.com/q164129345/MCU_Develop/tree/main/bootloader06_stm32f103_compile_bin_iap_file
 gitee(国内): https://gitee.com/wallace89/MCU_Develop/tree/main/bootloader06_stm32f103_compile_bin_iap_file
