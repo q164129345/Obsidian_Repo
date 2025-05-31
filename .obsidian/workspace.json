@@ -79,7 +79,8 @@
               "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,13 +200,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性 的大纲"
+              "title": "STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖” 的大纲"
             }
           },
           {
@@ -251,13 +252,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7c3a8500d138fe70",
+  "active": "3f245478713957a0",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
+    "附件存放/Pasted image 20250531201909.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
     "附件存放/Pasted image 20250530172554.png",
     "附件存放/Pasted image 20250530171925.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
     "附件存放/Pasted image 20250530092955.png",
     "附件存放/Pasted image 20250530092910.png",
     "附件存放/Pasted image 20250530091816.png",
