@@ -1,6 +1,6 @@
 # 导言
 ---
-![[Pasted image 20250525202632.png]]
+![[Pasted image 20250531202329.png]]
 本章节的目的是`实现Bootloader程序顺利跳转App程序，App程序能正常执行（中断回调正常等）。`
 
 上一章节《[[STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h)]]》学会使用"C/C++的构造函数（constructor）机制"让我们自己编写的函数`_SystemStart()`在main()之前先运行。

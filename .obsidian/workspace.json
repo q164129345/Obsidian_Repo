@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”"
+              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划"
             }
           },
           {
@@ -137,8 +137,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5,
-    "collapsed": true
+    "width": 463.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -200,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖” 的大纲"
+              "title": "STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划 的大纲"
             }
           },
           {
@@ -254,28 +253,28 @@
   },
   "active": "3f245478713957a0",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250531201909.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
+    "附件存放/Pasted image 20250531202718.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h).md",
+    "附件存放/Pasted image 20250531202510.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h).md",
+    "附件存放/Pasted image 20250531202329.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+    "附件存放/Pasted image 20250531201909.png",
     "附件存放/Pasted image 20250530172554.png",
     "附件存放/Pasted image 20250530171925.png",
     "附件存放/Pasted image 20250530092955.png",
     "附件存放/Pasted image 20250530092910.png",
     "附件存放/Pasted image 20250530091816.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件.md",
     "附件存放/Pasted image 20250529192850.png",
     "附件存放/Pasted image 20250529192559.png",
-    "附件存放/Pasted image 20250529192508.png",
-    "附件存放/Pasted image 20250529191910.png",
-    "附件存放/Pasted image 20250529191428.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h).md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h).md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
     "电子书/STM32F1中文参考手册V10.pdf",
