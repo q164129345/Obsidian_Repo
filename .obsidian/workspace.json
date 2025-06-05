@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+                "file": "知识库/软件开发/python/python3 - Windows11系统通过离线方式安装pyserial.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h)"
-            }
-          },
-          {
-            "id": "f081dba421d79567",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性"
+              "title": "python3 - Windows11系统通过离线方式安装pyserial"
             }
           }
         ]
@@ -129,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+                "file": "知识库/软件开发/python/python3 - Windows11系统通过离线方式安装pyserial.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h) 的反向链接列表"
+              "title": "python3 - Windows11系统通过离线方式安装pyserial 的反向链接列表"
             }
           },
           {
@@ -148,12 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+                "file": "知识库/软件开发/python/python3 - Windows11系统通过离线方式安装pyserial.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h) 的出链列表"
+              "title": "python3 - Windows11系统通过离线方式安装pyserial 的出链列表"
             }
           },
           {
@@ -175,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+                "file": "知识库/软件开发/python/python3 - Windows11系统通过离线方式安装pyserial.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h) 的大纲"
+              "title": "python3 - Windows11系统通过离线方式安装pyserial 的大纲"
             }
           },
           {
@@ -229,8 +205,14 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
+    "附件存放/Pasted image 20250605205125.png",
+    "附件存放/Pasted image 20250605204721.png",
+    "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
+    "知识库/软件开发/python/python3 - Windows11系统通过离线方式安装pyserial.md",
+    "知识库/软件开发/QT/QT MQTT02 - 创建一个MQTT客户端，每2S发布一个消息，当收到消息时，打印到log控制台.md",
+    "知识库/软件开发/QT/QT MQTT01 - Ubuntu系统安装与使用QMqtt库.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
     "附件存放/Pasted image 20250605152235.png",
     "附件存放/Pasted image 20250605151838.png",
     "附件存放/Pasted image 20250605151212.png",
@@ -240,7 +222,6 @@
     "附件存放/Pasted image 20250605145902.png",
     "附件存放/Pasted image 20250605145725.png",
     "附件存放/Pasted image 20250605144418.png",
-    "附件存放/Pasted image 20250605141154.png",
     "202506050923.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
@@ -262,10 +243,6 @@
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记22 - 基础定时器TIM实现1ms周期回调.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记06 - 梳理串口与串行发送“Hello,World\".md",
     "电子书/Cortex-M3技术参考手册(TRM)_读书笔记.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
