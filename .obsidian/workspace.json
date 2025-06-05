@@ -4,17 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "c3f1e8e454175021",
+        "id": "6a4e9656eb3d3e40",
         "type": "tabs",
         "children": [
           {
-            "id": "7c3a8500d138fe70",
+            "id": "b56b5b5fb3c5156a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h)"
+            }
+          },
+          {
+            "id": "f081dba421d79567",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -30,57 +54,8 @@
               "icon": "lucide-file",
               "title": "STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性"
             }
-          },
-          {
-            "id": "3f245478713957a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h)"
-            }
-          },
-          {
-            "id": "703d926459c262ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h)"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5,
+    "width": 449.5,
     "collapsed": true
   },
   "right": {
@@ -154,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流 的反向链接列表"
+              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h) 的反向链接列表"
             }
           },
           {
@@ -173,12 +148,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "无刷电机控制 - SimpleFOC09 - 基于STM32F103+CubeMX，ADC通道采样相电流 的出链列表"
+              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h) 的出链列表"
             }
           },
           {
@@ -238,7 +213,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,27 +227,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f245478713957a0",
+  "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250531203039.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
-    "附件存放/Pasted image 20250531202718.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h).md",
-    "附件存放/Pasted image 20250531202510.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h).md",
-    "附件存放/Pasted image 20250531202329.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
-    "附件存放/Pasted image 20250531201909.png",
-    "附件存放/Pasted image 20250530172554.png",
-    "附件存放/Pasted image 20250530171925.png",
-    "附件存放/Pasted image 20250530092955.png",
-    "附件存放/Pasted image 20250530092910.png",
-    "附件存放/Pasted image 20250530091816.png",
-    "附件存放/Pasted image 20250529192850.png",
+    "附件存放/Pasted image 20250605152235.png",
+    "附件存放/Pasted image 20250605151838.png",
+    "附件存放/Pasted image 20250605151212.png",
+    "附件存放/Pasted image 20250605151050.png",
+    "附件存放/Pasted image 20250605150522.png",
+    "附件存放/Pasted image 20250605150039.png",
+    "附件存放/Pasted image 20250605145902.png",
+    "附件存放/Pasted image 20250605145725.png",
+    "附件存放/Pasted image 20250605144418.png",
+    "附件存放/Pasted image 20250605141154.png",
+    "202506050923.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发02 - Bootloader程序架构与STM32F103的Flash内存规划.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发01 - 什么是IAP？跟OTA有什么关系？.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发03 - 启动入口与升级模式判断(boot_entry.c与boot_entry.h).md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发04 - App跳转模块(app_jump.c与app_jump.h).md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
@@ -291,7 +266,6 @@
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记21 - CAN接收过滤器：CPU减负神器，提升系统效率的第一道防线.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12 - 提高串口通讯程序的健壮性：异常监控 + 超时保护机制.md",
     "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记19 - CAN发送中断+CAN接收中断+接收所有CAN报文+ringbuffer数据结构.md",
-    "知识库/软件开发/MCU/STM32F103_HAL库+寄存器学习笔记20 - CAN发送中断+ringbuffer + CAN空闲接收中断+接收所有CAN报文+ringbuffer.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
