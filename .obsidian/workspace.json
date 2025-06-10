@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
+                "file": "知识库/软件开发/python/Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "VScode - 我的常用插件01 - 主题插件Noctis"
+              "title": "Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin）"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 449.5,
-    "collapsed": true
+    "width": 322.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -151,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
+                "file": "知识库/软件开发/python/Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VScode - 我的常用插件01 - 主题插件Noctis 的大纲"
+              "title": "Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin） 的大纲"
             }
           },
           {
@@ -205,6 +204,12 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250610204711.png",
+    "附件存放/Pasted image 20250610204357.png",
+    "附件存放/Pasted image 20250610204111.png",
+    "附件存放/Pasted image 20250610203354.png",
+    "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
+    "知识库/软件开发/python/Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin）.md",
     "附件存放/Pasted image 20250610134325.png",
     "附件存放/Pasted image 20250610134010.png",
     "附件存放/Pasted image 20250610133917.png",
@@ -212,15 +217,10 @@
     "附件存放/Pasted image 20250610115958.png",
     "附件存放/Pasted image 20250610115910.png",
     "附件存放/Pasted image 20250610115749.png",
-    "附件存放/Pasted image 20250610115448.png",
-    "附件存放/Pasted image 20250610115321.png",
     "知识库/软件开发/开发工具/VScode - 解决IntelliSense没有正常工作.md",
-    "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
     "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
     "知识库/软件开发/python/Python - Windows11通过离线方式安装pyserial.md",
-    "附件存放/Pasted image 20250605205125.png",
-    "附件存放/Pasted image 20250605204721.png",
     "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
     "知识库/软件开发/QT/QT MQTT02 - 创建一个MQTT客户端，每2S发布一个消息，当收到消息时，打印到log控制台.md",
     "知识库/软件开发/QT/QT MQTT01 - Ubuntu系统安装与使用QMqtt库.md",
@@ -242,7 +242,6 @@
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
     "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
-    "知识库/软件开发/MCU/STM32外设 - HAL库 - TIM，产生互补PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
