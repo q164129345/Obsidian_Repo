@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/python/Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin）.md",
+                "file": "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin）"
+              "title": "Python3 - IAP上位机程序02 - 串口驱动"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/python/Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin）.md",
+                "file": "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin） 的大纲"
+              "title": "Python3 - IAP上位机程序02 - 串口驱动 的大纲"
             }
           },
           {
@@ -204,19 +204,19 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
+    "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）.md",
+    "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动.md",
+    "附件存放/serial_manager.gif",
+    "附件存放/Pasted image 20250611114426.png",
+    "附件存放/Pasted image 20250611114030.png",
     "附件存放/Pasted image 20250610204711.png",
     "附件存放/Pasted image 20250610204357.png",
     "附件存放/Pasted image 20250610204111.png",
     "附件存放/Pasted image 20250610203354.png",
     "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
-    "知识库/软件开发/python/Pytho3 - 开发IAP升级上位机01 - 读取IAP升级固件（比如App_crc.bin）.md",
     "附件存放/Pasted image 20250610134325.png",
     "附件存放/Pasted image 20250610134010.png",
     "附件存放/Pasted image 20250610133917.png",
-    "附件存放/Pasted image 20250610133830.png",
-    "附件存放/Pasted image 20250610115958.png",
-    "附件存放/Pasted image 20250610115910.png",
-    "附件存放/Pasted image 20250610115749.png",
     "知识库/软件开发/开发工具/VScode - 解决IntelliSense没有正常工作.md",
     "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
@@ -241,7 +241,6 @@
     "电子书/STM32F4xx中文参考手册.pdf",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
-    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC11 - 基于STM32F103+CubeMX，位置闭环控制（有电流环）.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
