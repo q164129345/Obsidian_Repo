@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动.md",
+                "file": "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python3 - IAP上位机程序02 - 串口驱动"
+              "title": "Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动.md",
+                "file": "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python3 - IAP上位机程序02 - 串口驱动 的大纲"
+              "title": "Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin） 的大纲"
             }
           },
           {
@@ -204,8 +204,8 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
-    "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动.md",
+    "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）.md",
     "附件存放/serial_manager.gif",
     "附件存放/Pasted image 20250611114426.png",
     "附件存放/Pasted image 20250611114030.png",
