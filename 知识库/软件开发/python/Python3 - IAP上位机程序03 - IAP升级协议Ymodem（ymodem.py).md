@@ -247,6 +247,13 @@ if __name__ == "__main__":
         # 显示填充部分的开始
         padding_preview = " ".join([f"{b:02X}" for b in last_packet[3+last_packet_size:3+last_packet_size+padding_bytes]])
         print(f"填充部分开始{padding_bytes}个字节(应为0x1A): {padding_preview}")
+    
+    # 打印结束帧
+    packet_end = ymodem.build_end_packet()
+    print(f"\n结束帧:")
+    hex_packet_end = " ".join([f"{b:02X}" for b in packet_end])
+    print(hex_packet_end)
+    print(f"结束帧长度: {len(packet_end)-5} 字节数据 + 5 字节头尾 = {len(packet_end)} 字节")
 
 
 ```
@@ -268,12 +275,24 @@ if __name__ == "__main__":
 ## 3.2、分析数据帧
 ### 3.2.1、第1包数据帧
 ![[Pasted image 20250615124018.png]]
-第1包如上所示。
+如上所示，是第1包数据。
 
-
-
-
+![[Pasted image 20250615174506.png]]
+如上所示，Python程序使用Ymodem协议发出来的二进制文件跟vscode直接打开的二进制文件App_crc.bin的内容一致。必须一致，否则IAP升级后，MCU肯定会跑不起来，变成砖。
 
 
 ### 3.2.2、最后1包数据帧
 ![[Pasted image 20250615124307.png]]
+![[Pasted image 20250615175351.png]]
+如上所示，从最后1包的最后几十个字节看来，没问题！
+
+## 3.3、分析结束帧
+![[Pasted image 20250615180519.png]]
+结束帧除了前三个字节外，其他所有字节都是0x00。
+
+
+
+
+
+
+
