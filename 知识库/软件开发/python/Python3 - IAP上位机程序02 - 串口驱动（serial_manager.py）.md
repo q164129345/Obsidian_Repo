@@ -1,6 +1,6 @@
 # 导言
 ---
-![[Pasted image 20250611114030.png]]
+![[Pasted image 20250614183835.png]]
 上一章节完成bin_reader.py，成功地读取二进制升级固件（在firmware/App_crc.bin），本章节开始梳理serial_manager.py的串口驱动代码。
 
 ![[Pasted image 20250611114426.png]]

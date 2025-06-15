@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）.md",
+                "file": "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）"
+              "title": "Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py)"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 322.5
+    "width": 384.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）.md",
+                "file": "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin） 的大纲"
+              "title": "Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py) 的大纲"
             }
           },
           {
@@ -204,19 +204,21 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
-    "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动.md",
-    "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（比如App_crc.bin）.md",
-    "附件存放/serial_manager.gif",
-    "附件存放/Pasted image 20250611114426.png",
-    "附件存放/Pasted image 20250611114030.png",
-    "附件存放/Pasted image 20250610204711.png",
-    "附件存放/Pasted image 20250610204357.png",
-    "附件存放/Pasted image 20250610204111.png",
-    "附件存放/Pasted image 20250610203354.png",
+    "附件存放/Pasted image 20250615124307.png",
+    "附件存放/Pasted image 20250615124018.png",
+    "附件存放/Pasted image 20250615120311.png",
+    "附件存放/ymodem_test.gif",
+    "附件存放/Pasted image 20250615115416.png",
+    "附件存放/Pasted image 20250615115111.png",
+    "附件存放/Pasted image 20250615095759.png",
+    "附件存放/Pasted image 20250615095520.png",
+    "附件存放/Pasted image 20250615092826.png",
+    "附件存放/Pasted image 20250614204453.png",
+    "附件存放/Pasted image 20250614201741.png",
+    "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（bin_reader.py）.md",
+    "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动（serial_manager.py）.md",
+    "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
     "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
-    "附件存放/Pasted image 20250610134325.png",
-    "附件存放/Pasted image 20250610134010.png",
-    "附件存放/Pasted image 20250610133917.png",
     "知识库/软件开发/开发工具/VScode - 解决IntelliSense没有正常工作.md",
     "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
@@ -240,7 +242,6 @@
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/STM32F4xx中文参考手册.pdf",
     "知识库/Maps/STM32汇总.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记23 - PWM波形输出及软件方式调整周期与占空比.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
