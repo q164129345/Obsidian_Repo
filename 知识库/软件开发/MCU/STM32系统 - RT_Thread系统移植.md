@@ -13,3 +13,9 @@
 在while(1)循环，记得增加rt_thread_delay()，让系统调度起来，不要卡死的while()，否则console会不接收任何指令。
 ![[Pasted image 20241210142613.png]]
 
+# 二、细节补充
+---
+## 2.1、移植完成后，main()函数里的心跳灯，居然跑不起来
+不要让CubeMX生成`SystemClock_Config()`就能解决。
+![[Pasted image 20250616192019.png]]
+![[Pasted image 20250616192343.png]]

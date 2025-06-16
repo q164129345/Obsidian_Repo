@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
+                "file": "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py)"
+              "title": "STM32系统 - RT_Thread系统移植"
             }
           }
         ]
@@ -150,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
+                "file": "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py) 的大纲"
+              "title": "STM32系统 - RT_Thread系统移植 的大纲"
             }
           },
           {
@@ -204,6 +204,14 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250616192343.png",
+    "附件存放/Pasted image 20250616192019.png",
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
+    "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
+    "知识库/软件开发/python/Python3 - IAP上位机程序04 - 通过串口发送Ymodem协议数据包，传输固件.md",
+    "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
     "附件存放/Pasted image 20250615180519.png",
     "附件存放/Pasted image 20250615175351.png",
     "附件存放/Pasted image 20250615174506.png",
@@ -213,11 +221,8 @@
     "附件存放/ymodem_test.gif",
     "附件存放/Pasted image 20250615115416.png",
     "附件存放/Pasted image 20250615115111.png",
-    "附件存放/Pasted image 20250615095759.png",
-    "附件存放/Pasted image 20250615095520.png",
     "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（bin_reader.py）.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动（serial_manager.py）.md",
-    "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
     "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
     "知识库/软件开发/开发工具/VScode - 解决IntelliSense没有正常工作.md",
     "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
@@ -235,13 +240,8 @@
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发06 - IAP升级用的App.bin增加CRC32校验码，确保固件完整性，防止“变砖”.md",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记24 - TIM产生中心PWM波，中心对齐模式1 + PWM模式2（FOC算法专用）.md",
-    "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.1 - 串口DMA高效收发实战：引入ringbuffer结构.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/STM32F4xx中文参考手册.pdf",
-    "知识库/Maps/STM32汇总.md",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
     "附件存放/黑化才能救自己，那些从底层杀出来的狠人到底做了什么.mp4",
     "电子书/PM0056_Programming_manual.pdf",
