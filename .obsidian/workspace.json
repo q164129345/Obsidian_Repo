@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.3 - 串口DMA高效收发实战3：支持多实例化的版本.md",
+                "file": "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_LL库+寄存器学习笔记12.3 - 串口DMA高效收发实战3：支持多实例化的版本"
+              "title": "Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py)"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 376.5,
-    "collapsed": true
+    "width": 349.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -151,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.3 - 串口DMA高效收发实战3：支持多实例化的版本.md",
+                "file": "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_LL库+寄存器学习笔记12.3 - 串口DMA高效收发实战3：支持多实例化的版本 的大纲"
+              "title": "Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py) 的大纲"
             }
           },
           {
@@ -205,6 +204,9 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250622231517.png",
+    "知识库/软件开发/python/Python3 - IAP上位机程序04 - 通过串口发送Ymodem协议数据包，传输固件.md",
+    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.3 - 串口DMA高效收发实战3：支持多实例化的版本.md",
     "附件存放/Pasted image 20250621160951.png",
     "附件存放/Pasted image 20250621154326.png",
     "附件存放/Pasted image 20250621154035.png",
@@ -216,15 +218,12 @@
     "附件存放/Pasted image 20250621145258.png",
     "附件存放/Pasted image 20250621143717.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.3 - 串口DMA高效收发实战3：支持多实例化的版本.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - DMA串口发送，开启DMA传输完成中断.md",
     "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
-    "附件存放/Pasted image 20250616192343.png",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
-    "知识库/软件开发/python/Python3 - IAP上位机程序04 - 通过串口发送Ymodem协议数据包，传输固件.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
     "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（bin_reader.py）.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动（serial_manager.py）.md",
