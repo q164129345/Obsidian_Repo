@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 利用备份寄存器保存“升级状态”，.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,17 +28,17 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h)"
+              "title": "STM32F103_Bootloader程序开发10 - 利用备份寄存器保存“升级状态”，"
             }
           },
           {
-            "id": "ccac55d32e340fff",
+            "id": "222913c81d6632e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -55,8 +55,7 @@
               "title": "STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,13 +174,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 利用备份寄存器保存“升级状态”，.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议 的大纲"
+              "title": "STM32F103_Bootloader程序开发10 - 利用备份寄存器保存“升级状态”， 的大纲"
             }
           },
           {
@@ -227,12 +226,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccac55d32e340fff",
+  "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 利用备份寄存器保存“升级状态”，.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
     "附件存放/Pasted image 20250624190653.png",
     "知识库/软件开发/python/Python3 - IAP上位机程序04 - 通过串口发送Ymodem协议数据包，传输固件.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
     "附件存放/Pasted image 20250624163017.png",
     "附件存放/Pasted image 20250624162944.png",
     "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
@@ -247,7 +247,6 @@
     "附件存放/Pasted image 20250621160951.png",
     "附件存放/Pasted image 20250621154326.png",
     "附件存放/Pasted image 20250621154035.png",
-    "附件存放/Pasted image 20250621153703.png",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - DMA串口发送，开启DMA传输完成中断.md",
     "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
