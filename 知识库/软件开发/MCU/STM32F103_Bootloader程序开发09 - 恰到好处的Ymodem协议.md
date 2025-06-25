@@ -920,7 +920,7 @@ uint8_t YModem_Get_Response(YModem_Handler_t *handler, uint8_t *buffer, uint8_t 
 ```
 
 # 三、YModem_README.md
-
+---
 ## 概述
 这是一个完全解耦的YModem协议下位机实现，专门为STM32F103系列微控制器设计。它就像一个"纯粹的包裹处理专家"，能够：
 
@@ -939,45 +939,10 @@ IAP/
 └── (已删除旧版示例文件)
 ```
 
-## 核心特性
-
-### 1. 协议兼容性
-- 完全兼容标准YModem协议
-- 支持1024字节数据包（STX包头）
-- 支持128字节数据包（SOH包头）
-- CRC16校验确保数据完整性
-- **新增**：支持最多65535个包的大文件传输
-
-### 2. 状态机设计
-```
-空闲状态 → 等待文件信息包 → 等待数据包 → 接收数据 → 等待结束包 → 完成
-                                    ↓
-                               写入Flash缓存区
-                                    ↓
-                            (错误重试机制保护)
-```
-
-### 3. Flash管理
-- 自动擦除Flash页面
-- 按4字节对齐写入数据
-- 地址范围检查
-- 写入到App下载缓存区（`FLASH_DL_START_ADDR`）
-
-### 4. 错误处理与恢复
-- **智能重试**：自动重试机制，最大重试3次
-- **错误分类处理**：
-  - CRC校验失败 → 发送NAK请求重传
-  - 包序号错误 → 发送NAK请求重传  
-  - Flash写入失败 → 发送CAN终止传输
-  - 达到最大重试次数 → 自动终止传输
-- **状态自动恢复**：传输完成后可自动接受新的传输请求
-
 ## 使用方法
 
 ### 1. 实际项目中的集成方式
-
 根据当前项目的实际实现，YModem协议已经完全集成到`main.c`中：
-
 ```c
 #include "ymodem.h"
 #include "bsp_usart_hal.h"
@@ -1050,7 +1015,6 @@ int main(void)
 ```
 
 ### 2. 关键集成要点
-
 1. **初始化顺序**：
    ```c
    // 1. 先初始化USART驱动
@@ -1084,9 +1048,7 @@ int main(void)
    ```
 
 ### 3. 传输完成后的处理
-
 当YModem传输完成后，您可以在代码中添加固件校验和复制逻辑：
-
 ```c
 if (ymodem_result == YMODEM_RESULT_COMPLETE) {
     log_printf("YModem: 固件升级完成！准备校验和复制...\r\n");
@@ -1164,35 +1126,7 @@ uint8_t YModem_Get_Response(YModem_Handler_t *handler, uint8_t *buffer, uint8_t 
 - **返回**: 实际获取的响应数据长度
 - **说明**: 获取后会自动清除响应数据缓冲区
 
-### 数据结构更新
-
-#### YModem_Handler_t 结构体新增字段
-```c
-typedef struct YModem_Handler {
-    // ... existing fields ...
-    uint16_t expected_packet_num;        /**< 期望的包序号（支持更大包序号）*/
-    uint8_t retry_count;                 /**< 当前重试计数 */
-    uint8_t max_retry;                   /**< 最大重试次数（默认3次）*/
-    uint8_t response_buffer[16];         /**< 响应数据缓冲区 */
-    uint8_t response_length;             /**< 响应数据长度 */
-    uint8_t response_ready;              /**< 响应数据就绪标志 */
-} YModem_Handler_t;
-```
-
-### 返回值说明
-
-```c
-typedef enum {
-    YMODEM_RESULT_OK = 0,           // 处理成功
-    YMODEM_RESULT_CONTINUE,         // 继续处理
-    YMODEM_RESULT_NEED_MORE_DATA,   // 需要更多数据
-    YMODEM_RESULT_ERROR,            // 处理错误
-    YMODEM_RESULT_COMPLETE,         // 传输完成
-} YModem_Result_t;
-```
-
 ## 协议流程
-
 ### 1. 上位机发送流程
 ```
 上位机 → 第0包（文件信息）→ 下位机
@@ -1212,9 +1146,7 @@ STX(0x02) | 包序号 | 包序号取反 | 1024字节数据 | CRC16高字节 | CR
 ```
 
 ## 内存映射
-
 根据`flash_map.h`的定义：
-
 ```c
 #define FLASH_DL_START_ADDR    0x08040000U  // App下载缓存区起始地址
 #define FLASH_DL_END_ADDR      0x0806FFFFU  // App下载缓存区结束地址
@@ -1222,7 +1154,6 @@ STX(0x02) | 包序号 | 包序号取反 | 1024字节数据 | CRC16高字节 | CR
 ```
 
 ## 错误处理
-
 ### 1. CRC校验失败
 - 发送NAK给上位机
 - 要求重传当前包
@@ -1241,67 +1172,10 @@ STX(0x02) | 包序号 | 包序号取反 | 1024字节数据 | CRC16高字节 | CR
 - 发送CAN取消传输
 - 记录错误日志
 
-### 5. 缓冲区溢出保护（新增）
+### 5. 缓冲区溢出保护
 - 文件名长度检查，防止缓冲区溢出
 - 数据指针有效性验证
 - 自动错误恢复机制
-
-## 调试信息
-
-通过RTT输出详细的调试信息：
-
-```
-YModem: 协议处理器初始化完成
-YModem: 文件信息 - 名称: App_crc.bin, 大小: 12345 字节
-YModem: 进度 10% (1024/12345 字节)
-YModem: 成功写入 1024 字节到地址 0x08040000
-YModem: 传输完成！总共接收 12345 字节
-
-// 新增错误处理调试信息
-YModem: CRC verification failed, calculated value=0x1234, received value=0x5678
-YModem: max retry count reached, abort
-YModem: packet number error, expected 5, received 3
-```
-
-## 注意事项
-
-### 1. Flash写入限制
-- STM32F103的Flash写入最小单位是4字节（1个字）
-- 写入前必须先擦除对应的Flash页面
-- 每页大小为2KB
-
-### 2. 中断安全
-- YModem_Run()函数设计为非阻塞式
-- 可以在主循环或定时器中安全调用
-- 不会影响其他中断处理
-
-### 3. 内存使用
-- YModem_Handler_t结构体大小约2KB
-- 主要用于接收缓冲区和数据包解析
-
-### 4. 兼容性
-- 与标准YModem协议完全兼容
-- 可以与任何支持YModem的上位机软件配合使用
-
-### 5. 错误恢复能力（新增）
-- **自动重试**：遇到临时错误时自动重试，最多3次
-- **智能终止**：达到最大重试次数后自动终止，避免死锁
-- **状态保护**：传输过程中的状态完整性保护
-- **大文件支持**：支持最多65535个包的大文件传输
-
-## 性能特性
-
-### 传输能力
-- **最大文件大小**：理论上64MB（65535 × 1024字节）
-- **实际限制**：受Flash容量限制（当前配置192KB缓存区）
-- **传输速度**：取决于通信接口速度和Flash写入性能
-- **错误恢复**：自动重试机制，提高传输可靠性
-
-### 内存优化
-- 静态内存分配，避免动态内存碎片
-- 响应缓冲区大小优化（16字节）
-- 接收缓冲区按最大包大小设计（1024+5字节）
-
 
 ### 扩展到其他数据源的方法
 如果需要支持其他数据源，只需要：
@@ -1349,41 +1223,8 @@ while(Ethernet_Has_Data()) {
    - 检查log_printf函数是否正常工作
    - 观察YModem传输过程中的详细日志
 
-### 调试建议
-
-1. **使用RTT查看详细日志**：
-   ```
-   YModem: 协议处理器初始化完成
-   YModem: 文件信息 - 名称: App_crc.bin, 大小: 12345 字节
-   YModem: 进度 10% (1024/12345 字节)
-   YModem: 成功写入 1024 字节到地址 0x08040000
-   YModem: 传输完成！总共接收 12345 字节
-   ```
-
-2. **检查传输状态**：
-   - 观察YModem_Run()的返回值
-   - 监控YMODEM_RESULT_COMPLETE和YMODEM_RESULT_ERROR状态
-   - 确认响应数据是否正确发送给上位机
-
-3. **验证数据完整性**：
-   - 可以添加额外的CRC32校验
-   - 比较接收到的文件大小与预期大小
-   - 检查Flash中写入的数据是否正确
-
-### 性能优化建议
-
-1. **提高传输效率**：
-   - 保持2ms的处理周期，避免数据积压
-   - 确保USART DMA缓冲区足够大
-   - 优化Flash写入策略
-
-2. **错误恢复**：
-   - 利用YModem的自动重试机制
-   - 在传输错误时及时重置协议处理器
-   - 记录错误统计信息用于分析
-
 
 # 四、细节补充
 ----
-## 4.1、IAP上位机
+## 4.1、运行IAP上位机，开始IAP升级
 ![[Pasted image 20250624190653.png]]
