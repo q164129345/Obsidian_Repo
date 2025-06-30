@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32汇总"
+              "title": "STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性"
             }
           }
         ]
@@ -88,7 +88,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.5
+    "width": 429.5,
+    "collapsed": true
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -150,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/Maps/STM32汇总.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32汇总 的大纲"
+              "title": "STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性 的大纲"
             }
           },
           {
@@ -204,31 +205,32 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250630201950.png",
+    "附件存放/Pasted image 20250630201756.png",
+    "附件存放/Pasted image 20250630195920.png",
+    "附件存放/Pasted image 20250630194536.png",
+    "附件存放/Pasted image 20250630194431.png",
+    "附件存放/Pasted image 20250630193741.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
+    "附件存放/Pasted image 20250630192701.png",
+    "附件存放/Pasted image 20250630192147.png",
+    "附件存放/Pasted image 20250630191223.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发99 - 改用备份寄存器保存变量update_flag.md",
+    "附件存放/Pasted image 20250630155650.png",
+    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE01 - vscode搭建Embedded IDE开发环境（支持JLINK、STLINK、DAPLINK）.md",
     "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
     "知识库/软件开发/MCU/STM32 - RTT组件05 - J-Scope数据可视化，使用HSS方式.md",
     "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
     "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 完成bootloader程序.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发99 - 改用备份寄存器保存变量update_flag.md",
     "附件存放/Pasted image 20250626191846.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
-    "附件存放/Pasted image 20250626145811.png",
-    "附件存放/Pasted image 20250626144403.png",
-    "附件存放/Pasted image 20250626143605.png",
-    "附件存放/Pasted image 20250626141957.png",
-    "附件存放/Pasted image 20250624190653.png",
     "知识库/软件开发/python/Python3 - IAP上位机程序04 - 通过串口发送Ymodem协议数据包，传输固件.md",
-    "附件存放/Pasted image 20250624163017.png",
-    "附件存放/Pasted image 20250624162944.png",
     "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
-    "附件存放/IAP_upgrade.gif",
-    "知识库/Maps/STM32汇总.md",
-    "附件存放/Pasted image 20250624095636.png",
     "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动（serial_manager.py）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.3 - 串口DMA高效收发实战3：支持多实例化的版本.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
@@ -239,7 +241,6 @@
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（bin_reader.py）.md",
-    "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/STM32F4xx中文参考手册.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
