@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 完结篇.md",
+                "file": "知识库/Maps/STM32汇总.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发10 - 完结篇"
-            }
-          },
-          {
-            "id": "5bbe510d68c4545d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h)"
+              "title": "STM32汇总"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 527.5
+    "width": 429.5
   },
   "right": {
     "id": "18e9abf3b1473af8",
@@ -175,13 +150,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
+                "file": "知识库/Maps/STM32汇总.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h) 的大纲"
+              "title": "STM32汇总 的大纲"
             }
           },
           {
@@ -213,8 +188,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5,
-    "collapsed": true
+    "width": 324.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,10 +202,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5bbe510d68c4545d",
+  "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 完结篇.md",
+    "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
+    "知识库/软件开发/MCU/STM32 - Embedded IDE01 - vscode搭建Embedded IDE开发环境（支持JLINK、STLINK、DAPLINK）.md",
+    "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
+    "知识库/软件开发/MCU/STM32 - RTT组件05 - J-Scope数据可视化，使用HSS方式.md",
+    "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
+    "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 完成bootloader程序.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发99 - 改用备份寄存器保存变量update_flag.md",
     "附件存放/Pasted image 20250626191846.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
@@ -239,7 +220,6 @@
     "附件存放/Pasted image 20250626144403.png",
     "附件存放/Pasted image 20250626143605.png",
     "附件存放/Pasted image 20250626141957.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
     "附件存放/Pasted image 20250624190653.png",
     "知识库/软件开发/python/Python3 - IAP上位机程序04 - 通过串口发送Ymodem协议数据包，传输固件.md",
     "附件存放/Pasted image 20250624163017.png",
@@ -260,12 +240,6 @@
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（bin_reader.py）.md",
     "知识库/软件开发/开发工具/VScode - 我的常用插件01 - 主题插件Noctis.md",
-    "知识库/软件开发/开发工具/VScode - 解决IntelliSense没有正常工作.md",
-    "知识库/软件开发/开发工具/cursor - 有用的提示词01.md",
-    "知识库/软件开发/python/Python - Windows11通过离线方式安装pyserial.md",
-    "知识库/软件开发/QT/QT Quick,pyside6 - 信号与槽01 - 定时器周期改变一个类的成员value，UI更新value值并显示.md",
-    "知识库/软件开发/QT/QT MQTT02 - 创建一个MQTT客户端，每2S发布一个消息，当收到消息时，打印到log控制台.md",
-    "知识库/软件开发/QT/QT MQTT01 - Ubuntu系统安装与使用QMqtt库.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/STM32F4xx中文参考手册.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
