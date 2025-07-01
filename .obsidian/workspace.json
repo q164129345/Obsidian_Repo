@@ -13,30 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性"
-            }
-          },
-          {
-            "id": "1ac6c808c809f1c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader.md",
                 "mode": "source",
                 "source": false,
@@ -53,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader"
+            }
+          },
+          {
+            "id": "1ac6c808c809f1c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发12 - IAP升级全流程.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32F103_Bootloader程序开发12 - IAP升级全流程"
             }
           }
         ],
@@ -176,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发12 - IAP升级全流程.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader 的大纲"
+              "title": "STM32F103_Bootloader程序开发12 - IAP升级全流程 的大纲"
             }
           },
           {
@@ -230,19 +230,21 @@
   },
   "active": "1ac6c808c809f1c0",
   "lastOpenFiles": [
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
+    "附件存放/iap_update2.gif",
+    "附件存放/iap_update1.gif",
+    "附件存放/Pasted image 20250701202950.png",
+    "附件存放/Pasted image 20250701202832.png",
+    "附件存放/Pasted image 20250701202740.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发12 - IAP升级全流程.md",
+    "附件存放/Pasted image 20250701202532.png",
     "附件存放/Pasted image 20250701193338.png",
     "附件存放/JUMP_BOOT1.gif",
     "附件存放/Pasted image 20250701191758.png",
     "附件存放/Pasted image 20250701191239.png",
     "附件存放/Pasted image 20250701190733.png",
-    "附件存放/Pasted image 20250701175857.png",
-    "附件存放/Pasted image 20250701174048.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
-    "附件存放/Pasted image 20250701102210.png",
-    "附件存放/IAP_03.gif",
-    "附件存放/IAP_02.gif",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发99 - 改用备份寄存器保存变量update_flag.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
@@ -264,7 +266,6 @@
     "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/STM32F4xx中文参考手册.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
