@@ -6,7 +6,6 @@
 
 为了避免这种灾难性的后果，我们必须为Bootloader装上一颗更加智能的"大脑"。这颗"大脑"需要具备看门狗一样的警觉性，能够在漫长的等待中保持耐心，又能在真正的通信中断时果断决策，安全地返回App。本文将详细探讨如何实现一个具备通信看门狗功能（通讯超时倒计时）的IAP机制，并加固"跳转状态机"的健壮性，确保我们的Bootloader在任何异常情况下都能做出最正确的选择，真正做到万无一失。
 
-
 项目地址：  
 github: https://github.com/q164129345/MCU_Develop/tree/main/bootloader10_stm32f103_iap_done
 gitee(国内): https://gitee.com/wallace89/MCU_Develop/tree/main/bootloader10_stm32f103_iap_done
@@ -587,17 +586,31 @@ void assert_failed(uint8_t *file, uint32_t line)
 ---
 ## 3.1、正常上电启动
 ### 3.1.1、App区没有合法App
+![[Pasted image 20250701094939.png | 1000]]
+使用J-Flash将MCU的所有固件擦除掉，然后只烧录bootloader。此时，MCU只有bootloader程序，App区与App缓存区都是空白的。如上所示，检验到App区没有合法的App，bootloader不会跳转至App，一直等待IAP升级请求。
+
+接着，使用python3编写的IAP上位机跟MCU完成IAP升级。如下所示，IAP升级结束后，MCU成功跳转至App运行！
+![[IAP_02.gif]]
 
 ### 3.1.2、App区有合法App
-![[Pasted image 20250630201950.png]]
+![[Pasted image 20250630201950.png | 1000]]
+动态的效果：
+![[IAP_01.gif]]
 
+## 3.2、IAP升级请求
+本章笔记主要针对bootloader的功能完善，IAP升级请求的跳转需要在App程序完成。所以，将在下一章节开发、验证这个功能。
 
+## 3.3、IAP升级意外中断
+这是`关键的异常处理场景`。可能的原因包括：上位机在发送完IAP请求后就崩溃了；网络中断；串口线在中途被拔掉；或者上位机发送的数据格式错误，Bootloader无法识别。由于Bootloader在设定的时间内（例如10秒）没有收到任何有效的IAP报文来“喂狗”，倒计时器最终会计时结束。：Bootloader会判断发生了通信超时。此时，为了防止设备“变砖”，它会放弃本次升级，并`自动跳转回原来的App程序。`这个“安全返回”机制是整个系统健壮性的核心保障。
 
+![[IAP_03.gif]]
+如上所示，在IAP升级发送第4包的时候，我强制退出IAP上位机。接着，bootloader程序会重新倒计时10S。倒计时结束后，重新回到之前的App上运行。
 
-
-
-
-
+# 四、细节补充
+----
+## 4.1、bootloader调试完毕后，记得关闭RTT log打印
+`我碰到一个问题，bootloader的RTT Viwer打印log开启后，App程序的RTT Viwer打印log会失效，不正常！` 针对这个问题，我暂时没有找到解决方案。所以，调试完bootloader程序后，记得关闭RTT log打印，避免App程序的RTT 打印异常。
+![[Pasted image 20250701102210.png]]
 
 
 

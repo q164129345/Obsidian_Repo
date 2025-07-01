@@ -30,6 +30,30 @@
               "icon": "lucide-file",
               "title": "STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性"
             }
+          },
+          {
+            "id": "1ac6c808c809f1c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - App程序增加IAP升级请求，跳转bootloader程序.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "STM32F103_Bootloader程序开发11 - App程序增加IAP升级请求，跳转bootloader程序"
+            }
           }
         ]
       }
@@ -205,6 +229,13 @@
   },
   "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250701102210.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - App程序增加IAP升级请求，跳转bootloader程序.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
+    "附件存放/IAP_03.gif",
+    "附件存放/IAP_02.gif",
+    "附件存放/Pasted image 20250701094939.png",
+    "附件存放/IAP_01.gif",
     "附件存放/Pasted image 20250630201950.png",
     "附件存放/Pasted image 20250630201756.png",
     "附件存放/Pasted image 20250630195920.png",
@@ -212,12 +243,7 @@
     "附件存放/Pasted image 20250630194431.png",
     "附件存放/Pasted image 20250630193741.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
-    "附件存放/Pasted image 20250630192701.png",
-    "附件存放/Pasted image 20250630192147.png",
-    "附件存放/Pasted image 20250630191223.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发99 - 改用备份寄存器保存变量update_flag.md",
-    "附件存放/Pasted image 20250630155650.png",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE01 - vscode搭建Embedded IDE开发环境（支持JLINK、STLINK、DAPLINK）.md",
@@ -226,7 +252,6 @@
     "知识库/软件开发/MCU/STM32 - RTT组件03 - RTT Viewer测试回环打印.md",
     "知识库/软件开发/MCU/STM32 - RTT组件02 - RTT Viewer替代串口调试，实时打印调试log.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发08 - 将App下载缓存区的固件搬运到App区，运行新的App程序(op_flash.c与op_flash.h).md",
-    "附件存放/Pasted image 20250626191846.png",
     "电子书/STM32F1中文参考手册V10 - 读书笔记.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序04 - 通过串口发送Ymodem协议数据包，传输固件.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序03 - IAP升级协议Ymodem（ymodem.py).md",
@@ -240,7 +265,6 @@
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
     "知识库/软件开发/MCU/STM32系统 - RT_Thread移植控制台FinSH（串行方式）.md",
-    "知识库/软件开发/python/Python3 - IAP上位机程序01 - 读取IAP升级的MCU固件（bin_reader.py）.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/STM32F4xx中文参考手册.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
