@@ -55,7 +55,8 @@
               "title": "STM32F103_Bootloader程序开发11 - App程序增加IAP升级请求，跳转bootloader程序"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
+                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - App程序增加IAP升级请求，跳转bootloader程序.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性 的大纲"
+              "title": "STM32F103_Bootloader程序开发11 - App程序增加IAP升级请求，跳转bootloader程序 的大纲"
             }
           },
           {
@@ -227,22 +228,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b56b5b5fb3c5156a",
+  "active": "1ac6c808c809f1c0",
   "lastOpenFiles": [
-    "附件存放/Pasted image 20250701102210.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - App程序增加IAP升级请求，跳转bootloader程序.md",
+    "附件存放/Pasted image 20250701193338.png",
+    "附件存放/JUMP_BOOT1.gif",
+    "附件存放/Pasted image 20250701191758.png",
+    "附件存放/Pasted image 20250701191239.png",
+    "附件存放/Pasted image 20250701190733.png",
+    "附件存放/Pasted image 20250701175857.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - App程序增加IAP升级请求，跳转bootloader程序.md",
+    "附件存放/Pasted image 20250701174048.png",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
+    "附件存放/Pasted image 20250701102210.png",
     "附件存放/IAP_03.gif",
     "附件存放/IAP_02.gif",
     "附件存放/Pasted image 20250701094939.png",
-    "附件存放/IAP_01.gif",
-    "附件存放/Pasted image 20250630201950.png",
-    "附件存放/Pasted image 20250630201756.png",
-    "附件存放/Pasted image 20250630195920.png",
-    "附件存放/Pasted image 20250630194536.png",
-    "附件存放/Pasted image 20250630194431.png",
-    "附件存放/Pasted image 20250630193741.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发99 - 改用备份寄存器保存变量update_flag.md",
     "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
