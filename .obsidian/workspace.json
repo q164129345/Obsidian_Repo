@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - 基于STM32F405+CubeMX+simpleFOC01 ，移植simpleFOC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader"
+              "title": "无刷电机控制 - 基于STM32F405+CubeMX+simpleFOC01 ，移植simpleFOC"
             }
           },
           {
@@ -55,8 +55,7 @@
               "title": "STM32F103_Bootloader程序开发12 - IAP升级全流程"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 429.5,
+    "width": 492.5,
     "collapsed": true
   },
   "right": {
@@ -176,13 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "知识库/软件开发/MCU/STM32F103_Bootloader程序开发12 - IAP升级全流程.md",
+                "file": "知识库/硬件开发/电机控制/无刷电机控制 - 基于STM32F405+CubeMX+simpleFOC01 ，移植simpleFOC.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "STM32F103_Bootloader程序开发12 - IAP升级全流程 的大纲"
+              "title": "无刷电机控制 - 基于STM32F405+CubeMX+simpleFOC01 ，移植simpleFOC 的大纲"
             }
           },
           {
@@ -228,25 +227,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ac6c808c809f1c0",
+  "active": "b56b5b5fb3c5156a",
   "lastOpenFiles": [
+    "附件存放/Pasted image 20250703211812.png",
+    "附件存放/Pasted image 20250703211607.png",
+    "附件存放/Pasted image 20250703202101.png",
+    "附件存放/Pasted image 20250703201618.png",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC00 - 基于STM32F103+CubeMX，驱动板与电机参数.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - 基于STM32F405+CubeMX+simpleFOC01 ，移植simpleFOC.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发12 - IAP升级全流程.md",
+    "知识库/硬件开发/电机控制/无刷电机控制 - SimpleFOC04 - 基于STM32F103+CubeMX，完成三相半桥电路的驱动程序.md",
+    "知识库/Maps/电机控制汇总.md",
+    "知识库/Maps/机器人开发汇总.md",
+    "知识库/Maps/STM32汇总.md",
+    "知识库/Maps/硬件开发汇总.md",
+    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader.md",
     "附件存放/iap_update2.gif",
     "附件存放/iap_update1.gif",
     "附件存放/Pasted image 20250701202950.png",
     "附件存放/Pasted image 20250701202832.png",
     "附件存放/Pasted image 20250701202740.png",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发10 - 实现IAP通讯看门狗与提升“跳转状态机”的健壮性.md",
-    "知识库/软件开发/MCU/STM32F103_Bootloader程序开发12 - IAP升级全流程.md",
     "附件存放/Pasted image 20250701202532.png",
     "附件存放/Pasted image 20250701193338.png",
-    "附件存放/JUMP_BOOT1.gif",
-    "附件存放/Pasted image 20250701191758.png",
-    "附件存放/Pasted image 20250701191239.png",
-    "附件存放/Pasted image 20250701190733.png",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发09 - 恰到好处的Ymodem协议.md",
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发99 - 改用备份寄存器保存变量update_flag.md",
-    "知识库/Maps/STM32汇总.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE02 - 调试、断点、观察全局变量（支持JLINK、STLINK、DAPLINK）.md",
     "知识库/软件开发/MCU/STM32 - Embedded IDE01 - vscode搭建Embedded IDE开发环境（支持JLINK、STLINK、DAPLINK）.md",
     "知识库/软件开发/MCU/STM32 - RTT组件01 - 移植.md",
@@ -260,12 +265,6 @@
     "知识库/软件开发/MCU/STM32F103_Bootloader程序开发07 - 使用J-Flash将App_crc.bin烧录到App下载缓存区，再校验CRC32，确认固件完整性.md",
     "知识库/软件开发/python/Python3 - IAP上位机程序02 - 串口驱动（serial_manager.py）.md",
     "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.3 - 串口DMA高效收发实战3：支持多实例化的版本.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记12.2 - 串口DMA高效收发实战2：进一步提高串口接收的效率.md",
-    "知识库/软件开发/MCU/STM32F103_LL库+寄存器学习笔记08 - DMA串口发送，开启DMA传输完成中断.md",
-    "知识库/软件开发/MCU/STM32F103 HAL多实例通用USART驱动 - 高效DMA+RingBuffer方案，量产级工程模板.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread系统移植.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread,注册控制台字符串指令，并传递参数.md",
-    "知识库/软件开发/MCU/STM32系统 - RT_Thread,MSH_CMD_EXPORT()注册控制台字符串指令，并传递参数.md",
     "电子书/STM32F1中文参考手册V10.pdf",
     "电子书/STM32F4xx中文参考手册.pdf",
     "电子书/Cortex-M3技术参考手册(TRM)..pdf",
