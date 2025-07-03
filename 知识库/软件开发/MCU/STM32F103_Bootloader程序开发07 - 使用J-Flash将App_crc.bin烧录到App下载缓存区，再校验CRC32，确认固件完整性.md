@@ -1,5 +1,8 @@
 # 导言
 ---
+![[Pasted image 20250703230116.png]]
+本教程使用正点原子战舰板开发。
+
 ![[Pasted image 20250529183254.png]]
 本章节做一个实验“校验一遍App缓存区的固件”，看看能不能通过CRC32校验。在OTA升级流程上，当bootloader程序接收完上位机下发的App固件到App下载缓存区后，bootloader程序要对App下载缓存区的固件进行CRC32校验。
 - 校验通过的话，将App下载区的固件Copy到App区，Copy完成后，跳转至App运行即可完成OTA升级。

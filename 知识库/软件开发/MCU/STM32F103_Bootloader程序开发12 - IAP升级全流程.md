@@ -1,5 +1,8 @@
 # 导言
 ---
+![[Pasted image 20250703230116.png]]
+本教程使用正点原子战舰板开发。
+
 《[[STM32F103_Bootloader程序开发11 - 实现 App 安全跳转至 Bootloader]]》上一章节实现App跳转bootloader，接着，跳转到bootloader后，下位机要发送报文‘C'给IAP上位机，表示我准备好接收固件数据。
 
 ![[Pasted image 20250701202532.png]]

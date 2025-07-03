@@ -1,5 +1,8 @@
 # 导言
 ---
+![[Pasted image 20250703230116.png]]
+本教程使用正点原子战舰板开发。
+
 这个章节的重点是`“怎样让一个自己编写的函数比main()先运行，完成一些初始化操作。”`
 ![[Pasted image 20250531202510.png]]
 我暂时将bootloader程序分别五个模块，先从"启动入口与升级模式判断"模块开始吧。代码分别是boot_entry.c与boot_entry.h。项目刚开始，boot_entry.c与boot_entry.h会随着项目的推进会增加一些代码。

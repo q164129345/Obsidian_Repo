@@ -1,5 +1,8 @@
 # 导言
 ---
+![[Pasted image 20250703230116.png]]
+本教程使用正点原子战舰板开发。
+
 [[STM32F103_Bootloader程序开发05 - Keil修改生成文件的路径与文件名，自动生成bin格式文件]]上一章节成功让Keil生成App.bin二进制文件，用于IAP升级。
 
 ![[Pasted image 20250531201909.png]]

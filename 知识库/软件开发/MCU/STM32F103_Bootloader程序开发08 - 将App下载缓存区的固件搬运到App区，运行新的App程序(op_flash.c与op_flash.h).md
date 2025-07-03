@@ -1,5 +1,8 @@
 # 导言
 ---
+![[Pasted image 20250703230116.png]]
+本教程使用正点原子战舰板开发。
+
 ![[Pasted image 20250605152235.png]]
 如上所示，开始完成op_flash模块与fw_verify模块。
 
